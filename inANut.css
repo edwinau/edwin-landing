@@ -1,0 +1,226 @@
+@font-face {
+  font-family: "Cooper Black";
+  src: url("/fonts/cooper-black.otf")url();
+}
+
+body {
+    background-image: url("whiteMarbel50.jpg");
+}
+
+/* intro */
+    .introContainer{
+background-image: url("blackMarbel.jpg");
+   }
+    .introContainer h1 {
+      font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+      color: white;
+      background-color: none;
+      font-style: normal;
+      font-size: 125px;
+      text-align: left;
+      padding: 50px 100px 50px 100px;
+      margin: 0px 0px 0px 0px;
+      font-weight: bold;
+      float: center;
+      display: inline-block;
+    }
+    .introContainer p{
+      font-family: verdana;
+      color: white;
+      font-style:normal;
+      font-size: 20px;
+      margin: 0 0 0px 0;
+      padding: 80px 15px 0px 0px;
+      text-align: right;
+      font-weight:bold;
+      float: right;
+      display: inline-block; ;
+    }
+/* nut */
+      .nutContainer h1 {
+        background-color: #214c74;
+        margin-bottom: 300px;
+        font-family: arial;
+        color: white;
+        font-style:normal;
+        font-size: 73px;
+        text-align: left;
+        width: 20vw;
+        padding: 10px 0px 0 10px;
+        margin: 90px 0px 10px 180px;
+        font-weight: bold;
+        float: left;
+        display:inline-block;
+      }
+      .nutContainer ul {
+        background-color: none;
+        font-family: verdana;
+        color: black;
+        font-style:normal;
+        font-size: 20px;
+        text-align: left;
+        margin: 0px 0px 0px 60px;
+        padding: 25px 0 35px 0;
+        text-indent: -15px;
+        font-weight:normal;
+        width: 700px;
+        float: left;
+        display: inline-block;
+      }
+/* work */
+    .workContainer{
+      background-color: none;
+      text-align: center;
+      float: left;
+      width: 55%;
+      margin: 40px 0 100px 50px;
+      display: inline-block;
+    }
+    .workContainer h1{
+      background-color: grey;
+      font-family: verdana;
+      color: white;
+      font-style:normal;
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom:0px;
+      text-align: left;
+      margin-left: 0px;
+      text-indent: 40px;
+      padding: 10px 0;
+      font-weight:bold;
+    }
+    .workContainer h2{
+      background-color: none;
+      font-family: verdana;
+      color: black;
+      font-style: normal;
+      font-size: 24px;
+      margin-top:60px;
+      margin-bottom:1px;
+      text-align: left;
+      margin-left: 0px;
+      text-indent: 0px;
+      padding-left: 60px;
+      font-weight: bold;
+    }
+    .workContainer h3{
+      background-color: none;
+      font-family: verdana;
+      color: black;
+      font-style: normal;
+      font-size: 30px;
+      margin-top:0px;
+      margin-bottom:1px;
+      text-align: left;
+      margin-left: 0px;
+      text-indent: 0px;
+      padding-left: 60px;
+      font-weight: normal;
+    }
+    .workContainer h4{
+      background-color: none;
+      font-family: verdana;
+      color: black;
+      font-style: italic;
+      font-size: 20px;
+      margin-top:0px;
+      margin-bottom:10px;
+      text-align: left;
+      margin-left: 0px;
+      text-indent: 0px;
+      padding-left: 60px;
+      font-weight: normal;
+    }
+    .workContainer ul{
+      background-color: none;
+      font-family: verdana;
+      color: black;
+      font-style: normal;
+      font-size: 20px;
+      margin-top:0px;
+      margin-bottom:0px;
+      text-align: left;
+      margin-left: 20px;
+      margin-right: 40px;
+      text-indent: -15px;
+      padding-left: 60px;
+      font-weight: lighter;
+    }
+/* education */
+    .educContainer {
+      background-color: #838997;
+      opacity: .85;
+      float: right;
+      border-radius: 50px;
+      width:35%;
+      margin:30px 25px 0 0px;
+    }
+    .educContainer h1{
+      font-family: "Cooper Black";
+      color:Black;
+      font-size: 40px;
+      margin-top:80px;
+      text-align: center;
+      text-shadow: 0px 0px 20px #2f3037;
+
+    }
+    .educContainer h2{
+      font-family: verdana;
+      color: black;
+      font-size: 20px;
+      margin-top:80px;
+      text-align: left;
+      margin-left: 40px;
+      margin-bottom: 0px;
+    }
+    .educContainer h3{
+      font-family: verdana;
+      color: white;
+      font-style: normal;
+      font-size: 20px;
+      margin-top:8px;
+      margin-bottom:0px;
+      text-align: left;
+      margin-left: 40px;
+      font-weight: normal;
+    }
+    .educContainer h4{
+      font-family: verdana;
+      color: #4b4b4d;
+      font-style: italic;
+      font-size: 16px;
+      margin-top:0px;
+      margin-bottom:10px;
+      text-align: left;
+      margin-left: 40px;
+      font-weight: bold;
+    }
+    .educContainer ul{
+      font-family: verdana;
+      color: #e1e1e5;
+      font-style: normal;
+      font-size: 17px;
+      margin-top: 0;
+      margin-bottom: 0px;
+      text-align: left;
+      margin-left: 20px;
+      margin-right: 30px;
+      text-indent: -15px;
+      font-weight: normal;
+    }
+.clear
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+    color: #ff8e4a;
+}
+
+
+}
