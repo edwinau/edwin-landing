@@ -2,122 +2,255 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-h1 {
-  font-family: 'Roboto Slab', serif;
-  color:white;
-  opacity: .8;
-  font-size:10vw;
-  text-align: center;
-  margin-top:150px;
-  margin-bottom: 20px;
-  text-shadow: 0px 0px 50px silver;
-  margin-bottom: 60px;
-}
+/*CSS RESET ABOVE*/
+/*CSS EDWIN BELOW*/
 
 .img_img{
   width: 100vw;
 }
 
-hr {
-  width:50%; opacity: .8; box-shadow: 0px 0px 30px white;
+.container_one{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /*min-width: 1000px;*/
 }
 
-h2 {
+.container_two{
+  margin: auto;
+}
+
+.container_three{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+
+h3{
   font-family: 'Roboto Slab', serif;
-  text-align: center;
-  color:white;
-  font-size:3vw;
-  margin-top:90px;
-  margin-bottom: 20px;
+  color: white;
   opacity: .8;
-  text-shadow: 0px 0px 50px white;
+  font-size: 9vw;
+  text-align: center;
+  text-shadow: 0px 0px 50px grey;
+  letter-spacing: .07em;
+  font-weight: bold;
 }
 
-.left{
-  text-align: center;
-  float: center;
-  display: inline-block;
-  margin: 0 15px
-}
-.center{
-  text-align: center;
-  float: center;
-  display: inline-block;
-  margin: 0 15px
-}
-.right{
-  text-align: center;
-  float: center;
-  display: inline-block;
-  margin: 0 15px;
+
+h3 a,
+h3 a:visited,
+h3 a:link,
+h3 a:active{
+  text-decoration: none;
+  color: white;
+  opacity: .8;
+  transition: all .1s ease;
 }
 
-a:link {
-    color: white;
-    text-decoration: none;
+h3 a:hover,
+h3:hover{
+  color: white;
+  opacity: 1;
+  text-shadow: 0px 0px 50px black;
+  /*transform: scale(1.02);*/
 }
-a:visited {
-    color: white;
-}
-.center a:hover {
-    color: #82ca9c;
-}
-.main a:hover {
-    color: #2f3037;
-    text-shadow: 0px 0px 50px silver;
 
+hr.black {
+  width:95%; opacity: .6; box-shadow: 2px 0px 20px black;
+  margin-top: 4%;
+  margin-bottom: 8%;
 }
-.left a:hover {
-    color: #82ca9c;
+
+h4 a,
+h4 > a:visited,
+h4 > a:link,
+h4 > a:active{
+  display: inline-block;
+  opacity: .8;
+  text-align: center;
+  font-size: 2vw;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out;
+  float: left;
+  padding: 5px 11px 5px 11px;
 }
-.right a:hover {
+
+h4.left a{
+  font-size: 2.25vw;
+}
+
+h4 a:hover,
+h4:hover{
+  color: white;
+  text-shadow: 0px 0px 2px black;
+  /*transform: scale(1.2);*/
+}
+
+h4.center a:hover {
+    color: yellow;
+    background: transparent;
+    transition: all .1s ease-in-out;
+}
+
+h4.left a:hover {
+    color: #ff6000;
+    background: transparent;
+    transition: all .1s ease-in-out;
+}
+
+h4.right a:hover {
     color: #00ffba;
+    background: transparent;
+    transition: all .1s ease-in-out;
+
 }
+
+h4.right_right a:hover {
+    color: salmon;
+    background: transparent;
+    transition: all .1s ease-in-out;
+
 }
-a:active {
-    color: white;
+
+.none{
+  display: none;
+}
+
+.myButton {
+    width: 110px;
+    height: 30px;
+    background-color:#0099cc;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+}
+/* button hover style if required */
+.myButton:hover {
+
+}
+/* generated element for shine effect.
+ * normal state is semi-transparent
+ * white but with zero width. Set no
+ * transition here for no mouse-leave
+ * animations. Otherwise the effect
+ * will play in reverse when your mouse
+ * leaves the element
+ */
+.myButton:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.4);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+
+}
+/* on hover we animate the width to
+ * 100% and opacity to 0 so the element
+ * grows and fades out
+ */
+.myButton:hover:after {
+    width: 120%;
+    background-color: rgba(255,255,255,0);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+inShare
+
+
+@media (max-width:900px){
+
+  .container_one{
+    width: 100%;
+    margin: auto;
+  }
+
+  h3{
+    font-size: 14vw;
+  }
+  .container_two{
+    width: 85%;
+    margin: auto;
+  }
+
+  .container_three{
+    flex-direction: column;
+    width: 90%;
+    align-content: center;
+    /*align-items: center;*/
+ }
+
+  h4.center > a,
+  h4.left > a,
+  h4.right > a,
+  h4.right_right > a{
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 4vw;
+  }
+
+
+}
