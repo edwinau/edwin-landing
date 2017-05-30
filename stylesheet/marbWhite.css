@@ -171,10 +171,10 @@ h2.right_right a:hover {
   }
 
   h1{
-    font-size: 14vw;
+    font-size: 13vw;
   }
   .container_two{
-    width: 85%;
+    width: 70%;
     margin: auto;
   }
 
@@ -189,9 +189,9 @@ h2.right_right a:hover {
   h2.left > a,
   h2.right > a,
   h2.right_right > a{
-    width: 95%;
+    width: 90%;
     margin-bottom: 20px;
-    font-size: 4vw;
+    font-size: 3vw;
   }
 
 }

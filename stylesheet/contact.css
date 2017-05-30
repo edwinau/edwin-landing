@@ -107,7 +107,7 @@ h3:hover{
 }
 
 hr.black {
-  width:95%; opacity: .6; box-shadow: 2px 0px 20px black;
+  width:95%; opacity: .6; box-shadow: 20px 0px 20px black;
   margin-top: 4%;
   margin-bottom: 8%;
 }
@@ -218,10 +218,7 @@ h4.right_right a:hover {
     transition: all 0.3s ease-out;
 }
 
-inShare
-
-
-@media (max-width:900px){
+@media (max-width:1024px){
 
   .container_one{
     width: 100%;
@@ -229,10 +226,11 @@ inShare
   }
 
   h3{
-    font-size: 14vw;
+    font-size: 12vw;
+    text-align: center;
   }
   .container_two{
-    width: 85%;
+    width: 70%;
     margin: auto;
   }
 
@@ -247,10 +245,17 @@ inShare
   h4.left > a,
   h4.right > a,
   h4.right_right > a{
-    width: 95%;
+    width: 90%%;
     margin-bottom: 20px;
-    font-size: 4vw;
+    font-size: 5vw;
+    text-align: center;
+    /*background: white;
+    opacity: .6;
+    color: black;*/
   }
 
+  .none{
+    display: none;
+  }
 
 }
