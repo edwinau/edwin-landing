@@ -163,6 +163,12 @@ h2.right_right a:hover {
 
 }
 
+  h4.center > a, h4.left > a, h4.right > a, h4.right_right > a{
+    font-size: 1em;
+  }
+}
+
+
 @media (max-width:900px){
 
   .container_one{
