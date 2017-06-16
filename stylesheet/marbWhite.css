@@ -93,14 +93,14 @@ h1 a:active{
   text-decoration: none;
   color: #2f3037;
   opacity: .9;
-  transition: all .1s ease;
+  /*transition: all .1s ease;*/
 }
 
 h1 a:hover,
 h1:hover{
   color: white;
   text-shadow: 0px 0px 50px black;
-  transform: scale(1.02);
+  /*transform: scale(1.02);*/
 }
 
 hr {
@@ -129,37 +129,40 @@ h2 > a:active{
 h2 a:hover,
 h2:hover{
   color: white;
-  text-shadow: 0px 0px 2px black;
-  transform: scale(1.2);
+  /*text-shadow: 0px 0px 2px black;*/
+  /*transform: scale(1.2);*/
 }
 
 h2.center a:hover {
-    color: yellow;
-    background: transparent;
+    background: #00ffba;
+    color: grey;
+    /*background: transparent;*/
     opacity: 1;
-    transition: all .1s ease-in-out;
+    /*transition: all .1s ease-in-out;*/
 }
 
 h2.left a:hover {
-    color: #ff3c00;
-    background: transparent;
+    background: salmon;
+    /*background: transparent;*/
     opacity: 1;
-    transition: all .1s ease-in-out;
+    /*transition: all .1s ease-in-out;*/
 }
 
 h2.right a:hover {
-    color: #00ffba;
+    background: yellow;
     opacity: 1;
-    background: transparent;
-    transition: all .1s ease-in-out;
+    color: grey;
+    /*text-shadow: 0px 0px 1px grey;*/
+    /*background: transparent;*/
+    /*transition: all .1s ease-in-out;*/
 
 }
 
 h2.right_right a:hover {
-    color: salmon;
+    background: #6464FF;
     opacity: 1;
-    background: transparent;
-    transition: all .1s ease-in-out;
+    /*background: transparent;*/
+    /*transition: all .1s ease-in-out;*/
 
 }
 
