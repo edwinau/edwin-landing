@@ -360,15 +360,15 @@ html, body, .main {
     /*align-items: center;*/
  }
 
- h4.center > a,
- h4.left > a,
- h4.right > a,
- h4.right_right > a{
-   font-size: 2vw;
-   /*background: white;
-   opacity: .6;
-   color: black;*/
-
+  h4.center > a,
+  h4.left > a,
+  h4.right > a,
+  h4.right_right > a{
+     font-size: 2vw;
+     /*background: white;
+     opacity: .6;
+     color: black;*/
+  }
 }
 
  @media (max-width:1024px){
