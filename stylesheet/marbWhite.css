@@ -314,6 +314,13 @@ h2.right_right a::after {
     margin: auto;
   }
 
+  h2 a,
+  h2 a:visited,
+  h2 a:link,
+  h2 a:active{
+    text-decoration: none;
+  }
+
   h2.button-row > a {
     position: relative;
     height: 50px;
