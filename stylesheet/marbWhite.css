@@ -1,5 +1,5 @@
-@import 'reset.scss';
-@import 'flipButton.scss';
+@import '../_sass/_reset.scss';
+@import '../_sass/_flipButton.scss';
 
 
 /*CSS EDWIN BELOW*/
