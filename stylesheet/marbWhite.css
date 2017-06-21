@@ -223,7 +223,7 @@ h2.right a::after {
 
 h2.right_right a::after {
     border-color: #6464FF;
-    color: #6464FF
+    color: #6464FF;
     opacity: 1;
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
