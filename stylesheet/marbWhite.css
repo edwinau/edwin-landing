@@ -272,7 +272,7 @@ h2.right_right a::after {
 
 
 
-@media (max-width:900px){
+/*@media (max-width:900px){
 
   .container_one{
     width: 100%;
@@ -291,7 +291,6 @@ h2.right_right a::after {
     flex-direction: column;
     width: 90%;
     align-content: center;
-    /*align-items: center;*/
  }
 
   h2.center > a,
@@ -303,4 +302,4 @@ h2.right_right a::after {
     font-size: 3vw;
   }
 
-}
+}*/
