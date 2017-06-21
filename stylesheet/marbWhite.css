@@ -70,11 +70,11 @@ h1 {
   font-family: 'Roboto Slab', serif;
   font-size: 9vw;
   font-weight: bold;
-  color: #2f3037;
-  opacity: .8;
+  color: #808285;
+  /*opacity: .8;*/
   letter-spacing: .07em;
   text-align: center;
-  text-shadow: 0px 0px 50px grey;
+  /*text-shadow: 0px 0px 50px grey;*/
   justify-content: center
 }
 
@@ -83,20 +83,23 @@ h1 a:visited,
 h1 a:link,
 h1 a:active{
   text-decoration: none;
-  color: #2f3037;
-  opacity: .9;
+  color: #808285;
+  /*opacity: .9;*/
 }
 
 h1 a:hover,
 h1:hover{
   color: white;
-  text-shadow: 0px 0px 50px black;
+  text-shadow: 0px 0px 50px grey;
+  transition: text-shadow 0.5s ease;
+
+
 }
 
 hr {
   width:90%;
   opacity: .6;
-  box-shadow: 2px 0px 20px black;
+  box-shadow: 2px 0px 20px #808285;
   margin-top: 6%;
   margin-bottom: 22%;
   justify-content: center
@@ -117,6 +120,9 @@ h2.button-row {
   // -webkit-perspective: 1000px;
   // -moz-perspective: 1000px;
   // perspective: 1000px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .15em;
+
 }
 
 h2.button-row > a {
@@ -149,7 +155,7 @@ h2.button-row > a::before, h2.button-row > a::after {
   opacity: 1;
   width: 140px;
   height: 50px;
-  border: 5px solid black;
+  border: 5px solid #808285;
   box-sizing: border-box;
   content: attr(title);
   display: -webkit-box;
@@ -162,7 +168,7 @@ h2.button-row > a::before, h2.button-row > a::after {
 }
 
 h2.button-row > a::before {
-  background-color: #000;
+  background-color: #808285;
   color: #fff;
   // -webkit-transform: rotateY(0deg) translateZ(25px);
   // -moz-transform: rotateY(0deg) translateZ(25px);
@@ -172,8 +178,8 @@ h2.button-row > a::before {
 }
 h2.button-row > a::after {
   background-color: #fff;
-  border-color: #000;
-  color: #000;
+  border-color: #808285;
+  color: #808285;
   -webkit-transform: rotateX(90deg) translateZ(25px);
   -moz-transform: rotateX(90deg) translateZ(25px);
   -ms-transform: rotateX(90deg) translateZ(25px);
