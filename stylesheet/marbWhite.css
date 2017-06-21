@@ -272,9 +272,60 @@ h2.right_right a::after {
 
 
 
-/*@media (max-width:900px){
+@media (max-width:900px){
+
+  h1{
+    font-size: 20vw;
+    width: 100%;
+  }
 
   .container_one{
+    display: block;
+    margin-top: 30%;
+  }
+
+  .container_two{
+    width: 90vw;
+    position: relative;
+  }
+
+  .container_three{
+    position: relative;
+    display: block;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+  }
+
+  hr {
+    width:90%;
+    opacity: .6;
+    box-shadow: 2px 0px 20px #808285;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    justify-content: center
+  }
+  h2.button-row > a::before, h2.button-row > a::after {
+    width: 150px;
+    font-size: 5vw;
+    position: relative;
+    display: block;
+    padding: 10px;
+    margin: auto;
+  }
+
+  h2.button-row > a {
+    position: relative;
+    height: 50px;
+  }
+
+  h2.left.button-row, h2.right.button-row, h2.center.button-row, h2.right_right.button-row{
+    height: 50px;
+  }
+
+
+
+  /*.container_one{
     width: 100%;
     margin: auto;
   }
@@ -300,6 +351,6 @@ h2.right_right a::after {
     width: 90%;
     margin-bottom: 20px;
     font-size: 3vw;
-  }
+  }*/
 
-}*/
+}
