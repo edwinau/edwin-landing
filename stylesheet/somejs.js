@@ -1,11 +1,8 @@
 $(document).ready(function(){
 
-  $(h2.left.button-row).on('click', 'a', function(event){
-      event.preventDefault();
-
-    $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
-      }, 500);
-  });
-
+  $('h2.left.button-row').click(function() {
+      $('html, body').animate({
+          scrollTop: $('#hello').offset().top
+      }, 1000);
+    });
 });
