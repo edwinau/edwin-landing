@@ -50,13 +50,13 @@
     border-spacing: 0;
   }
 
-
 /*CSS EDWIN BELOW*/
 .img_img{
   width: 100vw;
 }
 
 .container_one{
+  position: relative;
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -64,6 +64,7 @@
 
 .container_two{
   margin: auto;
+  position: relative;
 }
 
 h1 {
@@ -71,7 +72,6 @@ h1 {
   font-size: 9vw;
   font-weight: bold;
   color: #808285;
-  /*opacity: .8;*/
   letter-spacing: .07em;
   text-align: center;
   /*text-shadow: 0px 0px 50px grey;*/
@@ -98,6 +98,7 @@ h1:hover{
 
 hr {
   width:90%;
+  height: 5px;
   opacity: .6;
   box-shadow: 2px 0px 20px #808285;
   margin-top: 6%;
@@ -106,6 +107,7 @@ hr {
 }
 
 .container_three{
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -114,7 +116,6 @@ hr {
   height: 100px;
   margin: -10%;
 }
-
 
 h2.button-row {
   -webkit-perspective: 1000px;
@@ -167,6 +168,7 @@ h2.button-row > a::before, h2.button-row > a::after {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
+  z-index: 100;
 }
 
 h2.button-row > a::before {
@@ -228,38 +230,91 @@ h2.right a::after {
 /*flash*/
 /*flash*/
 h2.right a::before {
-  -webkit-animation: color-change 1.5s infinite;
-  -moz-animation: color-change 1.5s infinite;
-  -o-animation: color-change 1.5s infinite;
-  -ms-animation: color-change 1.5s infinite;
-  animation: color-change 1.5s infinite;
+  -webkit-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
+  -moz-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
+  -o-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
+  -ms-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
+  animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
 }
 
 @-webkit-keyframes color-change {
-    0% { color: yellow; }
-    50% { color: white; }
-    100% { color: yellow; }
+    0% { color: white; }
+    50% { color: yellow; }
+    100% { color: white; }
 }
 @-moz-keyframes color-change {
-  0% { color: yellow; }
-  50% { color: white; }
-  100% { color: yellow; }
+  0% { color: white; }
+  50% { color: yellow; }
+  100% { color: white; }
 }
 @-ms-keyframes color-change {
-  0% { color: yellow; }
-  50% { color: white; }
-  100% { color: yellow; }
+  0% { color: white; }
+  50% { color: yellow; }
+  100% { color: white; }
 }
 @-o-keyframes color-change {
-  0% { color: yellow; }
-  50% { color: white; }
-  100% { color: yellow; }
+  0% { color: white; }
+  50% { color: yellow; }
+  100% { color: white; }
 }
 @keyframes color-change {
-  0% { color: yellow; }
-  50% { color: white; }
-  100% { color: yellow; }
+  0% { color: white; }
+  50% { color: yellow; }
+  100% { color: white; }
 }
+
+@-webkit-keyframes font-size-change {
+    0% { font-size: 1em; }
+    50% { font-size: 1.01em; }
+    100% { font-size: 1em; }
+}
+@-moz-keyframes font-size-change {
+  0% { font-size: 1em; }
+  50% { font-size: 1.01em; }
+  100% { font-size: 1em; }
+}
+@-ms-keyframes font-size-change {
+  0% { font-size: 1em; }
+  50% { font-size: 1.01em; }
+  100% { font-size: 1em; }
+}
+@-o-keyframes font-size-change {
+  0% { font-size: 1em; }
+  50% { font-size: 1.01em; }
+  100% { font-size: 1em; }
+}
+@keyframes font-size-change {
+  0% { font-size: 1em; }
+  50% { font-size: 1.01em; }
+  100% { font-size: 1em; }
+}
+
+@-webkit-keyframes text-shadow-change {
+    0% { text-shadow: 0px 0px 0px yellow; }
+    50% { text-shadow: 0px 0px 1px yellow; }
+    100% { text-shadow: 0px 0px 0px yellow; }
+}
+@-moz-keyframes text-shadow-change {
+  0% { text-shadow: 0px 0px 0px yellow; }
+  50% { text-shadow: 0px 0px 1px yellow; }
+  100% { text-shadow: 0px 0px 0px yellow; }
+}
+@-ms-keyframes text-shadow-change {
+  0% { text-shadow: 0px 0px 0px yellow; }
+  50% { text-shadow: 0px 0px 1px yellow; }
+  100% { text-shadow: 0px 0px 0px yellow; }
+}
+@-o-keyframes text-shadow-change {
+  0% { text-shadow: 0px 0px 0px yellow; }
+  50% { text-shadow: 0px 0px 1px yellow; }
+  100% { text-shadow: 0px 0px 0px yellow; }
+}
+@keyframes text-shadow-change {
+  0% { text-shadow: 0px 0px 0px yellow; }
+  50% { text-shadow: 0px 0px 1px yellow; }
+  100% { text-shadow: 0px 0px 0px yellow; }
+}
+
 
 h2.right_right a::after {
     border-color: #6464FF;
@@ -269,8 +324,13 @@ h2.right_right a::after {
     /*transition: all .1s ease-in-out;*/
 }
 
-
-
+h2.right_right a::after {
+    border-color: #6464FF;
+    color: #6464FF;
+    opacity: 1;
+    /*background: transparent;*/
+    /*transition: all .1s ease-in-out;*/
+}
 
 @media (max-width:900px){
 
