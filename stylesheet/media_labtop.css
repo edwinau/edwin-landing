@@ -1,4 +1,4 @@
-#resume_pdf{
+.img_relative{
   height: 100vh;
 }
 
@@ -32,7 +32,8 @@
     .medialabtopnone{
         display: inherit;
     }
-    #resume_pdf{
+
+    .img_relative.labtop{
       height: 125vh;
     }
 }
