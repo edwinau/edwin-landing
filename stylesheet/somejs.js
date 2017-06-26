@@ -11,11 +11,11 @@ $(document).ready(function(){
   $('h2.center.button-row').click(function() {
     $('html, body').animate({
         scrollTop: $('#quoteelon').offset().top
-      }, 500);
+      }, 1500);
 
-      // $('html, body').animate({
-      //     scrollTop: $('#quoteelon').offset().top
-      //   }, 150);
+      $('html, body').animate({
+          scrollTop: $('#quoteelon').offset().top
+        }, 4150);
       $('html, body').animate({
           scrollTop: $('#carousel').offset().top
       }, 1750);
