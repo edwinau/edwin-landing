@@ -11,15 +11,16 @@ $(document).ready(function(){
   $('h2.center.button-row').click(function() {
     $('html, body').animate({
         scrollTop: $('#quoteelon').offset().top
-      }, 1500);
+      }, 500);
 
-      $('html, body').animate({
-          scrollTop: $('#quoteelon').offset().top
-        }, 1250);
+      // $('html, body').animate({
+      //     scrollTop: $('#quoteelon').offset().top
+      //   }, 150);
       $('html, body').animate({
           scrollTop: $('#carousel').offset().top
       }, 1750);
     });
+
 // smooth scroll contactme
   $('h2.right_right.button-row').click(function() {
       $('html, body').animate({
@@ -123,5 +124,14 @@ for(var i = 0; i < divs.length; i++){
           $removeinstagram.removeClass("flicker");
       }, 5750);
   }
+
+//to top
+$(window).scroll(function() {
+    if ($(this).scrollTop()) {
+        $('#toTop').fadeIn();
+    } else {
+        $('#toTop').fadeOut();
+    }
+});
 
 });

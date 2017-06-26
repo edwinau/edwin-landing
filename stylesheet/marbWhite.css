@@ -332,6 +332,33 @@ h2.right_right a::after {
     /*transition: all .1s ease-in-out;*/
 }
 
+#toTop {
+    padding: 5px 3px;
+    background: none;
+    color: darkgrey;
+    opacity: .5;
+    font-family: 'Oswald', serif;
+    letter-spacing: .2;
+    font-weight: bold;
+    font-size: 2vw;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    display: none;
+    z-index: 5000;
+    text-shadow: 0 0 3px black;
+}
+
+#toTop a,
+#toTop a:visited,
+#toTop a:hover,
+#toTop a:link,
+#toTop a:active{
+  text-decoration: none;
+  color: ivory;
+  opacity: .5;
+}
+
 @media (max-width:900px){
 
   h1{
@@ -389,6 +416,8 @@ h2.right_right a::after {
   h2.left.button-row, h2.right.button-row, h2.center.button-row, h2.right_right.button-row{
     height: 50px;
   }
+
+
 
 
 
