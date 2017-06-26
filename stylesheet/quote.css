@@ -11,6 +11,10 @@ h1.wood_shy > a{
     /*background-color: #666;*/
 }
 
+p#hello, .i_believe{
+  text-align: center;
+}
+
 @font-face{
   font-family: myFirstFont;
   src: url(Aller_rg.ttf)
