@@ -7,7 +7,7 @@
 
 .ninetywidth{
   margin: auto;
-  width: 100%;
+  width: 100vw;
   /*position: absolute;*/
   top: 200px;
 }
@@ -20,6 +20,11 @@
 
 
 .portfolio_images{
-width: 77%;
+width: 100vw;
 margin: auto;
+}
+
+.container_relative{
+  position: relative;
+  width: 100vw;
 }
