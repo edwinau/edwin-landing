@@ -9,9 +9,13 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js'></script>
     <script src='stylesheet/somejs.js'></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Oswald|Lato|Raleway|Cabin+Sketch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Oswald|Lato|Raleway|Cabin+Sketch|Pacifico" rel="stylesheet">
     <link href="stylesheet/marbWhite.css" type="text/css" rel="stylesheet">
     <link href="stylesheet/nut.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet/quote.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet/carousel.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet/contact.css" type="text/css" rel="stylesheet">
+
     <link href="stylesheet/font-awesome.min.css" rel="stylesheet" >
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -22,21 +26,20 @@
     <div class="container_one">
   <!-- <body background="images/marbleWhite.jpg" class="img_img"> -->
       <div class="container_two">
-        <h1><a href="contact.html">EDWIN AU</a></h1><br>
+        <h1 class="">EDWIN AU</h1><br>
         <hr size=5 color=#2f3037>
         <div class="container_three">
           <h2 class="left button-row"><a href="#hello" target="" title="ABOUT ME"></a></h2>
-          <h2 class="center button-row"><a href="http://www.edwinau.portfoliobox.net" target="_blank" title="PORTFOLIO"></a></h2>
+          <h2 class="center button-row"><a href="#carousel" target="" title="PORTFOLIO"></a></h2>
           <h2 class="right button-row"><a href="https://rendezyou.herokuapp.com/" target="_blank" title="MY NEW APP"></a></h2>
-          <h2 class="right_right button-row"><a href=contact.html title="CONTACT"></a></h2>
+          <h2 class="right_right button-row"><a href="#contactme" title="CONTACT"></a></h2>
         </div>
       </div>
     </div>
 
-
-    <!-- <div style="background-image: url(images/wood.png); width: 100vw; height: 100vh" class="img_relative"> -->
       <div style="
-      background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+      background:
+      linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
       linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
       linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
       linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
@@ -44,7 +47,7 @@
       linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%,
       transparent 50%, transparent 75%, #242424 75%, #242424);
       background-color: #131313; background-size: 20px 20px;
-      width: 100vw; height: 100vh" class="img_relative">
+      width: 100vw; height: 100vh" class="img_relative" id="resume_pdf">
 
 
 
@@ -54,9 +57,9 @@
         <div class="container-fluid nut">
           <div class="row nut">
             <div class="col-md-5">
-              <p class="hello" id="hello"> <br><br>Who I am & what I DO... </p>
+              <p class="hello" id="hello"> <br><br>Who I am & what I DO... </p><br>
               <!-- <hr class="white_break"> -->
-              <p class="i_believe"> <br><br> I believe websites can change people's lives. </p>
+              <p class="i_believe">I believe websites should inspire people's lives. <br>  <span class="italic">Are we on the same page?</span> </p>
 
             </div>
             <div class="col-md-7">
@@ -67,10 +70,74 @@
       </div>
     </div>
 
+<!-- <div style="background-image: url(images/wood.png); width: 100vw; height: 50vh", class="img_relative carouselgradient"> -->
 
-<!-- <div class="container-fluid">
+<div class="container_relative" id="quoteelon">
+
+  <div style="background-color: #131313; width: 100vw; height: 100vh" class="container_one quote_container quotezero">
+    <p class="sixtysix">&#8220</p>
+    <div class="quote embossed container_two quotezero">Any product that needs a manual to work is broken.
+      <div class="elon_musk embossed container_two">- Elon Musk -</div>
+    </div>
+    <p class="ninetynine">&#8221</p>
+  </div>
+
+
+  <div style="background-color: #131313; width: 100vw; height: 100vh" class="container_one quote_container quotenone">
+    <p class="sixtysix">&#8220</p>
+    <div class="quote embossed container_two quotenone">Any product that needs a manual to work is broken.
+      <div class="elon_musk embossed container_two">- Elon Musk -</div>
+    </div>
+    <p class="ninetynine">&#8221</p>
+  </div>
+
+
+  <div style="background-color: #494E6B; width:100vw; height:100vh" class="container_one quote_container quoteone">
+        <p class="sixtysix">&#8220</p>
+    <div class="quote embossed container_two quoteone">Any product that needs a manual to work is broken.
+      <div class="elon_musk embossed container_two">- Elon Musk -</div>
+    </div>
+    <p class="ninetynine">&#8221</p>
+
+  </div>
+
+  <div style="background-color: #2E4600; width: 100vw; height: 100vh" class="container_one quote_container quotetwo">
+    <p class="sixtysix">&#8220</p>
+
+    <div class="quote embossed container_two quotetwo">Any product that needs a manual to work is broken.
+      <div class="elon_musk embossed container_two">- Elon Musk -</div>
+    </div>
+    <p class="ninetynine">&#8221</p>
+
+  </div>
+
+  <div style="background-color: #80BD9E;  width: 100vw; height: 100vh" class="container_one quote_container quotethree">
+    <p class="sixtysix">&#8220</p>
+
+    <div class="quote embossed container_two quotethree">Any product that needs a manual to work is broken.
+      <div class="elon_musk embossed container_two">- Elon Musk -</div>
+    </div>
+    <p class="ninetynine">&#8221</p>
+
+  </div>
+
+  <div style="background-color: #003B46; width: 100vw; height: 100vh" class="container_one quote_container quotefour">
+    <p class="sixtysix">&#8220</p>
+    <div class="quote embossed container_two quotefour">Any product that needs a manual to work is broken.
+      <div class="elon_musk embossed container_two">- Elon Musk -</div>
+
+    </div>
+    <p class="ninetynine">&#8221</p>
+  </div>
+
+</div>
+
+
+<div class="container_relative" id="carousel">
+
+<div class="container-fluid ninetywidth">
 	<div class="row">
-		<div class="col-md-12">
+		<div class="col-md-12 nopadding">
 			<div class="carousel slide" id="carousel-768363">
 				<ol class="carousel-indicators">
 					<li class="active" data-slide-to="0" data-target="#carousel-768363">
@@ -81,44 +148,169 @@
 					</li>
 				</ol>
 				<div class="carousel-inner">
-					<div class="item active">
-						<img alt="Carousel Bootstrap First" src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg" />
+					<div class="item active" data-interval="1000">
+						<img alt="Carousel Bootstrap First" src="images/EDWIN AU - Portfolio -01 - Cover.jpg", class="portfolio_images">
 						<div class="carousel-caption">
 							<h4>
-								First Thumbnail label
+								<!-- First Thumbnail label -->
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								<!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
 							</p>
 						</div>
 					</div>
 					<div class="item">
-						<img alt="Carousel Bootstrap Second" src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg" />
+						<img alt="Carousel Bootstrap Second" src="images/EDWIN AU - Portfolio - 02 - Mickey 100.jpg" class="portfolio_images">
 						<div class="carousel-caption">
 							<h4>
-								Second Thumbnail label
+								<!-- Second Thumbnail label -->
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								<!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
 							</p>
 						</div>
 					</div>
 					<div class="item">
-						<img alt="Carousel Bootstrap Third" src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg" />
+						<img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 03 - D&G.jpg", class="portfolio_images">
 						<div class="carousel-caption">
 							<h4>
-								Third Thumbnail label
+								<!-- Third Thumbnail label -->
 							</h4>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+								<!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
 							</p>
 						</div>
 					</div>
+
+          <div class="item">
+            <img alt="Carousel Third" src="images/EDWIN AU - Portfolio - 04 - National.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 04 - Nobis Layout.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+						<img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 05 - Mred Womens.jpg", class="portfolio_images">
+						<div class="carousel-caption">
+							<h4>
+								<!-- Third Thumbnail label -->
+							</h4>
+							<p>
+								<!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+							</p>
+						</div>
+					</div>
+
+          <div class="item">
+            <img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 06 - Eviv.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 07 - Disney Product.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 08 - Disney Alice.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 10 - Mred Mens.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+
+          <div class="item">
+            <img alt="Carousel Bootstrap Third" src="images/EDWIN AU - Portfolio - 12 - Disney Belle.jpg", class="portfolio_images">
+            <div class="carousel-caption">
+              <h4>
+                <!-- Third Thumbnail label -->
+              </h4>
+              <p>
+                <!-- Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. -->
+              </p>
+            </div>
+          </div>
+
+
+
+
+
 				</div> <a class="left carousel-control" href="#carousel-768363" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-768363" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 			</div>
 		</div>
 	</div>
-</div> -->
+</div>
+
+</div>
+
+<div style="
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, #33273d); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, #33273d); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, #33273d); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, #33273d); /* Standard syntax */
+  width: 100vw; height: 100vh" class="container_one">
+  <img src="images/city_contact.png" class="img_contact">
+  <!-- <body background="images/marbleBlack.jpg" class="img_img"> -->
+    <div class="container_two">
+      <div class="container_contacts" id="contactme">
+        <h4 class="email"><a href="" class="email">edwinau@rogers.com</a></h4>
+        <h4 class="linkedin"><a href="http://www.linkedin.com/in/eaudesign" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></h4>
+        <h4 class="facebook"><a href="http://www.facebook.com/eauwind" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></h4>
+        <h4 class="instagram"><a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></h4>
+      </div>
+    </div>
+  </body>
+</div>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="stylesheet/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>

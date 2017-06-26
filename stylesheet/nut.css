@@ -22,14 +22,15 @@
 }
 
 .img_plant{
-  zoom: 80%;
-  bottom: 0;
+  zoom: 23%;
+  bottom: -5%;
+  left: 18%;
 }
 
 .img_labtop{
-  zoom: 90%;
-  bottom: -5px;
-
+  zoom: 20%;
+  bottom: -20%;
+  z-index: 1000;
 }
 
 .resume_pdf{
@@ -40,7 +41,7 @@
   /*-ms-transform: rotate(.5deg); /* IE 9 */*/
   /*-webkit-transform: rotate(.5deg); /* Chrome, Safari, Opera*/*/
   /*transform: rotate(.5deg);*/
-  box-shadow: 6px 6px 30px black;
+  box-shadow: 6px 6px 6px black;
 
 }
 
@@ -63,7 +64,13 @@ margin: auto;
   color: white;
   font-size: 1vw;
   letter-spacing: .1em;
+  line-height: 2.5;
 }
+
+.italic{
+  font-style: italic;
+}
+
 
 /*hr.white_break {
   width:90%;

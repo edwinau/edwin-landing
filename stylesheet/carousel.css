@@ -1,0 +1,25 @@
+
+
+.woodlayer{
+  position: absolute;
+}
+
+
+.ninetywidth{
+  margin: auto;
+  width: 100%;
+  /*position: absolute;*/
+  top: 200px;
+}
+
+/*Carol*/
+
+.col-md-12.nopadding{
+  padding: 0;
+}
+
+
+.portfolio_images{
+width: 77%;
+margin: auto;
+}
