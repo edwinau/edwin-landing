@@ -1,6 +1,7 @@
-.img_relative.labtop{
+div.img_relative.labtop{
   height: 100vh;
 }
+
 
 @media (max-width:1280px){
 
@@ -33,7 +34,7 @@
         display: inherit;
     }
 
-    .img_relative.labtop{
+    div.img_relative.labtop{
       height: 125vh;
     }
 }
