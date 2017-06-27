@@ -84,21 +84,291 @@ div.img_relative.labtop{
     transition: color .5s ease;
   }
 
-  .container_two{
-      /*width: 110%;*/
-  }
-
   hr {
     box-shadow: 2px 0px 10px #808285;
   }
 
   h1 {
-    font-size: 10vw;
+    font-size: 12vw;
   }
 
   h2.button-row {
     font-size: 1.75vw;
   }
+
+  h2.button-row > a::before, h2.button-row > a::after {
+    width: 13vw;
+    height: 40px;
+  }
+
+  h2.button-row > a {
+    -webkit-transform: translateZ(-20px);
+    -moz-transform: translateZ(-20px);
+    -ms-transform: translateZ(-20px);
+    -o-transform: translateZ(-20px);
+    transform: translateZ(-20px);
+  }
+
+  h2.button-row > a::before {
+    background-color: #808285;
+    color: #fff;
+    -webkit-transform: rotateY(0deg) translateZ(20px);
+    -moz-transform: rotateY(0deg) translateZ(20px);
+    -ms-transform: rotateY(0deg) translateZ(20px);
+    -o-transform: rotateY(0deg) translateZ(20px);
+    transform: rotateY(0deg) translateZ(20px);
+  }
+
+  h2.button-row > a::after {
+    background-color: #fff;
+    /*border-color: #808285;
+    color: #808285;*/
+    -webkit-transform: rotateX(90deg) translateZ(20px);
+    -moz-transform: rotateX(90deg) translateZ(20px);
+    -ms-transform: rotateX(90deg) translateZ(20px);
+    -o-transform: rotateX(90deg) translateZ(20px);
+    transform: rotateX(90deg) translateZ(20px);
+  }
+  h2.button-row > a:hover {
+    -webkit-transform: translateZ(-20px) translateY(20px) rotateX(-90deg);
+    -moz-transform: translateZ(-20px) translateY(20px) rotateX(-90deg);
+    -ms-transform: translateZ(-20px) translateY(20px) rotateX(-90deg);
+    -o-transform: translateZ(20px) translateY(20px) rotateX(-90deg);
+    transform: translateZ(-20px) translateY(20px) rotateX(-90deg);
+  }
+
+  div.img_relative.labtop{
+    height: 100vh;
+  }
+
+  .col-md-10{
+    width:60%;
+  }
+
+  p#hello{
+    margin-top: 25%;
+    padding-left: 10%;
+    padding-right:10%;
+  }
+
+  .i_believe{
+    padding-left: 15%;
+    padding-right:15%;
+    font-size: 1.5vw;
+  }
+
+  .img_plant{
+    bottom: 5%;
+    left: 20%;
+  }
+
+  .img_labtop{
+    bottom: -10%;
+    z-index: 5000;
+  }
+
+  .quote_container{
+    position: absolute;
+  }
+
+  .quote.quotezero{
+      color: #fbff96;
+      /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;*/
+    }
+
+  .quotenone{
+    animation: clipnone 8s linear infinite;
+  }
+  @keyframes clipnone{
+    0% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    20% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    50% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    60% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    70% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+  }
+
+  .quotenone{
+    animation: clipnone 8s linear infinite;
+  }
+  @keyframes clipnone{
+    0% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    20% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    50% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    60% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    70% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+  }
+
+  .quote.quotenone{
+    color: #fbff96;
+  }
+  .quotenone{
+    animation: clipnone 8s linear infinite;
+  }
+  @keyframes clipnone{
+    0% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    20% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    50% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    60% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    70% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+  }
+
+  .quote.quoteone{
+    color: #ef108f;
+
+  }
+  .quoteone{
+    animation: clipone 8s linear infinite;
+  }
+  @keyframes clipone{
+    0% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    30% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    60% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    70% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+  }
+
+  .quote.quotetwo{
+    color: #A2C523;
+  }
+  .quotetwo{
+    animation: cliptwo 8s linear infinite;
+  }
+  @keyframes cliptwo{
+    0% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    25% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    45% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    75% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+  }
+
+  .quote.quotethree{
+    color: #FF420E;
+  }
+  .quotethree{
+    animation: Clippingthree 8s linear infinite;
+  }
+  @keyframes Clippingthree{
+    0% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    25% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    50% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    80% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+  }
+
+  .quote.quotefour{
+    color: #C4DFE6;
+  }
+  .quotefour{
+    animation: Clippingfour 8s linear infinite;
+  }
+  @keyframes Clippingfour{
+    0% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    25% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    50% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+    75% {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%%, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);  }
+    95% {
+      clip: rect(0px, 100vw, 100vh, 0px);
+    }
+    100% {
+      clip: rect(0px, 100vw, 0vh, 0px);
+    }
+  }
+
 
 }
 
