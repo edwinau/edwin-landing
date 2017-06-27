@@ -2,6 +2,10 @@ div.img_relative.labtop{
   height: 100vh;
 }
 
+.imac.displaynone{
+  display: none;
+}
+
 
 @media (max-width:1280px){
 
@@ -218,72 +222,121 @@ div.img_relative.labtop{
     font-size: 4vw;
   }
 
-
-
 }
 
 
 
 
+/*ipad view vertical*/
+
+@media (max-width:768px){
+
+  .ipad.displaynone{
+    display: none;
+  }
+
+  div.img_relative.labtop{
+    height: 140vh;
+  }
+
+  .imac.displaynone{
+    display: inherit;
+  }
+
+  p#hello{
+    margin-top: 20%;
+    padding-left: 5%;
+    padding-right:5%;
+    text-align: right;
+    font-size: 8vw;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+
+  .i_believe{
+    padding-top: 2%;
+    padding-left: 0%;
+    padding-right:5%;
+    padding-bottom: 5%;
+    font-size: 2.5vw;
+    text-align: right;
+    font-weight: lighter;
+    line-height: 1.75;
+  }
+
+  .medialabtopnone{
+    display: none;
+  }
+
+  .img_plant{
+    zoom: 30%;
+    top: 9%;
+    transform: rotate(90deg);
+    z-index: 0;
+    left: 3%;
+  }
+
+  .img_labtop{
+    zoom: 30%;
+    top: -8%;
+    transform: rotate(90deg);
+    z-index: 0;
+    left: 20%;
+  }
+
+  .quote.embossed.container_two{
+    zoom: 180%;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
 
-@media (max-width:900px){
+  .container_one.contactpage{
+    overflow: hidden;
+    display: block;
+  }
 
-  h1{
-    font-size: 20vw;
+  .img_contact{
+    zoom: 300%;
+    margin-left: -70%;
+  }
+
+  .portfolio_images{
+  }
+
+  .container_contacts{
+    display: block;
+    margin-left: 28%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+
+  h4.email{
+    position: absolute;
+    top: 180px;
+    left: -180px;
+
+  }
+
+  .container_two.contact{
     width: 100%;
+    margin-left: 10%;
+
   }
 
-  .container_one{
-    display: block;
-    margin-top: 30%;
-  }
+ #carousel{
+   transform: rotate(-90deg);
+   zoom: 154%;
+   display: block;
+   margin-top: 50%;
 
-  .container_two{
-    width: 90vw;
-    position: relative;
-    zoom: 90%;
-  }
+ }
 
-  .container_three{
-    position: relative;
-    display: block;
-    margin: 0;
-    text-align: center;
-    height: 50px;
-  }
+ #toTop{
+   letter-spacing: .3;
+   font-weight: bold;
+   font-size: 6vw;
+ }
 
-  hr {
-    width:90%;
-    opacity: .6;
-    box-shadow: 2px 0px 20px #808285;
-    margin-top: 2%;
-    margin-bottom: 8%;
-    justify-content: center
-  }
-  h2.button-row > a::before, h2.button-row > a::after {
-    width: 150px;
-    font-size: 5vw;
-    position: relative;
-    display: block;
-    padding: 10px;
-    margin: auto;
-  }
-
-  h2 a,
-  h2 a:visited,
-  h2 a:link,
-  h2 a:active{
-    text-decoration: none;
-  }
-
-  h2.button-row > a {
-    position: relative;
-    height: 50px;
-  }
-
-  h2.left.button-row, h2.right.button-row, h2.center.button-row, h2.right_right.button-row{
-    height: 50px;
-  }
 
 }
