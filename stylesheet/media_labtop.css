@@ -85,7 +85,7 @@ div.img_relative.labtop{
   }
 
   .container_two{
-      width: 110%;
+      /*width: 110%;*/
   }
 
   hr {
@@ -95,7 +95,7 @@ div.img_relative.labtop{
   h1 {
     font-size: 10vw;
   }
-  
+
   h2.button-row {
     font-size: 1.75vw;
   }
