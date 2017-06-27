@@ -46,6 +46,11 @@ div.img_relative.labtop{
     font-weight: lighter;
   }
 
+  .portfolio_images{
+    width: 100%;
+    margin: auto;
+  }
+
 }
 
 
