@@ -63,7 +63,7 @@ h4:hover{
 .flicker >a:visited,
 .flicker >a:link,
 .flicker >a:active{
-  color: #fffbdb;
+  color: none;
   /*opacity: 1;*/
   text-shadow: 0 0 5px #fffbdb, 0 0 10px #fff056, 0 0 15px #fff056, 0 0 20px #fff056, 0 0 30px #fff056, 0 0 40px #fff056;
   /*transform: scale(1.2);*/
