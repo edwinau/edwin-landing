@@ -82,6 +82,11 @@ div.img_relative.labtop{
     -ms-transition: color .5s ease;
     -o-transition: color .5s ease;
     transition: color .5s ease;
+  }
+
+  .container_one{
+      width: 90%;
+  }
 }
 
 
