@@ -145,4 +145,12 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
       }
   });
 
+//touch same as hover
+  $(document).ready(function() {
+      $('.hover').bind('touchstart touchend', function(e) {
+          e.preventDefault();
+          $(this).toggleClass('hover_effect');
+      });
+  });
+
 });
