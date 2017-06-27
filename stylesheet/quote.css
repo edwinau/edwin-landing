@@ -148,7 +148,7 @@ p#hello, .i_believe{
 
 
 .quote.quoteone{
-  color: #5F0F4E;
+  color: #ef108f;
 
 }
 .quoteone{
@@ -323,4 +323,12 @@ p#hello, .i_believe{
   bottom: 0%;
   width: 100vw;
   height: auto;
+}
+
+.quote.embossed.container_two{
+  zoom: 80%;
+  line-height: 1.5;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 6%;
 }
