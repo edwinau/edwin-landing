@@ -58,6 +58,15 @@ div.img_relative.labtop{
     margin-top: -10%;
   }
 
+  h4 a,
+  h4 > a:visited,
+  h4 > a:link,
+  h4 > a:active{
+    padding: 10px 40px 20px 40px;
+    opacity: 1;
+    text-transform: lowercase;
+  }
+
 }
 
 /*ipad horizontal*/
@@ -193,6 +202,21 @@ div.img_relative.labtop{
     clip: rect(10%, 100vw, 100vh, 10%);
   }*/
 
+  h4 a,
+  h4 > a:visited,
+  h4 > a:link,
+  h4 > a:active{
+    padding: 10px 30px 20px 30px;
+    opacity: 1;
+    font-size: 3vw;
+    text-transform: lowercase;
+  }
+
+  #toTop{
+    letter-spacing: .3;
+    font-weight: bold;
+    font-size: 4vw;
+  }
 
 
 
