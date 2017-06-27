@@ -116,7 +116,7 @@ $(document).ready(function(){
 
 // carousel
   $('.carousel').carousel({
-    'interval': '3000', 'pause': 'false'
+    'interval': '5000'
 
   });
 
