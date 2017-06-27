@@ -142,7 +142,7 @@ div.img_relative.labtop{
   }
 
   .col-md-10{
-    width:60%;
+    width:65%;
   }
 
   p#hello{
@@ -158,216 +158,19 @@ div.img_relative.labtop{
   }
 
   .img_plant{
-    bottom: 5%;
-    left: 20%;
+    bottom: 3%;
+    left: 22%;
   }
 
   .img_labtop{
-    bottom: -10%;
+    zoom: 23%;;
+    bottom: -15%;
+    left: 0%;
+    /*transform: rotate(-10deg);*/
     z-index: 5000;
   }
 
-  .quote_container{
-    position: absolute;
-  }
 
-  .quote.quotezero{
-      color: #fbff96;
-      /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;*/
-    }
-
-  .quotenone{
-    animation: clipnone 8s linear infinite;
-  }
-  @keyframes clipnone{
-    0% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    20% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    50% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    60% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    70% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-  }
-
-  .quotenone{
-    animation: clipnone 8s linear infinite;
-  }
-  @keyframes clipnone{
-    0% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    20% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    50% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    60% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    70% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-  }
-
-  .quote.quotenone{
-    color: #fbff96;
-  }
-  .quotenone{
-    animation: clipnone 8s linear infinite;
-  }
-  @keyframes clipnone{
-    0% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    20% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    50% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    60% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    70% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-  }
-
-  .quote.quoteone{
-    color: #ef108f;
-
-  }
-  .quoteone{
-    animation: clipone 8s linear infinite;
-  }
-  @keyframes clipone{
-    0% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    30% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    60% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    70% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-  }
-
-  .quote.quotetwo{
-    color: #A2C523;
-  }
-  .quotetwo{
-    animation: cliptwo 8s linear infinite;
-  }
-  @keyframes cliptwo{
-    0% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    25% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    45% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    75% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-  }
-
-  .quote.quotethree{
-    color: #FF420E;
-  }
-  .quotethree{
-    animation: Clippingthree 8s linear infinite;
-  }
-  @keyframes Clippingthree{
-    0% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    25% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    50% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    80% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-  }
-
-  .quote.quotefour{
-    color: #C4DFE6;
-  }
-  .quotefour{
-    animation: Clippingfour 8s linear infinite;
-  }
-  @keyframes Clippingfour{
-    0% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    25% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    50% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-    75% {
-      -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%%, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);  }
-    95% {
-      clip: rect(0px, 100vw, 100vh, 0px);
-    }
-    100% {
-      clip: rect(0px, 100vw, 0vh, 0px);
-    }
-  }
 
 
 }

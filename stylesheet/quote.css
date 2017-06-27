@@ -69,7 +69,7 @@ p#hello, .i_believe{
 .quotenone{
   animation: clipnone 8s linear infinite;
 }
-@keyframes clipnone{
+@-webkit-keyframes clipnone{
   0% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
@@ -96,7 +96,7 @@ p#hello, .i_believe{
 .quotenone{
   animation: clipnone 8s linear infinite;
 }
-@keyframes clipnone{
+@-webkit-keyframes clipnone{
   0% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
@@ -126,7 +126,7 @@ p#hello, .i_believe{
 .quotenone{
   animation: clipnone 8s linear infinite;
 }
-@keyframes clipnone{
+@-webkit-keyframes clipnone{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
@@ -157,7 +157,7 @@ p#hello, .i_believe{
 .quoteone{
   animation: clipone 8s linear infinite;
 }
-@keyframes clipone{
+@-webkit-keyframes clipone{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
@@ -184,7 +184,7 @@ p#hello, .i_believe{
 .quotetwo{
   animation: cliptwo 8s linear infinite;
 }
-@keyframes cliptwo{
+@-webkit-keyframes cliptwo{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
@@ -211,7 +211,7 @@ p#hello, .i_believe{
 .quotethree{
   animation: Clippingthree 8s linear infinite;
 }
-@keyframes Clippingthree{
+@-webkit-keyframes Clippingthree{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
@@ -238,7 +238,7 @@ p#hello, .i_believe{
 .quotefour{
   animation: Clippingfour 8s linear infinite;
 }
-@keyframes Clippingfour{
+@-webkit-keyframes Clippingfour{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
