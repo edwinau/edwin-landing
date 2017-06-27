@@ -61,8 +61,6 @@ img.resume_pdf:hover{
    transition-timing-function: ease-in-out;
 }
 
-
-
 .row.nut{
   display: flex;
 margin: auto;
@@ -88,14 +86,3 @@ margin: auto;
 .italic{
   font-style: italic;
 }
-
-
-/*hr.white_break {
-  width:90%;
-  height: 5px;
-  opacity: .6;
-  box-shadow: 2px 0px 20px white;
-  margin-top: 6%;
-  margin-bottom: 15%;
-  justify-content: center
-}*/

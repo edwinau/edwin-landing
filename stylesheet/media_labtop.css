@@ -16,27 +16,36 @@ div.img_relative.labtop{
   img.resume_pdf{
     height: 100%;
     width: 100%;
-    }
+  }
 
-    p#hello{
-      margin-top: 30%;
-      padding-left: 10%;
-      padding-right:10%;
-    }
+  p#hello{
+    margin-top: 30%;
+    padding-left: 10%;
+    padding-right:10%;
+  }
 
-    .i_believe{
-      padding-left: 20%;
-      padding-right:20%;
-      font-size: 1.5vw;
-    }
+  .i_believe{
+    padding-left: 20%;
+    padding-right:20%;
+    font-size: 1.5vw;
+  }
 
-    .medialabtopnone{
-        display: inherit;
-    }
+  .medialabtopnone{
+      display: inherit;
+  }
 
-    div.img_relative.labtop{
-      height: 125vh;
-    }
+  div.img_relative.labtop{
+    height: 125vh;
+  }
+
+  .container_two{
+    zoom: 110%;
+  }
+
+  h1.edwinname{
+    margin-top: -10%;
+  }
+
 }
 
 
