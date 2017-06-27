@@ -60,6 +60,29 @@ div.img_relative.labtop{
 
 }
 
+/*ipad horizontal*/
+
+@media (max-width:1024px){
+
+  h1 a:hover,
+  h1:hover{
+    color: white;
+    -webkit-text-shadow: 0px 0px 10px grey;
+    -moz-text-shadow: 0px 0px 10px grey;
+    -ms-text-shadow: 0px 0px 10px grey;
+    -o-text-shadow: 0px 0px 10px grey;
+    text-shadow: 0px 0px 10px grey;
+    -webkit-transition: text-shadow 0.25s ease;
+    -moz-transition: text-shadow 0.25s ease;
+    -ms-transition: text-shadow 0.25s ease;
+    -o-transition: text-shadow 0.25s ease;
+    transition: text-shadow 0.25s ease;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+}
 
 
 
