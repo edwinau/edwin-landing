@@ -23,7 +23,7 @@ div.img_relative.labtop{
   }
 
   p#hello{
-    margin-top: 30%;
+    margin-top: -5%;
     padding-left: 10%;
     padding-right:10%;
   }
@@ -34,12 +34,29 @@ div.img_relative.labtop{
     font-size: 1.5vw;
   }
 
+  .img_plant{
+    bottom: 15%;
+    left: 24%;
+  }
+
+  .img_labtop{
+    zoom: 30%;
+    bottom: -15%;
+    left: -5%;
+    /*transform: rotate(-35deg);*/
+    z-index: 5000;
+  }
+
   .medialabtopnone{
       display: inherit;
   }
 
   div.img_relative.labtop{
-    height: 100vh;
+    height: 125vh;
+  }
+
+  .row.nut{
+    }
   }
 
   .container_two{
@@ -51,7 +68,7 @@ div.img_relative.labtop{
   }
 
   .portfolio_images{
-    width: 90%;
+    width: 100%;
     margin: auto;
     zoom: 105%;
     overflow-x: hidden;
@@ -70,6 +87,10 @@ div.img_relative.labtop{
     opacity: 1;
     text-transform: lowercase;
   }
+  .ninetywidth{
+    width: 100vw;
+  }
+
 
 }
 
@@ -159,7 +180,7 @@ div.img_relative.labtop{
   }
 
   p#hello{
-    margin-top: 25%;
+    margin-top: 22%;
     padding-left: 10%;
     padding-right:10%;
   }
@@ -197,6 +218,10 @@ div.img_relative.labtop{
   .row{
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .ninetywidth{
+    width: 100vw;
   }
 
   /*.container_carousel{
@@ -277,7 +302,6 @@ div.img_relative.labtop{
   }
 
   .img_labtop{
-    zoom: 30%;
     top: -8%;
     transform: rotate(90deg);
     z-index: 0;
