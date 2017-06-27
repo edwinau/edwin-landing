@@ -67,10 +67,10 @@ p#hello, .i_believe{
   }
 
 .quotenone{
-  -webkit-animation: clipnone 8s linear infinite;
+  animation: clipnone 8s linear infinite;
 }
 @-webkit-keyframes clipnone{
-  from {
+  0% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
   20% {
@@ -88,16 +88,16 @@ p#hello, .i_believe{
   95% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
-  to {
+  100% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
 }
 
 .quotenone{
-  -webkit-animation: clipnone 8s linear infinite;
+  animation: clipnone 8s linear infinite;
 }
 @-webkit-keyframes clipnone{
-  from {
+  0% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
   20% {
@@ -115,7 +115,7 @@ p#hello, .i_believe{
   95% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
-  to {
+  100% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
 }
@@ -124,7 +124,7 @@ p#hello, .i_believe{
   color: #fbff96;
 }
 .quotenone{
-  -webkit-animation: clipnone 8s linear infinite;
+  animation: clipnone 8s linear infinite;
 }
 @-webkit-keyframes clipnone{
   0% {
@@ -155,7 +155,7 @@ p#hello, .i_believe{
 
 }
 .quoteone{
-  -webkit-animation: clipone 8s linear infinite;
+  animation: clipone 8s linear infinite;
 }
 @-webkit-keyframes clipone{
   0% {
@@ -182,7 +182,7 @@ p#hello, .i_believe{
   color: #A2C523;
 }
 .quotetwo{
-  -webkit-animation: cliptwo 8s linear infinite;
+  animation: cliptwo 8s linear infinite;
 }
 @-webkit-keyframes cliptwo{
   0% {
@@ -209,7 +209,7 @@ p#hello, .i_believe{
   color: #FF420E;
 }
 .quotethree{
-  -webkit-animation: Clippingthree 8s linear infinite;
+  animation: Clippingthree 8s linear infinite;
 }
 @-webkit-keyframes Clippingthree{
   0% {
@@ -236,10 +236,10 @@ p#hello, .i_believe{
   color: #C4DFE6;
 }
 .quotefour{
-  -webkit-animation: Clippingfour 8s linear infinite;
+  animation: Clippingfour 8s linear infinite;
 }
 @-webkit-keyframes Clippingfour{
-  from {
+  0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
   25% {
@@ -254,7 +254,7 @@ p#hello, .i_believe{
   95% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
-  to {
+  100% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
 }
