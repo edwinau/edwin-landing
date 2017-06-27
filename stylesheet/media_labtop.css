@@ -47,8 +47,10 @@ div.img_relative.labtop{
   }
 
   .portfolio_images{
-    zoom:120%;
+    width: 90%;
     margin: auto;
+    zoom: 105%;
+    overflow-x: hidden;
   }
 
 }
