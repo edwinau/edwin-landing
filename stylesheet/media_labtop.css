@@ -60,6 +60,7 @@ div.img_relative.labtop{
   .container_two{
     width: 90vw;
     position: relative;
+    zoom: 90%;
   }
 
   .container_three{

@@ -42,8 +42,26 @@
   /*-webkit-transform: rotate(.5deg); /* Chrome, Safari, Opera*/*/
   /*transform: rotate(.5deg);*/
   box-shadow: 6px 6px 6px black;
-
+  -webkit-transform:scale(1); /* Safari and Chrome */
+  -moz-transform:scale(1); /* Firefox */
+  -ms-transform:scale(1); /* IE 9 */
+  -o-transform:scale(1); /* Opera */
+   transform:scale(1);
+   transition: transform .3s;
+  transition-timing-function: ease-in-out;
 }
+
+img.resume_pdf:hover{
+  -webkit-transform:scale(1.1); /* Safari and Chrome */
+  -moz-transform:scale(1.1); /* Firefox */
+  -ms-transform:scale(1.1); /* IE 9 */
+  -o-transform:scale(1.1); /* Opera */
+   transform:scale(1.1);
+   transition: transform .3s;
+   transition-timing-function: ease-in-out;
+}
+
+
 
 .row.nut{
   display: flex;

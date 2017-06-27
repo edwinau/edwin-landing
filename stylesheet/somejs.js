@@ -1,3 +1,80 @@
+function flicker(obj) {
+
+      var timout = Math.floor(Math.random() * 2000) + 1;
+
+      setTimeout(function(){
+          obj.addClass("flicker");
+      }, timout);
+
+      var $removeinstagram = $(".instagram");
+      setTimeout(function(){
+          obj.removeClass("flicker");
+      }, timout * 1.5);
+}
+
+
+// function swapImages() {
+//
+//       var timout = Math.floor(Math.random() * 2000) + 1;
+//
+//       var $instagram = $(".instagram");
+//       setTimeout(function(){
+//           $instagram.addClass("flicker");
+//       }, timout);
+//
+//       var $removeinstagram = $(".instagram");
+//       setTimeout(function(){
+//           $removeinstagram.removeClass("flicker");
+//       }, timout * 1.5);
+// }
+//
+// function flickerfacebook() {
+//
+//       var timout = Math.floor(Math.random() * 2000) + 1;
+//
+//       var $facebook = $(".facebook");
+//       setTimeout(function(){
+//           $facebook.addClass("flicker");
+//       }, timout);
+//
+//       var $removefacebook = $(".facebook");
+//       setTimeout(function(){
+//           $removefacebook.removeClass("flicker");
+//       }, timout * 1.2);
+// }
+//
+// function flickerlinkedin() {
+//
+//       var timout = Math.floor(Math.random() * 2000) + 1;
+//
+//       var $linkedin = $(".linkedin");
+//       setTimeout(function(){
+//           $linkedin.addClass("flicker");
+//       }, timout);
+//
+//       var $removelinkedin = $(".linkedin");
+//       setTimeout(function(){
+//           $removelinkedin.removeClass("flicker");
+//       }, timout * 1.5);
+// }
+
+function flickeremail() {
+
+      var timout = Math.floor(Math.random() * 2000) + 2;
+
+      var $email = $(".email");
+      setTimeout(function(){
+          $email.addClass("flicker");
+      }, timout);
+
+      var $removeemail = $(".email");
+      setTimeout(function(){
+          $removeemail.removeClass("flicker");
+      }, timout * 1.5);
+}
+
+
+
 $(document).ready(function(){
 
 // smooth scroll CV
@@ -43,95 +120,29 @@ $(document).ready(function(){
 
   });
 
-//lights flicker
-var divs = $('.container_contacts');
+//lights flicker instagram
+setInterval(function() { flicker($('.email')); }, 2000);
+setInterval(function() { flicker($('.instagram')); }, 3000);
+setInterval(function() { flicker($('.facebook')); }, 2500);
+setInterval(function() { flicker($('.linkedin')); }, 2750);
 
-for(var i = 0; i < divs.length; i++){
-    var thisDiv = divs[i]; // element
+// //lights flicker facebook
+// setInterval(function() { flickerfacebook(); }, 5000);
+//
+// //lights flicker linkedin
+// setInterval(function() { flickerlinkedin(); }, 500);
+//
+// //lights flicker linkedin
+// setInterval(function() { flickeremail(); }, 300);
 
-    var $thisDiv = $(divs[i]);
-      var $post = $(".email");
-      setTimeout(function(){
-          $post.addClass("flicker");
-      }, 50);
-      var $removelinkedin = $(".email");
-      setTimeout(function(){
-          $removelinkedin.removeClass("flicker");
-      }, 100);
-      var $post = $(".email");
-      setTimeout(function(){
-          $post.addClass("flicker");
-      }, 500);
-      var $removelinkedin = $(".email");
-      setTimeout(function(){
-          $removelinkedin.removeClass("flicker");
-      }, 550);
-      var $post = $(".email");
-      setTimeout(function(){
-          $post.addClass("flicker");
-      }, 2500);
-      var $removelinkedin = $(".email");
-      setTimeout(function(){
-          $removelinkedin.removeClass("flicker");
-      }, 2550);
-      var $post = $(".email");
-      setTimeout(function(){
-          $post.addClass("flicker");
-      }, 8700);
-      var $removelinkedin = $(".email");
-      setTimeout(function(){
-          $removelinkedin.removeClass("flicker");
-      }, 8750);
-
-
-      var $email = $(".linkedin");
-      setInterval(function(){
-          $email.addClass("flicker");
-      }, 400);
-      var $removeemail = $(".linkedin");
-      setInterval(function(){
-          $removeemail.removeClass("flicker");
-      }, 450);
-      var $removeemail = $(".linkedin");
-      setTimeout(function(){
-          $removeemail.removeClass("flicker");
-      }, 9000);
-
-      var $facebook = $(".facebook");
-      setTimeout(function(){
-          $facebook.addClass("flicker");
-      }, 1000);
-      var $removefacebook = $(".facebook");
-      setTimeout(function(){
-          $removefacebook.removeClass("flicker");
-      }, 1200);
-
-
-      var $instagram = $(".instagram");
-      setTimeout(function(){
-          $instagram.addClass("flicker");
-      }, 2000);
-      var $removeinstagram = $(".instagram");
-      setTimeout(function(){
-          $removeinstagram.removeClass("flicker");
-      }, 2200);
-      var $instagram = $(".instagram");
-      setTimeout(function(){
-          $instagram.addClass("flicker");
-      }, 5700);
-      var $removeinstagram = $(".instagram");
-      setTimeout(function(){
-          $removeinstagram.removeClass("flicker");
-      }, 5750);
-  }
 
 //to top
-$(window).scroll(function() {
-    if ($(this).scrollTop()) {
-        $('#toTop').fadeIn();
-    } else {
-        $('#toTop').fadeOut();
-    }
-});
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#toTop').fadeIn();
+      } else {
+          $('#toTop').fadeOut();
+      }
+  });
 
 });

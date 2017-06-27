@@ -65,6 +65,7 @@
 .container_two{
   margin: auto;
   position: relative;
+  zoom: 90%;
 }
 
 h1 {
@@ -200,8 +201,9 @@ h2.button-row > a:hover {
 }
 
 h2.center a::after {
-    border-color: #00ffba;
-    color: #00ffba;
+    border-color: #39b5d8;
+    color: #39b5d8;
+    /*background: black;*/
     /*background: transparent;*/
     opacity: 1;
     /*transition: all .1s ease-in-out;*/
@@ -210,6 +212,7 @@ h2.center a::after {
 h2.left a::after {
     border-color: salmon;
     color: salmon;
+    /*background: black;*/
     opacity: 1;
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
@@ -317,8 +320,9 @@ h2.right a::before {
 
 
 h2.right_right a::after {
-    border-color: #6464FF;
-    color: #6464FF;
+    border-color: #a941f4;
+    color: #a941f4;
+    /*background: black;*/
     opacity: 1;
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
