@@ -20,9 +20,15 @@
 
 
 .portfolio_images{
-width: 77%;
-margin: auto;
+  width: 77%;
+  margin: auto;
 }
+
+#carousel{
+  zoom: 80%;
+}
+
+
 
 .container_relative{
   position: relative;

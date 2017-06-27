@@ -92,6 +92,7 @@ div.img_relative.labtop{
   }
 
 
+
 }
 
 /*ipad horizontal*/
@@ -155,8 +156,6 @@ div.img_relative.labtop{
 
   h2.button-row > a::after {
     background-color: #fff;
-    /*border-color: #808285;
-    color: #808285;*/
     -webkit-transform: rotateX(90deg) translateZ(20px);
     -moz-transform: rotateX(90deg) translateZ(20px);
     -ms-transform: rotateX(90deg) translateZ(20px);
@@ -197,7 +196,7 @@ div.img_relative.labtop{
   }
 
   .img_labtop{
-    zoom: 23%;;
+    zoom: 23%;
     bottom: -15%;
     left: 0%;
     /*transform: rotate(-10deg);*/
@@ -239,6 +238,10 @@ div.img_relative.labtop{
     opacity: 1;
     font-size: 3vw;
     text-transform: lowercase;
+  }
+
+  #carousel{
+    zoom: 100%;
   }
 
   #toTop{
@@ -353,7 +356,6 @@ div.img_relative.labtop{
    zoom: 154%;
    display: block;
    margin-top: 50%;
-
  }
 
  #toTop{
