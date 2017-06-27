@@ -84,9 +84,18 @@ div.img_relative.labtop{
     transition: color .5s ease;
   }
 
-  .container_one{
-      width: 90%;
+  .container_two{
+      width: 120%;
   }
+
+  hr {
+    box-shadow: 2px 0px 10px #808285;
+  }
+
+  h2.button-row {
+    font-size: 1.5vw;
+  }
+
 }
 
 
