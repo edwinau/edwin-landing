@@ -27,7 +27,7 @@ h4 > a:visited,
 h4 > a:link,
 h4 > a:active{
   display: inline-block;
-  opacity: .8;
+  /*opacity: .8;*/
   text-align: center;
   font-size: 2vw;
   color: #4d4756;
@@ -50,6 +50,7 @@ h4 a:hover,
 h4:hover{
   color: white;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f6ff00, 0 0 30px #f6ff00, 0 0 40px #f6ff00, 0 0 50px #f6ff00, 0 0 75px #f6ff00;
+  z-index: 1000;
   /*transform: scale(1.2);*/
 }
 
@@ -62,35 +63,38 @@ h4:hover{
 .flicker >a:visited,
 .flicker >a:link,
 .flicker >a:active{
-  color: #fff;
-  opacity: 1;
-  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f6ff00, 0 0 30px #f6ff00, 0 0 40px #f6ff00, 0 0 50px #f6ff00, 0 0 75px #f6ff00;
+  color: #fffbdb;
+  /*opacity: 1;*/
+  text-shadow: 0 0 5px #fffbdb, 0 0 10px #fff056, 0 0 15px #fff056, 0 0 20px #fff056, 0 0 30px #fff056, 0 0 40px #fff056;
   /*transform: scale(1.2);*/
-  z-index: 1000;
 }
 
 h4.linkedin a:hover {
     /*color: yellow;*/
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #f6ff00, 0 0 30px #f6ff00, 0 0 40px #f6ff00, 0 0 50px #f6ff00, 0 0 75px #f6ff00;
     transition: all .1s ease-in-out;
+
 }
 
 h4.email a:hover {
     /*color: #ff6000;*/
-    background: transparent;
+    /*background: transparent;*/
     transition: all .1s ease-in-out;
+
 }
 
 h4.facebook a:hover {
     /*color: #00ffba;*/
-    background: transparent;
+    /*background: transparent;*/
     transition: all .1s ease-in-out;
+
 
 }
 
 h4.instagram a:hover {
     /*color: salmon;*/
-    background: transparent;
+    /*background: transparent;*/
     transition: all .1s ease-in-out;
+
 
 }

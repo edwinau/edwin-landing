@@ -53,6 +53,11 @@ div.img_relative.labtop{
     overflow-x: hidden;
   }
 
+  .container_contacts{
+    zoom: 150%;
+    margin-top: -10%;
+  }
+
 }
 
 
