@@ -24,13 +24,12 @@
   margin: auto;
 }
 
-#carousel{
-  zoom: 80%;
-}
-
-
-
 .container_relative{
   position: relative;
   width: 100vw;
+}
+
+.carousel-inner{
+  width: 80%;
+  margin-left: 10%;
 }
