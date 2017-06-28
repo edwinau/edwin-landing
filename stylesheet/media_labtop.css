@@ -5,6 +5,14 @@
 /*labtop*/
 @media (max-width:2480px){
 
+  hr {
+    height: 3.5px;
+    box-shadow: 2px 0px 20px #808285;
+    background-color: #808285;
+    opacity: .9;
+
+  }
+
   h2.button-row {
     letter-spacing: .15em;
     font-size: 1vw;
@@ -73,7 +81,7 @@
 
   .img_labtop{
     zoom: 30%;
-    bottom: -15%;
+    bottom: -20%;
     left: -5%;
     /*transform: rotate(-35deg);*/
     z-index: 5000;
