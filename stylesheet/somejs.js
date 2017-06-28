@@ -145,6 +145,15 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
       }
   });
 
+// smooth scroll quote
+  $('#toTop').click(function() {
+    $('html, body').animate({
+        scrollTop: $('#backtotop').offset().top
+    }, 1000);
+  });
+
+
+
 //touch same as hover
   $('body').bind('touchstart', function() {});
 

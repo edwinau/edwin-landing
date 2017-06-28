@@ -7,7 +7,7 @@
 
 .ninetywidth{
   margin: auto;
-  width: 80vw;
+  width: 100vw;
   /*position: absolute;*/
   top: 200px;
 }
@@ -18,10 +18,11 @@
   padding: 0;
 }
 
-
 .portfolio_images{
-  width: 77%;
+  width: 100%;
   margin: auto;
+  zoom: 105%;
+  overflow-x: hidden;
 }
 
 .container_relative{

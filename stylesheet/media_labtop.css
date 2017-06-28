@@ -1,13 +1,9 @@
-div.img_relative.labtop{
-  height: 100vh;
-}
-
 .imac.displaynone{
   display: none;
 }
 
 
-@media (max-width:1280px){
+@media (max-width:2480px){
 
   .col-md-10{
     width:80%;
@@ -54,45 +50,6 @@ div.img_relative.labtop{
   div.img_relative.labtop{
     height: 125vh;
   }
-
-  .row.nut{
-    }
-  }
-
-  .container_two{
-    zoom: 110%;
-  }
-
-  h1 {
-    /*font-weight: 600;*/
-  }
-
-  .portfolio_images{
-    width: 100%;
-    margin: auto;
-    zoom: 105%;
-    overflow-x: hidden;
-  }
-
-  .container_contacts{
-    zoom: 120%;
-    margin-top: -10%;
-  }
-
-  h4 a,
-  h4 > a:visited,
-  h4 > a:link,
-  h4 > a:active{
-    padding: 10px 40px 20px 40px;
-    opacity: 1;
-    text-transform: lowercase;
-  }
-  .ninetywidth{
-    width: 100vw;
-  }
-
-
-
 }
 
 /*ipad horizontal*/
@@ -102,20 +59,8 @@ div.img_relative.labtop{
   h1 a:hover,
   h1:hover{
     color: white;
-    -webkit-text-shadow: 0px 0px 10px grey;
-    -moz-text-shadow: 0px 0px 10px grey;
-    -ms-text-shadow: 0px 0px 10px grey;
-    -o-text-shadow: 0px 0px 10px grey;
     text-shadow: 0px 0px 10px grey;
-    -webkit-transition: text-shadow 0.25s ease;
-    -moz-transition: text-shadow 0.25s ease;
-    -ms-transition: text-shadow 0.25s ease;
-    -o-transition: text-shadow 0.25s ease;
     transition: text-shadow 0.25s ease;
-    -webkit-transition: color .5s ease;
-    -moz-transition: color .5s ease;
-    -ms-transition: color .5s ease;
-    -o-transition: color .5s ease;
     transition: color .5s ease;
   }
 
@@ -175,18 +120,18 @@ div.img_relative.labtop{
   }
 
   .col-md-10{
-    width:65%;
+    width: 65%;
   }
 
   p#hello{
     margin-top: 22%;
     padding-left: 10%;
-    padding-right:10%;
+    padding-right: 10%;
   }
 
   .i_believe{
     padding-left: 15%;
-    padding-right:15%;
+    padding-right: 15%;
     font-size: 1.5vw;
   }
 
@@ -199,7 +144,6 @@ div.img_relative.labtop{
     zoom: 23%;
     bottom: -15%;
     left: 0%;
-    /*transform: rotate(-10deg);*/
     z-index: 5000;
   }
 
@@ -210,25 +154,18 @@ div.img_relative.labtop{
   }
 
   .container-fluid{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .row{
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .ninetywidth{
     width: 100vw;
   }
-
-  /*.container_carousel{
-    width: 120%;
-    margin-left: -10%;
-    overflow: hidden;
-    clip: rect(10%, 100vw, 100vh, 10%);
-  }*/
 
   h4 a,
   h4 > a:visited,
@@ -313,8 +250,8 @@ div.img_relative.labtop{
 
   .quote.embossed.container_two{
     zoom: 180%;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
 
@@ -326,9 +263,6 @@ div.img_relative.labtop{
   .img_contact{
     zoom: 300%;
     margin-left: -70%;
-  }
-
-  .portfolio_images{
   }
 
   .container_contacts{
@@ -351,18 +285,18 @@ div.img_relative.labtop{
 
   }
 
- #carousel{
+  #carousel{
    transform: rotate(-90deg);
    zoom: 154%;
    display: block;
    margin-top: 50%;
- }
+  }
 
- #toTop{
+  #toTop{
    letter-spacing: .3;
    font-weight: bold;
    font-size: 6vw;
- }
+  }
 
 
 }
