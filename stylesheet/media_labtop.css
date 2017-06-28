@@ -205,7 +205,7 @@
   }
 
   .carousel-inner{
-    height: 100vh;
+   height: 100vh;
    margin-left: 7.25%;
    overflow: hidden;
    width: 100%;
@@ -332,6 +332,7 @@
 
 
   .container_one.contactpage{
+    margin-top: -40%;
     overflow: hidden;
     display: block;
   }
@@ -344,15 +345,18 @@
   .container_contacts{
     display: block;
     margin-left: 28%;
-    margin-top: 20%;
+    margin-top: 15%;
     margin-bottom: 20%;
+    zoom: 140%;
+    width: 105%;
   }
+
 
   h4.email{
     position: absolute;
-    top: 180px;
+    top: 160px;
     left: -180px;
-
+    font-size: 105%;
   }
 
   .container_two.contact{
@@ -361,16 +365,24 @@
   }
 
   #carousel{
-   transform: rotate(-90deg);
-   zoom: 154%;
-   display: block;
-   margin-top: 50%;
+    transform: rotate(-90deg);
+    zoom: 135%;
+    margin-top: -5%;
   }
+
+    .portfolio_images{
+      margin-top: 35%;
+      z-index: 0;
+    }
 
   #toTop{
    letter-spacing: .3;
    font-weight: bold;
    font-size: 6vw;
+  }
+
+  .container-fluid.ninetywidth{
+    overflow: hidden;
   }
 
 
