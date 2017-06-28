@@ -2,8 +2,43 @@
   display: none;
 }
 
-
+/*labtop*/
 @media (max-width:2480px){
+
+  h2.button-row {
+    letter-spacing: .15em;
+    font-size: 1vw;
+    display: block;
+  }
+
+  h2.button-row > a::before, h2.button-row > a::after {
+    width: 7.5vw;
+    height: 35px;
+    border: 4px solid inherit;
+  }
+
+  h2.button-row > a::before {
+    -webkit-transform: rotateY(0deg) translateZ(17.5px);
+    -moz-transform: rotateY(0deg) translateZ(17.5px);
+    -ms-transform: rotateY(0deg) translateZ(17.5px);
+    -o-transform: rotateY(0deg) translateZ(17.5px);
+    transform: rotateY(0deg) translateZ(17.5px);
+  }
+
+  h2.button-row > a::after {
+    -webkit-transform: rotateX(90deg) translateZ(17.5px);
+    -moz-transform: rotateX(90deg) translateZ(17.5px);
+    -ms-transform: rotateX(90deg) translateZ(17.5px);
+    -o-transform: rotateX(90deg) translateZ(17.5px);
+    transform: rotateX(90deg) translateZ(17.5px);
+  }
+  h2.button-row > a:hover {
+    -webkit-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
+    -moz-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
+    -ms-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
+    -o-transform: translateZ(17.5px) translateY(17.5px) rotateX(-90deg);
+    transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
+  }
 
   .col-md-10{
     width:80%;
@@ -27,8 +62,9 @@
   .i_believe{
     padding-left: 20%;
     padding-right:20%;
-    font-size: 1.5vw;
-  }
+    font-size: 1.25vw;
+    opacity: .7;
+ }
 
   .img_plant{
     bottom: 15%;
@@ -50,10 +86,36 @@
   div.img_relative.labtop{
     height: 125vh;
   }
+
+  .carousel-inner{
+    width: 85%;
+    margin-left: 7.25%;
+  }
+
+  .container_contacts{
+    zoom: 85%;
+  }
+
+  h4.email a{
+    font-size: 3vw;
+    margin-left: 8%;
+  }
+
+  h4.linkedin{
+    margin-right: -5%;
+  }
+
+  h4.facebook{
+    margin-right: -5%;
+  }
+
+  h4.instagram{
+    margin-right: 9%;
+  }
+
 }
 
 /*ipad horizontal*/
-
 @media (max-width:1024px){
 
   h1 a:hover,

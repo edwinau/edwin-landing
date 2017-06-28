@@ -10,7 +10,6 @@
   z-index: 1000;
 }
 
-
 .container_two{
   margin: auto;
   position: relative;
@@ -230,32 +229,6 @@ h2.right a::before {
   0% { color: white; }
   50% { color: yellow; }
   100% { color: white; }
-}
-
-@-webkit-keyframes font-size-change {
-    0% { font-size: 1em; }
-    50% { font-size: 1.01em; }
-    100% { font-size: 1em; }
-}
-@-moz-keyframes font-size-change {
-  0% { font-size: 1em; }
-  50% { font-size: 1.01em; }
-  100% { font-size: 1em; }
-}
-@-ms-keyframes font-size-change {
-  0% { font-size: 1em; }
-  50% { font-size: 1.01em; }
-  100% { font-size: 1em; }
-}
-@-o-keyframes font-size-change {
-  0% { font-size: 1em; }
-  50% { font-size: 1.01em; }
-  100% { font-size: 1em; }
-}
-@keyframes font-size-change {
-  0% { font-size: 1em; }
-  50% { font-size: 1.01em; }
-  100% { font-size: 1em; }
 }
 
 @-webkit-keyframes text-shadow-change {
