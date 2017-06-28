@@ -20,7 +20,7 @@
 
   hr {
     height: 3.5px;
-    box-shadow: 2px 0px 20px #808285;
+    box-shadow: none;
     background-color: #808285;
     opacity: .9;
   }
@@ -332,7 +332,6 @@
 
 
   .container_one.contactpage{
-    margin-top: -40%;
     overflow: hidden;
     display: block;
   }
@@ -383,6 +382,12 @@
 
   .container-fluid.ninetywidth{
     overflow: hidden;
+  }
+
+  .carolcarolcon{
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
   }
 
 
