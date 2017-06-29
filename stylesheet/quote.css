@@ -1,5 +1,5 @@
 @font-face{
-  font-family: myFirstFont;
+  font-family: aller;
   src: url(Aller_rg.ttf)
 }
 
@@ -11,6 +11,11 @@
 @font-face{
   font-family: robotoSlab;
   src: url(RobotoSlab-Regular.ttf)
+}
+
+@font-face{
+  font-family: coustard;
+  src: url(Coustard-Regular.ttf)
 }
 
 h1.wood_shy > a{
@@ -31,7 +36,7 @@ p#hello, .i_believe{
 
 .quote{
   font-size: 5vw;
-  font-family: myFirstFont;
+  font-family: aller;
   line-height: 2.5;
   width: 60%;
   font-weight: bold;
@@ -41,7 +46,7 @@ p#hello, .i_believe{
 
 .elon_musk{
   font-size: 3vw;
-  font-family: myFirstFont;
+  font-family: aller;
   line-height: 2.5;
   padding: 5% 7% 0 0;
   width: 100%;
