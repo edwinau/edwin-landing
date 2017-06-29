@@ -49,6 +49,7 @@
 
 div.img_relative.labtop{
   height: 100vh;
+  z-index: 6000;
 }
 
 img.resume_pdf:hover{

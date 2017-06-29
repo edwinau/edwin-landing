@@ -15,12 +15,90 @@
   position: relative;
 }
 
+.img_intrograss{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  bottom: 0%;
+  width: 100vw;
+  height: auto;
+}
+.img_introcloud1{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  top: 0%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img_introcloud2{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  top: 3%;
+  width: 50vw;
+  height: auto;
+  animation: cloud2 200s linear;
+}
+
+.img_introcloud3{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  top: 3%;
+  right:0;
+  width: 40vw;
+  height: auto;
+  animation: cloud3 500s linear;
+}
+
+.img_introcloud4{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  top: 35%;
+  left:;
+  width: 30vw;
+  height: auto;
+  animation: cloud4 6000s linear;
+  transition: ease;
+}
+
+@keyframes cloud2{
+  0% {
+    left: -20vw;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+@keyframes cloud3{
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: -100vw;
+  }
+}
+
+@keyframes cloud4{
+  0% {
+    left: 5%;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
 
 h1 {
   font-family: robotoSlab;
   font-size: 6vw;
   font-weight: bold;
-  color: #808285;
+  text-shadow: 0px 0px 50px #3a75bb;
+  color: white;
   letter-spacing: .07em;
   text-align: center;
   justify-content: center;
@@ -31,27 +109,38 @@ h1 a:visited,
 h1 a:link,
 h1 a:active{
   text-decoration: none;
-  color: #808285;
+  color: white;
+  -webkit-transition: text-shadow 1s ease;
+  -moz-transition: text-shadow 1s ease;
+  -ms-transition: text-shadow 1s ease;
+  -o-transition: text-shadow 1s ease;
+  transition: text-shadow 1s ease;
 }
 
 h1 a:hover,
 h1:hover{
   color: white;
-  -webkit-text-shadow: 0px 0px 50px grey;
-  -moz-text-shadow: 0px 0px 50px grey;
-  -ms-text-shadow: 0px 0px 50px grey;
-  -o-text-shadow: 0px 0px 50px grey;
-  text-shadow: 0px 0px 50px grey;
-  -webkit-transition: text-shadow 0.25s ease;
-  -moz-transition: text-shadow 0.25s ease;
-  -ms-transition: text-shadow 0.25s ease;
-  -o-transition: text-shadow 0.25s ease;
-  transition: text-shadow 0.25s ease;
-  -webkit-transition: color .5s ease;
-  -moz-transition: color .5s ease;
-  -ms-transition: color .5s ease;
-  -o-transition: color .5s ease;
-  transition: color .5s ease;
+  text-shadow: 0 0 50px white;
+  /*background-image: url(../images/fractal.jpg);*/
+  background-size: 40vw 40vh;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-shadow: 0px 0px 50px white;
+  -moz-text-shadow: 0px 0px 50px white;
+  -ms-text-shadow: 0px 0px 50px white;
+  -o-text-shadow: 0px 0px 50px white;
+  text-shadow: 0px 0px 50px white;
+  -webkit-transition: text-shadow 2s ease-in;
+  -moz-transition: text-shadow 2s ease-in;
+  -ms-transition: text-shadow 2s ease-in;
+  -o-transition: text-shadow 2s ease-in;
+  transition: text-shadow 2s ease;
+  -webkit-transition: color 2s ease;
+  -moz-transition: color 2s ease;
+  -ms-transition: color 2s ease;
+  -o-transition: color 2s ease;
+  transition: color 2s ease;
+  z-index: 1000;
 }
 
 h1.edwinname{
@@ -61,8 +150,8 @@ h1.edwinname{
 hr {
   width:90%;
   height: 5px;
-  opacity: .6;
-  box-shadow: 2px 0px 20px #808285;
+  /*box-shadow: 2px 0px 20px white;*/
+  color: white;
   margin-top: 6%;
   margin-bottom: 12%;
   justify-content: center;
@@ -91,7 +180,8 @@ h2.button-row {
   perspective: 1000px;
   font-family: 'Oswald', sans-serif;
   letter-spacing: .15em;
-  font-size: .75vw;
+  font-size: .85vw;
+  font-weight: bold;
   display: block;
 }
 
@@ -124,7 +214,7 @@ h2.button-row > a::before, h2.button-row > a::after {
   opacity: 1;
   width: 7vw;
   height: 50px;
-  border: 5px solid #808285;
+  border: 5px solid white;
   box-sizing: border-box;
   content: attr(title);
   display: -webkit-box;
@@ -138,8 +228,10 @@ h2.button-row > a::before, h2.button-row > a::after {
 }
 
 h2.button-row > a::before {
-  background-color: #808285;
-  color: #fff;
+  background-color: white;
+  /*box-shadow: 0px 0px 10px white;*/
+  color: #3a75bb;
+  font-weight: bold;
   -webkit-transform: rotateY(0deg) translateZ(25px);
   -moz-transform: rotateY(0deg) translateZ(25px);
   -ms-transform: rotateY(0deg) translateZ(25px);
@@ -166,110 +258,143 @@ h2.button-row > a:hover {
 }
 
 h2.center a::after {
-    border-color: #39b5d8;
-    color: #39b5d8;
+  border-color: yellow;
+  background: black;
+  color: yellow;
+  opacity: 1;
+    /*border-color: #39b5d8;
+    color: #39b5d8;*/
     /*background: black;*/
     /*background: transparent;*/
-    opacity: 1;
+    /*opacity: 1;*/
     /*transition: all .1s ease-in-out;*/
 }
 
 h2.left a::after {
-    border-color: salmon;
+  border-color: yellow;
+  background: black;
+  color: yellow;
+  opacity: 1;
+    /*border-color: salmon;
     color: salmon;
     /*background: black;*/
-    opacity: 1;
+    /*opacity: 1;*/
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
 }
 
-h2.right a::after {
-    border-color: yellow;
-    background: black;
-    color: yellow;
-    opacity: 1;
-    /*text-shadow: 0px 0px 1px grey;*/
-    /*background: transparent;*/
-    /*transition: all .1s ease-in-out;*/
-}
+
 
 
 /*flash*/
 /*flash*/
 /*flash*/
 h2.right a::before {
-  -webkit-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
-  -moz-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
-  -o-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
-  -ms-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
-  animation: color-change 1.5s infinite,font-size-change 1.5s infinite, text-shadow-change 1.5s infinite, background-color-change 1.5s infinite;
+  -webkit-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
+  -moz-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
+  -o-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
+  -ms-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
+  animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
 }
 
 @-webkit-keyframes color-change {
-    0% { color: white; }
-    50% { color: yellow; }
-    100% { color: white; }
+    0% { color: #3a75bb; }
+    50% { color: white; }
+    100% { color: #3a75bb; }
 }
 @-moz-keyframes color-change {
-  0% { color: white; }
-  50% { color: yellow; }
-  100% { color: white; }
+  0% { color: #3a75bb; }
+  50% { color: white; }
+  100% { color: #3a75bb; }
 }
 @-ms-keyframes color-change {
-  0% { color: white; }
-  50% { color: yellow; }
-  100% { color: white; }
+  0% { color: #3a75bb; }
+  50% { color: white; }
+  100% { color: #3a75bb; }
 }
 @-o-keyframes color-change {
-  0% { color: white; }
-  50% { color: yellow; }
-  100% { color: white; }
+  0% { color: #3a75bb; }
+  50% { color: white; }
+  100% { color: #3a75bb; }
 }
 @keyframes color-change {
-  0% { color: white; }
-  50% { color: yellow; }
-  100% { color: white; }
+  0% { color: #3a75bb; }
+  50% { color: white; }
+  100% { color: #3a75bb; }
 }
 
-@-webkit-keyframes text-shadow-change {
-    0% { text-shadow: 0px 0px 0px yellow; }
-    50% { text-shadow: 0px 0px 1px yellow; }
-    100% { text-shadow: 0px 0px 0px yellow; }
+@-webkit-keyframes background-color-change {
+    0% { background-color: white; }
+    50% { background-color: transparent; }
+    100% { background-color: white; }
 }
-@-moz-keyframes text-shadow-change {
-  0% { text-shadow: 0px 0px 0px yellow; }
-  50% { text-shadow: 0px 0px 1px yellow; }
-  100% { text-shadow: 0px 0px 0px yellow; }
+@-moz-keyframes background-color-change {
+  0% { background-color: white; }
+  50% { background-color: transparent; }
+  100% { background-color: white; }
 }
-@-ms-keyframes text-shadow-change {
-  0% { text-shadow: 0px 0px 0px yellow; }
-  50% { text-shadow: 0px 0px 1px yellow; }
-  100% { text-shadow: 0px 0px 0px yellow; }
+@-ms-keyframes background-color-change {
+  0% { background-color: white; }
+  50% { background-color: transparent; }
+  100% { background-color: white; }
 }
-@-o-keyframes text-shadow-change {
-  0% { text-shadow: 0px 0px 0px yellow; }
-  50% { text-shadow: 0px 0px 1px yellow; }
-  100% { text-shadow: 0px 0px 0px yellow; }
+@-o-keyframes background-color-change {
+  0% { background-color: white; }
+  50% { background-color: transparent; }
+  100% { background-color: white; }
 }
-@keyframes text-shadow-change {
-  0% { text-shadow: 0px 0px 0px yellow; }
-  50% { text-shadow: 0px 0px 1px yellow; }
-  100% { text-shadow: 0px 0px 0px yellow; }
+@keyframes background-color-change {
+  0% { background-color: white; }
+  50% { background-color: transparent; }
+  100% { background-color: white; }
 }
+/*
+@-webkit-keyframes border-change {
+    0% {   border: 5px solid white; }
+    50% {   border: 5px solid transparent; }
+    100% {   border: 5px solid white; }
+}
+@-moz-keyframes border-change {
+  0% {   border: 5px solid white; }
+  50% {   border: 5px solid transparent; }
+  100% {   border: 5px solid white; }
+}
+@-ms-keyframes border-change {
+  0% {   border: 5px solid white; }
+  50% {   border: 5px solid transparent; }
+  100% {   border: 5px solid white; }
+}
+@-o-keyframes border-change {
+  0% {   border: 5px solid white; }
+  50% {   border: 5px solid transparent; }
+  100% {   border: 5px solid white; }
+}
+@keyframes border-change {
+  0% {   border: 5px solid white; }
+  50% {   border: 5px solid transparent; }
+  100% {   border: 5px solid white; }
+}*/
 
 
-h2.right_right a::after {
-    border-color: #a941f4;
-    color: #a941f4;
+h2.right a::after {
+  border-color: #ff6500;
+  color: #ff6500;
+  background: black;
+  opacity: 1;
+    /*border-color: #a941f4;*/
+    /*color: #a941f4;*/
     /*background: black;*/
-    opacity: 1;
+    /*opacity: 1;*/
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
 }
 
 h2.right_right a::after {
-    border-color: #6464FF;
-    color: #6464FF;
+  border-color: yellow;
+  color: yellow;
+  background: black;
+
+
     opacity: 1;
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/

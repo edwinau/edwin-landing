@@ -309,14 +309,6 @@ p#hello, .i_believe{
   }
 }
 
-.img_contact{
-  position: absolute;
-  z-index: 0;
-  opacity: 1;
-  bottom: 0%;
-  width: 100vw;
-  height: auto;
-}
 
 .quote.embossed.container_two{
   zoom: 80%;

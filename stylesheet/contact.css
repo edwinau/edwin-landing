@@ -82,3 +82,12 @@ h4.facebook a:hover,
 h4.instagram a:hover {
     transition: all .1s ease-in-out;
 }
+
+.img_contact{
+  position: absolute;
+  z-index: 0;
+  opacity: 1;
+  bottom: 0%;
+  width: 100vw;
+  height: auto;
+}
