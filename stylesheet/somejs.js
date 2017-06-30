@@ -92,7 +92,7 @@ $(document).ready(function(){
 
       $('html, body').animate({
           scrollTop: $('#quoteelon').offset().top
-        }, 4150);
+        }, 2750);
       $('html, body').animate({
           scrollTop: $('#carousel').offset().top
       }, 1750);
