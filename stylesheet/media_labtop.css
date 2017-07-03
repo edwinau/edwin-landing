@@ -348,6 +348,21 @@
     display: block;
   }
 
+  .container-fluid.ninetywidth{
+    transform: rotate(90deg);
+    width: 90vh;
+    margin-left: -50%;
+  }
+
+  #carousel{
+    overflow: hidden;
+  }
+
+  .carousel-inner{
+    height: 90vh;
+  }
+
+
   .img_contact{
     zoom: 300%;
     margin-left: -70%;
@@ -362,7 +377,6 @@
     width: 105%;
   }
 
-
   h4.email{
     position: absolute;
     top: 160px;
@@ -374,17 +388,6 @@
     width: 100%;
     margin-left: 10%;
   }
-
-  #carousel{
-    transform: rotate(-90deg);
-    zoom: 135%;
-    margin-top: -5%;
-  }
-
-    .portfolio_images{
-      margin-top: 35%;
-      z-index: 0;
-    }
 
   #toTop{
    letter-spacing: .3;
@@ -402,5 +405,164 @@
       /*overflow: hidden;*/
   }
 
+}
+
+/*iphoneplus vertical*/
+
+@media (max-width:414px){
+
+  .container_three{
+    display: none;
+  }
+
+  .container_one.intro{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img_intrograss{
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    bottom: 0%;
+    right: -30%;
+    zoom: 250%;
+    height: auto;
+  }
+
+  .img_introcloud1{
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    top: 55%;
+    left:0;
+    width: 75vw;
+    height: auto;
+    animation: cloud1 500s linear;
+    transition: ease;
+  }
+
+  .img_introcloud2{
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    top: 3%;
+    width: 75vw;
+    height: auto;
+    animation: cloud2 100s linear;
+  }
+
+  .img_introcloud3{
+    position: absolute;
+    z-index: 0;
+    opacity: 1;
+    top: 3%;
+    right:0;
+    width: 40vw;
+    height: auto;
+    animation: cloud3 500s linear;
+  }
+
+
+  @keyframes cloud1{
+    0% {
+      left: 0%;
+    }
+    100% {
+      left: 100vw;
+    }
+  }
+
+  @keyframes cloud2{
+    0% {
+      left: -67vw;
+    }
+    100% {
+      left: 100vw;
+    }
+  }
+
+  @keyframes cloud3{
+    0% {
+      right: 0%;
+    }
+    100% {
+      right: -100vw;
+    }
+  }
+
+  h1 {
+    font-size: 14vw;
+  }
+
+  h2.left.button-row{
+    margin-left: 0%;
+  }
+
+  h2.right_right.button-row{
+    margin-right: 0%;
+  }
+
+  h2.button-row {
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .15em;
+    font-size: 1vw;
+    font-weight: bold;
+    display: block;
+  }
+
+  .container_three{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: middle;
+    height: 60px;
+  }
+
+  div.img_relative.labtop{
+    height: 100vh;
+  }
+
+  p#hello{
+    margin-top: 0%;
+  }
+
+  .img_labtop{
+    top: -6.25%;
+  }
+
+  .img_plant{
+    left: 0%;
+  }
+
+  h4.email{
+    left: -50px;
+    zoom:160%;
+    top: 100px;
+  }
+
+  h4 a,
+  h4 > a:visited,
+  h4 > a:link,
+  h4 > a:active{
+    padding: 10px 20px 20px 20px;
+    opacity: 1;
+    font-size: 3vw;
+    text-transform: lowercase;
+  }
+
+  .container_contacts{
+    margin-left: 17%;
+  }
+
+  .container_three{
+    display: none;
+  }
 
 }
