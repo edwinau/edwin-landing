@@ -350,8 +350,8 @@
 
   .container-fluid.ninetywidth{
     transform: rotate(-90deg);
-    width: 90vh;
-    margin-left: -10%;
+    width: 100vh;
+    /*margin-left: -10%;*/
   }
 
   #carousel{
