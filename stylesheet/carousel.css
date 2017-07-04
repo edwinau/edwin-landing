@@ -32,11 +32,6 @@
 
 .carousel-inner{
   width: 80%;
-  margin-left: 10%;
-}
-
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img{
-    margin:auto;
-    padding: 0px;
+  /*margin-left: 10%;*/
+  padding: 0px;
 }
