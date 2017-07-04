@@ -32,7 +32,7 @@
   left:0;
   width: 30vw;
   height: auto;
-  animation: cloud1 1000s linear;
+  animation: cloud1 2000s linear;
   transition: ease;
 }
 
@@ -43,7 +43,7 @@
   top: 3%;
   width: 50vw;
   height: auto;
-  animation: cloud2 200s linear;
+  animation: cloud2 2000s linear;
 }
 
 .img_introcloud3{
@@ -54,7 +54,7 @@
   right:0;
   width: 40vw;
   height: auto;
-  animation: cloud3 500s linear;
+  animation: cloud3 2000s linear;
 }
 
 .img_introcloud4{
@@ -64,7 +64,7 @@
   top: 25%;
   width: 50vw;
   height: auto;
-  animation: cloud4 200s linear;
+  animation: cloud4 400s linear;
 }
 
 
