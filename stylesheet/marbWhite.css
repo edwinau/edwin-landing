@@ -453,3 +453,10 @@ h2.right_right a::after {
   color: ivory;
   opacity: .5;
 }
+
+.staytuned{
+  font-size: 2vw;
+  color: white;
+  font-weight: bold;
+  opacity: .5
+}
