@@ -86,16 +86,16 @@ $(document).ready(function(){
 
 // smooth scoll portfolio
   $('h2.center.button-row').click(function() {
-    $('html, body').animate({
-        scrollTop: $('#quoteelon').offset().top
-      }, 1500);
-
-      $('html, body').animate({
-          scrollTop: $('#quoteelon').offset().top
-        }, 2750);
+    // $('html, body').animate({
+    //     scrollTop: $('#quoteelon').offset().top
+    //   }, 1500);
+    //
+    //   $('html, body').animate({
+    //       scrollTop: $('#quoteelon').offset().top
+    //     }, 2750);
       $('html, body').animate({
           scrollTop: $('#carousel').offset().top
-      }, 1750);
+      }, 2750);
     });
 
 // smooth scroll contactme
@@ -149,7 +149,7 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
   $('#toTop').click(function() {
     $('html, body').animate({
         scrollTop: $('#backtotop').offset().top
-    }, 1000);
+    }, 2000);
   });
 
 
