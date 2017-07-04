@@ -9,7 +9,7 @@
   margin: auto;
   width: 100vw;
   /*position: absolute;*/
-  top: 200px;
+  /*top: 200px;*/
 }
 
 /*Carol*/
@@ -21,7 +21,7 @@
 .portfolio_images{
   width: 100%;
   margin: auto;
-  zoom: 105%;
+  /*zoom: 105%;*/
   overflow-x: hidden;
 }
 
@@ -32,6 +32,6 @@
 
 .carousel-inner{
   width: 80%;
-  /*margin-left: 10%;*/
+  margin-left: 10%;
   padding: 0px;
 }
