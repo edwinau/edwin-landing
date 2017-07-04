@@ -127,7 +127,8 @@
 
   .carousel-inner{
     width: 85%;
-    margin-left: 7.25%;
+    /*margin-left: 7.25%;*/
+    padding: 0px;
   }
 
   .container_contacts{
@@ -350,8 +351,8 @@
 
   .container-fluid.ninetywidth{
     transform: rotate(-90deg);
-    width: 100vh;
-    /*margin-left: -10%;*/
+    width: 90vh;
+    margin-left: -5%;
   }
 
   #carousel{
