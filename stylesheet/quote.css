@@ -72,7 +72,7 @@ p#hello, .i_believe{
   }
 
 .quotenone{
-  animation: clipnone 8s linear infinite;
+  animation: clipnone 14s linear infinite;
 }
 @-webkit-keyframes clipnone{
   0% {
@@ -99,7 +99,7 @@ p#hello, .i_believe{
 }
 
 .quotenone{
-  animation: clipnone 8s linear infinite;
+  animation: clipnone 14s linear infinite;
 }
 @-webkit-keyframes clipnone{
   0% {
@@ -129,7 +129,7 @@ p#hello, .i_believe{
   color: #fbff96;
 }
 .quotenone{
-  animation: clipnone 8s linear infinite;
+  animation: clipnone 14s linear infinite;
 }
 @-webkit-keyframes clipnone{
   0% {
@@ -160,7 +160,7 @@ p#hello, .i_believe{
 
 }
 .quoteone{
-  animation: clipone 8s linear infinite;
+  animation: clipone 14s linear infinite;
 }
 @-webkit-keyframes clipone{
   0% {
@@ -187,7 +187,7 @@ p#hello, .i_believe{
   color: #A2C523;
 }
 .quotetwo{
-  animation: cliptwo 8s linear infinite;
+  animation: cliptwo 14s linear infinite;
 }
 @-webkit-keyframes cliptwo{
   0% {
@@ -214,7 +214,7 @@ p#hello, .i_believe{
   color: #FF420E;
 }
 .quotethree{
-  animation: Clippingthree 8s linear infinite;
+  animation: Clippingthree 14s linear infinite;
 }
 @-webkit-keyframes Clippingthree{
   0% {
@@ -241,7 +241,7 @@ p#hello, .i_believe{
   color: #C4DFE6;
 }
 .quotefour{
-  animation: Clippingfour 8s linear infinite;
+  animation: Clippingfour 14s linear infinite;
 }
 @-webkit-keyframes Clippingfour{
   0% {

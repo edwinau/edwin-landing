@@ -157,5 +157,10 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 //touch same as hover
   $('body').bind('touchstart', function() {});
 
+//carousel pause
+  $('.carousel').carousel({
+      pause: "true"
+  });
+
 
 });
