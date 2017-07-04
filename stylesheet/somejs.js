@@ -159,7 +159,7 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 
 //carousel pause
   $('.carousel').carousel({
-      pause: "true"
+      pause: "false"
   });
 
 

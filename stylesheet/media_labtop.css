@@ -349,9 +349,9 @@
   }
 
   .container-fluid.ninetywidth{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
     width: 90vh;
-    margin-left: -50%;
+    margin-left: -10%;
   }
 
   #carousel{
@@ -536,7 +536,7 @@
   }
 
   .img_labtop{
-    top: -6.25%;
+    top: -7%;
   }
 
   .img_plant{
@@ -545,7 +545,7 @@
 
   h4.email{
     left: -50px;
-    zoom:160%;
+    zoom:20%;
     top: 100px;
   }
 
