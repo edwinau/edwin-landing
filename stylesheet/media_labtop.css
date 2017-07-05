@@ -152,6 +152,19 @@
     margin-right: 9%;
   }
 
+  #take_me_there{
+    font-size: 1.25vw;
+    width: 30%;
+    margin: 0px auto 0px auto;
+
+  }
+
+  .rendezverbage{
+    font-size: 1.0vw;
+    margin: 2% auto 8% auto;
+    width: 90%;
+  }
+
 }
 
 /*ipad horizontal*/
@@ -567,5 +580,38 @@
   .container_three{
     display: none;
   }
+
+  .rendezlogo{
+    margin-top: 3%;
+    margin-bottom: 0%;
+    display: block;
+    font-size: 10vw;
+ }
+
+ .row.rendez{
+   margin-top: 20%;
+ }
+
+ .img_rendez{
+   width: 100vw;
+   height: auto;
+ }
+
+ .col-md-6.img{
+   height: 30vh;
+ }
+
+ .col-md-6.rendezdes{
+   height: 57vh;
+ }
+
+ .rendezverbage{
+   font-size: 3.25vw;
+ }
+
+ #take_me_there{
+   font-size: 3.5vw;
+   width: 42%;
+ }
 
 }
