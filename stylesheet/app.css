@@ -59,6 +59,8 @@
 
 .img_relative.rendez{
   height: 100vh;
+  overflow: hidden;
+
 }
 
 .col-md-6.rendezdes{
@@ -81,7 +83,7 @@
   overflow: hidden;
 }
 
-.take_me_there{
+#take_me_there{
   position: relative;
   display: block;
   width: 20%;
@@ -100,18 +102,18 @@
 #cycler img{position:absolute;z-index:1}
 #cycler img.active{z-index:3}
 
-a,
-.rendeztake a:visited,
-.rendeztake a:active,
-.rendeztake a:link{
+#take_me_there:hover,
+.rendeztake.take_me_there a:visited,
+.rendeztake.take_me_there a:active,
+.rendeztake.take_me_there a:link{
   text-decoration: none;
   color: white;
   transition: all .2s ease-in-out;
 
 }
 
-a:hover,
-.rendeztake a:hover{
+#take_me_there:hover,
+.rendeztake.take_me_there a:hover{
   background-color: green;
   border: 2px solid green;
   transform: scale(1.05);
