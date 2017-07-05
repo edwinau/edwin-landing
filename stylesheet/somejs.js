@@ -113,10 +113,18 @@ $(document).ready(function(){
           scrollTop: $('#contactme').offset().top
       }, 2000);
     });
+
 // smooth scroll quote
   $('h1.topname').click(function() {
       $('html, body').animate({
           scrollTop: $('#quoteelon').offset().top
+      }, 2000);
+    });
+
+// smooth scroll rendezyou
+  $('h2.right.button-row').click(function() {
+      $('html, body').animate({
+          scrollTop: $('#rendezlogo').offset().top
       }, 2000);
     });
 
@@ -160,13 +168,12 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
       }
   });
 
-// smooth scroll quote
+// smooth scroll totop
   $('#toTop').click(function() {
     $('html, body').animate({
         scrollTop: $('#backtotop').offset().top
     }, 2000);
   });
-
 
 
 //touch same as hover
