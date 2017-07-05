@@ -83,7 +83,10 @@
   height: 50vh;
   overflow: hidden;
 }
-
+#take_me_there_iphone{
+  display: none;
+  }
+  
 #take_me_there{
   position: relative;
   display: block;
@@ -103,6 +106,8 @@
 #cycler img{position:absolute;z-index:1}
 #cycler img.active{z-index:3}
 
+
+#take_me_there_iphone:hover,
 #take_me_there:hover,
 .rendeztake.take_me_there a:visited,
 .rendeztake.take_me_there a:active,
@@ -113,6 +118,7 @@
 
 }
 
+#take_me_there_iphone:hover,
 #take_me_there:hover,
 .rendeztake.take_me_there a:hover{
   background-color: green;

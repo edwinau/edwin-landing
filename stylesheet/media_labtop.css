@@ -152,6 +152,10 @@
     margin-right: 9%;
   }
 
+  #take_me_there_iphone{
+    display: none;
+  }
+
   #take_me_there{
     font-size: 1.25vw;
     font-family: aller;
@@ -610,11 +614,34 @@
    font-size: 3.25vw;
  }
 
+ #take_me_there_iphone{
+   display: inherit;
+   font-size: 3.5vw;
+   width: 42%;
+   font-family: aller;
+   padding: 10px;
+   border: 1px solid white;
+   margin: auto;
+   text-align: center;
+   color: white;
+   letter-spacing: 1.1;
+   border-radius: 20px;
+ }
+
  #take_me_there{
    font-size: 3.5vw;
    width: 42%;
    font-family: aller;
+   padding: 10px;
+   border: 1px solid white;
  }
+
+ #take_me_there_iphone:hover,
+ #take_me_there:hover,
+ .rendeztake.take_me_there a:hover{
+   border: 1px solid green;
+ }
+
  h1 {
    line-height: 1.45;
  }
