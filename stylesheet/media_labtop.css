@@ -154,6 +154,7 @@
 
   #take_me_there{
     font-size: 1.25vw;
+    font-family: aller;
     width: 30%;
     margin: 0px auto 0px auto;
 
@@ -612,6 +613,10 @@
  #take_me_there{
    font-size: 3.5vw;
    width: 42%;
+   font-family: aller;
+ }
+ h1 {
+   line-height: 1.45;
  }
 
 }
