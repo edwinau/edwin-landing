@@ -26,7 +26,7 @@
   width: 100%;
   display: inline;
   position: absolute;
-  height: 50vh;
+  height: 51vh;
   object-fit: cover;
 }
 
@@ -74,19 +74,19 @@
   justify-content: center;
   vertical-align: middle;
   background-color: rgba(0,0,0,.3);
-  height: 50vh;
+  height: 51vh;
 }
 
 .col-md-6.img{
   padding-left: 0px;
   padding-right: 0px;
-  height: 50vh;
+  height: 51vh;
   overflow: hidden;
 }
 #take_me_there_iphone{
   display: none;
   }
-  
+
 #take_me_there{
   position: relative;
   display: block;
