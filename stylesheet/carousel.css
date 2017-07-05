@@ -21,6 +21,7 @@
 .container_relative{
   position: relative;
   width: 100vw;
+  overflow: hidden;
 }
 
 .carousel-inner{
