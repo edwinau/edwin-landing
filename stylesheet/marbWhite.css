@@ -440,7 +440,7 @@ h2.right_right a::after {
     bottom: 5%;
     right: 5%;
     display: none;
-    z-index: 5000;
+    z-index: 8000;
     text-shadow: 0 0 3px black;
 }
 
@@ -452,4 +452,5 @@ h2.right_right a::after {
   text-decoration: none;
   color: ivory;
   opacity: .5;
+  z-index: 8000;
 }
