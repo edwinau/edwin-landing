@@ -5,16 +5,13 @@
   /*font-weight: bold;*/
   opacity: 1;
   text-align: right;
-  margin-top: -6%;
+  margin-top: -4%;
   background-color: black;
   float: right;
   padding: 1.5% 4% 1.5% 3%;
   font-style: italic;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-
-
-
 }
 
 .container_two.rendez{
@@ -33,7 +30,7 @@
 .rendezverbage{
   font-size: .75vw;
   display: inline;
-  color: white;
+  color: black;
   font-family: arial;
   line-height: 1.5;
   width: 80%;
@@ -44,6 +41,10 @@
 
 .yellow{
   color: #ffc800;
+}
+
+.red{
+  color: red;
 }
 
 .italics{
@@ -73,7 +74,7 @@
   padding-right: 0px;
   justify-content: center;
   vertical-align: middle;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0,0,0,.1);
   height: 51vh;
 }
 
@@ -94,12 +95,15 @@
   margin: 70px auto 10px auto;
   text-align: center;
   padding: 20px;
-  border: 2px solid white;
-  font-size: 1vw;
+  /*border: 2px solid black;*/
+  border: 2px solid green;
+  background: green;
   color: white;
+  font-size: 1vw;
   font-family: aller;
   letter-spacing: 1.1;
   border-radius: 20px;
+  transition: all .2s ease-in-out;
 }
 
 #cycler{position:relative;}
@@ -114,8 +118,6 @@
 .rendeztake.take_me_there a:link{
   text-decoration: none;
   color: white;
-  transition: all .2s ease-in-out;
-
 }
 
 #take_me_there_iphone:hover,
