@@ -28,11 +28,11 @@
   position: absolute;
   z-index: 0;
   opacity: 1;
-  top: 35%;
+  top: 43%;
   left:0;
-  width: 30vw;
+  width: 20vw;
   height: auto;
-  animation: cloud1 2000s linear;
+  animation: cloud1 140s linear;
   transition: ease;
 }
 
@@ -43,7 +43,7 @@
   top: 3%;
   width: 50vw;
   height: auto;
-  animation: cloud2 2000s linear;
+  animation: cloud2 100s linear;
 }
 
 .img_introcloud3{
@@ -54,7 +54,7 @@
   right:0;
   width: 40vw;
   height: auto;
-  animation: cloud3 2000s linear;
+  animation: cloud3 140s linear;
 }
 
 .img_introcloud4{
@@ -64,7 +64,7 @@
   top: 25%;
   width: 50vw;
   height: auto;
-  animation: cloud4 400s linear;
+  animation: cloud4 100s linear;
 }
 
 

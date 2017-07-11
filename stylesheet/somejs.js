@@ -84,7 +84,9 @@ function flickeremail() {
 
 
 
+
 $(document).ready(function(){
+
 
 // smooth scroll CV
   $('h2.left.button-row').click(function() {
