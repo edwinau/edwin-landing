@@ -33,3 +33,18 @@
 #carousel{
   overflow: hidden;
 }
+
+.carousel-inner>.item::before{
+  height: 100vh;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.container_carousel{
+  overflow: hidden;
+
+}

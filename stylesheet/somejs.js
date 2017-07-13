@@ -182,9 +182,9 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
   $('body').bind('touchstart', function() {});
 
 //carousel pause
-  $('.carousel').carousel({
-      pause: "false"
-  });
+  // $('.carousel').carousel({
+  //     pause: "false"
+  // });
 
 
 });
