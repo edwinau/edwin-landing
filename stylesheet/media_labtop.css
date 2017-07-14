@@ -536,6 +536,7 @@
 
   h1 {
     font-size: 14vw;
+    line-height: 1.15;
   }
 
   h2.left.button-row{
@@ -606,15 +607,20 @@
     display: none;
   }
 
+  .container-fluid.ninetywidth{
+    margin-left: -10%;
+  }
+
   .rendezlogo{
-    margin-top: 3%;
-    margin-bottom: 0%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     display: block;
     font-size: 10vw;
+    padding: 3%;
  }
 
  .row.rendez{
-   margin-top: 20%;
+   margin-top: 23%;
  }
 
  .img_rendez{
@@ -640,12 +646,13 @@
    width: 42%;
    font-family: aller;
    padding: 10px;
-   border: 1px solid white;
+   border: 1px solid green;
    margin: -15px auto 10px auto;
    text-align: center;
    color: white;
    letter-spacing: 1.1;
    border-radius: 20px;
+   background: green;
  }
 
  #take_me_there{
@@ -653,7 +660,7 @@
    width: 42%;
    font-family: aller;
    padding: 10px;
-   border: 1px solid white;
+   border: 1px solid green;
  }
 
  #take_me_there_iphone:hover,
@@ -662,8 +669,11 @@
    border: 1px solid green;
  }
 
- h1 {
-   line-height: 1.45;
+ h4.instagram,
+ h4.email,
+ h4.facebook,
+ h4.linkedin{
+   font-size: 130%;
  }
 
 }
