@@ -248,7 +248,7 @@
   }
 
   img.resume_pdf{
-    width: 95%;
+    width: 92%;
   }
 
   .portfolio_images{
@@ -581,6 +581,10 @@
 
   .img_plant{
     left: 0%;
+  }
+
+  img.resume_pdf{
+    width: 105%;
   }
 
   h4.email{
