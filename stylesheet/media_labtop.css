@@ -608,7 +608,7 @@
   }
 
   .container-fluid.ninetywidth{
-    margin-left: -10%;
+    margin-left: -7.5%;
   }
 
   .rendezlogo{
@@ -640,6 +640,10 @@
    font-size: 3.25vw;
  }
 
+ .container_contacts{
+  width: 150%;
+ }
+
  #take_me_there_iphone{
    display: inherit;
    font-size: 3.5vw;
@@ -669,11 +673,11 @@
    border: 1px solid green;
  }
 
- h4.instagram,
- h4.email,
- h4.facebook,
- h4.linkedin{
-   font-size: 130%;
+ .instagram,
+ .email,
+ .facebook,
+ .linkedin{
+   zoom: 200%;
  }
 
 }
