@@ -674,10 +674,14 @@
  }
 
  .instagram,
- .email,
  .facebook,
  .linkedin{
-   zoom: 200%;
+   font-size: 450%;
  }
+
+ .email{
+   zoom: 110%;
+ }
+
 
 }
