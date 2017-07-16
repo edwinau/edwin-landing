@@ -681,11 +681,15 @@
  .facebook,
  .linkedin{
    font-size: 450%;
+   transition: all .1s ease-in-out;
+
  }
 
  .email{
    zoom: 110%;
    margin-left: -3%;
+   transition: all .1s ease-in-out;
+
  }
 
 
