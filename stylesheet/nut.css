@@ -35,7 +35,7 @@
 
 .resume_pdf{
   text-align: right;
-  width: 80%;
+  width: 70%;
   height: auto;
   box-shadow: 6px 6px 6px black;
   -webkit-transform:scale(1); /* Safari and Chrome */
@@ -53,11 +53,11 @@ div.img_relative.labtop{
 }
 
 img.resume_pdf:hover{
-  -webkit-transform:scale(1.1); /* Safari and Chrome */
-  -moz-transform:scale(1.1); /* Firefox */
-  -ms-transform:scale(1.1); /* IE 9 */
-  -o-transform:scale(1.1); /* Opera */
-   transform:scale(1.1);
+  -webkit-transform:scale(1.05); /* Safari and Chrome */
+  -moz-transform:scale(1.05); /* Firefox */
+  -ms-transform:scale(1.05); /* IE 9 */
+  -o-transform:scale(1.05); /* Opera */
+   transform:scale(1.05);
    transition: transform .3s;
    transition-timing-function: ease-in-out;
 }
