@@ -105,7 +105,7 @@
   }
 
   img.resume_pdf{
-    width: 98%;
+    width: 70%;
   }
 
   p#hello{
@@ -127,9 +127,7 @@
   }
 
   .img_labtop{
-    zoom: 30%;
-    bottom: -20%;
-    left: -5%;
+    zoom: 20%;
     z-index: 5000;
   }
 
@@ -577,6 +575,8 @@
 
   .img_labtop{
     top: -7%;
+    overflow:hidden;
+	 zoom: 10%;
   }
 
   .img_plant{
@@ -691,6 +691,4 @@
    transition: all .1s ease-in-out;
 
  }
-
-
 }
