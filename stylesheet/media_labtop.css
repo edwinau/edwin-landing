@@ -191,6 +191,7 @@
 }
 
 /*ipad horizontal*/
+
 @media (max-width:1024px){
 
   h1 a:hover,
@@ -241,7 +242,7 @@
 
 
 
- 
+ /*
 
   .portfolio_images{
     margin-top: 5%;
@@ -253,7 +254,7 @@
    overflow: hidden;
    width: 100%;
    margin-left: 0;
-  }
+  } */
 
   .container-fluid{
     padding-left: 0px;
@@ -610,7 +611,10 @@ div.img_relative.labtop{
     margin-bottom: 2%;
     display: block;
     font-size: 8vw;
-    padding: 1%;
+    padding: 3%;
+	  border-top-right-radius: 20px;
+	  	  border-bottom-right-radius: 20px;
+
  }
 
  .row.rendez{
@@ -674,8 +678,8 @@ div.img_relative.labtop{
 	
 h4.email{
 	margin: auto;
-	left: 10vw;
-	top:5%;
+	left: -2.5vw;
+	top:12.5%;
    transition: all .1s ease-in-out;}
 
 
@@ -705,11 +709,11 @@ h4.email{
 	
   .container_two.contact{
     width: 100%;
-    margin-left: 0%;
+    margin-left: -12.5vw;
   }
 	
 .img_contact{
-    zoom: 300%;
+	transform: scale(1.9);
 	right: 0;
 	
   }
