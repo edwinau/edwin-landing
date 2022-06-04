@@ -486,7 +486,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 45vw;
-    height: 220px;
+    height: 225px;
   }	
 	
   .img_intrograss{
@@ -494,8 +494,6 @@
     z-index: 0;
     opacity: 1;
     bottom: 0;
-    left: -30vh;
-    zoom: 300%;
     height: auto;
   }
 
@@ -551,19 +549,17 @@ h1 {
 	margin-bottom: 30px;
   }
 
-
-
-	
   h2.left.button-row{
-	      font-size: 4vw;
-    margin-left: 0%;  }
+	font-size: 4vw;
+    margin-left: -5vw;  }
 
   h2.right_right.button-row{
 	font-size: 4vw;
-    margin-left: 0px;
+    margin-left: 0%;
   }
 
 h2.button-row{
+	margin-left: 0px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -573,7 +569,7 @@ h2.button-row{
     font-weight: bold;
     display: block;
 	width: 35vw;
-	margin-left: 0px;
+	margin-left: -5vw;  
 	}
 	
 h2.button-row > a::before, h2.button-row > a::after{
