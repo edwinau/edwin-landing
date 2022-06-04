@@ -444,12 +444,17 @@
 
 /*iphoneplus vertical*/
 
-@media (max-width:414px){
+@media (max-width:500px){
 
   .container_one.intro{
-    width: 100vw;
-    height: 100vh;
-    position: relative;
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    vertical-align: middle;
+	width: 45vw;
+    height: 50vh;
     overflow: hidden;
   }
 
@@ -536,9 +541,20 @@ h1 {
 	align-items: center;
     vertical-align: middle;
 	width: 45vw;
-    height: 60px;
+    height: 60vh;
   }
 
+	 .container_two{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    vertical-align: middle;
+	width: 45vw;
+    height: 50vh;
+  }
+	
   div.img_relative.labtop{
     height: 100vh;
   }
