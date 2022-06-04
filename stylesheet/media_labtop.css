@@ -494,7 +494,7 @@
     z-index: 0;
     opacity: 1;
     bottom: 0;
-    right: 0;
+    left: -30vh;
     zoom: 300%;
     height: auto;
   }
@@ -543,16 +543,27 @@ h1 {
     font-size: 12vw;
     line-height: 1.15;
   }
-
-  h2.left.button-row{
-    margin-left: 0%;
+	
+	h1.edwinname {
+    font-size: 12vw;
+    line-height: 1.15;
+	margin-top: -20px;
+	margin-bottom: 30px;
   }
+
+
+
+	
+  h2.left.button-row{
+	      font-size: 4vw;
+    margin-left: 0%;  }
 
   h2.right_right.button-row{
-    margin-right: 0%;
+	font-size: 4vw;
+    margin-left: 0px;
   }
 
-  h2.button-row {
+h2.button-row{
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -562,8 +573,8 @@ h1 {
     font-weight: bold;
     display: block;
 	width: 35vw;
-
-  }
+	margin-left: 0px;
+	}
 	
 h2.button-row > a::before, h2.button-row > a::after{
 		width: 40vw;
