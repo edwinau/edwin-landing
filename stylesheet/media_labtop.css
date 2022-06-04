@@ -458,6 +458,7 @@
 	width: 35vw;
     height: 50vh;
     overflow: hidden;
+	background: 50vh;
   }
 
   .img_intrograss{
@@ -548,7 +549,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 	align-items: center;
     vertical-align: middle;
 	width: 45vw;
-    height: 50vh;
+    height: 40vh;
   }	
 	
 .container_three{
@@ -620,8 +621,8 @@ div.img_relative.labtop{
     margin-top: 2%;
     margin-bottom: 2%;
     display: block;
-    font-size: 10vw;
-    padding: 3%;
+    font-size: 8vw;
+    padding: 1%;
  }
 
  .row.rendez{
