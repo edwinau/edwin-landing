@@ -364,10 +364,9 @@
   }
 
   .container-fluid.ninetywidth{
-	  display: none;
-/*    transform: rotate(-90deg);
-    width: 90vh;
-    margin-left: -5%;*/
+    /*transform: rotate(-90deg);*/
+    width: 110vw;
+	  zoom: 150%;
   }
 
   #carousel{
@@ -375,7 +374,7 @@
   }
 
   .carousel-inner{
-    height: 90vh;
+    height: 35vh;
   }
 
 
