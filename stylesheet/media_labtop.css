@@ -237,21 +237,11 @@
     font-size: 1.5vw;
   }
 
-  .img_plant{
-    bottom: 3%;
-    left: 22%;
-  }
 
-  .img_labtop{
-    zoom: 23%;
-    bottom: -15%;
-    left: 0%;
-    z-index: 5000;
-  }
 
-  img.resume_pdf{
-    width: 92%;
-  }
+
+
+ 
 
   .portfolio_images{
     margin-top: 5%;
@@ -297,25 +287,6 @@
     letter-spacing: .3;
     font-weight: bold;
     font-size: 4vw;
-  }
-
-  .container_one.contactpage{
-    overflow: hidden;
-  }
-
-  .img_contact{
-    zoom: 150%;
-  }
-
-  .container_contacts{
-    zoom: 104%;
-    width: 105%;
-  }
-	
-
-
-  h4.email{
-    padding-top: 2%;
   }
 
 }
@@ -610,12 +581,13 @@ div.img_relative.labtop{
   h4 > a:visited,
   h4 > a:link,
   h4 > a:active{
-    padding: 10px 20px 20px 20px;
+    /*padding: 10px 20px 20px 20px;*/
     opacity: 1;
-    font-size: 3vw;
+    font-size: 5vw;
     text-transform: lowercase;
   }
 
+	
   .container_contacts{
 	position: relative;
     display: flex;
@@ -623,10 +595,8 @@ div.img_relative.labtop{
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-	width: 45vw;
     height: 250px;
-    zoom: 150%;
-    width: 105%;
+    width: 100%;
 }
 
 
@@ -732,6 +702,11 @@ h4.email{
     overflow: hidden;
     display: block;
   }	
+	
+  .container_two.contact{
+    width: 100%;
+    margin-left: 0%;
+  }
 	
 .img_contact{
     zoom: 300%;
