@@ -293,7 +293,7 @@
     zoom: 100%;
   }
 
-  #toTop{
+  #totop{
     letter-spacing: .3;
     font-weight: bold;
     font-size: 4vw;
@@ -311,6 +311,8 @@
     zoom: 104%;
     width: 105%;
   }
+	
+
 
   h4.email{
     padding-top: 2%;
@@ -431,7 +433,7 @@
     margin-left: 10%;
   }
 
-  #toTop{
+  #totop{
    letter-spacing: .3;
    font-weight: bold;
    font-size: 6vw;
@@ -622,8 +624,10 @@ div.img_relative.labtop{
 	align-items: center;
     vertical-align: middle;
 	width: 45vw;
-    height: 60px;
-	}
+    height: 250px;
+    zoom: 150%;
+    width: 105%;
+}
 
 
 
@@ -691,27 +695,51 @@ div.img_relative.labtop{
    border: 1px solid green;
  }
 	
-	#labtopresumewidth {
+#labtopresumewidth {
 		margin-left: 5vw;
 	}
 	
 #totop 
 	{display: none;}
+	
+h4.email{
+	margin: auto;
+	left: 10vw;
+	top:5%;
+   transition: all .1s ease-in-out;}
 
- .instagram,
- .facebook,
- .linkedin{
-   font-size: 450%;
-   transition: all .1s ease-in-out;
- }
 
+	
+	
+  h4.linkedin{
+    margin-right: 0%;
+	transition: all .1s ease-in-out;
+  }
+
+  h4.facebook{
+    margin-right: 0%;
+	transition: all .1s ease-in-out;
+
+  }
+
+  h4.instagram{
+    margin-right: 0%;
+	transition: all .1s ease-in-out;
+  }	
+	
+
+.container_one.contactpage{
+    overflow: hidden;
+    display: block;
+  }	
+	
 .img_contact{
-    zoom: 150%;
+    zoom: 300%;
 	right: 0;
 	
   }
 	
-h4.email{
-	margin: auto;
-   transition: all .1s ease-in-out;}
+	
+
+
 }
