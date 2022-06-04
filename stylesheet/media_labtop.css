@@ -395,7 +395,7 @@
   h4.email{
     position: absolute;
     top: 160px;
-    left: -180px;
+    left: 0%;
     font-size: 105%;
   }
 
@@ -640,7 +640,8 @@ div.img_relative.labtop{
 
 
  #take_me_there_iphone{
-   display: inherit;
+	 display: none;}
+/*display: inherit;
    font-size: 3.5vw;
    width: 42%;
    font-family: aller;
@@ -651,22 +652,22 @@ div.img_relative.labtop{
    color: white;
    letter-spacing: 1.1;
    border-radius: 20px;
-   background: green;
- }
+	 background: green;
+ }*/
 
  #take_me_there{
-   font-size: 3.5vw;
+	 display: none;}
+/*font-size: 3.5vw;
    width: 42%;
    font-family: aller;
    padding: 10px;
-   border: 1px solid green;
- }
+   border: 1px solid green; */
 
  #take_me_there_iphone:hover,
  #take_me_there:hover,
  .rendeztake.take_me_there a:hover{
-   border: 1px solid green;
- }
+	 display: none;}
+	 /*border: 1px solid green;}*/
 	
 #labtopresumewidth {
 		margin-left: 5vw;
@@ -681,7 +682,9 @@ h4.email{
 	top:12.5%;
    transition: all .1s ease-in-out;}
 
-
+  h4.email a{
+    margin-left: 0px;
+  }
 	
 	
   h4.linkedin{
