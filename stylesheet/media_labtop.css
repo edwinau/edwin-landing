@@ -462,9 +462,9 @@
     position: absolute;
     z-index: 0;
     opacity: 1;
-    bottom: 0%;
-    right: -30%;
-    zoom: 250%;
+    bottom: 0;
+    right: 0;
+    zoom: 300%;
     height: auto;
   }
 
@@ -510,7 +510,7 @@
 @keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
 
 h1 {
-    font-size: 14vw;
+    font-size: 13vw;
     line-height: 1.15;
   }
 
@@ -528,7 +528,7 @@ h1 {
     perspective: 1000px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .15em;
-    font-size: 1vw;
+    font-size: 5vw;
     font-weight: bold;
     display: block;
   }
@@ -577,7 +577,7 @@ div.img_relative.labtop{
   }
 
   img.resume_pdf{
-    width: 80%;
+    width: 90%;
   }
 
 
@@ -674,9 +674,14 @@ div.img_relative.labtop{
  .linkedin{
    font-size: 450%;
    transition: all .1s ease-in-out;
-
  }
 
+.img_contact{
+    zoom: 150%;
+	right: 0;
+	
+  }
+	
 h4.email{
 	margin: auto;
    transition: all .1s ease-in-out;}
