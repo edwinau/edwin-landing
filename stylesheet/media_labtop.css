@@ -466,6 +466,29 @@
 	background: 50vh;
   }
 
+
+.container_two{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    vertical-align: middle;
+	width: 100vw;
+    height: auto;
+  }	
+	
+.container_three{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    vertical-align: middle;
+	width: 45vw;
+    height: auto;
+  }	
+	
   .img_intrograss{
     position: absolute;
     z-index: 0;
@@ -546,27 +569,6 @@ h2.button-row > a::before, h2.button-row > a::after{
 		width: 40vw;
 		}
 
-.container_two{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-	align-items: center;
-    vertical-align: middle;
-	width: 100vw;
-    height: 20vh;
-  }	
-	
-.container_three{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-	align-items: center;
-    vertical-align: middle;
-	width: 45vw;
-    height: 60vh;
-  }
 
 	
 div.img_relative.labtop{
