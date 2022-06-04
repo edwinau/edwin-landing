@@ -104,9 +104,7 @@
     width:100%;
   }
 
-  img.resume_pdf{
-    width: 70%;
-  }
+
 
   p#hello{
     margin-top: -5%;
@@ -367,10 +365,10 @@
   }
 
   .img_labtop{
-    top: -8%;
+    top: 0px;
     transform: rotate(90deg);
     z-index: 0;
-    left: 20%;
+    left: 0px;
   }
 
   .quote.embossed.container_two{
@@ -448,10 +446,6 @@
 
 @media (max-width:414px){
 
-  .container_three{
-    display: none;
-  }
-
   .container_one.intro{
     width: 100vw;
     height: 100vh;
@@ -504,35 +498,13 @@
     animation: cloud3 500s linear;
   }
 
+@keyframes cloud1{0% {left: 0%;} 100% {left: 100vw;}}
+	
+@keyframes cloud2{0% {left: -67vw;} 100% {left: 100vw;}}
 
-  @keyframes cloud1{
-    0% {
-      left: 0%;
-    }
-    100% {
-      left: 100vw;
-    }
-  }
+@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
 
-  @keyframes cloud2{
-    0% {
-      left: -67vw;
-    }
-    100% {
-      left: 100vw;
-    }
-  }
-
-  @keyframes cloud3{
-    0% {
-      right: 0%;
-    }
-    100% {
-      right: -100vw;
-    }
-  }
-
-  h1 {
+h1 {
     font-size: 14vw;
     line-height: 1.15;
   }
@@ -559,9 +531,11 @@
   .container_three{
     position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
     vertical-align: middle;
+	width: 45vw;
     height: 60px;
   }
 
@@ -574,9 +548,9 @@
   }
 
   .img_labtop{
-    top: -7%;
+    top: 0px;
     overflow:hidden;
-	 zoom: 10%;
+	 zoom: 20%;
   }
 
   .img_plant{
@@ -604,12 +578,17 @@
   }
 
   .container_contacts{
-    margin-left: 17%;
-  }
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+    vertical-align: middle;
+	width: 45vw;
+    height: 60px;
+	}
 
-  .container_three{
-    display: none;
-  }
+
 
   .container-fluid.ninetywidth{
     margin-left: -7.5%;
@@ -644,9 +623,7 @@
    font-size: 3.25vw;
  }
 
- .container_contacts{
-  width: 150%;
- }
+
 
  #take_me_there_iphone{
    display: inherit;
@@ -687,8 +664,5 @@
 
  .email{
    zoom: 110%;
-   margin-left: -3%;
-   transition: all .1s ease-in-out;
-
- }
-}
+	 margin: auto;
+   transition: all .1s ease-in-out;}}
