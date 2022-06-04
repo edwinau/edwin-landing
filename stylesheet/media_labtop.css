@@ -127,6 +127,7 @@
   .img_labtop{
     zoom: 20%;
     z-index: 5000;
+	  bottom: 0%;
   }
 
   .medialabtopnone{
@@ -384,9 +385,10 @@
   }
 
   .container-fluid.ninetywidth{
-    transform: rotate(-90deg);
+	  display: none;
+/*    transform: rotate(-90deg);
     width: 90vh;
-    margin-left: -5%;
+    margin-left: -5%;*/
   }
 
   #carousel{
@@ -453,7 +455,7 @@
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-	width: 45vw;
+	width: 35vw;
     height: 50vh;
     overflow: hidden;
   }
@@ -501,16 +503,15 @@
     opacity: 1;
     top: 3%;
     right:0;
-    width: 40vw;
+    width: 35vw;
     height: auto;
     animation: cloud3 500s linear;
   }
-	
 
 @keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
 
 h1 {
-    font-size: 13vw;
+    font-size: 12vw;
     line-height: 1.15;
   }
 
@@ -528,10 +529,16 @@ h1 {
     perspective: 1000px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .15em;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: bold;
     display: block;
+	width: 35vw;
+
   }
+	
+h2.button-row > a::before, h2.button-row > a::after{
+		width: 40vw;
+		}
 
 .container_two{
     position: relative;
