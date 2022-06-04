@@ -5,6 +5,11 @@
 /*labtop*/
 @media (max-width:2480px){
 
+  .container_one.intro{
+	  width: 100vw;
+	  height: 100vh;
+	}
+	
   h1 a,
   h1 a:visited,
   h1 a:link,
@@ -455,8 +460,8 @@
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-	width: 35vw;
-    height: 50vh;
+	width: 100vw;
+    height: 70vh;
     overflow: hidden;
 	background: 50vh;
   }
