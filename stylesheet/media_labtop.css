@@ -461,7 +461,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 100vw;
-    height: 70vh;
+    height: 85vh;
     overflow: hidden;
 	background: 50vh;
   }
@@ -553,8 +553,8 @@ h2.button-row > a::before, h2.button-row > a::after{
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-	width: 45vw;
-    height: 40vh;
+	width: 100vw;
+    height: 20vh;
   }	
 	
 .container_three{
