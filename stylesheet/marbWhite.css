@@ -431,7 +431,7 @@ h2.right_right a::after {
     /*transition: all .1s ease-in-out;*/
 }
 
-#toTop {
+#totop {
     padding: 5px 3px;
     background: none;
     color: darkgrey;
@@ -448,11 +448,11 @@ h2.right_right a::after {
     text-shadow: 0 0 3px black;
 }
 
-#toTop a,
-#toTop a:visited,
-#toTop a:hover,
-#toTop a:link,
-#toTop a:active{
+#totop a,
+#totop a:visited,
+#totop a:hover,
+#totop a:link,
+#totop a:active{
   text-decoration: none;
   color: ivory;
   opacity: .5;
