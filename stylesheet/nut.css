@@ -34,8 +34,8 @@
 
 .resume_pdf{
   text-align: right;
-  height: 85vh;
-  height: auto;
+  width: 65%;
+	height: auto;
   box-shadow: 6px 6px 6px black;
   -webkit-transform:scale(1); /* Safari and Chrome */
   -moz-transform:scale(1); /* Firefox */
