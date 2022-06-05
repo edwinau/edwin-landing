@@ -71,37 +71,34 @@ p#hello, .i_believe{
     /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;*/
   }
 
-.quotenone:before, .quotenone:after {
-    clip: rect(0,0,0,0);
-}
-
+/* quote none */
 .quotenone{
   animation: clipnone 14s linear infinite;
 }
 
-@-webkit-keyframes clipnone{
-  0% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  20% {
-    clip: rect(0px, 100vw, 0vh, 0px);
-  }
-  50% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  60% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  70% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  95% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  100% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
+.quotenone:before, .quotenone:after {
+    clip: rect(0,0,0,0);
 }
+
+@-webkit-keyframes clipnone{
+  0% {clip: rect(0px, 100vw, 100vh, 0px);}
+  20% {clip: rect(0px, 100vw, 0vh, 0px);}
+  50% {clip: rect(0px, 100vw, 100vh, 0px);}
+  60% {clip: rect(0px, 100vw, 100vh, 0px);}
+  70% {clip: rect(0px, 100vw, 100vh, 0px);}
+  95% {clip: rect(0px, 100vw, 100vh, 0px);}
+  100% {clip: rect(0px, 100vw, 100vh, 0px);}
+}
+
+
+
+
+
+
+
+
+
+
 
 .quotenone{
   animation: clipnone 14s linear infinite;
