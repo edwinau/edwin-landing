@@ -74,6 +74,7 @@ p#hello, .i_believe{
 .quotenone{
   animation: clipnone 14s linear infinite;
 }
+
 @-webkit-keyframes clipnone{
   0% {
     clip: rect(0px, 100vw, 100vh, 0px);
@@ -254,8 +255,8 @@ p#hello, .i_believe{
     clip: rect(0px, 100vw, 0vh, 0px);
   }
   75% {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);  }
+    clip: rect(0px, 100vw, 100vh, 0px);
+	}
   95% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }

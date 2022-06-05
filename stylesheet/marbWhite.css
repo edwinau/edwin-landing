@@ -424,9 +424,7 @@ h2.right_right a::after {
   border-color: yellow;
   color: yellow;
   background: black;
-
-
-    opacity: 1;
+  opacity: 1;
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
 }
