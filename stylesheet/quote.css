@@ -71,6 +71,10 @@ p#hello, .i_believe{
     /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;*/
   }
 
+.quotenone:before, .quotenone:after {
+    clip: rect(0,0,0,0);
+}
+
 .quotenone{
   animation: clipnone 14s linear infinite;
 }
@@ -129,6 +133,13 @@ p#hello, .i_believe{
 .quote.quotenone{
   color: #fbff96;
 }
+
+
+.quotenone:before, .quotenone:after {
+    clip: rect(0,0,0,0);
+}
+
+
 .quotenone{
   animation: clipnone 14s linear infinite;
 }
@@ -154,6 +165,10 @@ p#hello, .i_believe{
   100% {
     clip: rect(0px, 100vw, 100vh, 0px);
   }
+}
+
+.quoteone:before, .quoteone:after {
+    clip: rect(0,0,0,0);
 }
 
 .quote.quoteone{
@@ -187,6 +202,11 @@ p#hello, .i_believe{
 .quote.quotetwo{
   color: #A2C523;
 }
+
+.quotetwo:before, .quotetwo:after {
+    clip: rect(0,0,0,0);
+}
+
 .quotetwo{
   animation: cliptwo 14s linear infinite;
 }
@@ -213,6 +233,11 @@ p#hello, .i_believe{
 
 .quote.quotethree{
   color: #FF420E;
+}
+
+
+.quotethree:before, .quotethree:after {
+    clip: rect(0,0,0,0);
 }
 .quotethree{
   animation: Clippingthree 14s linear infinite;
@@ -241,9 +266,17 @@ p#hello, .i_believe{
 .quote.quotefour{
   color: #C4DFE6;
 }
+
+
 .quotefour{
   animation: Clippingfour 14s linear infinite;
 }
+
+.quotefour:before, .quotefour:after {
+    clip: rect(0,0,0,0);
+}
+
+
 @-webkit-keyframes Clippingfour{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
