@@ -111,10 +111,11 @@
 
 
 
-  p#hello{
-    margin-top: -5%;
+  .hello{
+    margin-top: -7%;
     padding-left: 10%;
     padding-right:10%;
+	text-align: center
   }
 
   .i_believe{
