@@ -146,7 +146,7 @@
 
   h4.email a{
     font-size: 3vw;
-    margin-left: 8%;
+    margin-left: 0%;
   }
 
   h4.linkedin{
@@ -371,7 +371,7 @@
 
   h4.email{
     position: absolute;
-    top: 160px;
+    top: 0%;
     left: 0%;
     font-size: 105%;
   }
@@ -655,11 +655,11 @@ div.img_relative.labtop{
 	
 h4.email{
 	margin: auto;
-	left: -2.5vw;
-	top:12.5%;
+	left: 0vw;
+	top:150%;
    transition: all .1s ease-in-out;}
 
-  h4.email a{
+h4.email a{
     margin-left: 0px;
   }
 	
