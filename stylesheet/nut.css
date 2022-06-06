@@ -24,12 +24,14 @@
   zoom: 75%;
   bottom: 15%;
   left: 19.5%;
+  z-index: 2000;
 }
 
 .img_labtop{
-  zoom: 75%;
-  z-index: 1000;
+	zoom: 75%;
 	bottom: -15%;
+	z-index: 1000;
+
 }
 
 .resume_pdf{
