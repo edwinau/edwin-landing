@@ -21,15 +21,15 @@
 }
 
 .img_plant{
-  zoom: 75%;
+  zoom: 80%;
   bottom: 15%;
-  left: 19.5%;
+  left: 25%;
   z-index: 2000;
 }
 
 .img_labtop{
 	zoom: 75%;
-	bottom: -15%;
+	bottom: 5%;
 	z-index: 1000;
 
 }
