@@ -320,7 +320,7 @@ h2.left a::after {
 /*flash*/
 /*flash*/
 /*flash*/
-h2.right a::before {
+h2.center a::before {
   -webkit-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
   -moz-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
   -o-animation: color-change 1.5s infinite,font-size-change 1.5s infinite, border-change 1.5s infinite, background-color-change 1.5s infinite;
@@ -343,6 +343,7 @@ h2.right a::before {
   50% { color: white; }
   100% { color: #3a75bb; }
 }
+
 @-o-keyframes color-change {
   0% { color: #3a75bb; }
   50% { color: white; }
@@ -379,6 +380,7 @@ h2.right a::before {
   50% { background-color: transparent; }
   100% { background-color: white; }
 }
+
 /*
 @-webkit-keyframes border-change {
     0% {   border: 5px solid white; }
