@@ -327,20 +327,6 @@
     display: none;
   }
 
-  .img_plant{
-    zoom: 30%;
-    top: 9%;
-    transform: rotate(90deg);
-    z-index: 0;
-    left: 3%;
-  }
-
-  .img_labtop{
-    top: 0px;
-    transform: rotate(90deg);
-    z-index: 0;
-    left: 0px;
-  }
 
   .quote.embossed.container_two{
     zoom: 180%;
