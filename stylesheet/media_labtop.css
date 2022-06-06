@@ -224,7 +224,7 @@
   }
 
   .i_believe{
-    padding-left: 15%;
+    padding-left: 55%;
     padding-right: 15%;
     font-size: 1.5vw;
   }
@@ -330,8 +330,8 @@
 
   .quote.embossed.container_two{
     zoom: 180%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
 
@@ -537,9 +537,9 @@ div.img_relative.labtop{
   }
 
   .img_labtop{
-  transform: scaleY(-1);
     top: 0px;
     overflow:hidden;
+	  transform: scaleY(-1);
 	 zoom: 15%;
   }
 
@@ -655,6 +655,7 @@ div.img_relative.labtop{
 	{display: none;}
 	
 h4.email{
+	position: relative;
 	margin: auto;
 	left: 0vw;
 	top:150%;
