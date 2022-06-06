@@ -21,15 +21,15 @@
 }
 
 .img_plant{
-  zoom: 60%;
+  zoom: 75%;
   bottom: 15%;
   left: 19.5%;
 }
 
 .img_labtop{
-  zoom: 60%;
+  zoom: 75%;
   z-index: 1000;
-	bottom: -5%;
+	bottom: -15%;
 }
 
 .resume_pdf{
