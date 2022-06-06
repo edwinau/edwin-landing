@@ -370,10 +370,10 @@
   }
 
   h4.email{
-    position: absolute;
+    position: relative;
     top: 0%;
     left: 0%;
-    font-size: 105%;
+    font-size: 150%;
   }
 
   .container_two.contact{
@@ -539,15 +539,14 @@ div.img_relative.labtop{
   .img_labtop{
     top: 0px;
     overflow:hidden;
-	    transform: scaleY(-1);
+	  transform: scaleY(-1);
 	 zoom: 15%;
   }
 
   .img_plant{
-	  zoom: 15%;
-	  
-	  top: 0%;
-    left: 15%;
+    top: 2%;
+	  zoom: 12%;
+	  left: 15%;
   }
 
   img.resume_pdf{
