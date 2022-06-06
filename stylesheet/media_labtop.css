@@ -124,16 +124,7 @@
     opacity: .7;
  }
 
-  .img_plant{
-    bottom: 15%;
-    left: 24%;
-  }
 
-  .img_labtop{
-    zoom: 20%;
-    z-index: 5000;
-	  bottom: 0%;
-  }
 
   .medialabtopnone{
       display: inherit;
@@ -336,20 +327,6 @@
     display: none;
   }
 
-  .img_plant{
-    zoom: 30%;
-    top: 9%;
-    transform: rotate(90deg);
-    z-index: 0;
-    left: 3%;
-  }
-
-  .img_labtop{
-    top: 0px;
-    transform: rotate(90deg);
-    z-index: 0;
-    left: 0px;
-  }
 
   .quote.embossed.container_two{
     zoom: 180%;
@@ -385,7 +362,7 @@
 
   .container_contacts{
     display: block;
-    margin-left: 28%;
+    margin-left: 0%;
     margin-top: 15%;
     margin-bottom: 20%;
     zoom: 140%;
@@ -401,7 +378,7 @@
 
   .container_two.contact{
     width: 100%;
-    margin-left: 10%;
+    margin-left: 0%;
   }
 
   #totop{
