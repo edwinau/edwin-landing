@@ -385,7 +385,7 @@
 
   .container_contacts{
     display: block;
-    margin-left: 28%;
+    margin-left: 0%;
     margin-top: 15%;
     margin-bottom: 20%;
     zoom: 140%;
@@ -401,7 +401,7 @@
 
   .container_two.contact{
     width: 100%;
-    margin-left: 10%;
+    margin-left: 0%;
   }
 
   #totop{
