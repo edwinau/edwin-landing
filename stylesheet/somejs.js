@@ -6,7 +6,7 @@ function flicker(obj) {
           obj.addClass("flicker");
       }, timout);
 
-      var $removeinstagram = $(".instagram");
+      var $removeinstagram1 = $(".instagram1");
       setTimeout(function(){
           obj.removeClass("flicker");
       }, timout * 1.5);
@@ -145,9 +145,9 @@ $(document).ready(function(){
 
   });
 
-//lights flicker instagram
+//lights flicker instagram1
 setInterval(function() { flicker($('.email')); }, 2000);
-setInterval(function() { flicker($('.instagram')); }, 3000);
+setInterval(function() { flicker($('.instagram1')); }, 3000);
 setInterval(function() { flicker($('.facebook')); }, 2500);
 setInterval(function() { flicker($('.linkedin')); }, 2750);
 
