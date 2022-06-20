@@ -145,7 +145,7 @@ $(document).ready(function(){
 
   });
 
-//lights flicker instagram1
+//lights flicker instagram
 setInterval(function() { flicker($('.email')); }, 2000);
 setInterval(function() { flicker($('.instagram1')); }, 3000);
 setInterval(function() { flicker($('.facebook')); }, 2500);

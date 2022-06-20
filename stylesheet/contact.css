@@ -79,7 +79,7 @@ h4.linkedin a:hover {
 
 h4.email a:hover,
 h4.facebook a:hover,
-h4.instagram a:hover {
+/*h4.instagram1 a:hover*/ {
     transition: all .1s ease-in-out;
 }
 
