@@ -110,23 +110,6 @@
   }
 
 
-
-  .hello{
-    margin-top: -7%;
-    padding-left: 10%;
-    padding-right:10%;
-	text-align: center
-  }
-
-  .i_believe{
-    padding-left: 20%;
-    padding-right:20%;
-    font-size: 1.25vw;
-    opacity: .7;
- }
-
-
-
   .medialabtopnone{
       display: inherit;
   }
@@ -136,7 +119,7 @@
   }
 
   .carousel-inner{
-    width: 85%;
+    width: 80%;
     /*margin-left: 7.25%;*/
     padding: 0px;
   }
