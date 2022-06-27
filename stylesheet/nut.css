@@ -22,14 +22,14 @@
 
 .img_plant{
   zoom: 90%;
-  bottom: 105%;
+  bottom: 5%;
   left: 25%;
   z-index: 2000;
 }
 
 .img_labtop{
-	zoom: 200%;
-	bottom: 10%;
+	zoom: 80%;
+	bottom: -10%;
 	z-index: 1000;
 
 }
