@@ -31,12 +31,40 @@
 	zoom: 80%;
 	bottom: -10%;
 	z-index: 1000;
+}
 
+.hello{
+  /*font-family: 'Cabin Sketch', cursive;*/
+  color: white;
+  font-size: 4vw;
+  text-shadow: 2px 2px 10px black;
+  font-style: italic;
+	margin-top: 0px;
+    padding-left: 7%;
+    padding-right:7%;
+	text-align: center
+}
+
+
+  .i_believe{
+    padding-left: 13%;
+    padding-right:13%;
+    font-size: 1.25vw;
+    opacity: .8;
+  font-family: 'Lato', serif;
+  color: white;
+  font-size: 1vw;
+  letter-spacing: .1em;
+  line-height: 2.5;
+}
+
+.italic{
+  font-style: italic;
 }
 
 .resume_pdf{
   text-align: right;
-  width: 65%;
+  width: 100%;
 	height: auto;
   box-shadow: 6px 6px 6px black;
   -webkit-transform:scale(1); /* Safari and Chrome */
@@ -69,22 +97,3 @@ img.resume_pdf:hover{
   vertical-align: middle;
 }
 
-.hello{
-  /*font-family: 'Cabin Sketch', cursive;*/
-  color: white;
-  font-size: 4vw;
-  text-shadow: 2px 2px 10px black;
-  font-style: italic;
-}
-
-.i_believe{
-  font-family: 'Lato', serif;
-  color: white;
-  font-size: 1vw;
-  letter-spacing: .1em;
-  line-height: 2.5;
-}
-
-.italic{
-  font-style: italic;
-}
