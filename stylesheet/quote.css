@@ -72,13 +72,9 @@ p#hello, .i_believe{
   }
 
 /* quote none */
-.quotenone{
-  animation: clipnone 14s linear infinite;
-}
+.quotenone {animation: clipnone 14s linear infinite;}
 
-.quotenone:before, .quotenone:after {
-    clip: rect(0,0,0,0);
-}
+.quotenone:before, .quotenone:after {clip: rect(0,0,0,0);}
 
 @-webkit-keyframes clipnone{
   0% {clip: rect(0px, 100vw, 100vh, 0px);}
@@ -91,40 +87,18 @@ p#hello, .i_believe{
 }
 
 
-
-
-
-
-
-
-
-
-
 .quotenone{
   animation: clipnone 14s linear infinite;
 }
+
 @-webkit-keyframes clipnone{
-  0% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  20% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  50% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  60% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  70% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  95% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  100% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
+  0% {clip: rect(0px, 100vw, 100vh, 0px);}
+  20% {clip: rect(0px, 100vw, 100vh, 0px);}
+  50% {clip: rect(0px, 100vw, 100vh, 0px);}
+  60% {clip: rect(0px, 100vw, 100vh, 0px);}
+  70% {clip: rect(0px, 100vw, 100vh, 0px);}
+  95% {clip: rect(0px, 100vw, 100vh, 0px);}
+  100% {clip: rect(0px, 100vw, 100vh, 0px);}
 }
 
 .quote.quotenone{
@@ -132,7 +106,7 @@ p#hello, .i_believe{
 }
 
 
-.quotenone:before, .quotenone:after {
+.quotenone::before, .quotenone::after {
     clip: rect(0,0,0,0);
 }
 
@@ -164,19 +138,15 @@ p#hello, .i_believe{
   }
 }
 
-.quoteone:before, .quoteone:after {
-    clip: rect(0,0,0,0);
-}
 
-.quote.quoteone{
-  color: #ef108f;
+/*quote one */
 
-}
-.quoteone{
-  animation: clipone 14s linear infinite;
-}
-@-webkit-keyframes clipone{
-  0% {
+
+.quoteone::before, .quoteone::after {clip: rect(0,0,0,0);}
+.quote.quoteone{color: #ef108f;}
+.quoteone{animation: clipone 14s linear infinite;}
+
+@-webkit-keyframes clipone{0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
   30% {
@@ -196,11 +166,16 @@ p#hello, .i_believe{
   }
 }
 
+
+
+/*quote two */
+
+
 .quote.quotetwo{
   color: #A2C523;
 }
 
-.quotetwo:before, .quotetwo:after {
+.quotetwo::before, .quotetwo::after {
     clip: rect(0,0,0,0);
 }
 
@@ -228,50 +203,33 @@ p#hello, .i_believe{
   }
 }
 
-.quote.quotethree{
-  color: #FF420E;
-}
+/*quote three */
 
 
-.quotethree:before, .quotethree:after {
-    clip: rect(0,0,0,0);
-}
-.quotethree{
-  animation: Clippingthree 14s linear infinite;
-}
+.quote.quotethree {color: #FF420E;}
+
+
+.quotethree::before, .quotethree::after {clip: rect(0,0,0,0);}
+
+.quotethree{animation: Clippingthree 14s linear infinite;}
+
 @-webkit-keyframes Clippingthree{
-  0% {
-    clip: rect(0px, 100vw, 0vh, 0px);
-  }
-  25% {
-    clip: rect(0px, 100vw, 0vh, 0px);
-  }
-  50% {
-    clip: rect(0px, 100vw, 0vh, 0px);
-  }
-  80% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  95% {
-    clip: rect(0px, 100vw, 100vh, 0px);
-  }
-  100% {
-    clip: rect(0px, 100vw, 0vh, 0px);
-  }
-}
-
-.quote.quotefour{
-  color: #C4DFE6;
+	0% {clip: rect(0px, 100vw, 0vh, 0px);}
+  25% {clip: rect(0px, 100vw, 0vh, 0px);}
+  50% {clip: rect(0px, 100vw, 0vh, 0px);}
+  80% {clip: rect(0px, 100vw, 100vh, 0px);}
+  95% {clip: rect(0px, 100vw, 100vh, 0px);}
+  100% {clip: rect(0px, 100vw, 0vh, 0px);}
 }
 
 
-.quotefour{
-  animation: Clippingfour 14s linear infinite;
-}
+/*quote four */
 
-.quotefour:before, .quotefour:after {
-    clip: rect(0,0,0,0);
-}
+.quote.quotefour{color: #C4DFE6;}
+
+.quotefour{animation: Clippingfour 14s linear infinite;}
+
+.quotefour::before, .quotefour::after {clip: rect(0,0,0,0);}
 
 
 @-webkit-keyframes Clippingfour{
