@@ -1,6 +1,7 @@
 .ninetywidth{
-  margin: auto;
-  width: 100vw;
+  margin-top: 50px;
+	margin-bottom: 50px;
+  max-width: 1500px;
   /*position: absolute;*/
   /*top: 200px;*/
 }
