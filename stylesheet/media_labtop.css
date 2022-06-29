@@ -257,9 +257,6 @@
     margin-right: 0px;
   }
 
-  .ninetywidth{
-    width: 100vw;
-  }
 
   h4  a,
   h4  > a:visited,
@@ -342,8 +339,9 @@
 
   .container-fluid.ninetywidth{
     /*transform: rotate(-90deg);*/
-    width: 110vw;
-	  zoom: 150%;
+    max-width: 1500px;
+	overflow: hidden;
+
   }
 
   #carousel{
@@ -387,9 +385,7 @@
    font-size: 6vw;
   }
 
-  .container-fluid.ninetywidth{
-    overflow: hidden;
-  }
+
 
   .carolcarolcon{
       width: 100vw;
@@ -581,6 +577,7 @@ div.img_relative.labtop{
 
  .container-fluid.ninetywidth{
     margin-left: -7.5%;
+	 width: 100vw;
   }
 
   .rendezlogo{
