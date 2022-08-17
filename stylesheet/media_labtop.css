@@ -136,7 +136,8 @@
   }
 
   .carousel-inner{
-    width: 85%;
+    width: auto;
+	  height: 75vh;
     /*margin-left: 7.25%;*/
     padding: 0px;
   }
@@ -239,13 +240,7 @@
     margin-top: 5%;
   }
 
-  .carousel-inner{
-   height: 100vh;
-   margin-left: 7.25%;
-   overflow: hidden;
-   width: 100%;
-   margin-left: 0;
-  } */
+  */
 
   .container-fluid{
     padding-left: 0px;
@@ -339,7 +334,8 @@
 
   .container-fluid.ninetywidth{
     /*transform: rotate(-90deg);*/
-    max-width: 1500px;
+    max-width: 1080px;
+	max-height: 1080px;
 	overflow: hidden;
 
   }
@@ -349,7 +345,7 @@
   }
 
   .carousel-inner{
-    height: 35vh;
+    height: 75vh;
   }
 
 
@@ -655,7 +651,8 @@ h4.email h5{
 	margin: auto;
 	left: 0vw;
 	top:150%;
-   transition: all .1s ease-in-out;}
+   transition: all .1s ease-in-out;
+	}
 
 h4.email a{
     margin-left: 0px;
@@ -695,7 +692,5 @@ h4.email a{
 	
   }
 	
-	
-
 
 }
