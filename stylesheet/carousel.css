@@ -1,7 +1,6 @@
 .ninetywidth{
-  margin-top: 50px;
-	margin-bottom: 50px;
-  max-width: 1500px;
+  max-width: 810px;
+	max-height: 810px;
   /*position: absolute;*/
   /*top: 200px;*/
 }
@@ -13,11 +12,22 @@
 }
 
 .portfolio_images{
+  width: auto;
+	height: 65vh;
+  margin: auto;
+  /*zoom: 105%;*/
+  /*overflow-x: hidden;*/
+}
+
+
+
+.headermred {
   width: 100%;
   margin: auto;
   /*zoom: 105%;*/
   /*overflow-x: hidden;*/
 }
+
 
 .container_relative{
   position: relative;
@@ -26,8 +36,7 @@
 }
 
 .carousel-inner{
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   padding: 0px;
 }
 
