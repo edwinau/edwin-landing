@@ -12,8 +12,8 @@
 }
 
 .portfolio_images{
-  width: auto;
-	height: 65vh;
+  width: 80%;
+	height: auto;
   margin: auto;
   /*zoom: 105%;*/
   /*overflow-x: hidden;*/
