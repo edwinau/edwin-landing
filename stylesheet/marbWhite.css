@@ -289,9 +289,9 @@ h2.button-row > a:hover {
 }
 
 h2.center a::after {
-  border-color: yellow;
+  border-color: #ff6500;
   background: black;
-  color: yellow;
+  color: #ff6500;
   opacity: 1;
     /*border-color: #39b5d8;
     color: #39b5d8;*/
@@ -410,8 +410,8 @@ h2.center a::before {
 
 
 h2.right a::after {
-  border-color: #ff6500;
-  color: #ff6500;
+  border-color: yellow;
+  color: yellow;
   background: black;
   opacity: 1;
     /*border-color: #a941f4;*/
