@@ -94,12 +94,6 @@ p#hello, .i_believe{
 
 
 
-
-
-
-
-
-
 .quotenone{
   animation: clipnone 14s linear infinite;
 }
@@ -127,10 +121,10 @@ p#hello, .i_believe{
   }
 }
 
+
 .quote.quotenone{
   color: #fbff96;
 }
-
 
 .quotenone:before, .quotenone:after {
     clip: rect(0,0,0,0);
@@ -163,6 +157,30 @@ p#hello, .i_believe{
     clip: rect(0px, 100vw, 100vh, 0px);
   }
 }
+@keyframes clipnone{
+  0% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  20% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  50% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  60% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  70% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  95% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  100% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+}
+
 
 .quoteone:before, .quoteone:after {
     clip: rect(0,0,0,0);
@@ -176,6 +194,26 @@ p#hello, .i_believe{
   animation: clipone 14s linear infinite;
 }
 @-webkit-keyframes clipone{
+  0% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  30% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  60% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  70% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  95% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  100% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+}
+@keyframes clipone{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
@@ -227,6 +265,27 @@ p#hello, .i_believe{
     clip: rect(0px, 100vw, 0vh, 0px);
   }
 }
+@keyframes cliptwo{
+  0% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  25% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  45% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  75% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  95% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  100% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+}
+
 
 .quote.quotethree{
   color: #FF420E;
@@ -240,6 +299,26 @@ p#hello, .i_believe{
   animation: Clippingthree 14s linear infinite;
 }
 @-webkit-keyframes Clippingthree{
+  0% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  25% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  50% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  80% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  95% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  100% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+}
+@keyframes Clippingthree{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
@@ -275,6 +354,26 @@ p#hello, .i_believe{
 
 
 @-webkit-keyframes Clippingfour{
+  0% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  25% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  50% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+  75% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+	}
+  95% {
+    clip: rect(0px, 100vw, 100vh, 0px);
+  }
+  100% {
+    clip: rect(0px, 100vw, 0vh, 0px);
+  }
+}
+@keyframes Clippingfour{
   0% {
     clip: rect(0px, 100vw, 0vh, 0px);
   }
