@@ -12,11 +12,15 @@
 }
 
 .portfolio_images{
-  width: 80%;
+  width: 81%;
 	height: auto;
   margin: auto;
-  /*zoom: 105%;*/
-  /*overflow-x: hidden;*/
+}
+
+.portfolio_images_76w{
+  width: 76%;
+	height: auto;
+  margin: auto;
 }
 
 

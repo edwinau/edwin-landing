@@ -234,13 +234,7 @@
 
 
 
- /*
 
-  .portfolio_images{
-    margin-top: 5%;
-  }
-
-  */
 
   .container-fluid{
     padding-left: 0px;
@@ -462,10 +456,11 @@
     height: auto;
     animation: cloud2 100s linear;
 	}
-	
-	@keyframes cloud2{0% {left: -67vw;} 100% {left: 100vw;}}
-	
 
+@keyframes cloud2{from {left: -67vw;} to {left: 100vw;}}
+@-webkit-keyframes cloud2{0% {left: -67vw;} 100% {left: 100vw;}}
+
+	
   .img_introcloud3{
     position: absolute;
     z-index: 0;
@@ -477,7 +472,7 @@
     animation: cloud3 500s linear;
   }
 
-@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
+	@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
 
 h1 {
     font-size: 12vw;
@@ -583,7 +578,6 @@ div.img_relative.labtop{
     padding: 3%;
 	  border-top-right-radius: 20px;
 	  	  border-bottom-right-radius: 20px;
-
  }
 
  .row.rendez{
@@ -689,8 +683,5 @@ h4.email a{
 .img_contact{
 	transform: scale(1.9);
 	right: 0;
-	
   }
-	
-
 }
