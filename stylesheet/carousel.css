@@ -48,6 +48,10 @@
   overflow: hidden;
 }
 
+#carouselmobile{
+  overflow: hidden;
+}
+
 .carousel-inner>.item::before{
   height: 100vh;
 }
