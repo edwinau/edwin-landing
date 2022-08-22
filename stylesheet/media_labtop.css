@@ -2,6 +2,15 @@
   display: none;
 }
 
+.portfolio_images {
+	display: inherit;
+}
+
+.portfolio_images-mobile {
+	display: none;
+}	
+
+
 /*labtop*/
 @media (max-width:2480px){
 
@@ -9,6 +18,7 @@
 	  width: 100vw;
 	  height: 100vh;
 	}
+	
 	
   h1 a,
   h1 a:visited,
@@ -179,6 +189,14 @@
     margin: 2% auto 8% auto;
     width: 90%;
   }
+	
+	.portfolio_images {
+		display: inherit;
+	}
+
+	.portfolio_images-mobile {
+		display: none;
+	}	
 
 }
 
@@ -231,11 +249,6 @@
   }
 
 
-
-
-
-
-
   .container-fluid{
     padding-left: 0px;
     padding-right: 0px;
@@ -267,6 +280,7 @@
     font-size: 4vw;
   }
 
+
 }
 
 
@@ -275,6 +289,14 @@
 /*ipad view vertical*/
 
 @media (max-width:768px){
+
+	.portfolio_images {
+		display: none;
+	}	
+	
+	.portfolio_images-mobile {
+		display: inherit;
+	}	
 
   .ipad.displaynone{
     display: none;
