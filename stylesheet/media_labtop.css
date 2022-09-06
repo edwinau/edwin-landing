@@ -366,6 +366,10 @@
   #carousel{
     overflow: hidden;
   }
+	
+	#carouselmobile{
+    overflow: hidden;
+  }
 
   .carousel-inner{
     height: 75vh;
@@ -503,7 +507,7 @@
 
 	@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
 
-h1 {
+	h1 {
     font-size: 12vw;
     line-height: 1.15;
   }
