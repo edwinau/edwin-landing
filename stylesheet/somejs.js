@@ -106,7 +106,7 @@ $(document).ready(function(){
     //     }, 2750);
       $('html, body').animate({
           scrollTop: $('#carousel').offset().top
-      }, 2750);
+      }, 1500);
     });
 
 // smooth scroll contactme
@@ -141,7 +141,7 @@ $(document).ready(function(){
 
 // carousel
   $('.carousel').carousel({
-    'interval': '6500'
+    'interval': '5000'
 
   });
 
@@ -188,3 +188,17 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 
 
 });
+
+
+myID = document.getElementById("customID");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 800) {
+    myID.className = "totop show"
+  } else {
+    myID.className = "totop hide"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
