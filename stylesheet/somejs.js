@@ -6,7 +6,7 @@ function flicker(obj) {
           obj.addClass("flicker");
       }, timout);
 
-      var $removeinstagram1 = $(".instagram1");
+      var $removeinstagram = $(".instagram");
       setTimeout(function(){
           obj.removeClass("flicker");
       }, timout * 1.5);
@@ -113,14 +113,14 @@ $(document).ready(function(){
   $('h2.right_right.button-row').click(function() {
       $('html, body').animate({
           scrollTop: $('#contactme').offset().top
-      }, 2000);
+      }, 1000);
     });
 
 // smooth scroll quote
   $('h1.topname').click(function() {
       $('html, body').animate({
           scrollTop: $('#quoteelon').offset().top
-      }, 2000);
+      }, 1000);
     });
 
 // smooth scroll rendezyou
@@ -147,7 +147,7 @@ $(document).ready(function(){
 
 //lights flicker instagram
 setInterval(function() { flicker($('.email')); }, 2000);
-setInterval(function() { flicker($('.instagram1')); }, 3000);
+setInterval(function() { flicker($('.instagram')); }, 3000);
 setInterval(function() { flicker($('.facebook')); }, 2500);
 setInterval(function() { flicker($('.linkedin')); }, 2750);
 
