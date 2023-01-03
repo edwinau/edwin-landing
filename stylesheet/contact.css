@@ -1,11 +1,12 @@
 @font-face{
-  font-family: pacifico;
-  src: url(Pacifico-Regular.ttf);
+  font-family: 'Lato', sans-serif;
+  src: url("~/fonts/Lato-Bol.ttf");
 }
 
 .email{
     color: white;
-    font-family: pacifico;
+    font-family: 'Lato', sans-serif;
+  src: url("~/fonts/Lato-Bol.ttf");
     text-transform: lowercase;
   }
 
@@ -30,8 +31,9 @@ h4 > a:active{
   /*opacity: .8;*/
   text-align: center;
   font-size: 2vw;
-  color: #4d4756;
-  font-family: 'Pacifico', cursive;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+	src: url("~/fonts/Lato-Bol.ttf");
   text-decoration: none;
   transition: all ease-in-out;
   float: left;
@@ -52,7 +54,7 @@ h4:hover{
 }
 
 .noflicker{
-  color: #4d4756;
+  color: #fff;
   -webkit-text-shadow: none;
   -moz-text-shadow: none;
   -ms-text-shadow: none;
@@ -93,4 +95,31 @@ h4.facebook a:hover {
 
 .container_one.contactpage{
   height: 105vh;
+}
+
+.totop {
+	 padding: 5px 3px;
+    background: none;
+    color: darkgrey;
+    opacity: .5;
+    font-family: 'Oswald', serif;
+    letter-spacing: .2;
+    font-weight: bold;
+    font-size: 2vw;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 8000;
+    text-shadow: 0 0 3px black;
+	display:inherit;	
+    border-radius:50%;
+    transition: all 1s;
+}
+.hide {
+    opacity:0;
+    left:-100%;
+}
+.show {
+    opacity:1;
+    left:0;
 }
