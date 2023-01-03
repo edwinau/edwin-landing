@@ -175,7 +175,8 @@ h1:hover{
 }
 
 h1.edwinname{
-  margin-top: -10%;
+  margin-top: -15%;
+	margin-bottom: 8%;
 }
 
 hr {
@@ -443,9 +444,9 @@ h2.right_right a::after {
     position: fixed;
     bottom: 5%;
     right: 5%;
-    display: none;
     z-index: 8000;
     text-shadow: 0 0 3px black;
+	display:inherit;
 }
 
 #totop a,
