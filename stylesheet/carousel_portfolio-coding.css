@@ -1,0 +1,73 @@
+.ninetywidth{
+  max-width: 1200px;
+	max-height: 810px;
+  /*position: absolute;*/
+  /*top: 200px;*/
+}
+
+/*Carol*/
+
+.col-md-12.nopadding{
+  padding: 0;
+	height: 70vh;
+}
+
+.portfolio_images{
+  width: 82%;
+	height: auto;
+  margin: auto;
+}
+
+.portfolio_images_76w{
+  width: 76%;
+	height: auto;
+  margin: auto;
+}
+
+.portfolio_images-mobile{
+  width: 80%;
+	height: auto;
+  margin: auto;
+}
+
+#headermred {
+  width: 100%;
+  margin: auto;
+  /*zoom: 105%;*/
+  /*overflow-x: hidden;*/
+}
+
+
+.container_relative{
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.carousel-inner{
+  width: 100%;
+  padding: 0px;
+}
+
+#carousel{
+  overflow: hidden;
+}
+
+#carouselmobile{
+  overflow: hidden;
+}
+
+.carousel-inner>.item::before{
+  height: 100vh;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+.container_carousel{
+  overflow: hidden;
+	height: 77vh;
+}
