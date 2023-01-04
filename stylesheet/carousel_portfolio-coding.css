@@ -13,7 +13,7 @@
 }
 
 .portfolio_images{
-  width: 82%;
+  width: 40%;
 	height: auto;
   margin: auto;
 }
@@ -69,5 +69,5 @@
 
 .container_carousel{
   overflow: hidden;
-	height: 75vh;
+	height: 80vh;
 }
