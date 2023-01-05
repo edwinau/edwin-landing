@@ -201,6 +201,8 @@
 	
 	.portfolio_images {
 		display: inherit;
+		width: 60vw;
+		height: auto;
 	}
 
 	.portfolio_images-mobile {
