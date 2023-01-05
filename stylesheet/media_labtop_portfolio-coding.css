@@ -161,7 +161,7 @@
 
   .container_contacts{
     zoom: 85%;
-	 margin-top: -20%;
+	 margin-top: 0;
   }
 
   h4.email a{
