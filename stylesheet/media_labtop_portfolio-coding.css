@@ -286,7 +286,7 @@ img.portfolio_images {
     zoom: 100%;
   }
 
-  #totop{
+  .totop{
     letter-spacing: .3;
     font-weight: bold;
     font-size: 4vw;
@@ -733,7 +733,12 @@ h4.email a{
 	transform: scale(1);
   }
 	
-	
-
+	.totop{
+display: inherit;
+	top: 0;
+	left:3%;}
 
 }
+
+
+
