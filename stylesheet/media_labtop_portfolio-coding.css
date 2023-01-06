@@ -352,8 +352,10 @@
 
   .quote.embossed.container_two{
     zoom: 180%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+	  margin: auto;
+	  left: -40%;
   }
 
 
@@ -409,11 +411,11 @@
     margin-left: 0%;
   }
 
-  #totop{
+  .totop{
    letter-spacing: .3;
 	display: inherit;
    font-weight: bold;
-   font-size: 6vw;
+   font-size: 7vw;
   }
 
 
@@ -438,7 +440,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 100vw;
-    height: 85vh;
+    height: 95vh;
     overflow: hidden;
 	background: 50vh;
   }
@@ -537,7 +539,6 @@
   }
 
 h2.button-row{
-	margin-left: 0px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -573,12 +574,12 @@ div.img_relative.labtop{
 
   .img_plant{
     top: 2%;
-	  zoom: 12%;
-	  left: 15%;
+	  zoom: 15%;
+	  left: 17%;
   }
 
   img.resume_pdf{
-    width: 90%;
+    width: 99%;
   }
 
 
@@ -678,8 +679,6 @@ div.img_relative.labtop{
 		margin-left: 5vw;
 	}
 	
-#totop 
-	{display: none;}
 	
 h4.email h5{
 	position: relative;
@@ -714,15 +713,16 @@ h4.email a{
 .container_one.contactpage{
     overflow: hidden;
     display: block;
+	height: 55vh;
   }	
 	
   .container_two.contact{
     width: 100%;
     margin-left: 0%;
+	  
   }
 	
 .img_contact{
-	transform: scale(1.9);
-	right: 0;
+	transform: scale(1);
   }
 }
