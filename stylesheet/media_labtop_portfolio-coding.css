@@ -3,7 +3,7 @@
 }
 
 img.portfolio_images {
-	width: 45vw;
+	width: 65%;
 	height: auto;
 }
 
@@ -200,9 +200,9 @@ img.portfolio_images {
     width: 90%;
   }
 	
-	.portfolio_images {
+	img.portfolio_images {
 		display: inherit;
-		width: auto;
+		width: 45%;
 		height: auto;
 	}
 
@@ -292,7 +292,8 @@ img.portfolio_images {
     font-size: 4vw;
 	  font-color: #fff;
 	display: inherit;
-
+	bottom: 7%;
+    right: 5%;
   }
 
 
@@ -732,11 +733,6 @@ h4.email a{
 .img_contact{
 	transform: scale(1);
   }
-	
-	.totop{
-display: inherit;
-	top: 0;
-	left:3%;}
 
 }
 
