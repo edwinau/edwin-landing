@@ -382,7 +382,7 @@ img.portfolio_images {
   }
 
   .carousel-inner{
-    height: 55vh;
+    height: 75vh;
   }
 
 
@@ -397,7 +397,7 @@ img.portfolio_images {
     margin-top: 15%;
     margin-bottom: 20%;
     zoom: 140%;
-    width: 105%;
+    width: 75%;
   }
 
   h4.email {
