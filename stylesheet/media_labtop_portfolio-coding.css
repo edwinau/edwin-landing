@@ -440,7 +440,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 100vw;
-    height: 95vh;
+    height: 100vh;
     overflow: hidden;
 	background: 50vh;
   }
@@ -676,7 +676,13 @@ div.img_relative.labtop{
 	 /*border: 1px solid green;}*/
 	
 #labtopresumewidth {
-		margin-left: 5vw;
+	margin-left: 5vw;
+
+	}
+
+	.col-md-12 {
+		padding-left: 1px;
+	padding-right: 1px;
 	}
 	
 	
@@ -725,4 +731,8 @@ h4.email a{
 .img_contact{
 	transform: scale(1);
   }
+	
+	
+
+
 }
