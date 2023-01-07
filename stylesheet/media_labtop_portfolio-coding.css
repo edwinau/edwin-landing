@@ -417,7 +417,8 @@ img.portfolio_images {
    letter-spacing: .3;
 	display: inherit;
    font-weight: bold;
-   font-size: 7vw;
+   font-size: 4vw;
+	  bottom:10%;
   }
 
 
