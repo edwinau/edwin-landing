@@ -137,6 +137,7 @@
 
 	.img_labtop{
 		zoom: 80%;
+		bottom: -20%;
 	}
 
   .medialabtopnone{
@@ -569,6 +570,7 @@ div.img_relative.labtop{
     overflow:hidden;
 	  transform: scaleY(-1);
 	 zoom: 20%;
+	  top: 2%;
   }
 
   .img_plant{
