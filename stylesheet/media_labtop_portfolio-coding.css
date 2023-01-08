@@ -131,7 +131,9 @@ img.portfolio_images {
   }
 
 
-	
+	.resume_pdf{
+		  width: 65%;
+	}
 	
   .hello{
     margin-top: -7%;
