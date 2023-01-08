@@ -136,7 +136,7 @@
  }
 
 	.img_labtop{
-		zoom: 80%;
+		zoom: 100%;
 		bottom: -20%;
 	}
 
@@ -254,11 +254,12 @@
 
 	
 .img_labtop{
-		zoom: 50%;
+		zoom: 35%;
+	
 	}
 	
 .img_plant{
-		zoom: 50%;
+		zoom: 35%;
 	}
 	
   .i_believe{

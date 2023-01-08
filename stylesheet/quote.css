@@ -400,7 +400,7 @@ p#hello, .i_believe{
   top: 10px;
   opacity: .2;
   color: white;
-  font-size: 30vw;
+  font-size: 20vw;
   font-family: quotefont;
   text-shadow: none;
   line-height: 1;
@@ -425,7 +425,7 @@ p#hello, .i_believe{
   right: 10%;
   opacity: .2;
   color: white;
-  font-size: 30vw;
+  font-size: 20vw;
   font-family: quotefont;
   text-shadow: none;
   line-height: 0;
