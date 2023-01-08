@@ -127,6 +127,7 @@ img.portfolio_images {
 	
 .img_labtop{
 	  zoom: 80%;
+	bottom: -20%;
   }
 
 
@@ -323,6 +324,12 @@ img.portfolio_images {
     right: 5%;
   }
 
+		img.portfolio_images {
+		display: inherit;
+		width: 35%;
+		height: auto;
+	}
+	
 
 }
 
