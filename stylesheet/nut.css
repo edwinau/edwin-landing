@@ -28,10 +28,12 @@
 
 .img_labtop{
 	z-index: 1000;
+	bottom: -30%;
 }
 
 .resume_pdf{
   text-align: right;
+	width: 65%;
 	height: auto;
   box-shadow: 6px 6px 6px black;
   -webkit-transform:scale(1); /* Safari and Chrome */

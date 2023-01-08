@@ -135,7 +135,9 @@
     opacity: .7;
  }
 
-
+	.img_labtop{
+		zoom: 80%;
+	}
 
   .medialabtopnone{
       display: inherit;
@@ -436,7 +438,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 100vw;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
 	background: 50vh;
   }
@@ -566,12 +568,12 @@ div.img_relative.labtop{
     top: 0px;
     overflow:hidden;
 	  transform: scaleY(-1);
-	 zoom: 15%;
+	 zoom: 20%;
   }
 
   .img_plant{
     top: 2%;
-	  zoom: 12%;
+	  zoom: 17%;
 	  left: 15%;
   }
 
