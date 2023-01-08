@@ -125,10 +125,9 @@ img.portfolio_images {
 	  zoom: 80%;
   }
 	
-.img_laptop{
+.img_labtop{
 	  zoom: 80%;
 	bottom: -30%;
-
   }
 
 
@@ -268,7 +267,7 @@ img.portfolio_images {
 	  zoom: 50%;
   }
 	
-.img_laptop{
+.img_labtop{
 	  zoom: 50%;
 	bottom: -30%;
   }
@@ -603,12 +602,12 @@ div.img_relative.labtop{
     top: 0px;
     overflow:hidden;
 	  transform: scaleY(-1);
-	 zoom: 15%;
+	 zoom: 20%;
   }
 
   .img_plant{
     top: 2%;
-	  zoom: 15%;
+	  zoom: 20%;
 	  left: 17%;
   }
 
