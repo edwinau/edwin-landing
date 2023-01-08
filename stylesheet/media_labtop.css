@@ -356,6 +356,8 @@
   .container_one.contactpage{
     overflow: hidden;
     display: block;
+	width: 100vw;
+	height: 105vh;	  
   }
 
   .container-fluid.ninetywidth{
@@ -710,7 +712,9 @@ h4.email a{
 .container_one.contactpage{
     overflow: hidden;
     display: block;
-  }	
+	height: 85vh;
+
+	}	
 	
   .container_two.contact{
     width: 100%;
