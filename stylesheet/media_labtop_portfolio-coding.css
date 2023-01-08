@@ -127,12 +127,11 @@ img.portfolio_images {
 	
 .img_labtop{
 	  zoom: 80%;
-	bottom: -30%;
   }
 
 
-	.resume_pdf{
-		  width: 65%;
+.resume_pdf{
+	width: 65%;
 	}
 	
   .hello{
@@ -271,7 +270,6 @@ img.portfolio_images {
 	
 .img_labtop{
 	  zoom: 50%;
-	bottom: -30%;
   }
 
   p#hello{
@@ -286,7 +284,7 @@ img.portfolio_images {
     font-size: 2vw;
   }
 
-	.resume_pdf {
+.resume_pdf {
 		widows: 80%;
 	}
 
@@ -468,14 +466,14 @@ img.portfolio_images {
 @media (max-width:500px){
 
   .container_one.intro{
+	width: 100vw;
+    height: 65vh;
 	position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-	width: 100vw;
-    height: 85vh;
     overflow: hidden;
 	background: 50vh;
   }
@@ -600,7 +598,7 @@ div.img_relative.labtop{
     margin-top: 0%;
   }
 
-  .img_labtop{
+ .img_labtop{
     top: 0px;
     overflow:hidden;
 	  transform: scaleY(-1);
@@ -613,7 +611,7 @@ div.img_relative.labtop{
 	  left: 17%;
   }
 
-  img.resume_pdf{
+  .resume_pdf{
     width: 99%;
   }
 
