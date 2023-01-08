@@ -289,10 +289,10 @@ img.portfolio_images {
   .totop{
     letter-spacing: .3;
     font-weight: bold;
-    font-size: 4vw;
+    font-size: 6vw;
 	  font-color: #fff;
 	display: inherit;
-	bottom: 7%;
+	bottom: 0%;
     right: 5%;
   }
 
