@@ -126,10 +126,14 @@ img.portfolio_images {
   }
 	
 .img_laptop{
-	  zoom: 75%;
+	  zoom: 80%;
+	bottom: -30%;
+
   }
 
 
+	
+	
   .hello{
     margin-top: -7%;
     padding-left: 10%;
@@ -261,11 +265,12 @@ img.portfolio_images {
   }
 	
 .img_plant{
-	  zoom: 40%;
+	  zoom: 50%;
   }
 	
 .img_laptop{
-	  zoom: 40%;
+	  zoom: 50%;
+	bottom: -30%;
   }
 
   p#hello{
@@ -280,6 +285,9 @@ img.portfolio_images {
     font-size: 2vw;
   }
 
+	.resume_pdf {
+		widows: 80%;
+	}
 
   .container-fluid{
     padding-left: 0px;
@@ -702,7 +710,7 @@ div.img_relative.labtop{
 	 /*border: 1px solid green;}*/
 	
 #labtopresumewidth {
-	margin-left: 5vw;
+	margin-left: 1vw;
 
 	}
 
