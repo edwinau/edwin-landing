@@ -161,7 +161,7 @@ img.portfolio_images {
   }
 	
 	.carousel-control {
-		opacity: 0;
+		opacity: .6;
 	}
 
   .container_contacts{
@@ -390,6 +390,9 @@ img.portfolio_images {
     height: 75vh;
   }
 
+  .carousel-control {
+		opacity: 0;
+	}
 
   .img_contact{
     zoom: 300%;
