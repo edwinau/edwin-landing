@@ -428,7 +428,7 @@
 
 @media (max-width:500px){
 
-  .container_one.intro{
+.container_one.intro{
 	position: relative;
     display: flex;
     flex-direction: column;
@@ -436,7 +436,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 100vw;
-    height: 85vh;
+    height: 100vh;
     overflow: hidden;
 	background: 50vh;
   }
