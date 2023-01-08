@@ -324,7 +324,7 @@ img.portfolio_images {
     right: 5%;
   }
 
-		img.portfolio_images {
+	.portfolio_images {
 		display: inherit;
 		width: 35%;
 		height: auto;
@@ -342,6 +342,7 @@ img.portfolio_images {
 
 	.portfolio_images {
 		display: none;
+		width: 50%;
 	}	
 	
 	.portfolio_images-mobile {
