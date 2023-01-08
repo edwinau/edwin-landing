@@ -159,6 +159,10 @@ img.portfolio_images {
     /*margin-left: 7.25%;*/
     padding: 0px;
   }
+	
+	.carousel-control {
+		opacity: 0;
+	}
 
   .container_contacts{
     zoom: 85%;
