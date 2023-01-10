@@ -136,8 +136,12 @@
  }
 
 	.img_labtop{
-		zoom: 100%;
+		zoom: 80%;
 		bottom: -20%;
+	}
+	
+	.img_plant{
+		zoom: 20%;
 	}
 
   .medialabtopnone{
