@@ -11,6 +11,12 @@ img.portfolio_images {
 	display: none;
 }	
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{width: 40%; max-width: 40%}
+
+
+
+
 
 /*labtop*/
 @media (max-width:5480px){
