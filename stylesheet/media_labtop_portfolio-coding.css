@@ -11,8 +11,7 @@ img.portfolio_images {
 	display: none;
 }	
 
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 100%; max-width: 100%}
+
 
 
 
@@ -25,7 +24,10 @@ img.portfolio_images {
 	  width: 100vw;
 	  height: 100vh;
 	}
+
 	
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{width: 70%; max-width: 70%}
 	
   h1 a,
   h1 a:visited,
@@ -235,9 +237,19 @@ img.portfolio_images {
 
 }
 
+
+@media (max-width:2024px){
+
+
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{width: 45%; max-width: 45%}
+
+}
+
 /*ipad horizontal*/
 
 @media (max-width:1024px){
+	
 
   h1 a:hover,
   h1:hover{
