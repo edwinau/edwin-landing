@@ -27,7 +27,7 @@ img.portfolio_images {
 
 	
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 60%; max-width: 60%}
+{width: 100%; max-width: 100%}
 	
   h1 a,
   h1 a:visited,
@@ -242,7 +242,7 @@ img.portfolio_images {
 
 
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 45%; max-width: 45%}
+{width: 90%; max-width: 90%}
 
 }
 
