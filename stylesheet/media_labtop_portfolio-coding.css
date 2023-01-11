@@ -12,7 +12,7 @@ img.portfolio_images {
 }	
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 40%; max-width: 40%}
+{width: 100%; max-width: 100%}
 
 
 
