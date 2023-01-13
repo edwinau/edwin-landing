@@ -149,7 +149,7 @@
   }
 
   div.img_relative.labtop{
-    height: 125vh;
+    height: 145vh;
   }
 
   .carousel-inner{
@@ -247,7 +247,7 @@
   }
 
   .col-md-10{
-    width: 65%;
+    width: 70%;
   }
 
   p#hello{
@@ -383,8 +383,8 @@
 
   .quote.embossed.container_two{
     zoom: 180%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
 
