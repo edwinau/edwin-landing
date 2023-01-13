@@ -435,7 +435,7 @@ h2.right_right a::after {
 .totop {
     padding: 5px 3px;
     background: none;
-    color: #fff;
+    color: #000;
     opacity: .5;
     font-family: 'Oswald', serif;
     letter-spacing: .2;
