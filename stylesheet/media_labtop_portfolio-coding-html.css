@@ -497,6 +497,12 @@ img.portfolio_images {
 /*iphoneplus vertical*/
 
 @media (max-width:500px){
+	
+	.portfolio-nav	{
+		position: absolute;
+		left: 2%;
+		bottom: 25vh;
+	}
 
   .container_one.intro{
 	width: 100vw;
