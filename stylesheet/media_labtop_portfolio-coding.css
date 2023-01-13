@@ -24,6 +24,11 @@ img.portfolio_images {
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 60%; max-width: 60%}
 	
+		.alm{
+		position: relative;
+		scale: .7;
+		left: -10%;
+	}	
 	
 	.portfolio-nav	{
 		position: absolute;
@@ -503,6 +508,13 @@ img.portfolio_images {
 /*iphoneplus vertical*/
 
 @media (max-width:500px){
+	
+		.portfolio-nav	{
+		position: absolute;
+		left: 2%;
+		bottom: 25vh;
+	}
+	
 
   .container_one.intro{
 	width: 100vw;
