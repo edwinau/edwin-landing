@@ -20,7 +20,7 @@ img.portfolio_images {
 	  height: 100vh;
 	}
 
-	
+
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 60%; max-width: 60%}
 	
@@ -246,7 +246,18 @@ img.portfolio_images {
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 50%; max-width: 50%}
 
+	
+	.alm{
+		position: relative;
+		scale: .6;
+		left: -10%;
+	}	
+	
 }
+
+
+
+
 
 /*ipad horizontal*/
 
