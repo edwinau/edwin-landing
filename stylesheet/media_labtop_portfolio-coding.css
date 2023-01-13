@@ -12,11 +12,6 @@ img.portfolio_images {
 }	
 
 
-
-
-
-
-
 /*labtop*/
 @media (max-width:5480px){
 
@@ -32,7 +27,7 @@ img.portfolio_images {
 	
 	.portfolio-nav	{
 		position: absolute;
-		right: 10vw;
+		right: 1%;
 		top: 25vh;
 	}
 	
