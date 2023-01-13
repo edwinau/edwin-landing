@@ -27,7 +27,7 @@ img.portfolio_images {
 	
 	.portfolio-nav	{
 		position: absolute;
-		right: 1%;
+		right: 5%;
 		top: 25vh;
 	}
 	
@@ -338,7 +338,7 @@ img.portfolio_images {
     letter-spacing: .3;
     font-weight: bold;
     font-size: 6vw;
-	  font-color: #fff;
+	  font-color: #000;
 	display: inherit;
 	bottom: 0%;
     right: 5%;

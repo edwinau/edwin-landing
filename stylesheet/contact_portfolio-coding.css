@@ -102,7 +102,7 @@ h4.facebook a:hover {
 .totop {
 	 padding: 5px 3px;
     background: none;
-    color: darkgrey;
+    color: #000;
     opacity: .8;
     font-family: 'Oswald', serif;
     letter-spacing: .2;
@@ -110,7 +110,7 @@ h4.facebook a:hover {
     font-size: 2vw;
     position: fixed;
     z-index: 8000;
-    text-shadow: 0 0 3px black;
+    /*text-shadow: 0 0 3px black; */
 	display:inherit;	
     border-radius:50%;
     transition: all 1s;

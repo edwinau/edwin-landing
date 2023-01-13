@@ -435,7 +435,7 @@ h2.right_right a::after {
 .totop {
     padding: 5px 3px;
     background: none;
-    color: #fff;
+    color: #000;
     opacity: .5;
     font-family: 'Oswald', serif;
     letter-spacing: .2;
@@ -443,7 +443,7 @@ h2.right_right a::after {
     font-size: 2vw;
     position: fixed;
     z-index: 8000;
-    text-shadow: 0 0 3px #fff;
+    /*text-shadow: 0 0 3px #fff;*/
 	display:inherit;
 }
 
@@ -452,7 +452,7 @@ h2.right_right a::after {
 .totop a:link,
 .totop a:active{
   text-decoration: none;
-  color: #fff;
+  color: #000;
   opacity: .5;
   z-index: 8000;
 }
