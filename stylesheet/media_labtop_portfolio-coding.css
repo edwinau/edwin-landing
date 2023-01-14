@@ -518,7 +518,7 @@ img.portfolio_images {
 		.portfolio-nav	{
 		position: absolute;
 		left: 2%;
-		bottom: 0%;
+		bottom: -3%;
 			top: auto;
 			z-index: 2000;
 	}
@@ -788,6 +788,7 @@ h4.email h5{
 
 h4.email a{
     margin-left: 0px;
+	display: none;
   }
 	
 	
