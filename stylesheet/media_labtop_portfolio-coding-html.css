@@ -481,7 +481,7 @@ img.portfolio_images {
 	display: inherit;
    font-weight: bold;
    font-size: 4vw;
-	  bottom:10%;
+	  bottom: 1%;
   }
 
 
@@ -501,7 +501,7 @@ img.portfolio_images {
 	.portfolio-nav	{
 		position: absolute;
 		left: 2%;
-		bottom: 25vh;
+		bottom: -5%;
 	}
 
   .container_one.intro{
