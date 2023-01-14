@@ -34,6 +34,7 @@ img.portfolio_images {
 		position: absolute;
 		right: 5%;
 		top: 25vh;
+		bottom: auto;
 	}
 	
   h1 a,
@@ -491,7 +492,8 @@ img.portfolio_images {
    letter-spacing: .3;
 	display: inherit;
    font-weight: bold;
-   font-size: 4vw;
+	  margin: inherit;
+   font-size: 7vw;
 	  bottom:10%;
   }
 
@@ -509,10 +511,16 @@ img.portfolio_images {
 
 @media (max-width:500px){
 	
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{width: 80%; max-width: 80%}
+	
+	
 		.portfolio-nav	{
 		position: absolute;
 		left: 2%;
-		bottom: 25vh;
+		bottom: 12vh;
+			top: auto;
+			z-index: 2000;
 	}
 	
 
