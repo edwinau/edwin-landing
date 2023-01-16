@@ -268,12 +268,12 @@
 
 	
 .img_labtop{
-		zoom: 35%;
+		zoom: 55%;
 	
 	}
 	
 .img_plant{
-		zoom: 35%;
+		zoom: 55%;
 	}
 	
   .i_believe{
@@ -623,6 +623,10 @@ div.img_relative.labtop{
 
   img.resume_pdf{
     width: 90%;
+  }
+	
+  div.img_relative.labtop{
+    height: 210vh;
   }
 
 
