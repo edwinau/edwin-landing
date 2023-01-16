@@ -8,6 +8,7 @@
     font-family: 'Lato', sans-serif;
   src: url("~/fonts/Lato-Bol.ttf");
     text-transform: lowercase;
+	padding-top: 2%;
   }
 
 .container_contacts{
