@@ -377,7 +377,7 @@
 	
 .i_believe{
     padding-top: 2%;
-    padding-left: 40%;
+    padding-left: 30%;
     padding-right:5%;
     padding-bottom: 5%;
     font-size: 2.5vw;
@@ -622,11 +622,11 @@ div.img_relative.labtop{
   }
 
   img.resume_pdf{
-    width: 90%;
+    width: 100%;
   }
 	
   div.img_relative.labtop{
-    height: 210vh;
+    height: auto;
   }
 
 
@@ -659,6 +659,19 @@ div.img_relative.labtop{
 	 width: 100vw;
   }
 
+	
+	
+.sixtysix {
+	left: -1%;
+	font-size: 44vw;
+	}
+	
+.ninetynine {
+	right: -1%;
+	font-size: 44vw;
+	}
+	
+	
   .rendezlogo{
     margin-top: 2%;
     margin-bottom: 2%;
@@ -775,4 +788,6 @@ h4.email a{
 	transform: scale(1.9);
 	right: 0;
   }
+	
+	
 }
