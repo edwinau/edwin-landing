@@ -26,8 +26,9 @@ img.portfolio_images {
 	}
 
 	
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 100%; max-width: 100%}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	width: 100%; max-width: 100%;
+	}
 	
 
 .portfolio-nav	{
@@ -248,16 +249,14 @@ img.portfolio_images {
 @media (max-width:2024px){
 
 
-	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 90%; max-width: 90%}
-
-}
-
-/*ipad horizontal*/
-
-@media (max-width:1024px){
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+		width: 50%; max-width: 50%;
+	}
+		
+	.portfolio-nav	{
+		right: 3%;
+	}
 	
-
   h1 a:hover,
   h1:hover{
     font-size: 9vw;
@@ -360,6 +359,19 @@ img.portfolio_images {
 
 
 
+/*ipad horizontal*/
+
+@media (max-width:1024px){
+
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+		width: 90%; max-width: 90%;
+	}
+	
+	 .carousel-inner{
+    height: 120vh;
+  }
+
+}
 
 /*ipad view vertical*/
 
