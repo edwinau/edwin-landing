@@ -253,6 +253,9 @@ img.portfolio_images {
 		width: 50%; max-width: 50%;
 	}
 
+	div.img_relative.labtop{
+		height: 180vh;
+	}
 	
 	
 	.portfolio-nav	{
@@ -330,9 +333,9 @@ img.portfolio_images {
   h4  > a:visited,
   h4  > a:link,
   h4  > a:active{
-    padding: 10px 30px 20px 30px;
+    padding: 20px 30px 20px 30px;
     opacity: 1;
-    font-size: 3vw;
+    font-size: 1.75vw;
     text-transform: lowercase;
   }
 
