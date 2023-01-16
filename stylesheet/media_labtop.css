@@ -146,13 +146,17 @@
     opacity: .9;
  }
 	.img_labtop{
-		zoom: 80%;
-		bottom: 4%;
+		zoom: 100%;
+		bottom: 10%;
 	}
 	
-	.img_plant{
-		zoom: 100%;
-	}
+	
+.img_plant{
+  bottom: 7%;
+  left: 20%;
+	zoom: 140%;
+}
+	
 
   .medialabtopnone{
       display: inherit;
@@ -223,6 +227,18 @@
 	}	
 
 }
+
+
+/*ipad laptops*/
+
+@media (max-width:2024px){
+	
+	.img_plant {
+		zoom: 100%;
+	}
+}
+
+
 
 /*ipad horizontal*/
 
