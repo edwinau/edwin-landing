@@ -121,27 +121,37 @@
 
 
 
-  .hello{
-    margin-top: -7%;
-    padding-left: 10%;
-    padding-right:10%;
-	text-align: center
+  .hello{ 
+  color: white;
+  font-size: 4vw;
+  text-shadow: 2px 2px 10px black;
+  font-style: italic;
+  margin-top: 5%;
+  padding-left: 10%;
+  padding-right:10%;
+  text-align: center;
+	 opacity: 1;
   }
 
   .i_believe{
-    padding-left: 20%;
-    padding-right:20%;
-    font-size: 1.25vw;
-    opacity: .7;
+  font-family: 'Lato', serif;
+	  font-weight: 100;
+  color: #fff;
+  font-size: 18pt;
+  letter-spacing: .1em;
+  line-height: 1.5;
+	  padding-top: 1%;
+    padding-left: 14%;
+    padding-right:14%;
+    opacity: .9;
  }
-
 	.img_labtop{
 		zoom: 80%;
-		bottom: -15%;
+		bottom: 4%;
 	}
 	
 	.img_plant{
-		zoom: 80%;
+		zoom: 100%;
 	}
 
   .medialabtopnone{
@@ -149,7 +159,7 @@
   }
 
   div.img_relative.labtop{
-    height: 145vh;
+    height: 180vh;
   }
 
   .carousel-inner{
@@ -355,7 +365,7 @@
 .img_plant{
 		zoom: 50%;
 	left: 2%;
-	top: 2%
+	top: 5%
 	}
 
 	.resume_pdf{
