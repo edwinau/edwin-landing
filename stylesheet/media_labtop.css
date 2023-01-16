@@ -233,9 +233,6 @@
 
 @media (max-width:2024px){
 	
-	.img_plant {
-		zoom: 100%;
-	}
 
   h1 a:hover,
   h1:hover{
@@ -262,7 +259,7 @@
   }
 
   div.img_relative.labtop{
-    height: 100vh;
+    height: 180vh;
   }
 
   .col-md-10{
@@ -276,15 +273,19 @@
   }
 
 	
+.img_plant {
+		zoom: 80%;
+		bottom: 5%;
+	}
+	
+	
 .img_labtop{
-		zoom: 55%;
+		zoom: 80%;
+		bottom: -4%;
 	
 	}
 	
-.img_plant{
-		zoom: 55%;
-	}
-	
+
   .i_believe{
     padding-left: 5%;
     padding-right: 15%;
