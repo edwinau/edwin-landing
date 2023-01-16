@@ -261,9 +261,14 @@ img.portfolio_images {
 @media (max-width:2024px){
 
 
-	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 50%; max-width: 50%}
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+		width: 50%; max-width: 50%
+	}
 
+	
+	.portfolio-nav	{
+		right: 3%;
+	}
 	
 	.alm{
 		position: relative;
