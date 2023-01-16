@@ -236,13 +236,6 @@
 	.img_plant {
 		zoom: 100%;
 	}
-}
-
-
-
-/*ipad horizontal*/
-
-@media (max-width:1024px){
 
   h1 a:hover,
   h1:hover{
@@ -333,10 +326,25 @@
 
   }
 
-
 }
 
 
+
+
+/*ipad horizontal*/
+
+@media (max-width:1024px){
+		.img_labtop{
+		zoom: 40%;
+		bottom: -15%;
+	}
+	
+	.img_plant{
+		zoom: 40%;
+		bottom: 5%;
+		left: 23%;
+	}
+}
 
 
 /*ipad view vertical*/

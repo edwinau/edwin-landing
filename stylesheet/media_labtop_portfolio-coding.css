@@ -22,7 +22,7 @@ img.portfolio_images {
 
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 60%; max-width: 60%}
+{width: 60%; max-width: 60%;}
 	
 		.alm{
 		position: relative;
@@ -262,7 +262,7 @@ img.portfolio_images {
 
 
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-		width: 50%; max-width: 50%
+		width: 50%; max-width: 50%;
 	}
 
 	
@@ -276,17 +276,7 @@ img.portfolio_images {
 		left: -10%;
 	}	
 	
-}
-
-
-
-
-
-/*ipad horizontal*/
-
-@media (max-width:1024px){
 	
-
   h1 a:hover,
   h1:hover{
     font-size: 9vw;
@@ -384,6 +374,33 @@ img.portfolio_images {
 		height: auto;
 	}
 	
+	
+}
+
+
+
+/*ipad horizontal*/
+
+@media (max-width:1024px){
+	
+		.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{width: 90%; max-width: 90%;}
+
+	  .carousel-inner{
+    height: 120vh;
+  }
+	
+		.img_labtop{
+		zoom: 40%;
+		bottom: -15%;
+	}
+	
+	.img_plant{
+		zoom: 40%;
+		bottom: 5%;
+		left: 23%;
+	}
+	
 
 }
 
@@ -393,6 +410,7 @@ img.portfolio_images {
 /*ipad view vertical*/
 
 @media (max-width:768px){
+	
 
 	.portfolio_images {
 		display: none;
@@ -471,9 +489,6 @@ img.portfolio_images {
     overflow: hidden;
   }
 
-  .carousel-inner{
-    height: 75vh;
-  }
 
   .carousel-control {
 		opacity: 0;
@@ -529,7 +544,7 @@ img.portfolio_images {
 @media (max-width:500px){
 	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 80%; max-width: 80%}
+{width: 80%; max-width: 80%;}
 	
 	
 		.portfolio-nav	{
