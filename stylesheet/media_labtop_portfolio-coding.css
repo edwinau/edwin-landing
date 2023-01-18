@@ -11,6 +11,11 @@ img.portfolio_images {
 	display: none;
 }	
 
+#test {
+    width: 500px;
+    height: 500px;
+    background-color: lightblue;
+}
 
 /*labtop*/
 @media (max-width:5480px){
@@ -35,7 +40,7 @@ img.portfolio_images {
 		right: 3%;
 		top: 25vh;
 		bottom: auto;
-	  animation: fadeIn 1.5s;
+	  animation: fadeIn 1s;
 	}
 
 	@keyframes fadeIn {
@@ -952,6 +957,8 @@ h4.email a{
 .img_contact{
 	transform: scale(1);
   }
+
+	
 
 }
 
