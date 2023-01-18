@@ -636,7 +636,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 
 	
 div.img_relative.labtop{
-    height: 140vh;
+    height: 180vh;
   }
 
   p#hello{
@@ -772,7 +772,7 @@ div.img_relative.labtop{
 	
 #labtopresumewidth {
 		margin-left: 1vw;
-		overflow: hidden;35p
+		overflow: hidden;
 	}
 	
 #totop 
