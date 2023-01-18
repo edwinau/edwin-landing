@@ -176,8 +176,21 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
         scrollTop: $('#backtotop').offset().top
     }, 2000);
   });
+	
 
+	
+// home	
+window.onscroll = function() {myFunction()};
 
+function myFunction() {
+  if (document.documentElement.scrollTop > 50) {
+    document.getElementById("myP").className = "totop";
+  } else {
+    document.getElementById("myP").className = "";
+  }
+}
+	
+	
 //touch same as hover
   $('body').bind('touchstart', function() {});
 
