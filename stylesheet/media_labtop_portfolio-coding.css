@@ -35,8 +35,52 @@ img.portfolio_images {
 		right: 3%;
 		top: 25vh;
 		bottom: auto;
+	  animation: fadeIn 1.5s;
+	}
+
+	@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+	
+	
+	
+	.nav-title{
+		color: black; 
+		font-weight: bold; 
+		font-size: 15pt; 
+		font-family: 'Lato', sans-serif; 
+		padding-top: 10px; 
+		text-decoration: none;
 	}
 	
+	.nav-heading-active {
+		color:green; 
+		font-size: 12.5pt; 
+		font-family: 'Lato', sans-serif; 
+		padding-top: 10px;
+		
+	}
+	
+	.nav-heading-inactive {
+		color:blue; 
+		font-size: 12.5pt; 
+		font-family: 'Lato', sans-serif; 
+		index:1000; 
+		padding-top: 10px;
+	}
+	
+	
+		.port-heading-org {
+		font-size:16pt;
+		font-weight: bold;
+		text-align: right;
+		font-family: 'Lato',sans-serif; 
+		padding: 20px 170px 20px; 
+		line-height: 1.25;
+		background-color: white;
+		color: #333333;
+	}
 	
 	.port-heading {
 		font-size:16pt;
@@ -49,7 +93,18 @@ img.portfolio_images {
 		color: #333333;
 	}	
 	
+
+		.sub-port-heading-org {
+		font-size:14pt; 
+		font-weight: normal;
+		text-align: right;
+		font-family: 'Lato', sans-serif; 
+		background-color: white;
+		color: #333333;
+		padding: 0px 170px;
+	}
 	
+
 	.sub-port-heading {
 		font-size:14pt; 
 		font-weight: normal;
