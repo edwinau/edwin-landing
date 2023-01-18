@@ -140,6 +140,7 @@
   font-size: 18pt;
   letter-spacing: .1em;
   line-height: 1.5;
+	  font-size: 1.5vw;
 	  padding-top: 1%;
     padding-left: 14%;
     padding-right:14%;
@@ -281,15 +282,15 @@
 	
 .img_labtop{
 		zoom: 80%;
-		bottom: -4%;
+		bottom: 4%;
 	
 	}
 	
 
   .i_believe{
     padding-left: 5%;
-    padding-right: 15%;
-    font-size: 1.5vw;
+    padding-right: 10%;
+    font-size: 1.25vw;
   }
 
 
