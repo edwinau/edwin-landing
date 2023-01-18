@@ -280,7 +280,7 @@ img.portfolio_images {
 	
  .carousel-inner.mobile{
     width: auto;
-	  height: 75vh;
+	  height: 100vh;
     /*margin-left: 7.25%;*/
     padding: 0px;
   }
@@ -337,8 +337,7 @@ img.portfolio_images {
 
 	.portfolio_images-mobile {
 		display: none;
-	}	
-
+	}
 }
 
 
@@ -637,7 +636,6 @@ img.portfolio_images {
 	  margin: inherit;
    font-size: 7vw;
 	  bottom: 1%;
-	  display: none;
   }
 
 
@@ -658,7 +656,9 @@ img.portfolio_images {
 {width: 80%; max-width: 80%;}
 	
 	
-	
+	.container_carousel{
+		height: 100vh;
+	}
 	
 
   .container_one.intro{
@@ -961,8 +961,10 @@ h4.email a{
 .img_contact{
 	transform: scale(1);
   }
-
 	
+.col-md-12.nopadding {
+		height: 100vh;
+	}
 
 }
 
