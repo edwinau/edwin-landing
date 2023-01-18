@@ -154,7 +154,7 @@
 	
 .img_plant{
   bottom: 7%;
-  left: 20%;
+  left: 18%;
 	zoom: 140%;
 }
 	
@@ -264,7 +264,9 @@
   }
 
   .col-md-10{
-    width: 70%;
+    width: 65%;
+	  padding-left: 7vw;
+	  padding-top: 2vw;
   }
 
   p#hello{
@@ -395,9 +397,9 @@
 	}
 
 	.resume_pdf{
-		width: 65%;
+		width: 150%;
 			right: 1%;
-		float: right;
+		float: left;
 	}
 
 	
@@ -626,7 +628,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 
 	
 div.img_relative.labtop{
-    height: 100vh;
+    height: 140vh;
   }
 
   p#hello{
@@ -648,12 +650,11 @@ div.img_relative.labtop{
   }
 
   img.resume_pdf{
-    width: 100%;
+	  max-width: 150%;
+    width: 150%;
+	  float: left;
   }
 	
-  div.img_relative.labtop{
-    height: auto;
-  }
 
 
 
