@@ -609,7 +609,6 @@ img.portfolio_images {
    font-weight: bold;
    font-size: 4vw;
 	  bottom: 1%;
-	  display: none;
   }
 
 
@@ -627,6 +626,15 @@ img.portfolio_images {
 @media (max-width:500px){
 	
 
+	 .carousel-inner.mobile{
+    width: auto;
+	  height: 100vh;
+    /*margin-left: 7.25%;*/
+    padding: 0px;
+  }
+	
+	
+	
 
   .container_one.intro{
 	width: 100vw;
@@ -925,8 +933,9 @@ h4.email a{
 	  
   }
 	
-.img_contact{
-	transform: scale(1);
+	.img_contact{
+	transform: scale(2);
+	zom: 400;
   }
 
 }

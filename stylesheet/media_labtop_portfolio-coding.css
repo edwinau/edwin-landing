@@ -280,7 +280,7 @@ img.portfolio_images {
 	
  .carousel-inner.mobile{
     width: auto;
-	  height: 100vh;
+	  height: 85vh;
     /*margin-left: 7.25%;*/
     padding: 0px;
   }
@@ -504,7 +504,7 @@ img.portfolio_images {
 	}
 	
 	.port-heading{
-		font-size:14pt; 
+		font-size:13pt; 
 		font-weight: bold; 
 		text-align: left; 
 		font-family: 'Lato', sans-serif; 
@@ -512,7 +512,7 @@ img.portfolio_images {
 	}
 	
 	 .sub-port-heading {
-		font-size:12pt; 
+		font-size:11pt; 
 		font-weight: normal;
 		text-align: left;
 		font-family: 'Lato', sans-serif; 
@@ -635,7 +635,8 @@ img.portfolio_images {
    font-weight: bold;
 	  margin: inherit;
    font-size: 7vw;
-	  bottom: 1%;
+	  bottom: 2%;
+	  z-index: 9999;
   }
 
 
@@ -959,14 +960,12 @@ h4.email a{
   }
 	
 .img_contact{
-	transform: scale(1);
+	transform: scale(2);
+	zom: 400;
+	bottom: 0;
   }
 	
 .col-md-12.nopadding {
 		height: 100vh;
 	}
-
 }
-
-
-
