@@ -37,6 +37,30 @@ img.portfolio_images {
 		top: 25vh;
 }
 	
+	
+	.port-heading {
+		font-size:16pt;
+		font-weight: bold;
+		text-align: right;
+		font-family: 'Lato',sans-serif; 
+		padding: 20px 25px 20px; 
+		line-height: 1.25;
+		background-color: white;
+		color: #333333
+	}	
+	
+	
+	.sub-port-heading {
+		font-size:14pt; 
+		font-weight: normal;
+		text-align: right;
+		font-family: 'Lato', sans-serif; 
+		background-color: white;
+		color: #333333;
+		padding: 0px 20px;
+	}	
+
+	
   h1 a,
   h1 a:visited,
   h1 a:link,
@@ -381,6 +405,24 @@ img.portfolio_images {
 /*ipad view vertical*/
 
 @media (max-width:768px){
+	
+	.port-heading{
+		font-size:14pt; 
+		font-weight: bold; 
+		text-align: left; 
+		font-family: 'Lato', sans-serif; 
+		padding: 20px 10px 20px;
+	}
+	
+	 .sub-port-heading {
+		font-size:12pt; 
+		font-weight: normal;
+		text-align: left;
+		font-family: 'Lato', sans-serif; 
+		background-color: white;
+		color: #333333;
+		padding: 0px 20px;
+	}
 
 	.portfolio_images {
 		display: none;

@@ -35,7 +35,7 @@ p#hello, .i_believe{
 }
 
 .quote{
-  font-size: 5vw;
+  font-size: 4vw;
   font-family: aller;
   line-height: 2.5;
   width: 60%;
@@ -396,11 +396,11 @@ p#hello, .i_believe{
 
 .sixtysix{
   position: absolute;
-  left: 10%;
+  left: 20%;
   top: 10px;
   opacity: .2;
   color: white;
-  font-size: 20vw;
+  font-size: 15vw;
   font-family: quotefont;
   text-shadow: none;
   line-height: 1;
@@ -422,10 +422,10 @@ p#hello, .i_believe{
 .ninetynine{
   position: absolute;
   bottom: 10px;
-  right: 10%;
+  right: 20%;
   opacity: .2;
   color: white;
-  font-size: 20vw;
+  font-size: 15vw;
   font-family: quotefont;
   text-shadow: none;
   line-height: 0;
