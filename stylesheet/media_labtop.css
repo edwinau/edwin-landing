@@ -771,7 +771,8 @@ div.img_relative.labtop{
 	 /*border: 1px solid green;}*/
 	
 #labtopresumewidth {
-		margin-left: 5vw;
+		margin-left: 1vw;
+		overflow: hidden;35p
 	}
 	
 #totop 
