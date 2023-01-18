@@ -465,6 +465,15 @@ img.portfolio_images {
 
 @media (max-width:768px){
 	
+			.portfolio-nav	{
+		position: absolute;
+		left: 2%;
+		bottom: -3%;
+			top: auto;
+			z-index: 2000;
+			display: none;
+	}
+	
 	.port-heading{
 		font-size:14pt; 
 		font-weight: bold; 
@@ -600,6 +609,7 @@ img.portfolio_images {
    font-weight: bold;
    font-size: 4vw;
 	  bottom: 1%;
+	  display: none;
   }
 
 
@@ -616,11 +626,7 @@ img.portfolio_images {
 
 @media (max-width:500px){
 	
-	.portfolio-nav	{
-		position: absolute;
-		left: 2%;
-		bottom: 0%;
-	}
+
 
   .container_one.intro{
 	width: 100vw;
