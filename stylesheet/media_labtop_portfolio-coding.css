@@ -1,6 +1,5 @@
-.imac.displaynone{
-  display: none;
-}
+
+
 
 img.portfolio_images {
 	width: 65%;
@@ -20,6 +19,14 @@ img.portfolio_images {
 
 /*labtop*/
 @media (max-width:5480px){
+	
+	.imac.displaynone{
+  display: none;
+}
+
+ .ipad.displaynone{
+    display: inherit;
+  }
 
 .hamburger-menu{
 	display: none;
@@ -39,20 +46,7 @@ img.portfolio_images {
 		scale: .7;
 		left: -10%;
 	}	
-	
-	.portfolio-nav	{
-		position: absolute;
-		right: 3%;
-		top: 25vh;
-		bottom: auto;
-		animation: fadeIn 1s;
-	}
-	
-	@keyframes fadeIn {
-	from {opacity:0;}
-		to {opacity:1;}
-		}
-	
+		
 	.nav-title{
 		color: black; 
 		font-weight: bold; 
@@ -235,6 +229,21 @@ img.portfolio_images {
 	}
 	
 	
+		.portfolio-nav	{
+		position: absolute;
+		right: 3%;
+		top: 25vh;
+		bottom: auto;
+		animation: fadeIn 1s;
+	}
+	
+	@keyframes fadeIn {
+	from {opacity:0;}
+		to {opacity:1;}
+	}
+
+	
+	
  .hello{ 
   font-family: 'Lato', serif;
   color: white;
@@ -256,11 +265,8 @@ img.portfolio_images {
   line-height: 2;
     padding-left: 10%;
     padding-right:10%;
-    font-size: 2vw;
     opacity: 1;
  }
-
-
 
   .medialabtopnone{
       display: inherit;
@@ -284,7 +290,7 @@ img.portfolio_images {
     padding: 0px;
   }
 	
-	.carousel-control {
+.carousel-control {
 		opacity: .6;
 	}
 
@@ -427,7 +433,6 @@ img.portfolio_images {
     margin-right: 0px;
   }
 
-
   h4  a,
   h4  > a:visited,
   h4  > a:link,
@@ -456,9 +461,7 @@ img.portfolio_images {
 		display: inherit;
 		width: 35%;
 		height: auto;
-	}
-	
-	
+	}	
 }
 
 
@@ -467,6 +470,13 @@ img.portfolio_images {
 
 @media (max-width:1200px){
 	
+.imac.displaynone{
+  display: inherit;
+}
+
+ .ipad.displaynone{
+    display: none;
+  }
 	
 .hamburger-menu{
 	display: block;
@@ -549,9 +559,7 @@ img.portfolio_images {
 		display: inherit;
 	}	
 
-  .ipad.displaynone{
-    display: none;
-  }
+ 
 
   div.img_relative.labtop{
     height: 140vh;
@@ -672,7 +680,6 @@ img.portfolio_images {
       /*overflow: hidden;*/
   }
 	
-
 }
 
 /*iphoneplus vertical*/
@@ -765,6 +772,7 @@ img.portfolio_images {
 @keyframes cloud2{
 	from {left: -67vw;} 
 	to {left: 100vw;}}
+	
 @-webkit-keyframes cloud2{
 	0% {left: -67vw;} 
 	100% {left: 100vw;}
