@@ -1,6 +1,3 @@
-
-
-
 img.portfolio_images {
 	width: 65%;
 	height: auto;
@@ -20,7 +17,7 @@ img.portfolio_images {
 /*labtop*/
 @media (max-width:5480px){
 	
-	.imac.displaynone{
+.imac.displaynone{
   display: none;
 }
 
@@ -347,6 +344,7 @@ img.portfolio_images {
 
 @media (max-width:2024px){
 
+	
 	.hamburger-menu{
 	display: none;
 }
@@ -470,13 +468,6 @@ img.portfolio_images {
 
 @media (max-width:1200px){
 	
-.imac.displaynone{
-  display: inherit;
-}
-
- .ipad.displaynone{
-    display: none;
-  }
 	
 .hamburger-menu{
 	display: block;
@@ -514,17 +505,21 @@ img.portfolio_images {
 	
 	.headermred {
 	display: none;
+	}
 }
-	
-
-}
-
-
 
 
 /*ipad view vertical*/
 
 @media (max-width:830px){
+	
+		.imac.displaynone{
+  display: inherit;
+}
+
+ .ipad.displaynone{
+    display: none;
+  }
 	
 .hamburger-menu{
 	display: block;
@@ -565,9 +560,6 @@ img.portfolio_images {
     height: 140vh;
   }
 
-  .imac.displaynone{
-    display: inherit;
-  }
 
   p#hello{
     margin-top: 20%;
