@@ -12,14 +12,22 @@ img.portfolio_images {
 }	
 
 
+.headermred {
+	display: block;
+}
 
-
-
+.hamburger-menu{
+	display: block;
+}
 
 
 /*labtop*/
 @media (max-width:5480px){
 
+.hamburger-menu{
+	display: none;
+}
+	
   .container_one.intro{
 	  width: 100vw;
 	  height: 100vh;
@@ -331,7 +339,10 @@ img.portfolio_images {
 
 @media (max-width:2024px){
 
-
+.hamburger-menu{
+	display: block;
+}
+	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 		width: 50%; max-width: 50%;
 	}
@@ -452,7 +463,7 @@ img.portfolio_images {
 @media (max-width:1200px){
 
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-		width: 90%; max-width: 90%;
+		width: 50%; max-width: 50%;
 	}
 	
 	 .carousel-inner{
@@ -468,6 +479,11 @@ img.portfolio_images {
 			display: none;
 	}
 
+	.headermred {
+	display: block;
+}
+	
+	
 }
 
 /*ipad view vertical*/
@@ -796,6 +812,18 @@ div.img_relative.labtop{
   }
 
 
+	  .totop{
+   letter-spacing: .3;
+	display: inherit;
+   font-weight: bold;
+	  margin: inherit;
+   font-size: 6vw;
+	  bottom: 1%;
+	  z-index: 8888;
+	  animation: fadeInhome 5s;
+	}
+	
+	
 
   h4  a,
   h4  > a:visited,
@@ -934,6 +962,7 @@ h4.email a{
     overflow: hidden;
     display: block;
 	height: 55vh;
+	display: none;
   }	
 	
   .container_two.contact{
