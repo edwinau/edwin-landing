@@ -26,6 +26,7 @@ img.portfolio_images {
 
 .hamburger-menu{
 	display: none;
+	z-index: 5000;
 }	
 	
 	
@@ -481,6 +482,8 @@ img.portfolio_images {
 	
 .hamburger-menu{
 	display: block;
+		z-index: 5000;
+
 }
 	
 		.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
@@ -527,6 +530,8 @@ img.portfolio_images {
 	
 .hamburger-menu{
 	display: block;
+		z-index: 5000;
+
 }
 	
 	.port-heading{
@@ -688,6 +693,8 @@ img.portfolio_images {
 	
 	.hamburger-menu{
 	display: block;
+			z-index: 9999;
+
 }
 	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
