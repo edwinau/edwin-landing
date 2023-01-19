@@ -345,17 +345,21 @@
 
 /*ipad horizontal*/
 
-@media (max-width:1024px){
+@media (max-width:1200px){
 		.img_labtop{
-		zoom: 20%;
-		bottom: -15%;
+		zoom: 50%;
+		bottom: 7%;
 	}
 	
 	.img_plant{
-		zoom: 20%;
-		bottom: 5%;
-		left: 23%;
+		zoom: 60%;
+		bottom: 15%;
+		left: 20%;
 	}
+	
+	  div.img_relative.labtop{
+    height: 130vh;
+  }
 }
 
 
