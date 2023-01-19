@@ -449,7 +449,7 @@ img.portfolio_images {
 
 /*ipad horizontal*/
 
-@media (max-width:1024px){
+@media (max-width:1200px){
 
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 		width: 90%; max-width: 90%;
@@ -458,12 +458,21 @@ img.portfolio_images {
 	 .carousel-inner{
     height: 120vh;
   }
+	
+	.portfolio-nav	{
+		position: absolute;
+		left: 2%;
+		bottom: -3%;
+			top: auto;
+			z-index: 2000;
+			display: none;
+	}
 
 }
 
 /*ipad view vertical*/
 
-@media (max-width:768px){
+@media (max-width:830px){
 	
 			.portfolio-nav	{
 		position: absolute;
