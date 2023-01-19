@@ -1,7 +1,5 @@
-.imac.displaynone{
-  display: none;
-}
 
+	
 img.portfolio_images {
 	width: 65%;
 	height: auto;
@@ -25,6 +23,17 @@ img.portfolio_images {
 
 /*labtop*/
 @media (max-width:5480px){
+	
+	
+		.ipad.displaynone{
+    display: none;
+  }
+	
+
+ .imac.displaynone{
+    display: inherit;
+  }	
+	
 
 .hamburger-menu{
 	display: none;
@@ -353,6 +362,15 @@ img.portfolio_images {
 
 
 @media (max-width:2024px){
+	
+	.ipad.displaynone{
+    display: none;
+  }
+	
+
+ .imac.displaynone{
+    display: inherit;
+  }	
 
 	.hamburger-menu{
 	display: none;
@@ -480,6 +498,15 @@ img.portfolio_images {
 
 @media (max-width:1200px){
 	
+
+		.ipad.displaynone{
+    display: inherit;
+  }
+	
+
+ .imac.displaynone{
+    display: none;
+  }	
 	
 .hamburger-menu{
 	display: block;
@@ -517,6 +544,8 @@ img.portfolio_images {
 	display: none;
 }
 	
+	
+
 
 }
 
@@ -558,17 +587,13 @@ img.portfolio_images {
 		display: inherit;
 	}	
 
-  .ipad.displaynone{
-    display: none;
-  }
+  
 
   div.img_relative.labtop{
     height: 140vh;
   }
 
-  .imac.displaynone{
-    display: inherit;
-  }
+ 
 
   p#hello{
     margin-top: 20%;
