@@ -481,7 +481,9 @@ img.portfolio_images {
 @media (max-width:1200px){
 	
 	
-
+.hamburger-menu{
+	display: block;
+}
 	
 		.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 50%; max-width: 50%;}
@@ -525,7 +527,10 @@ img.portfolio_images {
 
 @media (max-width:830px){
 	
-
+.hamburger-menu{
+	display: block;
+}
+	
 	.port-heading{
 		font-size:11pt; 
 		font-weight: bold; 
@@ -682,6 +687,10 @@ img.portfolio_images {
 /*iphoneplus vertical*/
 
 @media (max-width:500px){
+	
+	.hamburger-menu{
+	display: block;
+}
 	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 80%; max-width: 80%;}
