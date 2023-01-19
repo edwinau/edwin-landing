@@ -461,6 +461,10 @@ img.portfolio_images {
 /*ipad horizontal*/
 
 @media (max-width:1200px){
+	
+	.hamburger-menu{
+	display: block;
+}
 
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 		width: 50%; max-width: 50%;
@@ -490,6 +494,9 @@ img.portfolio_images {
 
 @media (max-width:830px){
 	
+	.hamburger-menu{
+	display: block;
+}
 			.portfolio-nav	{
 		position: absolute;
 		left: 2%;
@@ -650,6 +657,9 @@ img.portfolio_images {
 
 @media (max-width:500px){
 	
+	.hamburger-menu{
+	display: block;
+}
 
 	 .carousel-inner.mobile{
     width: auto;
