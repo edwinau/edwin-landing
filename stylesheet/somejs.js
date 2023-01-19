@@ -217,8 +217,11 @@ var myScrollFunc = function() {
 window.addEventListener("scroll", myScrollFunc);
 
 
+// autoplay vid
 
+    document.getElementById('vid').play();
 
+$("videoID").get(0).play();
 
 //for nav popup
 
