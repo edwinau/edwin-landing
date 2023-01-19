@@ -18,9 +18,6 @@ img.portfolio_images {
 
 
 
-
-
-
 /*labtop*/
 @media (max-width:5480px){
 
@@ -29,12 +26,10 @@ img.portfolio_images {
 	z-index: 5000;
 }	
 	
-	
   .container_one.intro{
 	  width: 100vw;
 	  height: 100vh;
 	}
-
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 60%; max-width: 60%;}
@@ -50,15 +45,13 @@ img.portfolio_images {
 		right: 3%;
 		top: 25vh;
 		bottom: auto;
-	  animation: fadeIn 1s;
+		animation: fadeIn 1s;
 	}
-
+	
 	@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-	
-	
+	from {opacity:0;}
+		to {opacity:1;}
+		}
 	
 	.nav-title{
 		color: black; 
@@ -130,9 +123,6 @@ img.portfolio_images {
 		padding: 0px 20px;
 	}
 	
-	
-	
-	
   h1 a,
   h1 a:visited,
   h1 a:link,
@@ -178,8 +168,6 @@ img.portfolio_images {
     font-size: 8vw;
   }
 
-
-
   hr {
     height: 2px;
     box-shadow: none;
@@ -214,6 +202,7 @@ img.portfolio_images {
     -o-transform: rotateX(90deg) translateZ(17.5px);
     transform: rotateX(90deg) translateZ(17.5px);
   }
+	
   h2.button-row > a:hover {
     -webkit-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
     -moz-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
@@ -349,7 +338,6 @@ img.portfolio_images {
 		display: none;
 	}
 }
-
 
 @media (max-width:2024px){
 
@@ -774,8 +762,13 @@ img.portfolio_images {
     animation: cloud2 100s linear;
 	}
 
-@keyframes cloud2{from {left: -67vw;} to {left: 100vw;}}
-@-webkit-keyframes cloud2{0% {left: -67vw;} 100% {left: 100vw;}}
+@keyframes cloud2{
+	from {left: -67vw;} 
+	to {left: 100vw;}}
+@-webkit-keyframes cloud2{
+	0% {left: -67vw;} 
+	100% {left: 100vw;}
+	}
 
 	
   .img_introcloud3{
@@ -789,7 +782,10 @@ img.portfolio_images {
     animation: cloud3 500s linear;
   }
 
-	@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
+	@keyframes cloud3{
+		0% {right: 0%;} 
+		100% {right: -100vw;}
+	}
 
 	h1 {
     font-size: 12vw;
@@ -805,7 +801,8 @@ img.portfolio_images {
 
   h2.left.button-row{
 	font-size: 4vw;
-    margin-left: -5vw;  }
+    margin-left: -5vw;  
+	}
 
   h2.right_right.button-row{
 	font-size: 4vw;
@@ -828,8 +825,6 @@ h2.button-row{
 h2.button-row > a::before, h2.button-row > a::after{
 		width: 40vw;
 		}
-
-
 	
 div.img_relative.labtop{
     height: 100vh;
@@ -855,8 +850,6 @@ div.img_relative.labtop{
   .resume_pdf{
     width: 99%;
   }
-
-
 
   h4  a,
   h4  > a:visited,
@@ -1004,7 +997,6 @@ h4.email a{
 
 .container_one.contactpage{
     overflow: hidden;
-    display: block;
 	height: 55vh;
 	display: none;
   }	
