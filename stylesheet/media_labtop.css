@@ -142,7 +142,6 @@
   font-family: 'Lato', serif;
 	  font-weight: 100;
   color: #fff;
-  font-size: 18pt;
   letter-spacing: .1em;
   line-height: 1.5;
 	  font-size: 1.25vw;
@@ -526,7 +525,6 @@
 	background: 50vh;
   }
 
-
 .container_two{
     position: relative;
     display: flex;
@@ -580,23 +578,23 @@
     height: auto;
     animation: cloud2 100s linear;
 	}
-
-@keyframes cloud2{0% {left: -67vw;} 100% {left: 100vw;}}
-@-webkit-keyframes cloud2{0% {left: -67vw;} 100% {left: 100vw;}}
+	
+@keyframes cloud2 {0% {left: -67vw;} 100% {left: 100vw;}}
+@-webkit-keyframes cloud2 {0% {left: -67vw;} 100% {left: 100vw;}}
 	
   .img_introcloud3{
     position: absolute;
     z-index: 0;
     opacity: 1;
     top: 3%;
-    right:0;
+    right: 0%;
     width: 35vw;
     height: auto;
     animation: cloud3 500s linear;
   }
 
-
-	@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
+@keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
+@-webkit-keyframes cloud3{0% {right: 0%;} 100% {right: -100vw;}}
 
 	h1 {
     font-size: 12vw;
@@ -620,7 +618,6 @@
   }
 
 h2.button-row{
-	margin-left: 0px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
     perspective: 1000px;
@@ -648,7 +645,6 @@ div.img_relative.labtop{
   }
 
   .img_labtop{
-    top: 0px;
     overflow:hidden;
 	  transform: scaleY(-1);
 	 zoom: 20%;
@@ -670,13 +666,11 @@ left: 1%;
 	}
 
 	@keyframes resumeleftright {
-  0% { left: -10%; }
-	50% { left: -40%; }
-  100% { left: -10%; }
+  0% { left: -3%; }
+	50% { left: -50%; }
+  100% { left: -3%; }
 }
 	
-
-
 
   h4  a,
   h4  > a:visited,
