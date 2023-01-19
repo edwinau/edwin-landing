@@ -662,10 +662,18 @@ div.img_relative.labtop{
   }
 
   img.resume_pdf{
+	  position: relative;
 	  max-width: 150%;
     width: 150%;
-	  float: left;
-  }
+left: 1%;
+	  animation: resumeleftright 10s infinite;
+	}
+
+	@keyframes resumeleftright {
+  0% { left: -10%; }
+	50% { left: -40%; }
+  100% { left: -10%; }
+}
 	
 
 
