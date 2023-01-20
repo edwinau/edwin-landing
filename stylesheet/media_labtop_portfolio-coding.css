@@ -29,7 +29,16 @@ img.portfolio_images {
 	
 	.madnessvideobasketball{
 		width: 50%;
-		height: auto;		
+		height: auto;
+	}
+	
+	
+	.madnessvideobasketball.postit {
+		width: 28%;
+		height: auto;
+		position: absolute;
+		right: -17%;
+		bottom: 8vh;
 	}
 	
 	
@@ -564,7 +573,8 @@ img.portfolio_images {
 	
 .madnessvideobasketball{
 	width: 50%;
-	height: auto;		
+	height: auto;
+	position: relative;
 }
 	
 .container_carousel{
@@ -727,6 +737,12 @@ img.portfolio_images {
 .hamburger-menu{
 	display: block;
 	z-index: 9999;
+}
+	
+	.madnessvideobasketball{
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
