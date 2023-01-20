@@ -543,7 +543,7 @@ img.portfolio_images {
 		font-weight: bold;
 		text-align: left;
 		font-family: 'Lato',sans-serif; 
-		padding: 20px 350px 20px 10px;
+		padding: 20px 120px 20px 10px;
 		line-height: 1.25;
 		background-color: white;
 		color: #333333;
@@ -584,7 +584,7 @@ img.portfolio_images {
   }
 	
 	carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 70%; max-width: 70%; padding-top: 5%;}
+{width: 100%; max-width: 100%; padding-top: 5%;}
 	
 	
 	.port-heading{
@@ -592,7 +592,7 @@ img.portfolio_images {
 		font-weight: bold; 
 		text-align: left; 
 		font-family: 'Lato', sans-serif; 
-		padding: 20px 150px 20px 10px;
+		padding: 20px 80px 20px 10px;
 	}
 	
 	 .sub-port-heading {
@@ -719,19 +719,14 @@ img.portfolio_images {
 	  animation: fadeInhome 5s;
 	}
 
-	@keyframes fadeInhome {
-  0% { opacity: 0; }
-	90% { opacity: 0; }
-
-  100% { opacity: .6; }
+@keyframes fadeInhome {
+	0% { opacity: 0;}
+	90% { opacity: 0;}
+	100% { opacity: .6;}
 }
-
-  .carolcarolcon{
-      width: 100vw;
-      height: 100vh;
-      /*overflow: hidden;*/
-  }
-	
+	.carolcarolcon{
+		width: 100vw;
+		height: 100vh;}
 }
 
 /*iphoneplus vertical*/
@@ -755,7 +750,7 @@ img.portfolio_images {
 		font-weight: bold; 
 		text-align: left; 
 		font-family: 'Lato', sans-serif; 
-		padding: 20px 37px 20px 10px;
+		padding: 20px 42px 20px 10px;
 	}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
