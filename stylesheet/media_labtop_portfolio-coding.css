@@ -26,6 +26,13 @@ img.portfolio_images {
 	z-index: 5000;
 }	
 	
+	
+	.madnessvideobasketball{
+		width: 50%;
+		height: auto;		
+	}
+	
+	
   .container_one.intro{
 	  width: 100vw;
 	  height: 100vh;
@@ -231,16 +238,8 @@ img.portfolio_images {
 		right: 3%;
 		top: 25vh;
 		bottom: auto;
-		animation: fadeIn 1s;
-	}
-	
-	@keyframes fadeIn {
-	from {opacity:0;}
-		to {opacity:1;}
 	}
 
-	
-	
  .hello{ 
   font-family: 'Lato', serif;
   color: white;
@@ -480,6 +479,11 @@ img.portfolio_images {
     display: none;
   }
 	
+	.container_one.contactpage{
+    overflow: hidden;
+    display: none;
+  }
+	
 .hamburger-menu{
 	display: block;
 		z-index: 5000;
@@ -544,6 +548,11 @@ img.portfolio_images {
 	display: block;
 		z-index: 5000;
 
+}
+	
+.madnessvideobasketball{
+	width: 50%;
+	height: auto;		
 }
 	
 	.port-heading{
@@ -703,6 +712,7 @@ img.portfolio_images {
 			z-index: 9999;
 
 }
+	
 	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 80%; max-width: 80%;}
