@@ -36,7 +36,7 @@
   left:0;
   width: 20vw;
   height: auto;
-  animation: cloud1 140s linear;
+  animation: cloud1 120s infinite;
   transition: ease;
 }
 
@@ -47,7 +47,7 @@
   top: 3%;
   width: 50vw;
   height: auto;
-  animation: cloud2 100s linear;
+  animation: cloud2 100s infinite;
 }
 
 .img_introcloud3{
@@ -58,7 +58,7 @@
   right:0;
   width: 40vw;
   height: auto;
-  animation: cloud3 140s linear;
+  animation: cloud3 120s infinite;
 }
 
 .img_introcloud4{
@@ -68,7 +68,7 @@
   top: 25%;
   width: 50vw;
   height: auto;
-  animation: cloud4 100s linear;
+  animation: cloud4 120s infinite;
 }
 
 
@@ -331,23 +331,23 @@ h2.center a::before {
 }
 
 @-webkit-keyframes color-change {
-    0% { color: #3a75bb; }
-    50% { color: white; }
-    100% { color: #3a75bb; }
+    0% {color: #3a75bb;}
+    50% {color: white;}
+    100% {color: #3a75bb;}
 }
 @-moz-keyframes color-change {
   0% { color: #3a75bb; }
   50% { color: white; }
   100% { color: #3a75bb; }
 }
-@-ms-keyframes color-change {
-  0% { color: #3a75bb; }
-  50% { color: white; }
-  100% { color: #3a75bb; }
+	@-ms-keyframes color-change {
+		0% { color: #3a75bb;}
+		50% { color: white;}
+		100% { color: #3a75bb;}
 }
 
 @-o-keyframes color-change {
-  0% { color: #3a75bb; }
+	0% { color: #3a75bb; }
   50% { color: white; }
   100% { color: #3a75bb; }
 }
