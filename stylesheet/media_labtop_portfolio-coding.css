@@ -295,12 +295,7 @@ img.portfolio_images {
     padding: 0px;
   }
 	
- .carousel-inner.mobile{
-    width: auto;
-	  height: 85vh;
-    /*margin-left: 7.25%;*/
-    padding: 0px;
-  }
+
 	
 .carousel-control {
 		opacity: .6;
@@ -512,7 +507,7 @@ img.portfolio_images {
 }
 	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
-{width: 50%; max-width: 50%;}
+{width: 35%; max-width: 35%;}
 
 	  .carousel-inner{
     height: 120vh;
@@ -548,7 +543,7 @@ img.portfolio_images {
 		font-weight: bold;
 		text-align: left;
 		font-family: 'Lato',sans-serif; 
-		padding: 20px 25px 20px; 
+		padding: 20px 350px 20px 10px;
 		line-height: 1.25;
 		background-color: white;
 		color: #333333;
@@ -582,12 +577,22 @@ img.portfolio_images {
 	height: auto;
 }
 	
+	 .carousel-inner.mobile{
+    width: auto;
+	  height: 100vh;
+    padding: 0px;
+  }
+	
+	carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+{width: 70%; max-width: 70%; padding-top: 5%;}
+	
+	
 	.port-heading{
 		font-size:11pt; 
 		font-weight: bold; 
 		text-align: left; 
 		font-family: 'Lato', sans-serif; 
-		padding: 20px 10px 20px;
+		padding: 20px 150px 20px 10px;
 	}
 	
 	 .sub-port-heading {
@@ -744,6 +749,14 @@ img.portfolio_images {
 	height: auto;
 	position: relative;
 }
+	
+		.port-heading{
+		font-size:11pt; 
+		font-weight: bold; 
+		text-align: left; 
+		font-family: 'Lato', sans-serif; 
+		padding: 20px 37px 20px 10px;
+	}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 80%; max-width: 80%;}
