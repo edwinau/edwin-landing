@@ -33,6 +33,13 @@ img.portfolio_images {
 	}
 	
 	
+	.container_carousel{
+  overflow: hidden;
+	height: 84vh;
+}
+
+	
+	
   .container_one.intro{
 	  width: 100vw;
 	  height: 100vh;
@@ -490,6 +497,11 @@ img.portfolio_images {
 
 }
 	
+.container_carousel{
+  overflow: hidden;
+	height: auto;
+}
+	
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 50%; max-width: 50%;}
 
@@ -553,6 +565,11 @@ img.portfolio_images {
 .madnessvideobasketball{
 	width: 50%;
 	height: auto;		
+}
+	
+.container_carousel{
+  overflow: hidden;
+	height: auto;
 }
 	
 	.port-heading{
@@ -707,22 +724,20 @@ img.portfolio_images {
 @media (max-width:500px){
 	
 	
-	.hamburger-menu{
+.hamburger-menu{
 	display: block;
-			z-index: 9999;
-
+	z-index: 9999;
 }
-	
-	
-	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 80%; max-width: 80%;}
 	
-	
-	.container_carousel{
-		height: auto;
-	}
+.container_carousel{
+  overflow: hidden;
+	height: auto;
+}	
 
-  .container_one.intro{
+.container_one.intro{
 	width: 100vw;
     height: 65vh;
 	position: relative;
@@ -733,7 +748,7 @@ img.portfolio_images {
     vertical-align: middle;
     overflow: hidden;
 	background: 50vh;
-  }
+}
 
 
 .container_two{
@@ -745,7 +760,7 @@ img.portfolio_images {
     vertical-align: middle;
 	width: 100vw;
     height: auto;
-  }	
+}	
 	
 .container_three{
     position: relative;
@@ -756,17 +771,17 @@ img.portfolio_images {
     vertical-align: middle;
 	width: 45vw;
     height: 225px;
-  }	
+}	
 	
-  .img_intrograss{
+.img_intrograss{
     position: absolute;
     z-index: 0;
     opacity: 1;
     bottom: 0;
     height: auto;
-  }
+}
 
-  .img_introcloud1{
+.img_introcloud1{
     /*position: absolute;
     z-index: 0;
     opacity: 1;
@@ -778,9 +793,9 @@ img.portfolio_images {
     animation: cloud1 500s linear;
     transition: ease;*/
     display: none;
-  }
+}
 
-  .img_introcloud2{
+.img_introcloud2{
     position: absolute;
     z-index: 0;
     opacity: 1;
@@ -788,11 +803,11 @@ img.portfolio_images {
     width: 75vw;
     height: auto;
     animation: cloud2 100s linear;
-	}
-
-@keyframes cloud2{
+}
+	@keyframes cloud2{
 	from {left: -67vw;} 
-	to {left: 100vw;}}
+	to {left: 100vw;}
+	}
 	
 @-webkit-keyframes cloud2{
 	0% {left: -67vw;} 
