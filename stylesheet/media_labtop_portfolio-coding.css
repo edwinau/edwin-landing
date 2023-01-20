@@ -689,9 +689,8 @@ img.portfolio_images {
 	
 	
 	.container_carousel{
-		height: 100vh;
+		height: auto;
 	}
-	
 
   .container_one.intro{
 	width: 100vw;
