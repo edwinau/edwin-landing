@@ -141,7 +141,7 @@ $(document).ready(function(){
 
 // carousel
   $('.carousel').carousel({
-    'interval': '5000'
+    'interval': '6000'
 
   });
 
@@ -177,18 +177,6 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
     }, 2000);
   });
 	
-
-	
-// home	
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-  if (document.documentElement.scrollTop > 50) {
-    document.getElementById("myP").className = "totop";
-  } else {
-    document.getElementById("myP").className = "";
-  }
-}
 	
 	
 //touch same as hover
