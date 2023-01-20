@@ -8,14 +8,10 @@ img.portfolio_images {
 }	
 
 
-.headermred {
-	display: block;
-}
-
-
 
 /*labtop*/
 @media (max-width:5480px){
+	
 	
 .imac.displaynone{
   display: none;
@@ -34,6 +30,10 @@ img.portfolio_images {
 	  width: 100vw;
 	  height: 100vh;
 	}
+	
+	.headermred {
+	display: block;
+}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 60%; max-width: 60%;}
@@ -70,7 +70,7 @@ img.portfolio_images {
 	}
 	
 	
-		.port-heading-org {
+	.port-heading-org {
 		font-size:16pt;
 		font-weight: bold;
 		text-align: right;
@@ -344,6 +344,10 @@ img.portfolio_images {
 
 @media (max-width:2024px){
 
+		.headermred {
+	display: block;
+	}
+	
 	
 	.hamburger-menu{
 	display: none;
@@ -468,6 +472,13 @@ img.portfolio_images {
 
 @media (max-width:1200px){
 	
+  .imac.displaynone{
+  display: inherit;
+}
+
+ .ipad.displaynone{
+    display: none;
+  }
 	
 .hamburger-menu{
 	display: block;
@@ -475,7 +486,7 @@ img.portfolio_images {
 
 }
 	
-		.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
+	.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 50%; max-width: 50%;}
 
 	  .carousel-inner{
@@ -506,6 +517,18 @@ img.portfolio_images {
 	.headermred {
 	display: none;
 	}
+	
+		.port-heading {
+		font-size:16pt;
+		font-weight: bold;
+		text-align: left;
+		font-family: 'Lato',sans-serif; 
+		padding: 20px 25px 20px; 
+		line-height: 1.25;
+		background-color: white;
+		color: #333333;
+	}	
+	
 }
 
 
@@ -513,13 +536,9 @@ img.portfolio_images {
 
 @media (max-width:830px){
 	
-		.imac.displaynone{
-  display: inherit;
-}
-
- .ipad.displaynone{
-    display: none;
-  }
+	.headermred {
+	display: none;
+	}
 	
 .hamburger-menu{
 	display: block;
@@ -598,7 +617,7 @@ img.portfolio_images {
 
   .container_one.contactpage{
     overflow: hidden;
-    display: block;
+    display: none;
   }
 
   .container-fluid.ninetywidth{
@@ -677,6 +696,7 @@ img.portfolio_images {
 /*iphoneplus vertical*/
 
 @media (max-width:500px){
+	
 	
 	.hamburger-menu{
 	display: block;
