@@ -242,14 +242,22 @@ img.portfolio_images {
 	  zoom: 80%;
 	bottom: -20%;
   }
-
-
+	
+  .i_believe{
+	  font-family: 'Lato', serif;
+	  color: #fff;
+	  font-size: 2vw;
+	  letter-spacing: .1em;
+	  line-height: 2;
+	  padding-left: 10%;
+	  padding-right:10%;
+	  opacity: 1;
+}
+	
 .resume_pdf{
 	width: 65%;
-	}
-	
-	
-		.portfolio-nav	{
+}
+	.portfolio-nav	{
 		position: absolute;
 		right: 3%;
 		top: 25vh;
@@ -268,17 +276,6 @@ img.portfolio_images {
   text-align: center;
 	 opacity: 1;
   }
-
-  .i_believe{
-  font-family: 'Lato', serif;
-  color: #fff;
-  font-size: 2vw;
-  letter-spacing: .1em;
-  line-height: 2;
-    padding-left: 10%;
-    padding-right:10%;
-    opacity: 1;
- }
 
   .medialabtopnone{
       display: inherit;
