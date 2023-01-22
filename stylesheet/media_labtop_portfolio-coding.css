@@ -1057,7 +1057,7 @@ h4.email a{
    font-size: 5vw;
 	  bottom: 1%;
 	  z-index: 8888;
-	  animation: fadeInhome 5s;
+	  display: none;
 	}
 
 .container_one.contactpage{
