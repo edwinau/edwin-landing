@@ -124,8 +124,6 @@
     width:100%;
   }
 
-
-
   .hello{ 
   color: white;
   font-size: 4vw;
@@ -138,22 +136,27 @@
 	 opacity: 1;
   }
 
-  .i_believe{
+.i_believe{
   font-family: 'Lato', serif;
-	  font-weight: 100;
+  font-weight: 100;
   color: #fff;
   letter-spacing: .1em;
   line-height: 1.5;
-	  font-size: 1.25vw;
-	  padding-top: 1%;
-    padding-left: 14%;
-    padding-right:14%;
-    opacity: .9;
- }
-	.img_labtop{
-		zoom: 100%;
-		bottom: 10%;
-	}
+  font-size: 1.25vw;
+  padding-top: 1%;
+  padding-left: 14%;
+  padding-right:14%;
+  opacity: .9;
+}
+
+
+.resume_prompt{
+}
+	
+.img_labtop{
+	zoom: 100%;
+	bottom: 10%;
+}
 	
 	
 .img_plant{
