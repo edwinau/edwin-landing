@@ -13,7 +13,7 @@
   transform: rotate(90deg);
 }
 #menu__toggle:checked ~ .menu__box {
-  left: 0 !important;
+  right: 0 !important;
 }
 .menu__btn {
   position: fixed;
@@ -46,13 +46,13 @@
   display: block;
   position: fixed;
   top: 0;
-  left: -100%;
+  right: -100%;
   width: 60vw;
   height: 100vh;
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: #ffffff;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,1), 90%, rgba(255,255,255,0));
 	opacity: 1;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   transition-duration: .25s;
@@ -60,10 +60,10 @@
 }
 .menu__item {
   display: block;
-  padding: 12px 24px;
+  padding: 15px 24px;
   color: #333;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   text-decoration: none;
   transition-duration: .25s;
@@ -78,6 +78,18 @@
   text-decoration: none;
   transition-duration: .25s;
 }
+
+.menu__item-home {
+  display: block;
+  padding: 65px 24px 15px;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+
 .menu__item:hover {
   background-color: #CFD8DC;
 }
