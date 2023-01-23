@@ -16,55 +16,50 @@ img.portfolio_images {
   display: none;
 }
 
- .ipad.displaynone{
-    display: inherit;
-  }
+.ipad.displaynone{
+	display: inherit;
+}
 
 .hamburger-menu{
 	display: none;
 	z-index: 5000;
 }	
+
+.madnessvideobasketball{
+	width: 50%;
+	height: auto;
+}
+		
+.madnessvideobasketball.postit {
+	width: 30%;
+	height: auto;
+	position: absolute;
+	right: -23%;
+	bottom: 8%;
+}
 	
-	
-	.madnessvideobasketball{
-		width: 50%;
-		height: auto;
-	}
-	
-	
-	.madnessvideobasketball.postit {
-		width: 30%;
-		height: auto;
-		position: absolute;
-		right: -23%;
-		bottom: 8%;
-	}
-	
-	
-	.container_carousel{
-  overflow: hidden;
+.container_carousel{
+	overflow: hidden;
 	height: 84vh;
 }
 
-	
-	
-  .container_one.intro{
-	  width: 100vw;
-	  height: 100vh;
+.container_one.intro{
+	width: 100vw;
+	height: 100vh;
 	}
-	
-	.headermred {
+
+.headermred {
 	display: block;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 60%; max-width: 60%;}
 	
-		.alm{
-		position: relative;
-		scale: .7;
-		left: -10%;
-	}	
+.alm{
+	position: relative;
+	scale: .7;
+	left: -10%;
+}	
 		
 	.nav-title{
 		color: black; 
@@ -694,63 +689,108 @@ img.portfolio_images {
     width: 75%;
   }
 
-  h4.email {
-    position: relative;
-    top: 0%;
-    left: 0%;
-    font-size: 150%;
-  }
+ h4.email {
+	position: relative;
+	top: 0%;
+	left: 0%;
+	font-size: 150%;
+}
 
-  .container_two.contact{
-    width: 100%;
-    margin-left: 0%;
-  }
-
-  .totop{
-   letter-spacing: .3;
-	display: inherit;
-   font-weight: bold;
-	  margin: inherit;
-   font-size: 7vw;
-	  bottom: 2%;
-	  z-index: 9999;
-	  animation: fadeInhome 5s;
-	  display: none;
+.container_two.contact{
+	width: 100%;
+	margin-left: 0%;
 	}
+
+.totop{
+	letter-spacing: .3;
+	font-weight: bold;
+	margin: inherit;
+	font-size: 7vw;
+	bottom: 2%;
+	z-index: 9999;
+	animation: fadeInhome 5s;
+	display: none;
+}
 
 @keyframes fadeInhome {
 	0% { opacity: 0;}
 	90% { opacity: 0;}
 	100% { opacity: .6;}
 }
-	.carolcarolcon{
-		width: 100vw;
-		height: 100vh;}
+	
+.carolcarolcon{
+	width: 100vw;
+	height: 100vh;
+}
 }
 
 /*iphoneplus vertical*/
 
-@media (max-width:500px){
-	
-	
-.hamburger-menu{
-	display: block;
-	z-index: 9999;
-}
+@media (max-width:500px) {
+	.hamburger-menu{
+		display: block;
+		z-index: 9999;
+	}
 	
 	.madnessvideobasketball{
-	width: 100%;
-	height: auto;
-	position: relative;
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+
+		.headermred {
+	display: block;
+	}
+	
+.port-heading{
+	font-size:10pt; 
+	font-weight: bold; 
+	text-align: left; 
+	font-family: 'Lato', sans-serif; 
+	padding: 20px 10px 20px 8px;
 }
 	
-		.port-heading{
-		font-size:11pt; 
-		font-weight: bold; 
-		text-align: left; 
-		font-family: 'Lato', sans-serif; 
-		padding: 20px 55px 20px 10px;
+.port-heading-org {
+		font-size:10pt;
+		font-weight: bold;
+		text-align: left;
+		font-family: 'Lato',sans-serif; 
+		padding: 20px 10px 20px 8px; 
+		line-height: 1.25;
+		background-color: white;
+		color: #333333;
 	}
+
+.sub-port-heading-org {
+	font-size:8pt; 
+	font-weight: normal;
+	text-align: left;
+	font-family: 'Lato', sans-serif; 
+	background-color: white;
+	color: #333333;
+	padding: 20px 10px 20px 8px;
+	}
+	
+
+	.sub-port-heading {
+		font-size:8pt; 
+		font-weight: normal;
+		text-align: left;
+		font-family: 'Lato', sans-serif; 
+		background-color: white;
+		color: #333333;
+		padding: 20px 10px 20px 8px;
+	}	
+	
+	.sub-port-heading {
+	font-size: 9pt; 
+	font-weight: normal;
+	text-align: left;
+	font-family: 'Lato', sans-serif; 
+	background-color: white;
+	color: #333333;
+	padding: 5px 10px;
+}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
 {width: 80%; max-width: 80%;}
