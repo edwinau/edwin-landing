@@ -58,6 +58,7 @@
   transition-duration: .25s;
 	z-index: 8888;
 }
+
 .menu__item {
   display: block;
   padding: 15px 24px;
@@ -66,11 +67,16 @@
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
+	border: 1px solid #efefef;
+	border-width: 1px 0px 1px 0px;
   transition-duration: .25s;
 }
+
+
+
 .menu__item-header {
   display: block;
-  padding: 12px 24px;
+  padding: 20px 24px;
   color: #009CC0;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -81,8 +87,8 @@
 
 .menu__item-home {
   display: block;
-  padding: 65px 24px 15px;
-  color: #666;
+  padding: 45px 24px 15px;
+  color: lightcoral;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 600;
