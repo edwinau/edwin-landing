@@ -344,6 +344,7 @@ img.portfolio_images {
 	}
 }
 
+/*laptop */
 @media (max-width:2024px){
 
 		.headermred {
@@ -472,7 +473,7 @@ img.portfolio_images {
 
 /*ipad horizontal*/
 
-@media (max-width:1200px){
+@media (max-width: 1250px){
 	
   .imac.displaynone{
   display: inherit;
@@ -546,7 +547,7 @@ img.portfolio_images {
 
 /*ipad view vertical*/
 
-@media (max-width:830px){
+@media (max-width: 900px){
 	
 	.headermred {
 	display: none;
@@ -726,7 +727,7 @@ img.portfolio_images {
 
 /*iphoneplus vertical*/
 
-@media (max-width:500px) {
+@media (max-width:600px) {
 	.hamburger-menu{
 		display: block;
 		z-index: 9999;
