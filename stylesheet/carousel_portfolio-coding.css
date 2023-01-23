@@ -58,7 +58,7 @@
 }
 
 .carousel-inner>.item::before{
-  height: 100vh;
+  height: auto;
 }
 
 .container-fluid{
