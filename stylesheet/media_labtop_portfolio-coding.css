@@ -8,7 +8,6 @@ img.portfolio_images {
 }	
 
 
-
 /*labtop*/
 @media (max-width:5480px){
 	
@@ -295,7 +294,8 @@ img.portfolio_images {
 
 	
 .carousel-control {
-		opacity: .6;
+	opacity: .4;
+	height: 75vh;
 	}
 
   .container_contacts{
@@ -676,7 +676,8 @@ img.portfolio_images {
 
 
   .carousel-control {
-		opacity: 0;
+		opacity: .4;
+	  height: 95vh;
 	}
 
   .img_contact{
@@ -714,6 +715,7 @@ img.portfolio_images {
 	  bottom: 2%;
 	  z-index: 9999;
 	  animation: fadeInhome 5s;
+	  display: none;
 	}
 
 @keyframes fadeInhome {
@@ -747,7 +749,7 @@ img.portfolio_images {
 		font-weight: bold; 
 		text-align: left; 
 		font-family: 'Lato', sans-serif; 
-		padding: 20px 42px 20px 10px;
+		padding: 20px 55px 20px 10px;
 	}
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img
