@@ -129,7 +129,7 @@
   font-size: 4vw;
   text-shadow: 2px 2px 10px black;
   font-style: italic;
-  margin-top: 5%;
+  margin-top: 0px;
   padding-left: 10%;
   padding-right:10%;
   text-align: center;
@@ -171,7 +171,7 @@
   }
 
   div.img_relative.labtop{
-    height: 180vh;
+    height: 150vh;
   }
 
   .carousel-inner{
@@ -270,13 +270,12 @@
   }
 
   div.img_relative.labtop{
-    height: 180vh;
+    height: 150vh;
   }
 
   .col-md-10{
-    width: 65%;
+    width: 60%;
 	  padding-left: 7vw;
-	  padding-top: 2vw;
   }
 
   p#hello{
@@ -287,22 +286,22 @@
 
 	
 .img_plant {
-		zoom: 90%;
-		bottom: 5%;
+		zoom: 60%;
+		bottom: 20%;
 	}
 	
 	
 .img_labtop{
-		zoom: 80%;
-		bottom: 4%;
+		zoom: 60%;
+		bottom: 10%;
 	
 	}
 	
 
   .i_believe{
     padding-left: 5%;
-    padding-right: 10%;
-    font-size: 1.25vw;
+    padding-right: 5%;
+    font-size: 1.1vw;
   }
 
 
@@ -360,7 +359,7 @@
 	}
 	
 	  div.img_relative.labtop{
-    height: 130vh;
+    height: 150vh;
   }
 }
 
@@ -382,7 +381,7 @@
   }
 
   div.img_relative.labtop{
-    height: 140vh;
+    height: 150vh;
   }
 
   .imac.displaynone{
@@ -640,7 +639,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 
 	
 div.img_relative.labtop{
-    height: 180vh;
+    height: 150vh;
   }
 
   p#hello{
