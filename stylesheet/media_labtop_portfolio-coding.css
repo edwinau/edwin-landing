@@ -28,7 +28,7 @@
 	
 	
 .hamburger-menu{
-	display: none;
+	display: inherit;
 	z-index: 5000;
 }	
 
@@ -260,11 +260,12 @@
 .resume_pdf{
 	width: 65%;
 }
-	.portfolio-nav	{
+.portfolio-nav {
 		position: absolute;
 		right: 3%;
 		top: 25vh;
 		bottom: auto;
+		display:none;
 	}
 
  .hello{ 
