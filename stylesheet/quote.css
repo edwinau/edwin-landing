@@ -35,10 +35,10 @@ p#hello, .i_believe{
 }
 
 .quote{
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: aller;
   line-height: 2.5;
-  width: 60%;
+  width: 75%;
   font-weight: bold;
   color: white;
   text-align: center;
@@ -46,19 +46,20 @@ p#hello, .i_believe{
 
 .elon_musk{
   font-size: 3vw;
-  font-family: aller;
+  font-family: 'Lato', sans-serif;
   line-height: 2.5;
-  padding: 5% 7% 0 0;
+  padding: 1% 7% 0 0;
   width: 100%;
-  font-weight: bold;
+  font-weight: lighter;
   color: white;
   text-align: right;
   text-shadow: none;
+  font-style: italic;
 }
 
 .container_relative{
   position: relative;
-  height: 100vh;
+  height: 95vh;
   width: 100vw;
 }
 
@@ -67,7 +68,7 @@ p#hello, .i_believe{
 }
 
 .quote.quotezero{
-    color: #fbff96;
+    color: #fffcc9;
     /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;*/
   }
 
@@ -123,7 +124,7 @@ p#hello, .i_believe{
 
 
 .quote.quotenone{
-  color: #fbff96;
+  color: #fffcc9;
 }
 
 .quotenone:before, .quotenone:after {
@@ -235,7 +236,7 @@ p#hello, .i_believe{
 }
 
 .quote.quotetwo{
-  color: #A2C523;
+  color: #c19a6b;
 }
 
 .quotetwo:before, .quotetwo:after {
@@ -396,7 +397,7 @@ p#hello, .i_believe{
 
 .sixtysix{
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 10px;
   opacity: .2;
   color: white;
@@ -422,7 +423,7 @@ p#hello, .i_believe{
 .ninetynine{
   position: absolute;
   bottom: 10px;
-  right: 20%;
+  right: 15%;
   opacity: .2;
   color: white;
   font-size: 15vw;
@@ -450,5 +451,5 @@ p#hello, .i_believe{
   line-height: 1.5;
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 6%;
+  padding-bottom: 1%;
 }
