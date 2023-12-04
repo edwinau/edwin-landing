@@ -15,6 +15,8 @@
     <link href="stylesheet/carousel.css" type="text/css" rel="stylesheet">
     <link href="stylesheet/contact.css" type="text/css" rel="stylesheet">
     <link href="stylesheet/media_labtop.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet/hamburger.css" type="text/css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 
@@ -27,10 +29,14 @@
 
   <body>
 
+  <p class="resume-prompt" style="color: gray; font-family: 'Lato', serif; font-size: 16pt; font-weight: bold; letter-spacing: .1em; line-height: 2; opacity: 1; margin: auto; margin-top: 5%; margin-bottom:1%; text-align: center;">Welcome to my page</p>
+
     <div class="container_one intro" style="background: -webkit-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
     background: -o-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
     background: -moz-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
     background: linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);"  id="backtotop">
+
+
       <img src="images/introcloud1.png" class="img_introcloud1" alt="cloud1">
       <img src="images/introcloud2.png" class="img_introcloud2" alt="cloud2">
       <img src="images/introcloud3.png" class="img_introcloud3" alt="cloud3">
@@ -49,18 +55,39 @@
           <h2 class="right_right button-row"><a href="#" title="CONTACT"></a></h2>
         </div>
       </div>
+
+      <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item" href="https://edwinau.github.io/edwin-landing/index.html#resume_movement">About me</a></li>
+            <li><a class="menu__item" href="https://edwinau.github.io/edwin-landing/portfolio.html">Portfolio</a></li>
+            <li><a class="menu__item" href="https://edwinau.github.io/edwin-landing/index.html#concon"> Contact me</a></li>
+          </ul>
+      </div>
+
+
 	  <div style="background: red;
   background: -webkit-linear-gradient(to bottom, rgba(21,21,21,0), rgba(21,21,21,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to bottom, rgba(21,21,21,0), rgba(21,21,21,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to bottom, rgba(21,21,21,0), rgba(21,21,21,1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, rgba(21,21,21,0), rgba(21,21,21,1)); /* Standard syntax */ 
+  background: linear-gradient(to bottom, rgba(21,21,21,0), rgba(21,21,21,1)); /* Standard syntax */
 				height: 5vh; index:1000; bottom:0;  position: absolute; display: flex; height: 5vh; width: 100vw; z-index: 1000; bottom: 0;" >&nbsp;
 	  </div>
     </div>
 
+<center>
+  <div style="transform: scale(2.5); margin-top: 5%;"> <div class='trapezoid'></div></div>
+
+</center>
+
 
 <!-- <div style="background-image: url(images/wood.png); width: 100vw; height: 50vh", class="img_relative carouselgradient"> -->
 
+<!--
 <div class="container_relative ipadcarou" id="quoteelon">
   <div style="background-color: #131313; width: 100vw; height: 100vh" class="container_one quote_container quotezero">
     <p class="sixtysix">&#8220;</p>
@@ -120,37 +147,40 @@
   background: -webkit-linear-gradient(to top, rgba(19,19,19,0), rgba(19,19,19,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to top, rgba(19,19,19,0), rgba(19,19,19,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to top, rgba(19,19,19,0), rgba(19,19,19,1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to top, rgba(19,19,19,0), rgba(19,19,19,1)); /* Standard syntax */ 
+  background: linear-gradient(to top, rgba(19,19,19,0), rgba(19,19,19,1)); /* Standard syntax */
 height:5vh; index:1000; bottom:0;  position: absolute; display: flex; height: 5vh; width: 100vw; z-index: 1000; top: 0;" >&nbsp;
 	</div>
 	<div style="background: red;
   background: -webkit-linear-gradient(to bottom, rgba(19,19,19,0), rgba(19,19,19,1)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to bottom, rgba(19,19,19,0), rgba(19,19,19,1)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to bottom, rgba(19,19,19,0), rgba(19,19,19,1)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom, rgba(19,19,19,0), rgba(19,19,19,1)); /* Standard syntax */ 
+  background: linear-gradient(to bottom, rgba(19,19,19,0), rgba(19,19,19,1)); /* Standard syntax */
 				height:5vh; index:1000; bottom:0;  position: absolute; display: flex; height: 5vh; width: 100vw; z-index: 1000; bottom: 0;" >&nbsp;
 	</div>
 </div>
-	  
-	  
-	    <!-- In a Nutsell -->
 
-	  
-    <div class="img_relative labtop" id="resume_pdf" style="background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px; linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px; linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px; linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px; linear-gradient(90deg, #1b1b1b 10px, transparent 10px); linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424); background-color: #131313; background-size: 20px 20px; width: 100vw;">
-      <img src="images/plant-2.png" class="img_absolute img_plant" alt="plant">
-      <img src="images/labtop.png" class="img_absolute img_labtop" alt="laptop">
-    
+-->
+
+<!-- In a Nutsell -->
+
+
+<div class="img_relative labtop" id="resume_pdf" style="background: linear-gradient(27deg, white 5px, transparent 5px) 0 5px;">
+<!--  <img src="images/plant-2.png" class="img_absolute img_plant" alt="plant"> -->
+<!--  <img src="images/labtop.png" class="img_absolute img_labtop" alt="laptop"> -->
+
 	<div class="container_nut">
 		<div class="container-fluid nut">
           <div class="row nut">
-            <div class="col-md-10">
-              <p class="hello">Who I am <br> &amp; what I do...</p><hr style="width: 85%;" class="ipad displaynone">
-             <p class="i_believe">I'm passionate at creating dynamic digital products by extensively researching client and user market needs. Using optimized wireframes, strategical call-to-action's and industry best design practices that put user experience and user interface at the forefront.  <br><br>Whether at work or not,<br>I take my pour over coffee pretty&nbsp;seriously. ☕<br><br>When not at work, I enjoy spending time with my family, my friends and my partner. I enjoy going to the gym frequently and I'm always down&nbsp;for&nbsp;a&nbsp;good&nbsp;Netflix binge.</p></div>
-
+            <!--<div class="col-md-10"> -->
+              <!--<p class="hello">Who I am <br> &amp; what I do...</p><hr style="width: 85%;" class="ipad displaynone">
+             <p class="i_believe">I'm passionate at creating dynamic digital products by extensively researching client/market needs and using optimized wireframes, strategical call-to-action's and industry best practices that put user experience and design interface at the forefront.  <br><br>Whether at work or not,<br>I take my pour over coffee pretty&nbsp;seriously ☕<br><br>When not at work, I enjoy spending quality time with my family, friends and partner.  I workout at the gym frequently and am always down for a good Netflix binge.</p> -->
+           <!-- </div>  -->
+<center>
             <div class="col-md-12" id="labtopresumewidth">
-			<p class="resume-prompt" style="color: gray; font-family: 'Lato', serif; font-size: 13pt; letter-spacing: .1em; line-height: 2; opacity: 1; margin-right: 5%; margin-bottom: 2%; text-align: center;">Click on resum&eacute; to view or download.</p>
+			<p class="resume-prompt" style="color: gray; font-family: 'Lato', serif; font-size: 14pt; font-weight: bold; letter-spacing: .1em; line-height: 2; opacity: 1; margin: auto; margin-top: 0; margin-bottom:2%; text-align: center;">Who I am and what I do</p>
 				<div id="resume_movement"><a href="EDWIN AU.pdf" target="_blank"><img src="EDWIN AU.jpg" alt="resume" title="Download PDF" class="resume_pdf" ></a></div>
 			  </div>
+        <center>
           </div>
         </div>
       </div>
@@ -160,11 +190,11 @@ height:5vh; index:1000; bottom:0;  position: absolute; display: flex; height: 5v
 
  <!-- contact page -->
 
-<div class="container_one contactpage" style="background: red;
-  background: -webkit-linear-gradient(#131313, #003c5f, #33273d, #ee5d6c, #FC9C54); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#131313, #003c5f, #33273d, ivory, #FC9C54, #f1b351); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#131313, #003c5f, #33273d, #ee5d6c, #FC9C54, #f1b351); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#131313, #003c5f, #33273d, #ee5d6c, #FC9C54, #f1b351); /* Standard syntax */
+<div class="container_one contactpage" id="concon" style="background: red;
+  background: -webkit-linear-gradient(white, white, white, white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, white, white, white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, white, white, white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, white, white, white, #33273d, #003c5f); /* Standard syntax */
   ">
 	  <!-- <body background="images/marbleBlack.jpg" class="img_img"> -->
 
