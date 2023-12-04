@@ -9,7 +9,7 @@
 .container_one{
   position: relative;
   display: flex;
-  height: 100vh;
+  height: 50vh;
   width: 100vw;
   z-index: 1000;
 }
@@ -336,14 +336,15 @@ h2.center a::before {
     100% {color: #3a75bb;}
 }
 @-moz-keyframes color-change {
-  0% { color: #3a75bb; }
-  50% { color: white; }
-  100% { color: #3a75bb; }
+  0% {color: #3a75bb; }
+  50% {color: white; }
+  100% {color: #3a75bb; }
 }
-	@-ms-keyframes color-change {
-		0% { color: #3a75bb;}
-		50% { color: white;}
-		100% { color: #3a75bb;}
+
+@-ms-keyframes color-change {
+  0% {color: #3a75bb;}
+  50% {color: white;}
+  100% {color: #3a75bb;}
 }
 
 @-o-keyframes color-change {
