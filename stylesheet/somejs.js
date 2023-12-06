@@ -246,3 +246,8 @@ function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+
+function myFunctiontwo() {
+  var popuptwo = document.getElementById("myPopuptwo");
+  popuptwo.classList.toggle("showtwo");
+}

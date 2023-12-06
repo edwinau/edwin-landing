@@ -1,0 +1,142 @@
+@media (max-width:5480px){
+
+
+  /* pop up starts */
+  /* Popup container - can be anything you want */
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    bottom: 1%;
+    left: 1%;
+    margin-left: -80px;
+  	overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  	z-index: 100;
+  	width: 50%;
+  	height: 70%;
+  	position: fixed;
+  	margin: auto;
+  	opacity: .8;
+  	margin-left: 25%;
+  	margin-bottom: 3%;
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+
+  .popuptwo {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* The actual popup */
+  .popuptwo .popuptexttwo {
+    visibility: hidden;
+    width: 50vw;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    bottom: 1%;
+    left: 1%;
+    margin-left: -80px;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popuptwo .popuptexttwo::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popuptwo .showtwo {
+    visibility: visible;
+    -webkit-animation: fadeIntwo 1s;
+    animation: fadeIntwo 1s;
+    z-index: 100;
+    width: 50%;
+    height: 70%;
+    position: fixed;
+    margin: auto;
+    opacity: .8;
+    margin-left: 25%;
+    margin-bottom: 3%;
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIntwo {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIntwo {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* end of popup */
+
+
+}
