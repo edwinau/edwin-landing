@@ -302,6 +302,8 @@
 
   div.img_relative.labtop{
     height: 75vh;
+    width: 50%;
+    margin: auto; 
   }
 
   .col-md-10{
