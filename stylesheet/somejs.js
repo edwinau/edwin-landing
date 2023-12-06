@@ -176,9 +176,9 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
         scrollTop: $('#backtotop').offset().top
     }, 2000);
   });
-	
-	
-	
+
+
+
 //touch same as hover
   $('body').bind('touchstart', function() {});
 
@@ -240,3 +240,9 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
+
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
