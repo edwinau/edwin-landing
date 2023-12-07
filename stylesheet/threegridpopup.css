@@ -61,8 +61,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -127,6 +126,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -191,6 +191,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -205,6 +206,17 @@
   }
 
   /* The actual popup */
+
+  .popupfour {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popupfour .popuptextfour {
     visibility: hidden;
     width: 50vw;
@@ -216,6 +228,7 @@
     position: absolute;
     z-index: 1000;
     overflow: visible;
+    overflow: hidden;
   }
 
   /* Popup arrow */
@@ -244,6 +257,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -258,6 +272,17 @@
   }
 
   /* The actual popup */
+
+  .popupfive {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popupfive .popuptextfive {
     visibility: hidden;
     width: 50vw;
@@ -297,6 +322,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -311,6 +337,17 @@
   }
 
   /* The actual popup */
+
+  .popupsix {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popupsix .popuptextsix {
     visibility: hidden;
     width: 50vw;
@@ -350,6 +387,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -364,7 +402,17 @@
   }
 
   /* The actual popup */
-  .popup7 .popuptext7 {
+  .popupseven {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .popupseven .popuptextseven {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -377,8 +425,7 @@
     overflow: visible;
   }
 
-  /* Popup arrow */
-  .popup7 .popuptext7::after {
+  .popupseven .popuptextseven::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -390,10 +437,10 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popup7 .show7 {
+  .popupseven .showseven {
     visibility: visible;
-    -webkit-animation: fadeIn7 1s;
-    animation: fadeIn7 1s;
+    -webkit-animation: fadeInseven 1s;
+    animation: fadeInseven 1s;
     z-index: 100;
     width: 850px;
     height: 650px;
@@ -403,20 +450,32 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
-  @-webkit-keyframes fadeIn7 {
+  @-webkit-keyframes fadeInseven {
     from {opacity: 0;}
     to {opacity: 1;}
   }
 
-  @keyframes fadeIn7 {
+  @keyframes fadeInseven {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
 
   /* The actual popup */
+
+  .popup8 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popup8 .popuptext8 {
     visibility: hidden;
     width: 50vw;
@@ -456,6 +515,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -470,6 +530,16 @@
   }
 
   /* The actual popup */
+  .popup9 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popup9 .popuptext9 {
     visibility: hidden;
     width: 50vw;
@@ -509,6 +579,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -523,6 +594,16 @@
   }
 
   /* The actual popup */
+  .popup10 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popup10 .popuptext10 {
     visibility: hidden;
     width: 50vw;
@@ -562,6 +643,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -576,6 +658,16 @@
   }
 
   /* The actual popup */
+  .popup11 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popup11 .popuptext11 {
     visibility: hidden;
     width: 50vw;
@@ -615,6 +707,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -629,6 +722,16 @@
   }
 
   /* The actual popup */
+  .popup12 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popup12 .popuptext12 {
     visibility: hidden;
     width: 50vw;
@@ -668,6 +771,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
@@ -682,6 +786,16 @@
   }
 
   /* The actual popup */
+  .popup13 {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
   .popup13 .popuptext13 {
     visibility: hidden;
     width: 50vw;
@@ -721,6 +835,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
   }
 
   /* Add animation (fade in the popup) */
