@@ -16,6 +16,16 @@
 	height: auto;
 	}
 
+	img.portfolio_images_pop {
+	display: block;
+	width: auto;
+	height: 550px;
+	padding-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
   .threecoloumntables {
 		width:850px;
 		margin-left: auto;
