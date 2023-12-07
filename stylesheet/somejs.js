@@ -272,9 +272,9 @@ function myFunctionsix() {
   popupsix.classList.toggle("showsix");
 }
 
-function myFunction7() {
-  var popup7 = document.getElementById("myPopup7");
-  popup7.classList.toggle("show7");
+function myFunctionseven() {
+  var popupseven = document.getElementById("myPopupseven");
+  popupseven.classList.toggle("showseven");
 }
 
 function myFunction8() {
@@ -287,7 +287,7 @@ function myFunction9() {
   popup9.classList.toggle("show9");
 }
 
-function myFunction7() {
+function myFunction10() {
   var popup10 = document.getElementById("myPopup10");
   popup10.classList.toggle("show10");
 }
