@@ -251,3 +251,58 @@ function myFunctiontwo() {
   var popuptwo = document.getElementById("myPopuptwo");
   popuptwo.classList.toggle("showtwo");
 }
+
+function myFunctionthree() {
+  var popupthree = document.getElementById("myPopupthree");
+  popupthree.classList.toggle("showthree");
+}
+
+function myFunctionfour() {
+  var popupfour = document.getElementById("myPopupfour");
+  popupfour.classList.toggle("showfour");
+}
+
+function myFunctionfive() {
+  var popupfive = document.getElementById("myPopupfive");
+  popupfive.classList.toggle("showfive");
+}
+
+function myFunctionsix() {
+  var popupsix = document.getElementById("myPopupsix");
+  popupsix.classList.toggle("showsix");
+}
+
+function myFunction7() {
+  var popup7 = document.getElementById("myPopup7");
+  popup7.classList.toggle("show7");
+}
+
+function myFunction8() {
+  var popup8 = document.getElementById("myPopup8");
+  popup8.classList.toggle("show8");
+}
+
+function myFunction9() {
+  var popup9 = document.getElementById("myPopup9");
+  popup9.classList.toggle("show9");
+}
+
+function myFunction7() {
+  var popup10 = document.getElementById("myPopup10");
+  popup10.classList.toggle("show10");
+}
+
+function myFunction11() {
+  var popup11 = document.getElementById("myPopup11");
+  popup11.classList.toggle("show11");
+}
+
+function myFunction12() {
+  var popup12 = document.getElementById("myPopup12");
+  popup12.classList.toggle("show12");
+}
+
+function myFunction13() {
+  var popup13 = document.getElementById("myPopup13");
+  popup13.classList.toggle("show13");
+}
