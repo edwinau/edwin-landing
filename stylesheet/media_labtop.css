@@ -133,7 +133,7 @@
     width: 10em;
     height: 8.66em;
     transform: rotate(60deg) skewX(30deg);
-
+    margin-top: -.5%;
   }
 
   .trapezoid:before {
@@ -303,7 +303,7 @@
   div.img_relative.labtop{
     height: 75vh;
     width: 50%;
-    margin: auto; 
+    margin: auto;
   }
 
   .col-md-10{
@@ -539,6 +539,10 @@
       width: 100vw;
       height: 100vh;
       /*overflow: hidden;*/
+  }
+
+  .trapezoid {
+    display: none;
   }
 
 }

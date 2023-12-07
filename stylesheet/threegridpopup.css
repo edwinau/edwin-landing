@@ -1,6 +1,13 @@
 @media (max-width:5480px){
 
 
+  .textforpopup {
+    width: 700px;
+    margin: auto;
+    padding: 25px;
+    font-family: lato;
+  }
+
   /* pop up starts */
   /* Popup container - can be anything you want */
   .popup {
@@ -16,18 +23,16 @@
   /* The actual popup */
   .popup .popuptext {
     visibility: hidden;
-    width: 50vw;
-    background-color: #555;
+    width: 850px;
+    background-color: rgba(40, 40, 40, .9);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
     z-index: 1000;
-    bottom: 1%;
-    left: 1%;
-    margin-left: -80px;
   	overflow: visible;
+    vertical-align: middle;
   }
 
   /* Popup arrow */
@@ -48,13 +53,16 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   	z-index: 100;
-  	width: 50%;
-  	height: 70%;
+  	width: 850px;
+  	height: 650px;
   	position: fixed;
   	margin: auto;
-  	opacity: .8;
-  	margin-left: 25%;
-  	margin-bottom: 3%;
+  	opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
   }
 
   /* Add animation (fade in the popup) */
@@ -67,8 +75,6 @@
     from {opacity: 0;}
     to {opacity:1 ;}
   }
-
-
 
 
   .popuptwo {
@@ -85,16 +91,13 @@
   .popuptwo .popuptexttwo {
     visibility: hidden;
     width: 50vw;
-    background-color: #555;
+    background-color: rgba(40, 40, 40, .9);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 8px 0;
     position: absolute;
     z-index: 1000;
-    bottom: 1%;
-    left: 1%;
-    margin-left: -80px;
     overflow: visible;
   }
 
@@ -113,16 +116,17 @@
   /* Toggle this class - hide and show the popup */
   .popuptwo .showtwo {
     visibility: visible;
-    -webkit-animation: fadeIntwo 1s;
-    animation: fadeIntwo 1s;
-    z-index: 100;
-    width: 50%;
-    height: 70%;
-    position: fixed;
-    margin: auto;
-    opacity: .8;
-    margin-left: 25%;
-    margin-bottom: 3%;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  	z-index: 100;
+  	width: 850px;
+  	height: 650px;
+  	position: fixed;
+  	margin: auto;
+  	opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   /* Add animation (fade in the popup) */
@@ -136,7 +140,602 @@
     to {opacity:1 ;}
   }
 
-  /* end of popup */
 
+  .popupthree {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* The actual popup */
+  .popupthree .popuptextthree {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popupthree .popuptextthree::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popupthree .showthree {
+    visibility: visible;
+    -webkit-animation: fadeInthree 1s;
+    animation: fadeInthree 1s;
+  	z-index: 100;
+  	width: 850px;
+  	height: 650px;
+  	position: fixed;
+  	margin: auto;
+  	opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeInthree {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeInthree {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popupfour .popuptextfour {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popupfour .popuptextfour::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popupfour .showfour {
+    visibility: visible;
+    -webkit-animation: fadeInfour 1s;
+    animation: fadeInfour 1s;
+  	z-index: 100;
+  	width: 850px;
+  	height: 650px;
+  	position: fixed;
+  	margin: auto;
+  	opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeInfour {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeInfour {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popupfive .popuptextfive {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popupfive .popuptextfive::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popupfive .showfive {
+    visibility: visible;
+    -webkit-animation: fadeInfive 1s;
+    animation: fadeInfive 1s;
+  	z-index: 100;
+  	width: 850px;
+  	height: 650px;
+  	position: fixed;
+  	margin: auto;
+  	opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeInfive {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeInfive {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popupsix .popuptextsix {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popupsix .popuptextsix::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popupsix .showsix {
+    visibility: visible;
+    -webkit-animation: fadeInsix 1s;
+    animation: fadeInsix 1s;
+  	z-index: 100;
+  	width: 850px;
+  	height: 650px;
+  	position: fixed;
+  	margin: auto;
+  	opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeInsix {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeInsix {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup7 .popuptext7 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup7 .popuptext7::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup7 .show7 {
+    visibility: visible;
+    -webkit-animation: fadeIn7 1s;
+    animation: fadeIn7 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn7 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn7 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup8 .popuptext8 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup8 .popuptext8::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup8 .show8 {
+    visibility: visible;
+    -webkit-animation: fadeIn8 1s;
+    animation: fadeIn8 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn8 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn8 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup9 .popuptext9 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup9 .popuptext9::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup9 .show9 {
+    visibility: visible;
+    -webkit-animation: fadeIn9 1s;
+    animation: fadeIn9 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn9 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn9 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup10 .popuptext10 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup10 .popuptext10::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup10 .show10 {
+    visibility: visible;
+    -webkit-animation: fadeIn10 1s;
+    animation: fadeIn10 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn10 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn10 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup11 .popuptext11 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup11 .popuptext11::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup11 .show11 {
+    visibility: visible;
+    -webkit-animation: fadeIn11 1s;
+    animation: fadeIn11 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn11 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn11 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup12 .popuptext12 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup12 .popuptext12::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup12 .show12 {
+    visibility: visible;
+    -webkit-animation: fadeIn12 1s;
+    animation: fadeIn12 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn12 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn12 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+  /* The actual popup */
+  .popup13 .popuptext13 {
+    visibility: hidden;
+    width: 50vw;
+    background-color: rgba(40, 40, 40, .9);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1000;
+    overflow: visible;
+  }
+
+  /* Popup arrow */
+  .popup13 .popuptext13::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup13 .show13 {
+    visibility: visible;
+    -webkit-animation: fadeIn13 1s;
+    animation: fadeIn13 1s;
+    z-index: 100;
+    width: 850px;
+    height: 650px;
+    position: fixed;
+    margin: auto;
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn13 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn13 {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+
+
+  /* end of popup */
 
 }
