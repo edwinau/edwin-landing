@@ -561,14 +561,14 @@
     justify-content: space-between;
   	align-items: center;
     vertical-align: middle;
-	  width: 92vw;
-    height: 80vh;
+	  width: 80vw;
+    height: 70vh;
     overflow: hidden;
   	background: 50vh;
     margin-top: 3vh;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 25px;
+    border-radius: 55px;
     border-top: 5px solid #222222;
     border-left: 5px solid #333333;
     border-right: 5px solid #111111;
@@ -584,7 +584,7 @@
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-	width: 100vw;
+	width: 90vw;
     height: auto;
   }
 
@@ -604,7 +604,7 @@
     z-index: 0;
     opacity: 1;
     bottom: 0;
-    height: 20vh;
+    height: 15vh;
   }
 
   .img_introcloud1{
@@ -692,7 +692,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 div.img_relative.labtop{
     width: 95%;
     margin: auto;
-    height: 90vh;
+    height: 70vh;
   }
 
   p#hello{
@@ -714,8 +714,8 @@ div.img_relative.labtop{
 
   img.resume_pdf{
 	  position: relative;
-	  max-width: 150%;
-    width: 150%;
+	  max-width: 100%;
+    width: 90%;
 left: 1%;
 }
 
