@@ -140,7 +140,7 @@
     display: block;
     background: linear-gradient(#efefef, #666666, #aaaaaa, #dcdcdc);
     content: '';
-   width: inherit;
+   width: 103%;
    height: 52%;
     transform: skewX(-30deg) rotate(-60deg) translate(-1.25em);
 
@@ -203,6 +203,8 @@
   }
 
   div.img_relative.labtop{
+    width: 50%;
+    margin: auto;
     height: 75vh;
   }
 
@@ -509,9 +511,9 @@
   .container_contacts{
     display: block;
     margin-left: 0%;
-    margin-top: 15%;
+    margin-top: 1%;
     margin-bottom: 20%;
-    zoom: 140%;
+    zoom: 100%;
     width: 105%;
   }
 
@@ -557,13 +559,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-	align-items: center;
+  	align-items: center;
     vertical-align: middle;
-	width: 100vw;
+	  width: 92vw;
     height: 80vh;
     overflow: hidden;
-	background: 50vh;
+  	background: 50vh;
+    margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border-top: 5px solid #222222;
+    border-left: 5px solid #333333;
+    border-right: 5px solid #111111;
+    border-bottom: 5px solid #555555;
   }
+
+
 
 .container_two{
     position: relative;
@@ -584,7 +596,7 @@
 	align-items: center;
     vertical-align: middle;
 	width: 45vw;
-    height: 225px;
+    height: 20vh;
   }
 
   .img_intrograss{
@@ -592,7 +604,7 @@
     z-index: 0;
     opacity: 1;
     bottom: 0;
-    height: auto;
+    height: 20vh;
   }
 
   .img_introcloud1{
@@ -644,17 +656,18 @@
 	h1.edwinname {
     font-size: 12vw;
     line-height: 1.15;
-	margin-top: -20px;
+	margin-top: -100px;
 	margin-bottom: 30px;
+  margin-left: -10%;
   }
 
   h2.left.button-row{
 	font-size: 4vw;
-    margin-left: -5vw;  }
+    margin-left: -15vw;  }
 
   h2.right_right.button-row{
 	font-size: 4vw;
-    margin-left: 0%;
+    margin-left: -22%;
   }
 
 h2.button-row{
@@ -667,7 +680,7 @@ h2.button-row{
     font-weight: bold;
     display: block;
 	width: 35vw;
-	margin-left: -5vw;
+	margin-left: -15vw;
 	}
 
 h2.button-row > a::before, h2.button-row > a::after{
@@ -677,7 +690,9 @@ h2.button-row > a::before, h2.button-row > a::after{
 
 
 div.img_relative.labtop{
-    height: 75vh;
+    width: 95%;
+    margin: auto;
+    height: 90vh;
   }
 
   p#hello{
@@ -708,9 +723,9 @@ left: 1%;
   h4  > a:visited,
   h4  > a:link,
   h4  > a:active{
-    /*padding: 10px 20px 20px 20px;*/
+    padding: 3vw;
     opacity: 1;
-    font-size: 5vw;
+    font-size: 12pt;
     text-transform: lowercase;
   }
 
@@ -718,11 +733,11 @@ left: 1%;
   .container_contacts{
 	position: relative;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
 	align-items: center;
     vertical-align: middle;
-    height: 250px;
+    height: 10vh;
     width: 100%;
 }
 
@@ -851,8 +866,7 @@ h4.email a{
 .container_one.contactpage{
     overflow: hidden;
     display: block;
-	height: 85vh;
-
+	  height: 10vh;
 	}
 
   .container_two.contact{
