@@ -138,9 +138,10 @@
 
   .trapezoid:before {
     display: block;
-    background: linear-gradient(#efefef, #aaaaaa, #666666, #dcdcdc);
+    background: linear-gradient(#efefef, #666666, #aaaaaa, #dcdcdc);
     content: '';
-   width: inherit; height: 50%;
+   width: inherit;
+   height: 52%;
     transform: skewX(-30deg) rotate(-60deg) translate(-1.25em);
 
   }

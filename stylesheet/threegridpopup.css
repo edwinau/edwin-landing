@@ -4,7 +4,7 @@
   .textforpopup {
     width: 700px;
     margin: auto;
-    padding: 25px;
+    padding: 25px 5px;
     font-family: lato;
   }
 
@@ -542,7 +542,7 @@
 
   .popup9 .popuptext9 {
     visibility: hidden;
-    width: 50vw;
+    width: 100vw;
     background-color: rgba(40, 40, 40, .9);
     color: #fff;
     text-align: center;
