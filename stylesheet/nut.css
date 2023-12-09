@@ -32,7 +32,7 @@
   text-align: right;
 	width: 80%;
 	height: auto;
-  box-shadow: 6px 6px 6px black;
+  box-shadow: 6px 6px 6px lightgrey;
   -webkit-transform:scale(1); /* Safari and Chrome */
   -moz-transform:scale(1); /* Firefox */
   -ms-transform:scale(1); /* IE 9 */

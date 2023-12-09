@@ -141,7 +141,7 @@
     background: linear-gradient(#efefef, #666666, #aaaaaa, #dcdcdc);
     content: '';
    width: 103%;
-   height: 52%;
+   height: 51%;
     transform: skewX(-30deg) rotate(-60deg) translate(-1.25em);
 
   }
@@ -562,13 +562,13 @@
   	align-items: center;
     vertical-align: middle;
 	  width: 80vw;
-    height: 70vh;
+    height: 85vh;
     overflow: hidden;
   	background: 50vh;
     margin-top: 3vh;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 55px;
+    border-radius: 50px;
     border-top: 5px solid #222222;
     border-left: 5px solid #333333;
     border-right: 5px solid #111111;
@@ -654,7 +654,7 @@
   }
 
 	h1.edwinname {
-    font-size: 12vw;
+    font-size: 10vw;
     line-height: 1.15;
 	margin-top: -100px;
 	margin-bottom: 30px;
@@ -662,11 +662,11 @@
   }
 
   h2.left.button-row{
-	font-size: 4vw;
+	font-size: 3vw;
     margin-left: -15vw;  }
 
   h2.right_right.button-row{
-	font-size: 4vw;
+	font-size: 3vw;
     margin-left: -22%;
   }
 
@@ -676,7 +676,7 @@ h2.button-row{
     perspective: 1000px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .15em;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
     display: block;
 	width: 35vw;
@@ -692,7 +692,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 div.img_relative.labtop{
     width: 95%;
     margin: auto;
-    height: 70vh;
+    height: 80vh;
   }
 
   p#hello{
@@ -715,7 +715,7 @@ div.img_relative.labtop{
   img.resume_pdf{
 	  position: relative;
 	  max-width: 100%;
-    width: 90%;
+    width: 98%;
 left: 1%;
 }
 
@@ -824,7 +824,7 @@ left: 1%;
 	 /*border: 1px solid green;}*/
 
 #labtopresumewidth {
-		margin-left: 1vw;
+  width: 100%;
 		overflow: hidden;
 	}
 
