@@ -10,7 +10,7 @@
 		display: inherit;
 	}
 
-	.close-btn-xy {
+	span.close-btn-xy {
 		font-size: 20px;
 		font-weight: bold;
 		color: #ffffff;
@@ -889,7 +889,7 @@
 	  display: inherit;
 	}
 
-	.close-btn-xy {
+	span.close-btn-xy {
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
