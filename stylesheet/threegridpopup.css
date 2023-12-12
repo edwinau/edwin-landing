@@ -850,6 +850,17 @@
   }
 
 
+  @media (max-width:600px){
+
+  .textforpopup {
+    width: 100vw;
+    margin: auto;
+    padding: 25px 2px;
+    font-family: lato;
+    line-height: 1.3em;
+  }
+
+
 
   /* end of popup */
 
