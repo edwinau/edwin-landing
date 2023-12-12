@@ -268,6 +268,18 @@
 		display: none;
 	}
 
+  .container_one.contactpage{
+      overflow: hidden;
+      display: block;
+      position: relative;
+    height: 20vh;
+  	background: red;
+    background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
+  	}
+
 }
 
 
@@ -304,7 +316,7 @@
   }
 
   div.img_relative.labtop{
-    height: 75vh;
+    height: 100vh;
     width: 50%;
     margin: auto;
   }
@@ -479,7 +491,12 @@
     overflow: hidden;
     display: block;
 	width: 100vw;
-	height: 105vh;
+	height: 10vh;
+	  background: red;
+	background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
   }
 
   .container-fluid.ninetywidth{
@@ -866,7 +883,12 @@ h4.email a{
 .container_one.contactpage{
     overflow: hidden;
     display: block;
-	  height: 10vh;
+  height: 10vh;
+	background: red;
+  background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
 	}
 
   .container_two.contact{
