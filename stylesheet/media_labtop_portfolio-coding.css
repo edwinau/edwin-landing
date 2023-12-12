@@ -340,6 +340,10 @@
   .container_contacts{
     zoom: 85%;
 	 margin-top: 0;
+	 width: 30%;
+	 height: 10vh;
+	 margin-left: auto;
+	 margin-right: auto;
   }
 
   h4.email a{
@@ -506,7 +510,7 @@
   h4  > a:visited,
   h4  > a:link,
   h4  > a:active{
-    padding: 20px 30px 20px 30px;
+    padding: 5px 10px 0px 10px;
     opacity: 1;
     font-size: 1.75vw;
     text-transform: lowercase;
@@ -564,7 +568,14 @@
 
 	.container_one.contactpage{
     overflow: hidden;
-    display: none;
+    display: flex;
+		height: 25vh;
+		width: 100%;  background: red;
+		background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
+		  animation: contactsky 20s infinite;}
   }
 
 .hamburger-menu{
@@ -764,8 +775,14 @@
 
 
   .container_one.contactpage{
-    overflow: hidden;
-    display: none;
+		overflow: hidden;
+	height: 15vh;
+		background: red;
+		background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
+		animation: contactsky 20s infinite;
   }
 
   .container-fluid.ninetywidth{
@@ -795,17 +812,18 @@
   }
 
   .container_contacts{
-    display: block;
-    margin-left: 0%;
-    margin-top: 15%;
-    margin-bottom: 20%;
-    zoom: 140%;
-    width: 75%;
+		display: flex;
+		zoom: 85%;
+	 margin-top: 1%;
+	 width: 30%;
+	 height: 10vh;
+	 margin-left: auto;
+	 margin-right: auto;
   }
 
  h4.email {
 	position: relative;
-	top: 0%;
+	top: 0%
 	left: 0%;
 	font-size: 150%;
 }
@@ -813,6 +831,7 @@
 .container_two.contact{
 	width: 100%;
 	margin-left: 0%;
+
 	}
 
 	.carolcarolcon{
@@ -971,7 +990,7 @@
 .container_two{
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
@@ -1091,12 +1110,13 @@ div.img_relative.labtop{
   .container_contacts{
 	position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
 	align-items: center;
     vertical-align: middle;
-    height: 250px;
-    width: 100%;
+    height: 15vh;
+    width: 70%;
+
 }
 
 
@@ -1189,7 +1209,6 @@ h4.email h5{
 
 h4.email a{
     margin-left: 0px;
-	display: none;
   }
 
 
@@ -1222,13 +1241,19 @@ h4.email a{
 
 .container_one.contactpage{
     overflow: hidden;
-	height: 55vh;
-	display: none;
+	height: 15vh;
+	  background: red;
+		background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
+	  animation: contactsky 20s infinite;
   }
 
   .container_two.contact{
     width: 100%;
-    margin-left: 0%;
+    margin-left: auto;
+		margin-right: auto;
 
   }
 

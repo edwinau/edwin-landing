@@ -17,6 +17,7 @@
 .container_two{
   margin: auto;
   position: relative;
+  width: 100%;
 }
 
 .img_intrograss{
@@ -462,4 +463,3 @@ h2.right_right a::after {
   opacity: 1;
   z-index: 8000;
 }
-
