@@ -10,6 +10,13 @@
 		display: inherit;
 	}
 
+	.close-btn-xy {
+		font-size: 20px;
+		font-weight: bold;
+		color: #ffffff;
+		float: right;
+	}
+
 	img.portfolio_images {
 	display: inherit;
 	width: 100%;
@@ -881,6 +888,16 @@
 	.imac.displaynone{
 	  display: inherit;
 	}
+
+	.close-btn-xy {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    float: none;
+		margin-left: 95vw;
+		padding: 5px;
+  }
+
 
 	p.resume-prompt{
 		margin-left: 1px;
