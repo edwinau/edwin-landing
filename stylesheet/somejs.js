@@ -83,8 +83,6 @@ function flickeremail() {
 }
 
 
-
-
 $(document).ready(function(){
 
 
@@ -134,7 +132,7 @@ $(document).ready(function(){
   $('.titleHidden').removeAttr('title');
 
 //fade in rendez
-  setInterval('cycleImages()', 4000);
+//  setInterval('cycleImages()', 4000);
 
 
 
@@ -162,20 +160,20 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 
 
 //to top
-  $(window).scroll(function() {
-      if ($(this).scrollTop()) {
-          $('#toTop').fadeIn();
-      } else {
-          $('#toTop').fadeOut();
-      }
-  });
+//  $(window).scroll(function() {
+//      if ($(this).scrollTop()) {
+//          $('#toTop').fadeIn();
+//      } else {
+//          $('#toTop').fadeOut();
+//      }
+//  });
 
 // smooth scroll totop
-  $('#toTop').click(function() {
-    $('html, body').animate({
-        scrollTop: $('#backtotop').offset().top
-    }, 2000);
-  });
+//  $('#toTop').click(function() {
+//    $('html, body').animate({
+//        scrollTop: $('#backtotop').offset().top
+//    }, 2000);
+//  });
 
 
 
@@ -202,28 +200,49 @@ var myScrollFunc = function() {
   }
 };
 
-window.addEventListener("scroll", myScrollFunc);
+//window.addEventListener("scroll", myScrollFunc);
 
 
 // autoplay vid
 
-    document.getElementById('vid').play();
+//    document.getElementById('vid').play();
 
-$("videoID").get(0).play();
+//$("videoID").get(0).play();
 
 //for nav popup
+//document.getElementById("test").style.display ="none";
 
-document.getElementById("test").style.display ="none";
+//function openTest() {
+//    document.getElementById("test").style.display = "block";
+//}
 
-function openTest() {
-    document.getElementById("test").style.display = "block";
-}
-
-document.getElementById('btn').addEventListener('click', openTest);
-
+//document.getElementById('btn').addEventListener('click', openTest);
 
 
-// When the user clicks on div, open the popup
+//For resume animation on scrollY
+
+//
+//window.addEventListener("scroll", setScrollVar)
+//window.addEventListener("resize", setScrollVar)
+//
+//function setScrollVar() {
+//   const htmlElement = document.documentElement
+//   const percentOfScreenHeightScrolled = htmlElement.scrollTop /
+//   htmlElement.clientHeight
+//   console.log(Math.min(percentOfScreenHeightScrolled * 100, 100))
+//   htmlElement.style.setProperty("--scroll",
+//   Math.min(percentOfScreenHeightScrolled * 100, 100)
+// )
+//}
+//setScrollVar()
+
+
+//newamination
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+
+// When the user clicks on div, open the portfolio popups
 function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
