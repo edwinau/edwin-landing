@@ -141,9 +141,24 @@
    width: 103%;
    height: 51%;
     transform: skewX(-30deg) rotate(-60deg) translate(-1.25em);
-
   }
 
+  img.resume_pdf{
+    display: inline-block;
+    position: relative;
+    transform: rotateY(180deg) rotateX(180deg);
+    animation: rotateab 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  @keyframes rotateab {
+    to {
+      transform: rotateY(0deg) rotateY(0deg);
+    }
+  }
 
   .col-md-10{
     width:80%;
@@ -257,6 +272,7 @@ p.resume-prompt{
     display: none;
   }
 
+
   #take_me_there{
     font-size: 1.25vw;
     font-family: aller;
@@ -327,7 +343,6 @@ p.resume-prompt{
 
   div.img_relative.labtop{
     height: 100vh;
-    width: 50%;
     margin: auto;
   }
 
@@ -467,11 +482,8 @@ p.resume-prompt{
 	top: 5%
 	}
 
-	.resume_pdf{
-		width: 150%;
-		right: 1%;
-		float: left;
-	}
+
+
 
 
 .i_believe{
@@ -739,12 +751,7 @@ div.img_relative.labtop{
 	  left: 15%;
   }
 
-  img.resume_pdf{
-	  position: relative;
-	  max-width: 100%;
-    width: 98%;
-left: 1%;
-}
+
 
   h4  a,
   h4  > a:visited,
@@ -910,4 +917,8 @@ h4.email a{
 	transform: scale(1.9);
 	right: 0;
 	}
+}
+
+:root {
+  --scroll: 0;
 }
