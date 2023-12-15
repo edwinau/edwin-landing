@@ -138,10 +138,10 @@ $(document).ready(function(){
 
 
 // carousel
-  $('.carousel').carousel({
-    'interval': '6000'
+//  $('.carousel').carousel({
+//    'interval': '6000'
 
-  });
+//  });
 
 //lights flicker instagram
 setInterval(function() { flicker($('.email')); }, 2000);
@@ -178,7 +178,9 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 
 
 //touch same as hover
-  $('body').bind('touchstart', function() {});
+  $('body').bind('touchstart', function() {
+
+  });
 
 //carousel pause
   // $('.carousel').carousel({
@@ -242,10 +244,16 @@ window.addEventListener('scroll', () => {
   document.body.style.setProperty('--scroll', window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
 }, false);
 
+
 // When the user clicks on div, open the portfolio popups
 function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
+}
+
+function myFunction1() {
+  var popup = document.getElementById("myPopup1");
+  popup.classList.toggle("show1");
 }
 
 function myFunctiontwo() {
@@ -306,4 +314,9 @@ function myFunction12() {
 function myFunction13() {
   var popup13 = document.getElementById("myPopup13");
   popup13.classList.toggle("show13");
+}
+
+function myFunction14() {
+  var popup14 = document.getElementById("myPopup14");
+  popup14.classList.toggle("show14");
 }
