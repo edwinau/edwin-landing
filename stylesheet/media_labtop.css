@@ -236,6 +236,13 @@ p.resume-prompt {
       top: -25vh;
       opacity: 0;
     }
+
+    65% {
+      width: 70%;
+      top: -5vh;
+      opacity: 1;
+    }
+
     98% {
     /*  -webkit-transform: rotateY(0deg) rotateX(0deg);
       -moz-transform: rotateY(0deg) rotateX(0deg);
@@ -784,7 +791,7 @@ p.resume-prompt{
       -ms-transform: rotateY(0deg) rotateX(0deg);
       -o-transform: rotateY(0deg) rotateX(0deg);
       transform: rotateY(0deg) rotateX(0deg);*/
-      width: 90%;
+      width: 100%;
       top: 10vh;
       opacity: 1;
     }
@@ -794,7 +801,7 @@ p.resume-prompt{
       -ms-transform: rotateY(0deg) rotateX(0deg);
       -o-transform: rotateY(0deg) rotateX(0deg);
       transform: rotateY(0deg) rotateX(0deg);*/
-      width: 90%;
+      width: 100%;
       top: 10vh;
       opacity: 1;
     }
