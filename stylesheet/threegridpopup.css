@@ -966,7 +966,8 @@
       animation: fadeIn15 1s;
       z-index: 100;
       width: 850px;
-      height: 750px;    position: fixed;
+      height: 750px;
+      position: fixed;
       margin: auto;
       opacity: 1;
       top: 50%;
@@ -990,7 +991,7 @@
   @media (max-width:600px){
 
 
-.titleforpopup {
+    .titleforpopup {
       width: 100vw;
       margin: auto;
       padding: 10px 4px;
