@@ -320,3 +320,33 @@ function myFunction14() {
   var popup14 = document.getElementById("myPopup14");
   popup14.classList.toggle("show14");
 }
+
+function myFunction15() {
+  var popup15 = document.getElementById("myPopup15");
+  popup15.classList.toggle("show15");
+}
+
+function myFunction16() {
+  var popup16 = document.getElementById("myPopup16");
+  popup16.classList.toggle("show16");
+}
+
+function myFunction17() {
+  var popup17 = document.getElementById("myPopup17");
+  popup17.classList.toggle("show17");
+}
+
+function myFunction18() {
+  var popup18 = document.getElementById("myPopup18");
+  popup18.classList.toggle("show18");
+}
+
+function myFunction19() {
+  var popup19 = document.getElementById("myPopup19");
+  popup19.classList.toggle("show19");
+}
+
+function myFunction20() {
+  var popup20 = document.getElementById("myPopup20");
+  popup20.classList.toggle("show20");
+}
