@@ -65,6 +65,35 @@
 	width:5vw;
 }
 
+label.menu__btn {
+	position: fixed;
+	top: 7vh;
+	left: inherit;
+	animation: hamburgerfademonitor 2s ease-in-out infinite;
+	animation-play-state: paused;
+	animation-delay: calc(var(--scroll) * -1s);
+	animation-iteration-count: 1;
+	animation-fill-mode: both;
+	}
+
+@keyframes hamburgerfademonitor {
+	0% {
+			opacity: 1;
+		}
+
+	5% {
+			opacity: 1;
+		}
+
+	7% {
+		opacity: 0;
+		}
+
+	100% {
+		opacity: 0;
+	}
+}
+
 
 	.portfolio_images-mobile {
 		display: none;
@@ -926,6 +955,33 @@
 
 	.threebythreegrid.hamburger{
 		width:50vw;
+	}
+
+	label.menu__btn {
+		position: fixed;
+		top: 8vh;
+		animation: hamburgerfade 2s linear infinite;
+		animation-play-state: paused;
+		animation-delay: calc(var(--scroll) * -1s);
+		animation-iteration-count: 1;
+		animation-fill-mode: both;
+		}
+	@keyframes hamburgerfade {
+		0% {
+				opacity: 1;
+			}
+
+		10% {
+				opacity: 1;
+			}
+
+		15% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 0;
+		}
 	}
 
 
