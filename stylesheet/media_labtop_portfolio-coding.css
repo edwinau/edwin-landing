@@ -18,6 +18,25 @@
 		padding-right: 5px;
 	}
 
+	span.portfolionexttwo {
+		font-size: 20px;
+		font-weight: bold;
+		color: #ffffff;
+		float: right;
+		padding-right: 10px;
+		position: relative;
+		z-index: 7000;
+	}
+
+	span.portfolioprevious {
+		font-size: 20px;
+		font-weight: bold;
+		color: #ffffff;
+		float: right;
+		margin-right: 10px;
+		padding-right: 10px;
+	}
+
 	img.portfolio_images {
 	display: inherit;
 	width: 100%;
@@ -29,7 +48,7 @@
 	width: 550px;
 	height: auto;
 	padding-top: 2%;
-	margin-left: auto;
+	margin-left: 7vw;
 	margin-right: auto;
 	}
 
