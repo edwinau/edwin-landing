@@ -952,6 +952,7 @@ label.menu__btn {
 	}
 
 	p.resume-prompt{
+		display: none;
 		margin-left: 1px;
   color: gray;
   font-family: 'Lato', serif;

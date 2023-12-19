@@ -563,7 +563,6 @@ p.resume-prompt {
   img.resume_pdf{
     display: inline-block;
     position: relative;
-    top: -50vh;
     opacity: 0;
   /*  transform: rotateX(180deg) rotateY(180deg); */
     animation: rotateab 1s linear infinite;
@@ -601,8 +600,8 @@ p.resume-prompt {
     }
 
     55% {
-      width: 90%;
-      top: -10vh;
+      width: 100%;
+      top: -5vh;
       opacity: 1;
     }
 
@@ -612,8 +611,8 @@ p.resume-prompt {
       -ms-transform: rotateY(0deg) rotateX(0deg);
       -o-transform: rotateY(0deg) rotateX(0deg);
       transform: rotateY(0deg) rotateX(0deg);*/
-      width: 80%;
-      top: -30vh;
+      width: 90%;
+      top: -20vh;
       opacity: 1;
     }
     100% {
@@ -1003,75 +1002,60 @@ p.resume-prompt {
 
   @keyframes rotateab {
     0% {
-/*      -webkit-transform: rotateY(180deg) rotateX(180deg);
-      -moz-transform: rotateY(180deg) rotateX(180deg);
-      -ms-transform: rotateY(180deg) rotateX(180deg);
-      -o-transform: rotateY(180deg) rotateX(180deg);
-      transform: rotateY(180deg) rotateX(180deg);*/
       width: 40%;
       height: auto;
-      top: -15vh;
+      top: -10vh;
       margin-left: 0%;
       opacity: 0;
     }
 
-    40% {
-/*      -webkit-transform: rotateY(180deg) rotateX(180deg);
-      -moz-transform: rotateY(180deg) rotateX(180deg);
-      -ms-transform: rotateY(180deg) rotateX(180deg);
-      -o-transform: rotateY(180deg) rotateX(180deg);
-      transform: rotateY(180deg) rotateX(180deg);*/
+    15% {
+      opacity: 0;
       width: 40%;
       height: auto;
-      top: -15vh;
-      margin-left: 0%;
-      opacity: 0;
+      top: -10vh;
+    }
+
+    30% {
+      width: 40%;
+      height: auto;
+      top: -5vh;
+      margin-left: 0;
+      opacity: 1;
+    }
+
+    45% {
+      width: 40%;
+      height: auto;
+      top: -5vh;
+      margin-left: 0;
+      opacity: 1;
     }
 
     60% {
-  /*    -webkit-transform: rotateY(90deg) rotateX(90deg);
-      -moz-transform: rotateY(90deg) rotateX(90deg);
-      -ms-transform: rotateY(90deg) rotateX(90deg);
-      -o-transform: rotateY(90deg) rotateX(90deg);
-      transform: rotateY(90deg) rotateX(90deg);*/
-      width: 110%;
+      width: 140%;
       height: auto;
-      margin-left: 0%;
-      top: 5vh;
+      margin-left: 0;
+      top: 1vh;
       opacity: 1;
     }
 
-    80% {
-  /*    -webkit-transform: rotateY(90deg) rotateX(90deg);
-      -moz-transform: rotateY(90deg) rotateX(90deg);
-      -ms-transform: rotateY(90deg) rotateX(90deg);
-      -o-transform: rotateY(90deg) rotateX(90deg);
-      transform: rotateY(90deg) rotateX(90deg);*/
-      width: 110%;
+    65% {
+      width: 140%;
       height: auto;
-      margin-left: -10vw;
-      top: 5vh;
+      margin-left: 0;
+      top: 1vh;
       opacity: 1;
     }
 
-    98% {
-  /*    -webkit-transform: rotateY(0deg) rotateX(0deg);
-      -moz-transform: rotateY(0deg) rotateX(0deg);
-      -ms-transform: rotateY(0deg) rotateX(0deg);
-      -o-transform: rotateY(0deg) rotateX(0deg);
-      transform: rotateY(0deg) rotateX(0deg);*/
-      width: 110%;
+    90% {
+      width: 140%;
       height: auto;
-      margin-left: -25%;
+      margin-left: -40%;
       top: 1vh;
       opacity: 1;
     }
     100% {
-  /*    -webkit-transform: rotateY(0deg) rotateX(0deg);
-      -moz-transform: rotateY(0deg) rotateX(0deg);
-      -ms-transform: rotateY(0deg) rotateX(0deg);
-      -o-transform: rotateY(0deg) rotateX(0deg);
-      transform: rotateY(0deg) rotateX(0deg);*/
       width: 100%;
       height: auto;
       top: 1vh;
@@ -1087,7 +1071,6 @@ p.resume-prompt {
   	align-items: center;
     vertical-align: middle;
 	  width: 80vw;
-    height: 85vh;
     overflow: hidden;
   	background: 50vh;
     margin-top: 3vh;
@@ -1098,6 +1081,36 @@ p.resume-prompt {
     border-left: 5px solid #333333;
     border-right: 5px solid #111111;
     border-bottom: 5px solid #555555;
+    height: 85vh;
+    animation: phoneheightonphonenoshow 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  @keyframes phoneheightonphonenoshow {
+    0% {
+      height: 85vh;
+      opacity: 1;
+    }
+    15% {
+      height: 85vh;
+      opacity: 1;
+    }
+
+    30% {
+      height: 20vh;
+      opacity: 1;
+    }
+
+    95% {
+      height: 20vh;
+      opacity: 1;
+    }
+    100% {
+      height: 20vh;
+      opacity: 1;
+    }
   }
 
 .container_two{
@@ -1343,10 +1356,27 @@ div.img_relative.labtop{
 
 #labtopresumewidth {
   width: 100%;
-  height: 75vh;
+  height: 85vh;
 		overflow: hidden;
-	}
-
+    position: relative;
+    top: -15vh;
+    animation: resumeheightattheendnone 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+  @keyframes resumeheightattheendnone {
+    0% {
+      top: -15vh;
+    }
+    95% {
+      top: -15vh;
+    }
+    100% {
+      top: 1vh;
+    }
+  }
 
 
 #totop
