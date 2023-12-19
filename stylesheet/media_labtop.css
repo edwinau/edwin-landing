@@ -955,7 +955,7 @@ p.resume-prompt {
       transform: scale(1.2);
     }
 
-    40% {
+    15% {
       top: 2vh;
       opacity: 1;
       -webkit-ransform: scale(1.2);
@@ -966,7 +966,7 @@ p.resume-prompt {
       color: #666666;
     }
 
-    55% {
+    30% {
       top: 3vh;
       opacity: 0;
       -webkit-ransform: scale(1.1);
@@ -990,8 +990,7 @@ p.resume-prompt {
   img.resume_pdf{
     display: inline-block;
     position: relative;
-    top: -15vh;
-    opacity: 0;
+    opacity: 1;
 /*    transform: rotateX(180deg) rotateY(180deg);*/
     animation: rotateab 1s linear infinite;
     animation-play-state: paused;
@@ -1002,64 +1001,29 @@ p.resume-prompt {
 
   @keyframes rotateab {
     0% {
-      width: 40%;
-      height: auto;
-      top: -10vh;
-      margin-left: 0%;
       opacity: 0;
+      width: 100%;
     }
-
     15% {
-      opacity: 0;
-      width: 40%;
-      height: auto;
-      top: -10vh;
-    }
-
-    30% {
-      width: 40%;
-      height: auto;
-      top: -5vh;
+      opacity: 1;
+      width: 100%;
       margin-left: 0;
-      opacity: 1;
     }
 
-    45% {
-      width: 40%;
-      height: auto;
-      top: -5vh;
-      margin-left: 0;
+    35% {
       opacity: 1;
+      width: 120%;
+      margin-left: 0%;
     }
-
-    60% {
-      width: 140%;
-      height: auto;
-      margin-left: 0;
-      top: 1vh;
+    50% {
       opacity: 1;
-    }
-
-    65% {
-      width: 140%;
-      height: auto;
-      margin-left: 0;
-      top: 1vh;
-      opacity: 1;
-    }
-
-    90% {
-      width: 140%;
-      height: auto;
-      margin-left: -40%;
-      top: 1vh;
-      opacity: 1;
+      width: 120%;
+      margin-left:-40%;
     }
     100% {
-      width: 100%;
-      height: auto;
-      top: 1vh;
       opacity: 1;
+      width: 100%;
+
     }
   }
 
@@ -1099,16 +1063,16 @@ p.resume-prompt {
     }
 
     30% {
-      height: 20vh;
+      height: 25vh;
       opacity: 1;
     }
 
     95% {
-      height: 20vh;
+      height: 25vh;
       opacity: 1;
     }
     100% {
-      height: 20vh;
+      height: 25vh;
       opacity: 1;
     }
   }
