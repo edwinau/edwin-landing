@@ -1104,7 +1104,7 @@ h2.button-row > a::before, h2.button-row > a::after{
 div.img_relative.labtop{
     width: 95%;
     margin: auto;
-    height: 70vh;
+    height: 60vh;
   }
 
   p#hello{
