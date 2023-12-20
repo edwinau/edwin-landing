@@ -22,7 +22,7 @@
   margin-top: 3%;
   margin-left: auto;
   margin-right: auto;
-  zoom: 75%;
+  zoom: 50%;
 
 }
 
@@ -108,6 +108,7 @@ h4.facebook a:hover {
   background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
   background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
   animation: contactsky 20s infinite;
+  height: 15vh;
 }
 
 @keyframes contactsky{
