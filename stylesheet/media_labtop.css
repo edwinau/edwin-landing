@@ -590,7 +590,7 @@ p.resume-prompt {
       opacity: 0;
     }
 
-    55% {
+    60% {
       width: 100%;
       top: -5vh;
       opacity: 1;
@@ -916,7 +916,30 @@ p.resume-prompt {
   }
 
   p.resume-prompt {
-    display: none;
+    display: block;
+    -webkit-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+
+    animation: forphonetoshownoneprompt 1s linear infinite;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
+
+  @keyframes forphonetoshownoneprompt {
+    0%{
+      display: block;
+    }
+    50% {
+      display: none;
+    }
+    100% {
+      display: none;
+    }
   }
 
   img.resume_pdf{
