@@ -39,8 +39,8 @@
 	display: block;
 	width: 550px;
 	height: auto;
-	padding-top: 2%;
-	margin-left: 7vw;
+	padding-top: 1%;
+	margin-left: auto;
 	margin-right: auto;
 	}
 
@@ -931,22 +931,22 @@ label.menu__btn {
 	}
 
 	span.close-btn-xy {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: #ffffff;
     float: none;
 		margin-left: auto;
 		margin-right: auto;
-		padding: 10px;
+		padding: 0 20px;
   }
 
 	span.portfolionexttwo {
-		font-size: 20px;
+		font-size: 40px;
 		font-weight: bold;
 		color: #ffffff;
 		float: none;
 		position: relative;
-		padding: 0px 10px;
+		padding: 0px 20px;
 		z-index: 7000;
 		display: inline-block;
 	}
