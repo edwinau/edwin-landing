@@ -68,9 +68,15 @@
 		margin-right: auto;
 		}
 
+	.twocoloumntables {
+			width:650px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 325px;
+			}
+
   .threebythreegrid {overflow:hidden;
- 		width: 33%;
- 		border: 5px solid #ffffff;
+		width: calc(100% / 3);
 	}
 
 .threebythreegrid.hamburger{
@@ -469,6 +475,7 @@ label.menu__btn {
 	display: inherit;
 	width: 100%;
 	height: auto;
+	transform: scale(1.03);
 	}
 
 	.portfolio_images-mobile {
@@ -1017,6 +1024,7 @@ label.menu__btn {
 	display: none;
 	width: 100%;
 	height: auto;
+	transform: scale(1.05);
 	}
 
 
