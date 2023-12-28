@@ -1057,7 +1057,7 @@ p.resume-prompt {
         margin-top: 200vh;
         opacity: 0;
       }
-      30% {
+      45% {
         position: relative;
         -webkit-transform: scale(1.7);
         -ms-transform: scale(1.7);
@@ -1069,7 +1069,7 @@ p.resume-prompt {
         margin-left: 20vw;
         margin-top: 50vh;
       }
-      55% {
+      70% {
         position: relative;
         -webkit-transform: scale(1.7);
         -ms-transform: scale(1.7);
@@ -1088,7 +1088,7 @@ p.resume-prompt {
         -o-transform: scale(1.2);
         -moz-transform: scale(1.2);
         transform: scale(1.2);
-        top: -50%;
+        top: -0%;
         opacity: 1;
         margin-left: -25vw;
         margin-top: 35vh;
@@ -1100,7 +1100,7 @@ p.resume-prompt {
     height: 20vh;
   		overflow: hidden;
       position: relative;
-      top: -25vh;
+      top: -20vh;
       position: fixed;
     }
 

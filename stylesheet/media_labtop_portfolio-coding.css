@@ -949,7 +949,7 @@ label.menu__btn {
   }
 
 	span.portfolionexttwo {
-		font-size: 40px;
+		font-size: 20px;
 		font-weight: bold;
 		color: #ffffff;
 		float: none;
@@ -960,7 +960,7 @@ label.menu__btn {
 	}
 
 	p.resume-prompt{
-		display: none;
+		display: inherit;
 		margin-left: 1px;
   color: gray;
   font-family: 'Lato', serif;
