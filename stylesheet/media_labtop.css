@@ -14,7 +14,9 @@
 /*labtop*/
 @media (max-width:5480px){
 
-
+div.forcvportwork {
+  display: inherit;
+}
   .container_one.intro{
 	  width: 80vw;
 	  height: 90vh;
@@ -944,15 +946,13 @@ p.resume-prompt {
       /*overflow: hidden;*/
   }
 
-  .trapezoid {
-    display: none;
-  }
 
 }
 
 /*iphoneplus vertical*/
 
 @media (max-width:500px){
+
 
   label.menu__btn {
     position: fixed;
@@ -979,6 +979,14 @@ p.resume-prompt {
     100% {
       opacity: 0;
     }
+  }
+
+  div.trapezoiddiv {
+    display: none;
+  }
+
+  .trapezoid {
+    display: none;
   }
 
   p.resume-prompt {
@@ -1013,6 +1021,11 @@ p.resume-prompt {
       display: block;
       opacity: 0;
     }
+  }
+
+  div.forcvportwork {
+  	display: inherit;
+    height: 10px;
   }
 
   img.resume_pdf{
