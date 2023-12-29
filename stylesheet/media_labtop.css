@@ -14,25 +14,32 @@
 /*labtop*/
 @media (max-width:5480px){
 
-div.forcvportwork {
-  display: inherit;
-}
-  .container_one.intro{
-	  width: 80vw;
-	  height: 90vh;
-    margin-top: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 25px;
-    border-top: 20px solid #222222;
-    border-left: 20px solid #333333;
-    border-right: 20px solid #111111;
-    border-bottom: 20px solid #555555;
-    animation: resizeingbigmacoverall 2s linear infinite;
-    animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+      div.forcvportwork {
+        display: inherit;
+      }
+
+
+
+  .container_one.intro {
+  	  width: 80vw;
+  	  height: 90vh;
+      margin-top: 5vh;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 25px;
+      border-top: 20px solid #222222;
+      border-left: 20px solid #333333;
+      border-right: 20px solid #111111;
+      border-bottom: 20px solid #555555;
+      background: -webkit-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+      background: -o-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+      background: -moz-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+      background: linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+      animation: resizeingbigmacoverall 2s linear infinite;
+      animation-play-state: paused;
+      animation-delay: calc(var(--scroll) * -1s);
+      animation-iteration-count: 1;
+      animation-fill-mode: both;
     }
 
   @keyframes resizeingbigmacoverall {
@@ -44,6 +51,7 @@ div.forcvportwork {
       -ms-transform: scale(1);
       -o-transform: scale(1);
       transform: scale(1);
+
     }
 
     20% {
@@ -76,6 +84,9 @@ div.forcvportwork {
       transform: scale(.5);
     }
   }
+
+
+
 
 	.row.nut {
 		width: 100%;
