@@ -421,3 +421,75 @@ function myFunction20() {
   var popup20 = document.getElementById("myPopup20");
   popup20.classList.toggle("show20");
 }
+
+// loading different divs at different times
+
+$(".popup9").hide();
+setTimeout(function(){
+	$(".popup9").show();
+},500);
+
+$(".popup15").hide();
+setTimeout(function(){
+	$(".popup15").show();
+},500);
+
+$(".popup9").hide();
+setTimeout(function(){
+	$(".popup9").show();
+},1500);
+
+$(".popupsix").hide();
+setTimeout(function(){
+	$(".popupsix").show();
+},1500);
+
+$(".popupfour").hide();
+setTimeout(function(){
+	$(".popupfour").show();
+},1500);
+
+$(".popup13").hide();
+setTimeout(function(){
+	$(".popup13").show();
+},1000);
+
+$(".popup14").hide();
+setTimeout(function(){
+	$(".popup14").show();
+},1000);
+
+$(".popupfive").hide();
+setTimeout(function(){
+	$(".popupfive").show();
+},1000);
+
+$(".popup8").hide();
+setTimeout(function(){
+	$(".popup8").show();
+},2500);
+
+$(".popup11").hide();
+setTimeout(function(){
+	$(".popup11").show();
+},2500);
+
+$(".popup12").hide();
+setTimeout(function(){
+	$(".popup12").show();
+},2500);
+
+$(".popupseven").hide();
+setTimeout(function(){
+	$(".popupseven").show();
+},2000);
+
+$(".popup10").hide();
+setTimeout(function(){
+	$(".popup10").show();
+},2000);
+
+$(".container_one.contactpage").hide();
+setTimeout(function(){
+	$(".container_one.contactpage").show();
+},2000);
