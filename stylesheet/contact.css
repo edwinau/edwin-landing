@@ -108,7 +108,7 @@ h4.facebook a:hover {
   background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
   background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
   animation: contactsky 20s infinite;
-  height: 15vh;
+  height: 10vh;
 }
 
 @keyframes contactsky{
