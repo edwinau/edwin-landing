@@ -1094,9 +1094,9 @@ label.menu__btn {
 		padding: 10px 4px 5px;
 		margin-left: auto;
 		margin-right: auto;
-		animation: blgbeyondoneone 10s infinite;
+		animation: blgbeyondoneonephone 10s infinite;
 	}
-	@keyframes blgbeyondoneone {
+	@keyframes blgbeyondoneonephone {
 		0% {
 			display: inherit;
 		}
@@ -1125,9 +1125,9 @@ label.menu__btn {
 		padding: 10px 4px 5px;
 		margin-left: auto;
 		margin-right: auto;
-		animation: blgbeyondonetwo 10s infinite;
+		animation: blgbeyondonetwophone 10s infinite;
 	}
-	@keyframes blgbeyondonetwo {
+	@keyframes blgbeyondonetwophone {
 		0% {
 			display: none;
 		}
@@ -1156,9 +1156,9 @@ label.menu__btn {
 		padding: 10px 4px 5px;
 		margin-left: auto;
 		margin-right: auto;
-		animation: innovatescrolling 10s ease-in-out infinite;
+		animation: innovatescrollingphone 10s ease-in-out infinite;
 	}
-	@keyframes innovatescrolling {
+	@keyframes innovatescrollingphone {
 		0% {
 			display: none;
 		}
