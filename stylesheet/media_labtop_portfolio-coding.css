@@ -1079,12 +1079,116 @@ label.menu__btn {
 
 	img.portfolio_images_pop {
 	display: block;
-	width: 100vw;
+	width: 98vw;
 	height: auto;
 	padding: 10px 4px 5px;
 	margin-left: auto;
 	margin-right: auto;
 	}
+
+	img.portfolio_images_pop.blgbeyondone {
+		display: block;
+		position: relative;
+		width: 98vw;
+		height: auto;
+		padding: 10px 4px 5px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blgbeyondoneone 10s infinite;
+	}
+	@keyframes blgbeyondoneone {
+		0% {
+			display: inherit;
+		}
+		25% {
+			display: inherit;
+		}
+		26% {
+			display: none;
+		}
+		75% {
+			display: none;
+		}
+		76% {
+			display: inherit;
+		}
+		100% {
+			display: inherit;
+		}
+	}
+
+	img.portfolio_images_pop.blgbeyondtwo {
+		display: block;
+		position: relative;
+		width: 98vw;
+		height: auto;
+		padding: 10px 4px 5px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blgbeyondonetwo 10s infinite;
+	}
+	@keyframes blgbeyondonetwo {
+		0% {
+			display: none;
+		}
+		26% {
+			display: none;
+		}
+		27% {
+			display: inherit;
+		}
+		74% {
+			display: inherit;
+		}
+		75% {
+			display: none;
+		}
+		100% {
+			display: none;
+		}
+	}
+
+	img.portfolio_images_pop.innovatescroll {
+		display: block;
+		position: relative;
+		width: 98vw;
+		height: 100vw;
+		padding: 10px 4px 5px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: innovatescrolling 10s ease-in-out infinite;
+	}
+	@keyframes innovatescrolling {
+		0% {
+			display: none;
+		}
+		26% {
+			display: none;
+		}
+		27% {
+			display: inherit;
+			object-fit: cover;
+			object-position: 0px 0px;
+		}
+		60% {
+			display: inherit;
+			object-fit: cover;
+			object-position: 0px -825px;
+		}
+		74% {
+			display: inherit;
+			object-fit: cover;
+			object-position: 0px -825px;
+		}
+		75% {
+			display: none;
+		}
+		100% {
+			display: none;
+		}
+	}
+
+
 
 	.threebythreegrid.hamburger{
 		width:50vw;
@@ -1123,7 +1227,7 @@ label.menu__btn {
 	}
 
 	img.portfolio_images {
-	display: none;
+	display: inherit;
 	width: 100%;
 	height: auto;
 	transform: scale(1.05);
