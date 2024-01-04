@@ -424,9 +424,9 @@ function myFunction20() {
 
 // loading different divs at different times
 
-$(".popup9").hide();
+$(".popupfour").hide();
 setTimeout(function(){
-	$(".popup9").show();
+	$(".popupfour").show();
 },500);
 
 $(".popup15").hide();
@@ -444,9 +444,9 @@ setTimeout(function(){
 	$(".popupsix").show();
 },1500);
 
-$(".popupfour").hide();
+$(".popup9").hide();
 setTimeout(function(){
-	$(".popupfour").show();
+	$(".popup9").show();
 },1500);
 
 $(".popup13").hide();
@@ -472,21 +472,21 @@ setTimeout(function(){
 $(".popup11").hide();
 setTimeout(function(){
 	$(".popup11").show();
-},2500);
+},2000);
 
 $(".popup12").hide();
 setTimeout(function(){
 	$(".popup12").show();
 },2500);
 
-$(".popupseven").hide();
-setTimeout(function(){
-	$(".popupseven").show();
-},2000);
-
 $(".popup10").hide();
 setTimeout(function(){
 	$(".popup10").show();
+},2000);
+
+$(".popupseven").hide();
+setTimeout(function(){
+	$(".popupseven").show();
 },2000);
 
 $(".container_one.contactpage").hide();
