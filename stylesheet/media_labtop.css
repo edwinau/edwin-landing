@@ -18,8 +18,6 @@
         display: inherit;
       }
 
-
-
   .container_one.intro {
   	  width: 80vw;
   	  height: 90vh;
@@ -656,7 +654,7 @@ p.resume-prompt {
       opacity: 1;
     }
     100% {
-      width: 30%;
+      width: 27%;
       top: -5vh;
       opacity: 1;
     }

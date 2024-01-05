@@ -54,7 +54,8 @@ img.portfolio_images_pop.blgbeyondone {
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	animation: blgbeyondoneone 10s infinite;
+	animation: blgbeyondoneone 13s infinite;
+	animation-play-state: initial;
 }
 @keyframes blgbeyondoneone {
 	0% {
@@ -77,7 +78,7 @@ img.portfolio_images_pop.blgbeyondone {
 	}
 }
 
-img.portfolio_images_pop.blgbeyondtwo {
+img.portfolio_images_pop.blgbeyondtwo, video.portfolio_images_pop.blgbeyondtwo {
 	display: block;
 	position: relative;
 	width: 550px;
@@ -85,7 +86,8 @@ img.portfolio_images_pop.blgbeyondtwo {
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	animation: blgbeyondonetwo 10s infinite;
+	animation: blgbeyondonetwo 13s infinite;
+	animation-play-state: initial;
 }
 @keyframes blgbeyondonetwo {
 	0% {
@@ -116,7 +118,7 @@ img.portfolio_images_pop.innovatescroll {
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
-	animation: innovatescrolling 10s ease-in-out infinite;
+	animation: innovatescrolling 13s ease-in-out infinite;
 }
 @keyframes innovatescrolling {
 	0% {
@@ -146,6 +148,208 @@ img.portfolio_images_pop.innovatescroll {
 	100% {
 		display: none;
 	}
+}
+
+img.portfolio_images.blakesdotcomone {
+	position: relative;
+	display: inherit;
+	width: 100%;
+	height: auto;
+	transform: scale(1.03);
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: blakesdotcomonefirst ease-in-out 16s infinite;
+}
+@keyframes blakesdotcomonefirst {
+	0% {display: inherit;}
+	45% {display: inherit;}
+	46% {display: none;}
+	97% {display: none;}
+	98% {display: inherit;}
+	100% {display: inherit;}
+}
+
+img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
+	position: relative;
+	display: inherit;
+	width: 100%;
+	height: auto;
+	transform: scale(1.03);
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: blakesdotcomtwosecond ease-in-out 16s infinite;
+}
+@keyframes blakesdotcomtwosecond {
+	0% {display: none;}
+	46% {display: none;}
+	47% {display: inherit;}
+	96% {display: inherit;}
+	97% {display: none;}
+	100% {display: none;}
+}
+
+
+
+
+
+img.portfolio_images_pop.blakesfirst {
+	display: block;
+	position: relative;
+	width: 550px;
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: blakesuxuifirst 13s infinite;
+}
+@keyframes blakesuxuifirst {
+	0% {
+		display: inherit;
+	}
+	23% {
+		display: inherit;
+	}
+	24% {
+		display: none;
+	}
+	90% {
+		display: none;
+	}
+	91% {
+		display: inherit;
+	}
+	100% {
+		display: inherit;
+	}
+}
+
+img.portfolio_images_pop.blakessecond {
+	display: block;
+	position: relative;
+	width: 550px;
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: blakesuxuisecond 13s infinite;
+}
+@keyframes blakesuxuisecond {
+	0% {
+		display: none;
+	}
+	24% {
+		display: none;
+	}
+	25% {
+		display: inherit;
+	}
+	55% {
+		display: inherit;
+	}
+	56% {
+		display: none;
+	}
+	100% {
+		display: none;
+	}
+}
+
+img.portfolio_images_pop.blakesthird {
+	display: block;
+	position: relative;
+	width: 550px;
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: blakesuxuithird 13s infinite;
+}
+@keyframes blakesuxuithird {
+	0% {
+		display: none;
+	}
+	56% {
+		display: none;
+	}
+	57% {
+		display: inherit;
+	}
+	89% {
+		display: inherit;
+	}
+	90% {
+		display: none;
+	}
+	100% {
+		display: none;
+	}
+}
+
+img.portfolio_images.mickey100 {
+	position: relative;
+	display: inherit;
+	width: 100%;
+	height: auto;
+	transform: scale(1.03);
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: mickeyportfirst 16s infinite;
+}
+@keyframes mickeyportfirst {
+	0% {display: inherit;}
+	9% {display: inherit;}
+	10% {display: none;}
+	40% {display: none;}
+	41% {display: inherit;}
+	100% {display: inherit;}
+}
+
+img.portfolio_images.mickey100disney {
+	position: relative;
+	display: inherit;
+	width: 100%;
+	height: auto;
+	transform: scale(1.03);
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: mickeyportdisney 16s infinite;
+}
+@keyframes mickeyportdisney {
+	0% { display: none;}
+	10% {display: none;}
+	11% {display: inherit;}
+	25% {display: inherit;}
+	26% {display: none;}
+	100% {display: none;}
+}
+
+img.portfolio_images.mickey100uniqlo {
+	position: relative;
+	display: inherit;
+	width: 100%;
+	height: auto;
+	transform: scale(1.03);
+	height: auto;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: mickeyportuniqlo 16s infinite;
+}
+@keyframes mickeyportuniqlo {
+	0% {display: none;}
+	26% {display: none;}
+	27% {display: inherit;}
+	39% {display: inherit;}
+	40% {display: none;}
+	100% {display: none;}
 }
 
 
@@ -1094,7 +1298,7 @@ label.menu__btn {
 		padding: 10px 4px 5px;
 		margin-left: auto;
 		margin-right: auto;
-		animation: blgbeyondoneonephone 10s infinite;
+		animation: blgbeyondoneonephone 12s infinite;
 	}
 	@keyframes blgbeyondoneonephone {
 		0% {
@@ -1125,7 +1329,7 @@ label.menu__btn {
 		padding: 10px 4px 5px;
 		margin-left: auto;
 		margin-right: auto;
-		animation: blgbeyondonetwophone 10s infinite;
+		animation: blgbeyondonetwophone 12s infinite;
 	}
 	@keyframes blgbeyondonetwophone {
 		0% {
@@ -1151,12 +1355,12 @@ label.menu__btn {
 	img.portfolio_images_pop.innovatescroll {
 		display: block;
 		position: relative;
-		width: 98vw;
 		height: 100vw;
+		width: 98vw;
 		padding: 10px 4px 5px;
 		margin-left: auto;
 		margin-right: auto;
-		animation: innovatescrollingphone 10s ease-in-out infinite;
+		animation: innovatescrollingphone 12s ease-in-out infinite;
 	}
 	@keyframes innovatescrollingphone {
 		0% {
@@ -1170,17 +1374,106 @@ label.menu__btn {
 			object-fit: cover;
 			object-position: 0px 0px;
 		}
-		60% {
-			display: inherit;
-			object-fit: cover;
-			object-position: 0px -825px;
-		}
 		74% {
 			display: inherit;
 			object-fit: cover;
 			object-position: 0px -825px;
 		}
 		75% {
+			display: none;
+		}
+		100% {
+			display: none;
+		}
+	}
+
+
+	img.portfolio_images_pop.blakesfirst {
+		display: block;
+		position: relative;
+		height: auto;
+		width: 98vw;
+		padding: 10px 4px 5px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesuxuifirst 13s infinite;
+	}
+	@keyframes blakesuxuifirst {
+		0% {
+			display: inherit;
+		}
+		23% {
+			display: inherit;
+		}
+		24% {
+			display: none;
+		}
+		90% {
+			display: none;
+		}
+		91% {
+			display: inherit;
+		}
+		100% {
+			display: inherit;
+		}
+	}
+
+	img.portfolio_images_pop.blakessecond {
+		display: block;
+		position: relative;
+		height: auto;
+		width: 98vw;
+		padding: 10px 4px 5px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesuxuisecond 13s infinite;
+	}
+	@keyframes blakesuxuisecond {
+		0% {
+			display: none;
+		}
+		24% {
+			display: none;
+		}
+		25% {
+			display: inherit;
+		}
+		55% {
+			display: inherit;
+		}
+		56% {
+			display: none;
+		}
+		100% {
+			display: none;
+		}
+	}
+
+	img.portfolio_images_pop.blakesthird {
+		display: block;
+		position: relative;
+		height: auto;
+		width: 98vw;
+		padding: 10px 4px 5px;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesuxuithird 13s infinite;
+	}
+	@keyframes blakesuxuithird {
+		0% {
+			display: none;
+		}
+		56% {
+			display: none;
+		}
+		57% {
+			display: inherit;
+		}
+		89% {
+			display: inherit;
+		}
+		90% {
 			display: none;
 		}
 		100% {
@@ -1613,6 +1906,7 @@ h4.email a{
 	  background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
 	  background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
 	  animation: contactsky 20s infinite;
+		z-index: -10;
   }
 
   .container_two.contact{
