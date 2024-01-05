@@ -1306,12 +1306,12 @@ label.menu__btn {
 		animation: blakesdotcomonefirst ease-in-out 16s infinite;
 	}
 	@-webkit-keyframes blakesdotcomonefirst {
-		0% {display: inherit;}
-		45% {display: inherit;}
-		46% {display: none;}
-		97% {display: none;}
-		98% {display: inherit;}
-		100% {display: inherit;}
+		0% {-webkit-display: inherit;}
+		45% {-webkit-display: inherit;}
+		46% {-webkit-display: none;}
+		97% {-webkit-display: none;}
+		98% {-webkit-display: inherit;}
+		100% {-webkit-display: inherit;}
 	}
 	@keyframes blakesdotcomonefirst {
 		0% {display: inherit;}
@@ -1335,12 +1335,12 @@ label.menu__btn {
 		animation: blakesdotcomtwosecond ease-in-out 16s infinite;
 	}
 	@-webkit-keyframes blakesdotcomtwosecond {
-		0% {display: none;}
-		46% {display: none;}
-		47% {display: inherit;}
-		96% {display: inherit;}
-		97% {display: none;}
-		100% {display: none;}
+		0% {-webkit-display: none;}
+		46% {-webkit-display: none;}
+		47% {-webkit-display: inherit;}
+		96% {-webkit-display: inherit;}
+		97% {-webkit-display: none;}
+		100% {-webkit-display: none;}
 	}
 	@keyframes blakesdotcomtwosecond {
 		0% {display: none;}
@@ -1371,12 +1371,12 @@ label.menu__btn {
 		animation: blgbeyondoneonephone 13s infinite;
 	}
 	@-webkit-keyframes blgbeyondoneonephone {
-		0% {display: inherit;}
-		25% {display: inherit;}
-		26% {display: none;}
-		75% {display: none;}
-		76% {display: inherit;}
-		100% {display: inherit;}
+		0% {-webkit-display: inherit;}
+		25% {-webkit-display: inherit;}
+		26% {-webkit-display: none;}
+		75% {-webkit-display: none;}
+		76% {-webkit-display: inherit;}
+		100% {-webkit-display: inherit;}
 	}
 	@keyframes blgbeyondoneonephone {
 		0% {display: inherit;}
@@ -1398,12 +1398,12 @@ label.menu__btn {
 		animation: blgbeyondonetwophone ease-in-out 13s infinite;
 	}
 	@-webkit-keyframes blgbeyondonetwophone {
-		0% {display: none;}
-		26% {display: none;}
-		27% {display: inherit;}
-		74% {display: inherit;}
-		75% {display: none;}
-		100% {display: none;}
+		0% {-webkit-display: none;}
+		26% {-webkit-display: none;}
+		27% {-webkit-display: inherit;}
+		74% {-webkit-display: inherit;}
+		75% {-webkit-display: none;}
+		100% {-webkit-display: none;}
 	}
 	@keyframes blgbeyondonetwophone {
 		0% {display: none;}
@@ -1425,12 +1425,12 @@ label.menu__btn {
 		animation: innovatescrollingphone ease-in-out  13s infinite;
 	}
 	@-webkit-keyframes innovatescrollingphone {
-		0% {display: none;}
-		26% {display: none;}
-		27% {display: inherit; object-fit: cover; object-position: 0px 0px;}
-		74% {display: inherit; object-fit: cover; object-position: 0px -825px;}
-		75% {display: none;}
-		100% {display: none;}
+		0% {-webkit-display: none;}
+		26% {-webkit-display: none;}
+		27% {-webkit-display: inherit; object-fit: cover; object-position: 0px 0px;}
+		74% {-webkit-display: inherit; object-fit: cover; object-position: 0px -825px;}
+		75% {-webkit-display: none;}
+		100% {-webkit-display: none;}
 	}
 		@keyframes innovatescrollingphone {
 		0% {display: none;}
@@ -1452,12 +1452,12 @@ label.menu__btn {
 		animation: blakesuxuifirst ease-in-out 13s infinite;
 	}
 	@-webkit-keyframes blakesuxuifirst {
-		0% {display: inherit;}
-		23% {display: inherit;}
-		24% {display: none;}
-		90% {display: none;}
-		91% {display: inherit;}
-		100% {display: inherit;}
+		0% {-webkit-display: inherit;}
+		23% {-webkit-display: inherit;}
+		24% {-webkit-display: none;}
+		90% {-webkit-display: none;}
+		91% {-webkit-display: inherit;}
+		100% {-webkit-display: inherit;}
 	}
 	@keyframes blakesuxuifirst {
 		0% {display: inherit;}
@@ -1479,12 +1479,12 @@ label.menu__btn {
 		animation: blakesuxuisecond ease-in-out 13s infinite;
 	}
 	@-webkit-keyframes blakesuxuisecond {
-		0% {display: none;}
-		24% {display: none;}
-		25% {display: inherit;}
-		55% {display: inherit;}
-		56% {display: none;}
-		100% {display: none;}
+		0% {-webkit-display: none;}
+		24% {-webkit-display: none;}
+		25% {-webkit-display: inherit;}
+		55% {-webkit-display: inherit;}
+		56% {-webkit-display: none;}
+		100% {-webkit-display: none;}
 	}
 	@keyframes blakesuxuisecond {
 		0% {display: none;}
@@ -1506,12 +1506,12 @@ label.menu__btn {
 		animation: blakesuxuithird ease-in-out 13s infinite;
 	}
 	@-webkit-keyframes blakesuxuithird {
-		0% {display: none;}
-		56% {display: none;}
-		57% {display: inherit;}
-		89% {display: inherit;}
-		90% {display: none;}
-		100% {display: none;}
+		0% {-webkit-display: none;}
+		56% {-webkit-display: none;}
+		57% {-webkit-display: inherit;}
+		89% {-webkit-display: inherit;}
+		90% {-webkit-display: none;}
+		100% {-webkit-display: none;}
 	}
 	@keyframes blakesuxuithird {
 		0% {display: none;}
@@ -1521,7 +1521,6 @@ label.menu__btn {
 		90% {display: none;}
 		100% {display: none;}
 	}
-
 
 
 	.threebythreegrid.hamburger{
