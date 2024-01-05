@@ -137,7 +137,7 @@ img.portfolio_images.oneflowtwo {
 	height: auto;
 	transform: scale(1.03);
 	height: auto;
-	opacity: inherit;
+	float: inherit;
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
@@ -162,11 +162,11 @@ img.portfolio_images.oneflowtwo {
 
 img.portfolio_images.twoflowtwo, video.portfolio_images.twoflowtwo  {
 	position: relative;
-	display: inherit;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
 	height: auto;
+	float: inherit;
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
@@ -1402,6 +1402,7 @@ label.menu__btn {
 		display: inherit;
 		transform: scale(1.03);
 		height: auto;
+		float: inherit;
 		opacity: inherit;
 		padding-top: 1%;
 		margin-left: auto;
@@ -1432,6 +1433,7 @@ label.menu__btn {
 		height: auto;
 		transform: scale(1.03);
 		height: auto;
+		float: inherit;
 		padding-top: 1%;
 		margin-left: auto;
 		margin-right: auto;
