@@ -57,25 +57,21 @@ img.portfolio_images_pop.blgbeyondone {
 	animation: blgbeyondoneone 13s infinite;
 	animation-play-state: initial;
 }
+@-webkit-keyframes blgbeyondoneone {
+	0% {display: inherit;}
+	25% {display: inherit;}
+	26% {display: none;}
+	75% {display: none;}
+	76% {display: inherit;}
+	100% {display: inherit;}
+}
 @keyframes blgbeyondoneone {
-	0% {
-		display: inherit;
-	}
-	25% {
-		display: inherit;
-	}
-	26% {
-		display: none;
-	}
-	75% {
-		display: none;
-	}
-	76% {
-		display: inherit;
-	}
-	100% {
-		display: inherit;
-	}
+	0% {display: inherit;}
+	25% {display: inherit;}
+	26% {display: none;}
+	75% {display: none;}
+	76% {display: inherit;}
+	100% {display: inherit;}
 }
 
 img.portfolio_images_pop.blgbeyondtwo, video.portfolio_images_pop.blgbeyondtwo {
@@ -89,25 +85,21 @@ img.portfolio_images_pop.blgbeyondtwo, video.portfolio_images_pop.blgbeyondtwo {
 	animation: blgbeyondonetwo 13s infinite;
 	animation-play-state: initial;
 }
+@-webkit-keyframes blgbeyondonetwo {
+	0% {display: none;}
+	26% {display: none;}
+	27% {display: inherit;}
+	74% {display: inherit;}
+	75% {display: none;}
+	100% {display: none;}
+}
 @keyframes blgbeyondonetwo {
-	0% {
-		display: none;
-	}
-	26% {
-		display: none;
-	}
-	27% {
-		display: inherit;
-	}
-	74% {
-		display: inherit;
-	}
-	75% {
-		display: none;
-	}
-	100% {
-		display: none;
-	}
+	0% {display: none;}
+	26% {display: none;}
+	27% {display: inherit;}
+	74% {display: inherit;}
+	75% {display: none;}
+	100% {display: none;}
 }
 
 img.portfolio_images_pop.innovatescroll {
@@ -120,34 +112,23 @@ img.portfolio_images_pop.innovatescroll {
 	margin-right: auto;
 	animation: innovatescrolling 13s ease-in-out infinite;
 }
+@-webkit-keyframes innovatescrolling {
+	0% {display: none;}
+	26% {display: none;}
+	27% {display: inherit; object-fit: cover; object-position: 0px 0px;}
+	70% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
+	74% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
+	75% {display: none;}
+	100% {display: none;}
+}
 @keyframes innovatescrolling {
-	0% {
-		display: none;
-	}
-	26% {
-		display: none;
-	}
-	27% {
-		display: inherit;
-		object-fit: cover;
-		object-position: 0px 0px;
-	}
-	70% {
-		display: inherit;
-		object-fit: cover;
-		object-position: 0px -1275px;
-	}
-	74% {
-		display: inherit;
-		object-fit: cover;
-		object-position: 0px -1275px;
-	}
-	75% {
-		display: none;
-	}
-	100% {
-		display: none;
-	}
+	0% {display: none;}
+	26% {display: none;}
+	27% {display: inherit; object-fit: cover; object-position: 0px 0px;}
+	70% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
+	74% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
+	75% {display: none;}
+	100% {display: none;}
 }
 
 img.portfolio_images.blakesdotcomone {
@@ -161,6 +142,14 @@ img.portfolio_images.blakesdotcomone {
 	margin-left: auto;
 	margin-right: auto;
 	animation: blakesdotcomonefirst ease-in-out 16s infinite;
+}
+@-webkit-keyframes blakesdotcomonefirst {
+	0% {display: inherit;}
+	45% {display: inherit;}
+	46% {display: none;}
+	97% {display: none;}
+	98% {display: inherit;}
+	100% {display: inherit;}
 }
 @keyframes blakesdotcomonefirst {
 	0% {display: inherit;}
@@ -183,6 +172,14 @@ img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
 	margin-right: auto;
 	animation: blakesdotcomtwosecond ease-in-out 16s infinite;
 }
+@-webkit-keyframes blakesdotcomtwosecond {
+	0% {display: none;}
+	46% {display: none;}
+	47% {display: inherit;}
+	96% {display: inherit;}
+	97% {display: none;}
+	100% {display: none;}
+}
 @keyframes blakesdotcomtwosecond {
 	0% {display: none;}
 	46% {display: none;}
@@ -191,10 +188,6 @@ img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
 	97% {display: none;}
 	100% {display: none;}
 }
-
-
-
-
 
 img.portfolio_images_pop.blakesfirst {
 	display: block;
@@ -206,25 +199,21 @@ img.portfolio_images_pop.blakesfirst {
 	margin-right: auto;
 	animation: blakesuxuifirst 13s infinite;
 }
+@-wekit-keyframes blakesuxuifirst {
+	0% {display: inherit;}
+	23% {display: inherit;}
+	24% {display: none;}
+	90% {display: none;}
+	91% {display: inherit;}
+	100% {display: inherit;}
+}
 @keyframes blakesuxuifirst {
-	0% {
-		display: inherit;
-	}
-	23% {
-		display: inherit;
-	}
-	24% {
-		display: none;
-	}
-	90% {
-		display: none;
-	}
-	91% {
-		display: inherit;
-	}
-	100% {
-		display: inherit;
-	}
+	0% {display: inherit;}
+	23% {display: inherit;}
+	24% {display: none;}
+	90% {display: none;}
+	91% {display: inherit;}
+	100% {display: inherit;}
 }
 
 img.portfolio_images_pop.blakessecond {
@@ -237,25 +226,21 @@ img.portfolio_images_pop.blakessecond {
 	margin-right: auto;
 	animation: blakesuxuisecond 13s infinite;
 }
+@-webkit-keyframes blakesuxuisecond {
+	0% {display: none;}
+	24% {display: none;}
+	25% {display: inherit;}
+	55% {display: inherit;}
+	56% {display: none;}
+	100% {display: none;}
+}
 @keyframes blakesuxuisecond {
-	0% {
-		display: none;
-	}
-	24% {
-		display: none;
-	}
-	25% {
-		display: inherit;
-	}
-	55% {
-		display: inherit;
-	}
-	56% {
-		display: none;
-	}
-	100% {
-		display: none;
-	}
+	0% {display: none;}
+	24% {display: none;}
+	25% {display: inherit;}
+	55% {display: inherit;}
+	56% {display: none;}
+	100% {display: none;}
 }
 
 img.portfolio_images_pop.blakesthird {
@@ -268,25 +253,21 @@ img.portfolio_images_pop.blakesthird {
 	margin-right: auto;
 	animation: blakesuxuithird 13s infinite;
 }
+@-webkit-keyframes blakesuxuithird {
+	0% {display: none;}
+	56% {display: none;}
+	57% {display: inherit;}
+	89% {display: inherit;}
+	90% {display: none;}
+	100% {display: none;}
+}
 @keyframes blakesuxuithird {
-	0% {
-		display: none;
-	}
-	56% {
-		display: none;
-	}
-	57% {
-		display: inherit;
-	}
-	89% {
-		display: inherit;
-	}
-	90% {
-		display: none;
-	}
-	100% {
-		display: none;
-	}
+	0% {display: none;}
+	56% {display: none;}
+	57% {display: inherit;}
+	89% {display: inherit;}
+	90% {display: none;}
+	100% {display: none;}
 }
 
 img.portfolio_images.mickey100 {
@@ -300,6 +281,14 @@ img.portfolio_images.mickey100 {
 	margin-left: auto;
 	margin-right: auto;
 	animation: mickeyportfirst 16s infinite;
+}
+@-webkit-keyframes mickeyportfirst {
+	0% {display: inherit;}
+	9% {display: inherit;}
+	10% {display: none;}
+	40% {display: none;}
+	41% {display: inherit;}
+	100% {display: inherit;}
 }
 @keyframes mickeyportfirst {
 	0% {display: inherit;}
@@ -322,6 +311,14 @@ img.portfolio_images.mickey100disney {
 	margin-right: auto;
 	animation: mickeyportdisney 16s infinite;
 }
+@-webkit-keyframes mickeyportdisney {
+	0% { display: none;}
+	10% {display: none;}
+	11% {display: inherit;}
+	25% {display: inherit;}
+	26% {display: none;}
+	100% {display: none;}
+}
 @keyframes mickeyportdisney {
 	0% { display: none;}
 	10% {display: none;}
@@ -342,6 +339,14 @@ img.portfolio_images.mickey100uniqlo {
 	margin-left: auto;
 	margin-right: auto;
 	animation: mickeyportuniqlo 16s infinite;
+}
+@-webkit-keyframes mickeyportuniqlo {
+	0% {display: none;}
+	26% {display: none;}
+	27% {display: inherit;}
+	39% {display: inherit;}
+	40% {display: none;}
+	100% {display: none;}
 }
 @keyframes mickeyportuniqlo {
 	0% {display: none;}
