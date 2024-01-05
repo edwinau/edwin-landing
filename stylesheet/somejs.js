@@ -429,6 +429,16 @@ setTimeout(function(){
 	$(".popupfour").show();
 },500);
 
+$(".popup").hide();
+setTimeout(function(){
+	$(".popup").show();
+},500);
+
+$(".popuptwo").hide();
+setTimeout(function(){
+	$(".popuptwo").show();
+},500);
+
 $(".popup15").hide();
 setTimeout(function(){
 	$(".popup15").show();
@@ -442,7 +452,7 @@ setTimeout(function(){
 $(".popupsix").hide();
 setTimeout(function(){
 	$(".popupsix").show();
-},1500);
+},2000);
 
 $(".popup9").hide();
 setTimeout(function(){
@@ -462,7 +472,7 @@ setTimeout(function(){
 $(".popupfive").hide();
 setTimeout(function(){
 	$(".popupfive").show();
-},1000);
+},2000);
 
 $(".popup8").hide();
 setTimeout(function(){
