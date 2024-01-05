@@ -131,8 +131,39 @@ img.portfolio_images_pop.innovatescroll {
 	100% {display: none;}
 }
 
-img.portfolio_images.blakesdotcomone {
+img.portfolio_images.oneflowtwo {
 	position: relative;
+	width: 100%;
+	height: auto;
+	display: inherit;
+	transform: scale(1.03);
+	height: auto;
+	opacity: inherit;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
+	animation: blakesdotcomonefirst ease-in-out 16s infinite;
+}
+@-webkit-keyframes blakesdotcomonefirst {
+	0% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+	45% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+	46% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
+	97% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
+	98% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+	100% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+}
+@keyframes blakesdotcomonefirst {
+	0% {transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+	45% {transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+	46% {transition: opacity 0, display 2s; opacity: 0; display: none;}
+	97% {transition: opacity 0, display 2s; opacity: 0; display: none;}
+	98% {transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+	100% {transition: opacity 1, display 2s; opacity: 1; display: inherit;}
+}
+
+img.portfolio_images.twoflowtwo, video.portfolio_images.twoflowtwo  {
+	position: relative;
+	display: inherit;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
@@ -140,23 +171,46 @@ img.portfolio_images.blakesdotcomone {
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
+	animation: blakesdotcomtwosecondb ease-in-out 16s infinite;
+}
+@-webkit-keyframes blakesdotcomtwosecondb {
+	0% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+	46% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+	47% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inherit; background: linear-gradient(#2A9243, #9198e5);}
+	96% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inherit; background: linear-gradient(#2A9243, #9198e5);}
+	97% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+	100% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+}
+@keyframes blakesdotcomtwosecondb {
+	0% {transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+	46% {transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+	47% {transition: opacity 1, display 2s; opacity: 1; display: inherit; background: linear-gradient(#2A9243, #9198e5);}
+	96% {transition: opacity 1, display 2s; opacity: 1; display: inherit; background: linear-gradient(#2A9243, #9198e5);}
+	97% {transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+	100% {transition: opacity 0, display 2s; opacity: 0; display: none; background: linear-gradient(#2A9243, #9198e5);}
+}
+
+img.portfolio_images.blakesdotcomone {
+	position: relative;
+	width: 100%;
+	height: auto;
+	display: inherit;
+	transform: scale(1.03);
+	height: auto;
+	opacity: inherit;
+	padding-top: 1%;
+	margin-left: auto;
+	margin-right: auto;
 	animation: blakesdotcomonefirst ease-in-out 16s infinite;
 }
-@-webkit-keyframes blakesdotcomonefirst {
-	0% {display: inherit;}
-	45% {display: inherit;}
-	46% {display: none;}
-	97% {display: none;}
-	98% {display: inherit;}
-	100% {display: inherit;}
-}
+
 @keyframes blakesdotcomonefirst {
-	0% {display: inherit;}
-	45% {display: inherit;}
-	46% {display: none;}
-	97% {display: none;}
-	98% {display: inherit;}
-	100% {display: inherit;}
+	0% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	45% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	46% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	97% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	98% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	100% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
 }
 
 img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
@@ -171,21 +225,13 @@ img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
 	margin-right: auto;
 	animation: blakesdotcomtwosecond ease-in-out 16s infinite;
 }
-@-webkit-keyframes blakesdotcomtwosecond {
-	0% {display: none;}
-	46% {display: none;}
-	47% {display: inherit;}
-	96% {display: inherit;}
-	97% {display: none;}
-	100% {display: none;}
-}
 @keyframes blakesdotcomtwosecond {
-	0% {display: none;}
-	46% {display: none;}
-	47% {display: inherit;}
-	96% {display: inherit;}
-	97% {display: none;}
-	100% {display: none;}
+	0% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	46% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	47% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	96% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	97% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	100% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
 }
 
 img.portfolio_images_pop.blakesfirst {
