@@ -213,7 +213,7 @@ img.portfolio_images.blakesdotcomone {
 	100% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
 }
 
-img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
+img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo {
 	position: relative;
 	display: inherit;
 	width: 100%;
