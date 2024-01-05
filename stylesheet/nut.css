@@ -15,7 +15,8 @@
 
 .img_relative{
   position: relative;
-  display: flex;
+  display: inherit;
+/*  display: flex;*/
 }
 
 .img_absolute{
