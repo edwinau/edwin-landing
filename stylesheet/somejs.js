@@ -439,6 +439,11 @@ setTimeout(function(){
 	$(".popuptwo").show();
 },500);
 
+$(".popupthree").hide();
+setTimeout(function(){
+	$(".popupthree").show();
+},500);
+
 $(".popup15").hide();
 setTimeout(function(){
 	$(".popup15").show();
