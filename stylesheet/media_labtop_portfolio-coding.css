@@ -10,6 +10,8 @@
 		display: inherit;
 	}
 
+	/*Portfolio Navigate 5480 */
+
 	span.close-btn-xy {
 		font-size: 30px;
 		font-weight: bold;
@@ -17,7 +19,6 @@
 		position: relative;
 		z-index: 7000;
 		margin: 10px 20px;
-
 	}
 
 	span.portfolionexttwo {
@@ -30,21 +31,22 @@
 		top: -3px;
 	}
 
+/*Portfolio Images 5480 */
+
 	img.portfolio_images {
-	display: inherit;
-	width: 100%;
-	height: auto;
+		display: inherit;
+		width: 100%;
+		height: auto;
 	}
 
 	img.portfolio_images_pop {
-	display: block;
-	width: 550px;
-	height: auto;
-	padding-top: 1%;
-	margin-left: auto;
-	margin-right: auto;
+		display: block;
+		width: 550px;
+		height: auto;
+		padding-top: 1%;
+		margin-left: auto;
+		margin-right: auto;
 	}
-
 
 img.portfolio_images_pop.blgbeyondone {
 	display: block;
@@ -401,8 +403,6 @@ img.portfolio_images.mickey100uniqlo {
 	100% {display: none;}
 }
 
-
-
 	p.resume-prompt{
 		margin-left: 1px;
   color: gray;
@@ -417,8 +417,6 @@ img.portfolio_images.mickey100uniqlo {
   text-align: left;
 
 	}
-
-
 
   .threecoloumntables {
 		width:650px;
@@ -451,22 +449,12 @@ label.menu__btn {
 	animation-iteration-count: 1;
 	animation-fill-mode: both;
 	}
-
 @keyframes hamburgerfademonitor {
-	0% {
-			opacity: 1;
-		}
-	5% {
-			opacity: 1;
-		}
-	7% {
-		opacity: 0;
-		}
-	100% {
-		opacity: 0;
-	}
+	0% {opacity: 1;}
+	5% {opacity: 1;}
+	7% {opacity: 0;}
+	100% {opacity: 0;}
 }
-
 
 	.portfolio_images-mobile {
 		display: none;
@@ -477,7 +465,6 @@ label.menu__btn {
 		width: 100%;
 		height: auto;
 	}
-
 
 .hamburger-menu{
 	display: inherit;
@@ -1332,39 +1319,37 @@ label.menu__btn {
 	}
 
 	img.portfolio_images {
-	display: inherit;
+	float: left;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
 	}
 
 	img.portfolio_images.blakesdotcomone {
-		position: relative;
-		display: inherit;
+		position: absolute;
 		width: 100%;
 		height: auto;
 		transform: scale(1.03);
-		height: auto;
 		padding-top: 1%;
 		margin-left: auto;
 		margin-right: auto;
 		animation: blakesdotcomonefirst ease-in-out 16s infinite;
 	}
 	@-webkit-keyframes blakesdotcomonefirst {
-		0% {-webkit-display: inherit;}
-		45% {-webkit-display: inherit;}
-		46% {-webkit-display: none;}
-		97% {-webkit-display: none;}
-		98% {-webkit-display: inherit;}
-		100% {-webkit-display: inherit;}
+		0% {opacity: 1; -webkit-float: left;}
+		45% {opacity: 1; -webkit-float: left;}
+		46% {opacity: 0; -webkit-float: left;}
+		97% {opacity: 0; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		100% {opacity: 1; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomonefirst {
-		0% {display: inherit;}
-		45% {display: inherit;}
-		46% {display: none;}
-		97% {display: none;}
-		98% {display: inherit;}
-		100% {display: inherit;}
+		0% {opacity: 1; float: left;}
+		45% {opacity: 1; float: left;}
+		46% {opacity: 0; float: left;}
+		97% {opacity: 0; float: left;}
+		98% {opacity: 1; float: left;}
+		100% {opacity: 1; float: left;}
 	}
 
 	img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo  {
@@ -1373,27 +1358,26 @@ label.menu__btn {
 		width: 100%;
 		height: auto;
 		transform: scale(1.03);
-		height: auto;
 		padding-top: 1%;
 		margin-left: auto;
 		margin-right: auto;
 		animation: blakesdotcomtwosecond ease-in-out 16s infinite;
 	}
 	@-webkit-keyframes blakesdotcomtwosecond {
-		0% {-webkit-display: none;}
-		46% {-webkit-display: none;}
-		47% {-webkit-display: inherit;}
-		96% {-webkit-display: inherit;}
-		97% {-webkit-display: none;}
-		100% {-webkit-display: none;}
+		0% {opacity: 0; -webkit-float: left;}
+		46% {opacity: 0; -webkit-float: left;}
+		47% {opacity: 1; -webkit-float: left;}
+		96% {opacity: 1; -webkit-float: left;}
+		97% {opacity: 0; -webkit-float: left;}
+		100% {opacity: 0; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomtwosecond {
-		0% {display: none;}
-		46% {display: none;}
-		47% {display: inherit;}
-		96% {display: inherit;}
-		97% {display: none;}
-		100% {display: none;}
+		0% {opacity: 0; float: left;}
+		46% {opacity: 0; float: left;}
+		47% {opacity: 1; float: left;}
+		96% {opacity: 1; float: left;}
+		97% {opacity: 0; float: left;}
+		100% {opacity: 0; float: left;}
 	}
 
 	img.portfolio_images.oneflowtwo {
@@ -1401,7 +1385,6 @@ label.menu__btn {
 		width: 100%;
 		height: auto;
 		transform: scale(1.03);
-		height: auto;
 		opacity: inherit;
 		padding-top: 1%;
 		margin-left: auto;
@@ -1431,7 +1414,6 @@ label.menu__btn {
 		width: 100%;
 		height: auto;
 		transform: scale(1.03);
-		height: auto;
 		padding-top: 1%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1441,16 +1423,16 @@ label.menu__btn {
 		0% {opacity: 0; -webkit-float: left;}
 		46% {opacity: 0; -webkit-float: left;}
 		47% {opacity: 1; -webkit-float: left;}
-		96% {opacity: 1; -webkit-float: left;}
-		97% {opacity: 0; -webkit-float: left;}
+		97% {opacity: 1; -webkit-float: left;}
+		98% {opacity: 0; -webkit-float: left;}
 		100% {opacity: 0; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomtwosecondbphone {
 		0% {opacity: 0; float: left;}
 		46% {opacity: 0; float: left;}
 		47% {opacity: 1; float: left;}
-		96% {opacity: 1; float: left;}
-		97% {opacity: 0; float: left;}
+		97% {opacity: 1; float: left;}
+		98% {opacity: 0; float: left;}
 		100% {opacity: 0; float: left;}
 	}
 
