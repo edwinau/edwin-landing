@@ -48,61 +48,124 @@
 		margin-right: auto;
 	}
 
-img.portfolio_images_pop.blgbeyondone {
-	display: block;
-	position: relative;
-	width: 550px;
-	height: auto;
-	padding-top: 1%;
-	margin-left: auto;
-	margin-right: auto;
-	animation: blgbeyondoneone 13s infinite;
-	animation-play-state: initial;
-}
-@-webkit-keyframes blgbeyondoneone {
-	0% {display: inherit;}
-	25% {display: inherit;}
-	26% {display: none;}
-	75% {display: none;}
-	76% {display: inherit;}
-	100% {display: inherit;}
-}
-@keyframes blgbeyondoneone {
-	0% {display: inherit;}
-	25% {display: inherit;}
-	26% {display: none;}
-	75% {display: none;}
-	76% {display: inherit;}
-	100% {display: inherit;}
-}
 
-img.portfolio_images_pop.blgbeyondtwo, video.portfolio_images_pop.blgbeyondtwo {
-	display: block;
-	position: relative;
-	width: 550px;
+	img.portfolio_images {
+	float: left;
+	width: 100%;
 	height: auto;
-	padding-top: 1%;
-	margin-left: auto;
-	margin-right: auto;
-	animation: blgbeyondonetwo 13s infinite;
-	animation-play-state: initial;
-}
-@-webkit-keyframes blgbeyondonetwo {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit;}
-	74% {display: inherit;}
-	75% {display: none;}
-	100% {display: none;}
-}
-@keyframes blgbeyondonetwo {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit;}
-	74% {display: inherit;}
-	75% {display: none;}
-	100% {display: none;}
-}
+	transform: scale(1.03);
+	}
+
+	img.portfolio_images_pop.blakesdotcomone {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		transform: scale(1.03);
+		padding-top: 1%;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesdotcomonefirst ease-in-out 16s infinite;
+	}
+	@-webkit-keyframes blakesdotcomonefirst {
+		0% {opacity: 1; -webkit-float: left;}
+		46% {opacity: 1; -webkit-float: left;}
+		47% {opacity: 0; -webkit-float: left;}
+		97% {opacity: 0; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		100% {opacity: 1; -webkit-float: left;}
+	}
+	@keyframes blakesdotcomonefirst {
+		0% {opacity: 1; float: left;}
+		46% {opacity: 1; float: left;}
+		47% {opacity: 0; float: left;}
+		97% {opacity: 0; float: left;}
+		98% {opacity: 1; float: left;}
+		100% {opacity: 1; float: left;}
+	}
+
+	img.portfolio_images_pop.blakesdotcomtwo, video.portfolio_image_pop.blakesdotcomtwo  {
+		position: relative;
+		display: inherit;
+		width: 100%;
+		height: auto;
+		transform: scale(1.03);
+		padding-top: 1%;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesdotcomtwosecond ease-in-out 16s infinite;
+	}
+	@-webkit-keyframes blakesdotcomtwosecond {
+		0% {opacity: 0; -webkit-float: left;}
+		44% {opacity: 0; -webkit-float: left;}
+		45% {opacity: 1; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		99% {opacity: 0; -webkit-float: left;}
+		100% {opacity: 0; -webkit-float: left;}
+	}
+	@keyframes blakesdotcomtwosecond {
+		0% {opacity: 0; float: left;}
+		44% {opacity: 0; float: left;}
+		45% {opacity: 1; float: left;}
+		98% {opacity: 1; float: left;}
+		99% {opacity: 0; float: left;}
+		100% {opacity: 0; float: left;}
+	}
+
+	img.portfolio_images_pop.oneflowtwo {
+		position: absolute;
+		width: 100%;
+		height: auto;
+		transform: scale(1.03);
+		opacity: inherit;
+		padding-top: 1%;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesdotcomonefirstbphone ease-in-out 16s infinite;
+	}
+	@-webkit-keyframes blakesdotcomonefirstbphone {
+		0% {opacity: 1; -webkit-float: left;}
+		46% {opacity: 1; -webkit-float: left;}
+		47% {opacity: 0; -webkit-float: left;}
+		97% {opacity: 0; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		100% {opacity: 1; -webkit-float: left;}
+	}
+	@keyframes blakesdotcomonefirstbphone {
+		0% {opacity: 1; float: left;}
+		46% {opacity: 1; float: left;}
+		47% {opacity: 0; float: left;}
+		97% {opacity: 0; float: left;}
+		98% {opacity: 1; float: left;}
+		100% {opacity: 1; float: left;}
+	}
+
+	img.portfolio_images_pop.twoflowtwo, video.portfolio_images.twoflowtwo  {
+		position: relative;
+		display: inherit;
+		width: 100%;
+		height: auto;
+		transform: scale(1.03);
+		padding-top: 1%;
+		margin-left: auto;
+		margin-right: auto;
+		animation: blakesdotcomtwosecondbphone ease-in-out 16s infinite;
+	}
+	@-webkit-keyframes blakesdotcomtwosecondbphone {
+		0% {opacity: 0; -webkit-float: left;}
+		44% {opacity: 0; -webkit-float: left;}
+		45% {opacity: 1; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		99% {opacity: 0; -webkit-float: left;}
+		100% {opacity: 0; -webkit-float: left;}
+	}
+	@keyframes blakesdotcomtwosecondbphone {
+		0% {opacity: 0; float: left;}
+		44% {opacity: 0; float: left;}
+		45% {opacity: 1; float: left;}
+		98% {opacity: 1; float: left;}
+		99% {opacity: 0; float: left;}
+		100% {opacity: 0; float: left;}
+	}
 
 img.portfolio_images_pop.innovatescroll {
 	display: block;
@@ -228,10 +291,10 @@ img.portfolio_images.blakesdotcomtwo, video.portfolio_images.blakesdotcomtwo {
 }
 @keyframes blakesdotcomtwosecond {
 	0% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
-	46% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
-	47% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
-	96% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
-	97% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	44% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
+	45% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	98% {/*transition: opacity 1, display 2s; opacity: 1;*/ display: inherit;}
+	99% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
 	100% {/*transition: opacity 0, display 2s; opacity: 0;*/ display: none;}
 }
 
@@ -1337,16 +1400,16 @@ label.menu__btn {
 	}
 	@-webkit-keyframes blakesdotcomonefirst {
 		0% {opacity: 1; -webkit-float: left;}
-		45% {opacity: 1; -webkit-float: left;}
-		46% {opacity: 0; -webkit-float: left;}
+		46% {opacity: 1; -webkit-float: left;}
+		47% {opacity: 0; -webkit-float: left;}
 		97% {opacity: 0; -webkit-float: left;}
 		98% {opacity: 1; -webkit-float: left;}
 		100% {opacity: 1; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomonefirst {
 		0% {opacity: 1; float: left;}
-		45% {opacity: 1; float: left;}
-		46% {opacity: 0; float: left;}
+		46% {opacity: 1; float: left;}
+		47% {opacity: 0; float: left;}
 		97% {opacity: 0; float: left;}
 		98% {opacity: 1; float: left;}
 		100% {opacity: 1; float: left;}
@@ -1365,18 +1428,18 @@ label.menu__btn {
 	}
 	@-webkit-keyframes blakesdotcomtwosecond {
 		0% {opacity: 0; -webkit-float: left;}
-		46% {opacity: 0; -webkit-float: left;}
-		47% {opacity: 1; -webkit-float: left;}
-		96% {opacity: 1; -webkit-float: left;}
-		97% {opacity: 0; -webkit-float: left;}
+		44% {opacity: 0; -webkit-float: left;}
+		45% {opacity: 1; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		99% {opacity: 0; -webkit-float: left;}
 		100% {opacity: 0; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomtwosecond {
 		0% {opacity: 0; float: left;}
-		46% {opacity: 0; float: left;}
-		47% {opacity: 1; float: left;}
-		96% {opacity: 1; float: left;}
-		97% {opacity: 0; float: left;}
+		44% {opacity: 0; float: left;}
+		45% {opacity: 1; float: left;}
+		98% {opacity: 1; float: left;}
+		99% {opacity: 0; float: left;}
 		100% {opacity: 0; float: left;}
 	}
 
@@ -1393,16 +1456,16 @@ label.menu__btn {
 	}
 	@-webkit-keyframes blakesdotcomonefirstbphone {
 		0% {opacity: 1; -webkit-float: left;}
-		45% {opacity: 1; -webkit-float: left;}
-		46% {opacity: 0; -webkit-float: left;}
+		46% {opacity: 1; -webkit-float: left;}
+		47% {opacity: 0; -webkit-float: left;}
 		97% {opacity: 0; -webkit-float: left;}
 		98% {opacity: 1; -webkit-float: left;}
 		100% {opacity: 1; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomonefirstbphone {
 		0% {opacity: 1; float: left;}
-		45% {opacity: 1; float: left;}
-		46% {opacity: 0; float: left;}
+		46% {opacity: 1; float: left;}
+		47% {opacity: 0; float: left;}
 		97% {opacity: 0; float: left;}
 		98% {opacity: 1; float: left;}
 		100% {opacity: 1; float: left;}
@@ -1421,18 +1484,18 @@ label.menu__btn {
 	}
 	@-webkit-keyframes blakesdotcomtwosecondbphone {
 		0% {opacity: 0; -webkit-float: left;}
-		46% {opacity: 0; -webkit-float: left;}
-		47% {opacity: 1; -webkit-float: left;}
-		97% {opacity: 1; -webkit-float: left;}
-		98% {opacity: 0; -webkit-float: left;}
+		44% {opacity: 0; -webkit-float: left;}
+		45% {opacity: 1; -webkit-float: left;}
+		98% {opacity: 1; -webkit-float: left;}
+		99% {opacity: 0; -webkit-float: left;}
 		100% {opacity: 0; -webkit-float: left;}
 	}
 	@keyframes blakesdotcomtwosecondbphone {
 		0% {opacity: 0; float: left;}
-		46% {opacity: 0; float: left;}
-		47% {opacity: 1; float: left;}
-		97% {opacity: 1; float: left;}
-		98% {opacity: 0; float: left;}
+		44% {opacity: 0; float: left;}
+		45% {opacity: 1; float: left;}
+		98% {opacity: 1; float: left;}
+		99% {opacity: 0; float: left;}
 		100% {opacity: 0; float: left;}
 	}
 
