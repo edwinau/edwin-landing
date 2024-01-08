@@ -53,7 +53,7 @@
 
 	img.portfolio_images_pop.blgbeyondone {
 	display: block;
-	position: relative;
+	position: absolute;
 	width: 550px;
 	height: auto;
 	padding-top: 1%;
@@ -63,24 +63,24 @@
 	animation-play-state: initial;
 }
 @-webkit-keyframes blgbeyondoneone {
-	0% {display: inherit;}
-	25% {display: inherit;}
-	26% {display: none;}
-	75% {display: none;}
-	76% {display: inherit;}
-	100% {display: inherit;}
+	0% {opacity: 1; -webkit-float: left;}
+	25% {opacity: 1; -webkit-float: left;}
+	26% {opacity: 0; -webkit-float: left;}
+	75% {opacity: 0; -webkit-float: left;}
+	76% {opacity: 1; -webkit-float: left;}
+	100% {opacity: 1; -webkit-float: left;}
 }
 @keyframes blgbeyondoneone {
-	0% {display: inherit;}
-	25% {display: inherit;}
-	26% {display: none;}
-	75% {display: none;}
-	76% {display: inherit;}
-	100% {display: inherit;}
+	0% {opacity: 1; float: left;}
+	25% {opacity: 1; float: left;}
+	26% {opacity: 0; float: left;}
+	75% {opacity: 0; float: left;}
+	76% {opacity: 1; -webkit-float: left;}
+	100% {opacity: 1; -webkit-float: left;}
 }
 
 img.portfolio_images_pop.blgbeyondtwo, video.portfolio_images_pop.blgbeyondtwo {
-	display: block;
+	display: inline-block;
 	position: relative;
 	width: 550px;
 	height: auto;
@@ -91,20 +91,20 @@ img.portfolio_images_pop.blgbeyondtwo, video.portfolio_images_pop.blgbeyondtwo {
 	animation-play-state: initial;
 }
 @-webkit-keyframes blgbeyondonetwo {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit;}
-	74% {display: inherit;}
-	75% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	26% {opacity: 0; -webkit-float: left;}
+	27% {opacity: 1; -webkit-float: left;}
+	74% {opacity: 1; -webkit-float: left;}
+	75% {opacity: 0; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes blgbeyondonetwo {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit;}
-	74% {display: inherit;}
-	75% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; float: left;}
+	26% {opacity: 0; float: left;}
+	27% {opacity: 1; float: left;}
+	74% {opacity: 1; float: left;}
+	75% {opacity: 0; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 
@@ -138,7 +138,7 @@ img.portfolio_images_pop.innovatescroll {
 }
 
 img.portfolio_images.oneflowtwo {
-	position: relative;
+	position: absolute;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
@@ -197,7 +197,7 @@ img.portfolio_images.twoflowtwo, video.portfolio_images.twoflowtwo  {
 
 img.portfolio_images_pop.blakesfirst {
 	display: block;
-	position: relative;
+	position: absolute;
 	width: 550px;
 	height: auto;
 	padding-top: 1%;
@@ -224,7 +224,7 @@ img.portfolio_images_pop.blakesfirst {
 
 img.portfolio_images_pop.blakessecond {
 	display: block;
-	position: relative;
+	position: absolute;
 	width: 550px;
 	height: auto;
 	padding-top: 1%;
@@ -250,7 +250,7 @@ img.portfolio_images_pop.blakessecond {
 }
 
 img.portfolio_images_pop.blakesthird {
-	display: block;
+	display: inline-block;
 	position: relative;
 	width: 550px;
 	height: auto;
@@ -277,8 +277,8 @@ img.portfolio_images_pop.blakesthird {
 }
 
 img.portfolio_images.mickey100 {
-	position: relative;
-	display: inherit;
+	position: absolute;
+	display: inline-block;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
@@ -306,8 +306,8 @@ img.portfolio_images.mickey100 {
 }
 
 img.portfolio_images.mickey100disney {
-	position: relative;
-	display: inherit;
+	position: absolute;
+	display: inline-block;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
@@ -336,7 +336,7 @@ img.portfolio_images.mickey100disney {
 
 img.portfolio_images.mickey100uniqlo {
 	position: relative;
-	display: inherit;
+	display: inline-block;
 	width: 100%;
 	height: auto;
 	transform: scale(1.03);
