@@ -119,22 +119,22 @@ img.portfolio_images_pop.innovatescroll {
 	animation: innovatescrolling 13s ease-in-out infinite;
 }
 @-webkit-keyframes innovatescrolling {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit; object-fit: cover; object-position: 0px 0px;}
-	70% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
-	74% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
-	75% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	26% {opacity: 0; -webkit-float: left;}
+	27% {opacity: 1; -webkit-float: left; object-fit: cover; object-position: 0px 0px;}
+	70% {opacity: 1; -webkit-float: left; object-fit: cover; object-position: 0px -1275px;}
+	74% {opacity: 0; -webkit-float: left; object-fit: cover; object-position: 0px -1275px;}
+	75% {opacity: 0; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes innovatescrolling {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit; object-fit: cover; object-position: 0px 0px;}
-	70% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
-	74% {display: inherit; object-fit: cover; object-position: 0px -1275px;}
-	75% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; float: left;}
+	26% {opacity: 0; float: left;}
+	27% {opacity: 1; float: left; object-fit: cover; object-position: 0px 0px;}
+	70% {opacity: 1; float: left; object-fit: cover; object-position: 0px -1275px;}
+	74% {opacity: 1; float: left; object-fit: cover; object-position: 0px -1275px;}
+	75% {opacity: 0; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 img.portfolio_images.oneflowtwo {
@@ -150,20 +150,20 @@ img.portfolio_images.oneflowtwo {
 	animation: blakesdotcomonefirstb ease-in-out 16s infinite;
 }
 @-webkit-keyframes blakesdotcomonefirstb {
-	0% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inline-block;;}
-	45% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	46% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
-	97% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
-	98% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	100% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
+	0% {opacity: 1; -webkit-float: left;}
+	45% {opacity: 1; -webkit-float: left;}
+	46% {opacity: 0; -webkit-float: left;}
+	97% {opacity: 0; -webkit-float: left;}
+	98% {opacity: 1; -webkit-float: left;}
+	100% {opacity: 1; -webkit-float: left;}
 }
 @keyframes blakesdotcomonefirstb {
-	0% {transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	45% {transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	46% {transition: opacity 0, display 2s; opacity: 0; display: none;}
-	97% {transition: opacity 0, display 2s; opacity: 0; display: none;}
-	98% {transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	100% {transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
+	0% {opacity: 1; float: left;}
+	45% {opacity: 1; float: left;}
+	46% {opacity: 0; float: left;}
+	97% {opacity: 0; float: left;}
+	98% {opacity: 1; float: left;}
+	100% {opacity: 1; float: left;}
 }
 
 img.portfolio_images.twoflowtwo, video.portfolio_images.twoflowtwo  {
@@ -179,20 +179,20 @@ img.portfolio_images.twoflowtwo, video.portfolio_images.twoflowtwo  {
 	animation: blakesdotcomtwosecondb ease-in-out 16s infinite;
 }
 @-webkit-keyframes blakesdotcomtwosecondb {
-	0% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
-	46% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
-	47% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	96% {-webkit-transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	97% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
-	100% {-webkit-transition: opacity 0, display 2s; opacity: 0; display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	46% {opacity: 0; -webkit-float: left;}
+	47% {opacity: 1; -webkit-float: left;}
+	96% {opacity: 1; -webkit-float: left;}
+	97% {opacity: 0; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes blakesdotcomtwosecondb {
-	0% {transition: opacity 0, display 2s; opacity: 0; display: none;}
-	46% {transition: opacity 0, display 2s; opacity: 0; display: none;}
-	47% {transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	96% {transition: opacity 1, display 2s; opacity: 1; display: inline-block;}
-	97% {transition: opacity 0, display 2s; opacity: 0; display: none;}
-	100% {transition: opacity 0, display 2s; opacity: 0; display: none;}
+	0% {opacity: 0; float: left;}
+	46% {opacity: 0; float: left;}
+	47% {opacity: 1; float: left;}
+	96% {opacity: 1; float: left;}
+	97% {opacity: 0; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 img.portfolio_images_pop.blakesfirst {
@@ -206,20 +206,20 @@ img.portfolio_images_pop.blakesfirst {
 	animation: blakesuxuifirst 13s infinite;
 }
 @-wekit-keyframes blakesuxuifirst {
-	0% {display: inherit;}
-	23% {display: inherit;}
-	24% {display: none;}
-	90% {display: none;}
-	91% {display: inherit;}
-	100% {display: inherit;}
+	0% {opacity: 1; -webkit-float: left;}
+	23% {opacity: 1; -webkit-float: left;}
+	24% {opacity: 0; -webkit-float: left;}
+	90% {opacity: 0; -webkit-float: left;}
+	91% {opacity: 1; -webkit-float: left;}
+	100% {opacity: 1; -webkit-float: left;}
 }
 @keyframes blakesuxuifirst {
-	0% {display: inherit;}
-	23% {display: inherit;}
-	24% {display: none;}
-	90% {display: none;}
-	91% {display: inherit;}
-	100% {display: inherit;}
+	0% {opacity: 1; float: left;}
+	23% {opacity: 1; float: left;}
+	24% {opacity: 0; float: left;}
+	90% {opacity: 0; float: left;}
+	91% {opacity: 1; float: left;}
+	100% {opacity: 1; float: left;}
 }
 
 img.portfolio_images_pop.blakessecond {
@@ -233,20 +233,20 @@ img.portfolio_images_pop.blakessecond {
 	animation: blakesuxuisecond 13s infinite;
 }
 @-webkit-keyframes blakesuxuisecond {
-	0% {display: none;}
-	24% {display: none;}
-	25% {display: inherit;}
-	55% {display: inherit;}
-	56% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	24% {opacity: 0; -webkit-float: left;}
+	25% {opacity: 1; -webkit-float: left;}
+	55% {opacity: 1; -webkit-float: left;}
+	56% {opacity: 0; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes blakesuxuisecond {
-	0% {display: none;}
-	24% {display: none;}
-	25% {display: inherit;}
-	55% {display: inherit;}
-	56% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; float: left;}
+	24% {opacity: 0; float: left;}
+	25% {opacity: 1; float: left;}
+	55% {opacity: 1; float: left;}
+	56% {opacity: 0; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 img.portfolio_images_pop.blakesthird {
@@ -260,20 +260,20 @@ img.portfolio_images_pop.blakesthird {
 	animation: blakesuxuithird 13s infinite;
 }
 @-webkit-keyframes blakesuxuithird {
-	0% {display: none;}
-	56% {display: none;}
-	57% {display: inherit;}
-	89% {display: inherit;}
-	90% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	56% {opacity: 0; -webkit-float: left;}
+	57% {opacity: 1; -webkit-float: left;}
+	89% {opacity: 1; -webkit-float: left;}
+	90% {opacity: 1; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes blakesuxuithird {
-	0% {display: none;}
-	56% {display: none;}
-	57% {display: inherit;}
-	89% {display: inherit;}
-	90% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; float: left;}
+	56% {opacity: 0; float: left;}
+	57% {opacity: 1; float: left;}
+	89% {opacity: 1; float: left;}
+	90% {opacity: 1; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 img.portfolio_images.mickey100 {
@@ -289,20 +289,20 @@ img.portfolio_images.mickey100 {
 	animation: mickeyportfirst 16s infinite;
 }
 @-webkit-keyframes mickeyportfirst {
-	0% {display: inherit;}
-	9% {display: inherit;}
-	10% {display: none;}
-	40% {display: none;}
-	41% {display: inherit;}
-	100% {display: inherit;}
+	0% {opacity: 1; -webkit-float: left;}
+	9% {opacity: 1; -webkit-float: left;}
+	10% {opacity: 0; -webkit-float: left;}
+	40% {opacity: 0; -webkit-float: left;}
+	41% {opacity: 1; -webkit-float: left;}
+	100% {opacity: 1; -webkit-float: left;}
 }
 @keyframes mickeyportfirst {
-	0% {display: inherit;}
-	9% {display: inherit;}
-	10% {display: none;}
-	40% {display: none;}
-	41% {display: inherit;}
-	100% {display: inherit;}
+	0% {opacity: 1; float: left;}
+	9% {opacity: 1; float: left;}
+	10% {opacity: 0; float: left;}
+	40% {opacity: 0; float: left;}
+	41% {opacity: 1; float: left;}
+	100% {opacity: 1; float: left;}
 }
 
 img.portfolio_images.mickey100disney {
@@ -318,20 +318,20 @@ img.portfolio_images.mickey100disney {
 	animation: mickeyportdisney 16s infinite;
 }
 @-webkit-keyframes mickeyportdisney {
-	0% { display: none;}
-	10% {display: none;}
-	11% {display: inherit;}
-	25% {display: inherit;}
-	26% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	10% {opacity: 0; -webkit-float: left;}
+	11% {opacity: 1; -webkit-float: left;}
+	25% {opacity: 1; -webkit-float: left;}
+	26% {opacity: 0; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes mickeyportdisney {
-	0% { display: none;}
-	10% {display: none;}
-	11% {display: inherit;}
-	25% {display: inherit;}
-	26% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; float: left;}
+	10% {opacity: 0; float: left;}
+	11% {opacity: 1; float: left;}
+	25% {opacity: 1; float: left;}
+	26% {opacity: 0; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 img.portfolio_images.mickey100uniqlo {
@@ -347,20 +347,20 @@ img.portfolio_images.mickey100uniqlo {
 	animation: mickeyportuniqlo 16s infinite;
 }
 @-webkit-keyframes mickeyportuniqlo {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit;}
-	39% {display: inherit;}
-	40% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; -webkit-float: left;}
+	26% {opacity: 0; -webkit-float: left;}
+	27% {opacity: 1; -webkit-float: left;}
+	39% {opacity: 1; -webkit-float: left;}
+	40% {opacity: 0; -webkit-float: left;}
+	100% {opacity: 0; -webkit-float: left;}
 }
 @keyframes mickeyportuniqlo {
-	0% {display: none;}
-	26% {display: none;}
-	27% {display: inherit;}
-	39% {display: inherit;}
-	40% {display: none;}
-	100% {display: none;}
+	0% {opacity: 0; float: left;}
+	26% {opacity: 0; float: left;}
+	27% {opacity: 1; float: left;}
+	39% {opacity: 1; float: left;}
+	40% {opacity: 0; float: left;}
+	100% {opacity: 0; float: left;}
 }
 
 	p.resume-prompt{
