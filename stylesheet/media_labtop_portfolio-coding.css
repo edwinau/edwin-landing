@@ -371,7 +371,7 @@ img.portfolio_images.mickey100uniqlo {
   letter-spacing: .1em;
   line-height: 2;
   opacity: 1;
-  padding-left: 5%;
+  padding-left: 7%;
   margin-top: 3%;
   margin-bottom:2%;
   text-align: left;
@@ -401,7 +401,7 @@ img.portfolio_images.mickey100uniqlo {
 
 label.menu__btn {
 	position: fixed;
-	top: 7vh;
+	top: 6vh;
 	left: inherit;
 	animation: hamburgerfademonitor 2s ease-in-out infinite;
 	animation-play-state: paused;
@@ -411,8 +411,8 @@ label.menu__btn {
 	}
 @keyframes hamburgerfademonitor {
 	0% {opacity: 1;}
-	5% {opacity: 1;}
-	7% {opacity: 0;}
+	3% {opacity: 1;}
+	5% {opacity: 0;}
 	100% {opacity: 0;}
 }
 
