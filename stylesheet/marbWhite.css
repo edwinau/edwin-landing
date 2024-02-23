@@ -292,8 +292,8 @@ h2.button-row > a:hover {
 
 h2.center a::after {
   border-color: #ff6500;
-  background: black;
-  color: #ff6500;
+  background: none;
+  color: white;
   opacity: 1;
     /*border-color: #39b5d8;
     color: #39b5d8;*/
@@ -305,7 +305,7 @@ h2.center a::after {
 
 h2.left a::after {
   border-color: yellow;
-  background: black;
+  background: none;
   color: yellow;
   opacity: 1;
     /*border-color: salmon;
@@ -415,7 +415,7 @@ h2.center a::before {
 h2.right a::after {
   border-color: yellow;
   color: yellow;
-  background: black;
+  background: none;
   opacity: 1;
     /*border-color: #a941f4;*/
     /*color: #a941f4;*/
@@ -428,7 +428,7 @@ h2.right a::after {
 h2.right_right a::after {
   border-color: yellow;
   color: yellow;
-  background: black;
+  background: none;
   opacity: 1;
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/

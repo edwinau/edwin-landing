@@ -316,45 +316,41 @@ window.addEventListener('scroll', () => {
 
 
 // When the user clicks on div, open the portfolio popups
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
 
 function myFunction1() {
-  var popup = document.getElementById("myPopup1");
-  popup.classList.toggle("show1");
+  var popup1 = document.getElementById("myPopup1");
+  popup1.classList.toggle("show1");
 }
 
-function myFunctiontwo() {
-  var popuptwo = document.getElementById("myPopuptwo");
-  popuptwo.classList.toggle("showtwo");
+function myFunction2() {
+  var popup2 = document.getElementById("myPopup2");
+  popup2.classList.toggle("show2");
 }
 
 
-function myFunctionthree() {
-  var popupthree = document.getElementById("myPopupthree");
-  popupthree.classList.toggle("showthree");
+function myFunction3() {
+  var popup3 = document.getElementById("myPopup3");
+  popup3.classList.toggle("show3");
 }
 
-function myFunctionfour() {
-  var popupfour = document.getElementById("myPopupfour");
-  popupfour.classList.toggle("showfour");
+function myFunction4() {
+  var popup4 = document.getElementById("myPopup4");
+  popup4.classList.toggle("show4");
 }
 
-function myFunctionfive() {
-  var popupfive = document.getElementById("myPopupfive");
-  popupfive.classList.toggle("showfive");
+function myFunction5() {
+  var popup5 = document.getElementById("myPopup5");
+  popup5.classList.toggle("show5");
 }
 
-function myFunctionsix() {
-  var popupsix = document.getElementById("myPopupsix");
-  popupsix.classList.toggle("showsix");
+function myFunction6() {
+  var popup6 = document.getElementById("myPopup6");
+  popup6.classList.toggle("show6");
 }
 
-function myFunctionseven() {
-  var popupseven = document.getElementById("myPopupseven");
-  popupseven.classList.toggle("showseven");
+function myFunction7() {
+  var popup7 = document.getElementById("myPopup7");
+  popup7.classList.toggle("show7");
 }
 
 function myFunction8() {
@@ -423,6 +419,11 @@ function myFunction20() {
 }
 
 // loading different divs at different times
+
+$(".container_one.contactpage").hide();
+setTimeout(function(){
+	$(".container_one.contactpage").show();
+},100);
 
 $(".popupfour").hide();
 setTimeout(function(){

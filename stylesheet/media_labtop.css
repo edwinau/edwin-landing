@@ -649,11 +649,12 @@ p.resume-prompt {
     }
     80% {
       width: 50%;
+      top: -65vh;
       opacity: 1;
     }
     100% {
-      width: 50%;
-      top: 25vh;
+      width: 30%;
+      top: -7vh;
       opacity: 1;
     }
   }
@@ -687,7 +688,7 @@ p.resume-prompt {
   }
 
   div.img_relative.labtop{
-    height: 120vh;
+    height: 80vh;
     margin: auto;
   }
 
