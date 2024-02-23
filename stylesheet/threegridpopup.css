@@ -39,7 +39,7 @@
 
   /* pop up starts */
   /* Popup container - can be anything you want */
-  .popup {
+  .popup1 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -50,7 +50,7 @@
   }
 
   /* The actual popup */
-  .popup .popuptext {
+  .popup1 .popuptext1 {
     visibility: hidden;
     width: 850px;
     background-color: rgba(40, 40, 40, .9);
@@ -65,7 +65,7 @@
   }
 
   /* Popup arrow */
-  .popup .popuptext::after {
+  .popup1 .popuptext1::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -77,7 +77,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popup .show {
+  .popup1 .show1 {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
@@ -105,7 +105,7 @@
   }
 
 
-  .popuptwo {
+  .popup2 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -116,7 +116,7 @@
   }
 
   /* The actual popup */
-  .popuptwo .popuptexttwo {
+  .popup2 .popuptext2 {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -130,7 +130,7 @@
   }
 
   /* Popup arrow */
-  .popuptwo .popuptexttwo::after {
+  .popup2 .popuptext2::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -142,7 +142,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popuptwo .showtwo {
+  .popup2 .show2 {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
@@ -170,7 +170,7 @@
   }
 
 
-  .popupthree {
+  .popup3 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -181,7 +181,7 @@
   }
 
   /* The actual popup */
-  .popupthree .popuptextthree {
+  .popup3 .popuptext3 {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -195,7 +195,7 @@
   }
 
   /* Popup arrow */
-  .popupthree .popuptextthree::after {
+  .popup3 .popuptext3::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -207,7 +207,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popupthree .showthree {
+  .popup3 .show3 {
     visibility: visible;
     -webkit-animation: fadeInthree 1s;
     animation: fadeInthree 1s;
@@ -236,7 +236,7 @@
 
   /* The actual popup */
 
-  .popupfour {
+  .popup4 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -246,7 +246,7 @@
     user-select: none;
   }
 
-  .popupfour .popuptextfour {
+  .popup4 .popuptext4 {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -261,7 +261,7 @@
   }
 
   /* Popup arrow */
-  .popupfour .popuptextfour::after {
+  .popup4 .popuptext4::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -273,7 +273,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popupfour .showfour {
+  .popup4 .show4 {
     visibility: visible;
     -webkit-animation: fadeInfour 1s;
     animation: fadeInfour 1s;
@@ -302,7 +302,7 @@
 
   /* The actual popup */
 
-  .popupfive {
+  .popup5 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -312,7 +312,7 @@
     user-select: none;
   }
 
-  .popupfive .popuptextfive {
+  .popup5 .popuptext5 {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -326,7 +326,7 @@
   }
 
   /* Popup arrow */
-  .popupfive .popuptextfive::after {
+  .popup5 .popuptext5::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -338,7 +338,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popupfive .showfive {
+  .popup5 .show5 {
     visibility: visible;
     -webkit-animation: fadeInfive 1s;
     animation: fadeInfive 1s;
@@ -367,7 +367,7 @@
 
   /* The actual popup */
 
-  .popupsix {
+  .popup6 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -377,7 +377,7 @@
     user-select: none;
   }
 
-  .popupsix .popuptextsix {
+  .popup6 .popuptext6 {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -391,7 +391,7 @@
   }
 
   /* Popup arrow */
-  .popupsix .popuptextsix::after {
+  .popup6 .popuptext6::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -403,7 +403,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popupsix .showsix {
+  .popup6 .show6 {
     visibility: visible;
     -webkit-animation: fadeInsix 1s;
     animation: fadeInsix 1s;
@@ -431,7 +431,7 @@
   }
 
   /* The actual popup */
-  .popupseven {
+  .popup7 {
     position: relative;
     display: inline-block;
     cursor: pointer;
@@ -441,7 +441,7 @@
     user-select: none;
   }
 
-  .popupseven .popuptextseven {
+  .popup7 .popuptext7 {
     visibility: hidden;
     width: 50vw;
     background-color: rgba(40, 40, 40, .9);
@@ -454,7 +454,7 @@
     overflow: visible;
   }
 
-  .popupseven .popuptextseven::after {
+  .popup7 .popuptext7::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -466,7 +466,7 @@
   }
 
   /* Toggle this class - hide and show the popup */
-  .popupseven .showseven {
+  .popup7 .show7 {
     visibility: visible;
     -webkit-animation: fadeInseven 1s;
     animation: fadeInseven 1s;
