@@ -634,28 +634,33 @@ p.resume-prompt {
 
   @keyframes rotateab {
     0% {
-      width: 50%;
+      width: 98%;
       top: 0vh;
       opacity: 1;
+      margin: auto;
     }
     50%{
-      width: 50%;
+      width: 98%;
       top: 0vh;
       opacity: 1;
+      margin: auto;
     }
     65% {
-      width: 50%;
+      width: 98%;
       opacity: 1;
+      margin: auto;
     }
     80% {
-      width: 50%;
-      top: -65vh;
+      width: 80%;
+      top: -45vh;
       opacity: 1;
+      margin: auto;
     }
     100% {
-      width: 30%;
-      top: -7vh;
+      width: 60%;
+      top: -5vh;
       opacity: 1;
+      margin: auto;
     }
   }
 
@@ -690,6 +695,7 @@ p.resume-prompt {
   div.img_relative.labtop{
     height: 80vh;
     margin: auto;
+    width: 900px;
   }
 
   .col-md-10{
@@ -739,9 +745,9 @@ p.resume-prompt {
   h4  > a:visited,
   h4  > a:link,
   h4  > a:active{
-    padding: 10px 50px 20px 50px;
+    padding: 10px 10px 20px 10px;
     opacity: 1;
-    font-size: 2.5vw;
+    font-size: 30pt;
     text-transform: lowercase;
   }
 
