@@ -425,59 +425,39 @@ setTimeout(function(){
 	$(".container_one.contactpage").show();
 },100);
 
-$(".popupfour").hide();
+$(".popup1").hide();
 setTimeout(function(){
-	$(".popupfour").show();
+	$(".popup1").show();
 },500);
 
-$(".popup").hide();
+$(".popup2").hide();
 setTimeout(function(){
-	$(".popup").show();
+	$(".popup2").show();
 },500);
 
-$(".popuptwo").hide();
+$(".popup3").hide();
 setTimeout(function(){
-	$(".popuptwo").show();
+	$(".popup3").show();
 },500);
 
-$(".popupthree").hide();
+$(".popup4").hide();
 setTimeout(function(){
-	$(".popupthree").show();
-},500);
-
-$(".popup15").hide();
-setTimeout(function(){
-	$(".popup15").show();
-},500);
-
-$(".popup9").hide();
-setTimeout(function(){
-	$(".popup9").show();
-},1500);
-
-$(".popupsix").hide();
-setTimeout(function(){
-	$(".popupsix").show();
-},2000);
-
-$(".popup9").hide();
-setTimeout(function(){
-	$(".popup9").show();
-},1500);
-
-$(".popup13").hide();
-setTimeout(function(){
-	$(".popup13").show();
+	$(".popup4").show();
 },1000);
 
-$(".popup14").hide();
+$(".popup5").hide();
 setTimeout(function(){
-	$(".popup14").show();
+	$(".popup5").show();
 },1000);
 
-$(".popupfive").hide();
+$(".popup6").hide();
 setTimeout(function(){
-	$(".popupfive").show();
+	$(".popup6").show();
+},1500);
+
+$(".popup7").hide();
+setTimeout(function(){
+	$(".popup7").show();
 },2000);
 
 $(".popup8").hide();
@@ -485,25 +465,36 @@ setTimeout(function(){
 	$(".popup8").show();
 },2500);
 
-$(".popup11").hide();
+$(".popup9").hide();
 setTimeout(function(){
-	$(".popup11").show();
-},2000);
-
-$(".popup12").hide();
-setTimeout(function(){
-	$(".popup12").show();
+	$(".popup9").show();
 },2500);
 
 $(".popup10").hide();
 setTimeout(function(){
 	$(".popup10").show();
-},2000);
+},3000);
 
-$(".popupseven").hide();
+$(".popup12").hide();
 setTimeout(function(){
-	$(".popupseven").show();
-},2000);
+	$(".popup12").show();
+},3000);
+
+$(".popup13").hide();
+setTimeout(function(){
+	$(".popup13").show();
+},3500);
+
+$(".popup14").hide();
+setTimeout(function(){
+	$(".popup14").show();
+},3500);
+
+$(".popup15").hide();
+setTimeout(function(){
+	$(".popup15").show();
+},3500);
+
 
 $(".container_one.contactpage").hide();
 setTimeout(function(){
