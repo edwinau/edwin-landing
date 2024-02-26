@@ -475,6 +475,12 @@ setTimeout(function(){
 	$(".popup10").show();
 },3000);
 
+
+$(".popup11").hide();
+setTimeout(function(){
+	$(".popup11").show();
+},3000);
+
 $(".popup12").hide();
 setTimeout(function(){
 	$(".popup12").show();
