@@ -1024,10 +1024,10 @@
     line-height: 1.3em;
   }
 
-  .popup9 .show9, .popupthree .showthree, .popuptwo .showtwo, .popup .show, .popup15 .show15, .popupfour .showfour, .popupfive .showfive {
+  .popup9 .show9, .popup3 .show3, .popup2 .show2, .popup1 .show1, .popup15 .show15, .popup4 .show4, .popup5 .show5 {
     top: 60%;
   }
-  .popupsix .showsix, .popupseven .showseven, .popup8 .show8, .popup10 .show10, .popup11 .show11, .popup12 .show12, .popup13 .show13, .popup14 .show14  {
+  .popup6 .show6, .popup7 .show7, .popup8 .show8, .popup10 .show10, .popup11 .show11, .popup12 .show12, .popup13 .show13, .popup14 .show14  {
     top: 60%;
   }
 
