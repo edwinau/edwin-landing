@@ -428,81 +428,81 @@ setTimeout(function(){
 $(".popup1").hide();
 setTimeout(function(){
 	$(".popup1").show();
-},500);
+},200);
 
 $(".popup2").hide();
 setTimeout(function(){
 	$(".popup2").show();
-},500);
+},200);
 
 $(".popup3").hide();
 setTimeout(function(){
 	$(".popup3").show();
-},500);
+},300);
 
 $(".popup4").hide();
 setTimeout(function(){
 	$(".popup4").show();
-},1000);
+},300);
 
 $(".popup5").hide();
 setTimeout(function(){
 	$(".popup5").show();
-},1000);
+},300);
 
 $(".popup6").hide();
 setTimeout(function(){
 	$(".popup6").show();
-},1500);
+},400);
 
 $(".popup7").hide();
 setTimeout(function(){
 	$(".popup7").show();
-},2000);
+},400);
 
 $(".popup8").hide();
 setTimeout(function(){
 	$(".popup8").show();
-},2500);
+},500);
 
 $(".popup9").hide();
 setTimeout(function(){
 	$(".popup9").show();
-},2500);
+},500);
 
 $(".popup10").hide();
 setTimeout(function(){
 	$(".popup10").show();
-},3000);
+},600);
 
 
 $(".popup11").hide();
 setTimeout(function(){
 	$(".popup11").show();
-},3000);
+},700);
 
 $(".popup12").hide();
 setTimeout(function(){
 	$(".popup12").show();
-},3000);
+},700);
 
 $(".popup13").hide();
 setTimeout(function(){
 	$(".popup13").show();
-},3500);
+},800);
 
 $(".popup14").hide();
 setTimeout(function(){
 	$(".popup14").show();
-},3500);
+},800);
 
 $(".popup15").hide();
 setTimeout(function(){
 	$(".popup15").show();
-},3500);
+},800);
 
 
 $(".container_one.contactpage").hide();
 setTimeout(function(){
 	$(".container_one.contactpage").show();
-},2000);
+},900);
