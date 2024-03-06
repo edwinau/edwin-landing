@@ -412,8 +412,8 @@ label.menu__btn {
 @keyframes hamburgerfademonitor {
 	0% {opacity: 1;}
 	2% {opacity: 1;}
-	3% {opacity: 0;}
-	100% {opacity: 0;}
+	3% {opacity: .3;}
+	100% {opacity: .3;}
 }
 
 	.portfolio_images-mobile {
@@ -1266,12 +1266,12 @@ label.menu__btn {
 		margin-left: 1px;
   color: gray;
   font-family: 'Lato', serif;
-  font-size: 9pt;
+  font-size: 11pt;
   letter-spacing: .1em;
   line-height: 1.5;
   opacity: 1;
-  padding-left: 10%;
-	padding-right: 10%;
+  padding-left: 1%;
+	padding-right: 1%;
 	padding-top: 5px;
   margin-top: 5px;
   margin-bottom:5px;
@@ -1677,10 +1677,10 @@ label.menu__btn {
 				opacity: 1;
 			}
 		15% {
-			opacity: 0;
+			opacity: 0.3;
 		}
 		100% {
-			opacity: 0;
+			opacity: 0.3;
 		}
 	}
 
@@ -1934,7 +1934,7 @@ div.img_relative.labtop{
 	align-items: center;
     vertical-align: middle;
     height: 15vh;
-    width: 70%;
+    width: 100%;
 		zoom: 90%
 
 }
@@ -2061,14 +2061,14 @@ h4.email a{
 
 .container_one.contactpage{
     overflow: hidden;
-	height: 15vh;
+	  height: 15vh;
 	  background: red;
 		background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
 	  background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
 	  background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
 	  background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
 	  animation: contactsky 20s infinite;
-		z-index: -10;
+		z-index: 10;
   }
 
   .container_two.contact{

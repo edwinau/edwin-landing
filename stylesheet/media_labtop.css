@@ -228,11 +228,11 @@
       }
 
     30% {
-      opacity: 0;
+      opacity: 0.3;
     }
 
     100% {
-      opacity: 0;
+      opacity: 0.3;
     }
   }
 
@@ -543,11 +543,11 @@ p.resume-prompt{
       }
 
     30% {
-      opacity: 0;
+      opacity: 0.3;
     }
 
     100% {
-      opacity: 0;
+      opacity: 0.3;
     }
   }
 
@@ -962,11 +962,11 @@ p.resume-prompt {
       }
 
     5% {
-      opacity: 0;
+      opacity: 0.3;
     }
 
     100% {
-      opacity: 0;
+      opacity: 0.3;
     }
   }
 
