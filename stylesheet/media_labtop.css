@@ -651,13 +651,13 @@ p.resume-prompt {
       margin: auto;
     }
     80% {
-      width: 80%;
+      width: 85%;
       top: -45vh;
       opacity: 1;
       margin: auto;
     }
     100% {
-      width: 60%;
+      width: 61%;
       top: -5vh;
       opacity: 1;
       margin: auto;
@@ -1060,22 +1060,22 @@ p.resume-prompt {
 
     @keyframes rotateab {
       0% {
-        width: 80%;
+        width: 90%;
         opacity: 1;
         top: -5vh;
       }
       50%{
-        width: 80%;
+        width: 90%;
         opacity: 1;
         top: -5vh;
       }
       65% {
         opacity: 1;
-        width: 100vh%;
+        width: 105%;
         top: -5vh;
       }
       80% {
-        width: 100%;
+        width: 105%;
         opacity: 1;
         top: -5vh;
 
