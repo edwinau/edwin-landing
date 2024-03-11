@@ -457,7 +457,7 @@ label.menu__btn {
 .headermred {
 	display: block;
 	width: 100%;
-	outline: 2px solid #dcdcdc; outline-offset: 6px;
+	outline: 1px solid #dcdcdc; outline-offset: 4px;
 }
 
 
