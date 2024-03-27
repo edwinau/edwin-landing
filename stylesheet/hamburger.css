@@ -52,6 +52,7 @@
 		animation-duration: 5s;
 		animation-delay: 0s;
 		animation-iteration-count: infinite;
+		padding: 5px 0px;
 	}
 	@keyframes hamburgercoloranimation {
 		0% {
