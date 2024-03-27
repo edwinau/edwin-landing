@@ -425,30 +425,30 @@ setTimeout(function(){
 	$(".container_one.contactpage").show();
 },100);
 
-$(".popup1").hide();
-setTimeout(function(){
-	$(".popup1").show();
-},200);
+//$(".popup1").hide();
+//setTimeout(function(){
+//	$(".popup1").show();
+//},200);
 
-$(".popup2").hide();
-setTimeout(function(){
-	$(".popup2").show();
-},200);
+//$(".popup2").hide();
+//setTimeout(function(){
+//	$(".popup2").show();
+//},200);
 
-$(".popup3").hide();
-setTimeout(function(){
-	$(".popup3").show();
-},300);
+//$(".popup3").hide();
+//setTimeout(function(){
+//	$(".popup3").show();
+//},500);
 
-$(".popup4").hide();
-setTimeout(function(){
-	$(".popup4").show();
-},300);
+//$(".popup4").hide();
+//setTimeout(function(){
+//	$(".popup4").show();
+//},500);
 
-$(".popup5").hide();
-setTimeout(function(){
-	$(".popup5").show();
-},300);
+//$(".popup5").hide();
+//setTimeout(function(){
+//	$(".popup5").show();
+//},500);
 
 $(".popup6").hide();
 setTimeout(function(){
@@ -501,8 +501,28 @@ setTimeout(function(){
 	$(".popup15").show();
 },800);
 
-
 $(".container_one.contactpage").hide();
 setTimeout(function(){
 	$(".container_one.contactpage").show();
 },900);
+
+//animating tiles on scrollY
+const animation_elements = document.querySelectorAll('.tileanimate');
+
+const observer = new IntersectionObserver ((entries) => ) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animatetileanimate');
+    } else {
+      entry.target.classList.remove('animatetileanimate');
+    }
+  })
+}, {
+  threshold: 0.5
+});
+
+for (let i = 0; i < animation_elements.length; i++) {
+  const el = animation_elements[i];
+
+  observer.observe(el);
+}
