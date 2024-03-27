@@ -450,79 +450,80 @@ setTimeout(function(){
 //	$(".popup5").show();
 //},500);
 
-$(".popup6").hide();
-setTimeout(function(){
-	$(".popup6").show();
-},400);
+//$(".popup6").hide();
+//setTimeout(function(){
+//	$(".popup6").show();
+//},400);
 
-$(".popup7").hide();
-setTimeout(function(){
-	$(".popup7").show();
-},400);
+//$(".popup7").hide();
+//setTimeout(function(){
+//	$(".popup7").show();
+//},400);
 
-$(".popup8").hide();
-setTimeout(function(){
-	$(".popup8").show();
-},500);
+//$(".popup8").hide();
+//setTimeout(function(){
+//	$(".popup8").show();
+//},500);
 
-$(".popup9").hide();
-setTimeout(function(){
-	$(".popup9").show();
-},500);
+//$(".popup9").hide();
+//setTimeout(function(){
+//	$(".popup9").show();
+//},500);
 
-$(".popup10").hide();
-setTimeout(function(){
-	$(".popup10").show();
-},600);
+//$(".popup10").hide();
+//setTimeout(function(){
+//	$(".popup10").show();
+//},600);
 
 
-$(".popup11").hide();
-setTimeout(function(){
-	$(".popup11").show();
-},700);
+//$(".popup11").hide();
+//setTimeout(function(){
+//	$(".popup11").show();
+//},700);
 
-$(".popup12").hide();
-setTimeout(function(){
-	$(".popup12").show();
-},700);
+//$(".popup12").hide();
+//setTimeout(function(){
+//	$(".popup12").show();
+//},700);
 
-$(".popup13").hide();
-setTimeout(function(){
-	$(".popup13").show();
-},800);
+//$(".popup13").hide();
+//setTimeout(function(){
+//	$(".popup13").show();
+//},800);
 
-$(".popup14").hide();
-setTimeout(function(){
-	$(".popup14").show();
-},800);
+//$(".popup14").hide();
+//setTimeout(function(){
+//	$(".popup14").show();
+//},800);
 
-$(".popup15").hide();
-setTimeout(function(){
-	$(".popup15").show();
-},800);
+//$(".popup15").hide();
+//setTimeout(function(){
+//	$(".popup15").show();
+//},800);
 
-$(".container_one.contactpage").hide();
-setTimeout(function(){
-	$(".container_one.contactpage").show();
-},900);
+//$(".container_one.contactpage").hide();
+//setTimeout(function(){
+//	$(".container_one.contactpage").show();
+//},900);
 
-//animating tiles on scrollY
-const animation_elements = document.querySelectorAll('.tileanimate');
 
-const observer = new IntersectionObserver ((entries) => ) {
-  entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('animatetileanimate');
-    } else {
-      entry.target.classList.remove('animatetileanimate');
-    }
-  })
-}, {
-  threshold: 0.5
-});
+// animate element when it is in view
+const observer = new IntersectionObserver(
+(entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animatedinviews")
+      } else {}
+    })
+  },
+  {
+    rootMargin: '0px',
+    threshold: [0, 0.1, 1],
+  },
+)
 
-for (let i = 0; i < animation_elements.length; i++) {
-  const el = animation_elements[i];
+const tags = document.querySelectorAll("figure, p, img, iframe, hr")
 
-  observer.observe(el);
-}
+tags.forEach((tag) => {
+  observer.observe(tag)
+})

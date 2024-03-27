@@ -391,19 +391,38 @@ img.portfolio_images.mickey100uniqlo {
 			height: 325px;
 			}
 
+	.threebythreegridhamburger {
+						overflow:hidden;
+						width: 75px;
+	/**	width: calc(100% / 3);  **/
+		}
+
 	.threebythreegrid {
 				overflow:hidden;
 				width: calc(100% / 3);
-			}
-
-  .tileanimate {
-		animation-name: eachtileanimationfadeandfly;
-		animation-timing-function: ease;
-		animation-duration: 1s;
-		animation-delay: 0s;
-		transition: 2s all ease;
+				animation-name: smallertiles;
+				animation-timing-function: ease;
+				animation-duration: 2s;
+				animation-delay: 0s;
+				transition: 2s all ease;
 	}
-	@keyframes eachtileanimationfadeandfly {
+	@keyframes smallertiles {
+		0% {
+			opacity: 0;
+			transform: scale(1,0.5) translateY(150px);
+		}
+		100% {
+			opacity: 1;
+			transform: scale(1,1) translateY(0px);
+		}
+	}
+
+  .animatedinviews{
+   	animation: animatedinviewscss 1s .05s both;
+	}
+
+
+	@keyframes animatedinviewscss {
 		0% {
 			opacity: 0;
 			transform: scale(1,0.5) translateY(150px);
@@ -442,7 +461,7 @@ img.portfolio_images.mickey100uniqlo {
 
 label.menu__btn {
 	position: fixed;
-	top: 6vh;
+	top: 5.5vh;
 	left: inherit;
 	animation: hamburgerfademonitor 2s ease-in-out infinite;
 	animation-play-state: paused;
