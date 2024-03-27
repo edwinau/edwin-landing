@@ -391,8 +391,49 @@ img.portfolio_images.mickey100uniqlo {
 			height: 325px;
 			}
 
-  .threebythreegrid {overflow:hidden;
-		width: calc(100% / 3);
+	.threebythreegrid {
+				overflow:hidden;
+				width: calc(100% / 3);
+			}
+
+  .tileanimate {
+		animation-name: eachtileanimationfadeandfly;
+		animation-timing-function: ease;
+		animation-duration: 1s;
+		animation-delay: 0s;
+		transition: 2s all ease;
+	}
+	@keyframes eachtileanimationfadeandfly {
+		0% {
+			opacity: 0;
+			transform: scale(1,0.5) translateY(150px);
+		}
+		100% {
+			opacity: 1;
+			transform: scale(1,1) translateY(0px);
+		}
+	}
+
+	.tileresumepromptdelay {
+		animation-name: tileresumepromptdelaycss;
+		animation-timing-function: ease;
+		animation-duration: 2s;
+		animation-delay: 0s;
+		transition: 2s all ease;
+	}
+	@keyframes tileresumepromptdelaycss {
+		0% {
+			opacity: 0;
+			transform: translateY(50px);
+		}
+		40% {
+			opacity: 0;
+			transform: translateY(50px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0px);
+		}
 	}
 
 .threebythreegrid.hamburger{
