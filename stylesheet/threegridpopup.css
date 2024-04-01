@@ -37,6 +37,17 @@
     line-height: 1.25;
   }
 
+  .skillsbubble {
+    display: inline-block;
+    margin: 15px 15px 0px 0px;
+    padding: 5px 10px;
+    font-family: lato;
+    font-size: 11pt;
+    text-align: center;
+    outline: 1px solid white;
+    border-radius: 25px;
+  }
+
   /* pop up starts */
   /* Popup container - can be anything you want */
   .popup1 {
@@ -83,7 +94,7 @@
     animation: fadeIn 1s;
   	z-index: 100;
   	width: 850px;
-  	height: 800px;
+  	height: 850px;
   	position: fixed;
   	margin: auto;
   	opacity: 1;
@@ -147,8 +158,9 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
   	z-index: 100;
-  	width: 1200px;
-  	height: 800px;
+  	width: 850px;
+  	height: 850px;
+
   	position: fixed;
   	margin: auto;
   	opacity: 1;
@@ -213,7 +225,8 @@
     animation: fadeInthree 1s;
   	z-index: 100;
   	width: 850px;
-  	height: 800px;
+  	height: 850px;
+
   	position: fixed;
   	margin: auto;
   	opacity: 1;
@@ -279,7 +292,8 @@
     animation: fadeInfour 1s;
   	z-index: 100;
   	width: 850px;
-  	height: 800px;
+  	height: 850px;
+
   	position: fixed;
   	margin: auto;
   	opacity: 1;
@@ -344,7 +358,8 @@
     animation: fadeInfive 1s;
   	z-index: 100;
   	width: 850px;
-  	height: 800px;
+  	height: 850px;
+
   	position: fixed;
   	margin: auto;
   	opacity: 1;
@@ -409,7 +424,8 @@
     animation: fadeInsix 1s;
   	z-index: 100;
   	width: 850px;
-  	height: 800px;
+  	height: 850px;
+
   	position: fixed;
   	margin: auto;
   	opacity: 1;
@@ -472,7 +488,8 @@
     animation: fadeInseven 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -536,7 +553,8 @@
     animation: fadeIn8 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -599,7 +617,8 @@
     animation: fadeIn9 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -662,7 +681,8 @@
     animation: fadeIn10 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -725,7 +745,8 @@
     animation: fadeIn11 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -788,7 +809,8 @@
     animation: fadeIn12 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -851,7 +873,8 @@
     animation: fadeIn13 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -915,7 +938,8 @@
     animation: fadeIn14 1s;
     z-index: 100;
     width: 850px;
-    height: 800px;    position: fixed;
+    height: 850px;
+    position: fixed;
     margin: auto;
     opacity: 1;
     top: 50%;
@@ -979,7 +1003,8 @@
       animation: fadeIn15 1s;
       z-index: 100;
       width: 850px;
-      height: 800px;
+      height: 850px;
+
       position: fixed;
       margin: auto;
       opacity: 1;
