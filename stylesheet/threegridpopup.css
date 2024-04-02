@@ -44,7 +44,7 @@
     font-family: lato;
     font-size: 11pt;
     text-align: center;
-    outline: 1px solid white;
+    border: 1px solid white;
     border-radius: 25px;
   }
 
@@ -1032,7 +1032,7 @@
     .titleforpopup {
       width: 100vw;
       margin: auto;
-      padding: 10px 4px;
+      padding: 10px 8px;
       font-family: lato;
       font-size: 12pt;
       font-weight: bold;
@@ -1043,7 +1043,7 @@
   .textforpopup {
     width: 100vw;
     margin: auto;
-    padding: 8px 4px;
+    padding: 8px 8px;
     font-family: lato;
     font-size: 10.5pt;
     line-height: 1.3em;
