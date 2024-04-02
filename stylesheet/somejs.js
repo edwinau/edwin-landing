@@ -522,7 +522,7 @@ const observer = new IntersectionObserver(
   },
 )
 
-const tags = document.querySelectorAll("figure, p, img, iframe, hr")
+const tags = document.querySelectorAll("p, img, iframe, hr")
 
 tags.forEach((tag) => {
   observer.observe(tag)
