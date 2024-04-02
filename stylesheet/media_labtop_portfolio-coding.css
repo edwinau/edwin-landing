@@ -1334,8 +1334,8 @@ label.menu__btn {
   letter-spacing: .1em;
   line-height: 1.5;
   opacity: 1;
-  padding-left: 1%;
-	padding-right: 1%;
+  padding-left: 8px;
+	padding-right: 8px;
 	padding-top: 5px;
   margin-top: 5px;
   margin-bottom:5px;
