@@ -375,12 +375,44 @@ img.portfolio_images.mickey100uniqlo {
   margin-top: 5px;
   margin-bottom:5px;
   text-align: left;
-
 	}
 
   .portfolio-top-headline-td-width{
 		width: 500px;
 	}
+
+	/** About Me Three Column **/
+		.threecoloumntables.wideaboutme	{
+			width:1250px;
+			height: 250px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.threebythreegridaboutme {
+			color: #333333;
+			font-family: 'Oldenbury', serif;
+			font-size: 19pt;
+			letter-spacing: .1em;
+			line-height: 1.2;
+			opacity: 1;
+			padding-left: 5%;
+			margin-top: 5px;
+			margin-bottom:5px;
+			text-align: center;
+			vertical-align: bottom;
+			font-weight: bold;
+			padding: 0px 50px 50px;
+
+		}
+
+   .about-me-thumbnails {
+		 width: 60%;
+		 padding: 20px;
+	 }
+
+
+	/** Portfolio Three Column **/
 
   .threecoloumntables {
 		width:650px;
@@ -400,6 +432,11 @@ img.portfolio_images.mickey100uniqlo {
 						width: 75px;
 	/**	width: calc(100% / 3);  **/
 		}
+
+
+	.threebythreegridaboutme {
+
+	}
 
 	.threebythreegrid {
 				overflow:hidden;
@@ -1729,7 +1766,7 @@ label.menu__btn {
 
 	label.menu__btn {
 		position: fixed;
-		top: 8vh;
+		top: 7vh;
 		animation: hamburgerfade 2s linear infinite;
 		animation-play-state: paused;
 		animation-delay: calc(var(--scroll) * -1s);
@@ -1757,6 +1794,40 @@ label.menu__btn {
 	.ipad.displaynone{
 		display: none;
 	}
+
+
+	/** About Me Three Column **/
+		.threecoloumntables.wideaboutme	{
+			width:100%;
+			height: auto;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.threebythreegridaboutme {
+			color: #333333;
+			display: block;
+			font-family: 'Oldenbury', serif;
+			font-size: 13pt;
+			letter-spacing: .1em;
+			line-height: 1.2;
+			opacity: 1;
+			padding-left: 5%;
+			margin-top: 5px;
+			margin-bottom:5px;
+			text-align: center;
+			vertical-align: bottom;
+			font-weight: bold;
+			padding: 0px 50px 30px;
+
+		}
+
+	 .about-me-thumbnails {
+		 width: 50%;
+		 padding: 10px;
+	 }
+
+	/**Regualar Three Columns **/
 
   .threecoloumntables {
 	width:100vw;
@@ -1989,23 +2060,22 @@ div.img_relative.labtop{
   h4  > a:link,
   h4  > a:active{
     /*padding: 10px 20px 20px 20px;*/
+		padding: 1px 10px 0px 10px;
     opacity: 1;
     font-size: 5vw;
     text-transform: lowercase;
   }
 
 
-  .container_contacts{
+	.container_contacts{
 	position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 	align-items: center;
     vertical-align: middle;
-    height: 15vh;
+    height: 10vh;
     width: 100%;
-		zoom: 90%
-
 }
 
 
@@ -2128,17 +2198,44 @@ h4.email a{
 	  display: none;
 	}
 
-.container_one.contactpage{
-    overflow: hidden;
-	  height: 15vh;
-	  background: red;
+	div.container_one.contactpage{
+		position: relative;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			vertical-align: middle;
+			width: 80vw;
+			overflow: hidden;
+			background: 50vh;
+			margin-top: auto;
+			margin-left: auto;
+			margin-right: auto;
+			border-radius: 50px 50px 0 0;
+			border-top: 5px solid #222222;
+			border-left: 5px solid #333333;
+			border-right: 5px solid #111111;
+			border-bottom: 0px;
+			height: 15vh;
+			background: red;
+		background: -webkit-linear-gradient(white, #33273d, #003c5f, #C04E01); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(white, #33273d, #003c5f, #C04E01); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(white, #33273d, #003c5f, #C04E01); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(white, #33273d, #003c5f, #C04E01); /* Standard syntax */
+		object-fit: cover;
+		object-position: 55%;
+	}
+
+	.container_one.contactpage{
+			overflow: hidden;
+			display: block;
+		height: 10vh;
+		background: red;
 		background: -webkit-linear-gradient(white, #33273d, #003c5f); /* For Safari 5.1 to 6.0 */
-	  background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
-	  background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
-	  background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
-	  animation: contactsky 20s infinite;
-		z-index: 10;
-  }
+		background: -o-linear-gradient(white, #33273d, #003c5f); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(white, #33273d, #003c5f); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
+		}
 
   .container_two.contact{
     width: 100%;
