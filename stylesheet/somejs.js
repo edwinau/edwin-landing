@@ -507,7 +507,7 @@ setTimeout(function(){
 //},900);
 
 
-// animate element when it is in view
+// animate scale element when it is in view
 const observer = new IntersectionObserver(
 (entries) => {
     entries.forEach((entry) => {

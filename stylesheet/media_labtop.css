@@ -1178,11 +1178,11 @@ p.resume-prompt {
     .container_two{
         position: relative;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     	align-items: center;
         vertical-align: middle;
-    	width: 100vw;
+    	width: 90vw;
         height: auto;
     }
 
@@ -1314,7 +1314,7 @@ div.img_relative.labtop{
   h4  > a:link,
   h4  > a:active{
     opacity: 1;
-    font-size: 5vw;
+    font-size: 12pt;
     text-transform: lowercase;
   }
 
