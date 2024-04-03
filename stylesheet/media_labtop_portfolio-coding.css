@@ -459,7 +459,7 @@ img.portfolio_images.mickey100uniqlo {
 	}
 
   .animatedinviews{
-   	animation: animatedinviewscss 1s .05s both;
+   	animation: animatedinviewscss 1s 0s both;
 	}
 
 
@@ -1808,7 +1808,7 @@ label.menu__btn {
 			color: #333333;
 			display: block;
 			font-family: 'Oldenbury', serif;
-			font-size: 13pt;
+			font-size: 18pt;
 			letter-spacing: .1em;
 			line-height: 1.2;
 			opacity: 1;
@@ -2060,9 +2060,9 @@ div.img_relative.labtop{
   h4  > a:link,
   h4  > a:active{
     /*padding: 10px 20px 20px 20px;*/
-		padding: 1px 10px 0px 10px;
+		padding: 1px 15px 0px 15px;
     opacity: 1;
-    font-size: 5vw;
+    font-size: 4vw;
     text-transform: lowercase;
   }
 
