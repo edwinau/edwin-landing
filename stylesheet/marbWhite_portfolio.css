@@ -176,8 +176,9 @@ h1:hover{
 }
 
 h1.edwinname{
-  margin-top: -15%;
-	margin-bottom: 8%;
+  margin-top: -150px;
+	margin-bottom: 75px;
+  display: none;
 }
 
 hr {
@@ -200,7 +201,6 @@ hr {
 }
 
 h2.left.button-row{
-  margin-left: -11%;
 }
 
 h2.right_right.button-row{
