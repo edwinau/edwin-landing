@@ -508,22 +508,22 @@ setTimeout(function(){
 
 
 // animate scale element when it is in view
-const observer = new IntersectionObserver(
-(entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("animatedinviews")
-      } else {}
-    })
-  },
-  {
-    rootMargin: '0px',
-    threshold: [0, 0.1, 1],
-  },
-)
+//  const observer = new IntersectionObserver(
+//  (entries) => {
+//      entries.forEach((entry) => {
+//        if (entry.isIntersecting) {
+//          entry.target.classList.add("animatedinviews")
+//        } else {}
+//      })
+//    },
+//    {
+//      rootMargin: '0px',
+//      threshold: [0, 0.1, 1],
+//    },
+//  )
 
-const tags = document.querySelectorAll("p, img, iframe, hr")
+//  const tags = document.querySelectorAll("p, img, iframe, hr")
 
-tags.forEach((tag) => {
-  observer.observe(tag)
-})
+//  tags.forEach((tag) => {
+//    observer.observe(tag)
+//  })
