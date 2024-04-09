@@ -107,7 +107,7 @@ $(document).ready(function(){
 
 
 // smooth scroll CV
-  $('h2.left.button-row').click(function() {
+  $('h2.right_right.button-row').click(function() {
       $('html, body').animate({
           scrollTop: $('#resume_pdf').offset().top
       }, 500);
@@ -123,15 +123,15 @@ $(document).ready(function(){
     //       scrollTop: $('#quoteelon').offset().top
     //     }, 2750);
       $('html, body').animate({
-          scrollTop: $('#carousel').offset().top
-      }, 1500);
+          scrollTop: $('#Portfolio').offset().top
+      }, 1200);
     });
 
 // smooth scroll contactme
-  $('h2.right_right.button-row').click(function() {
+  $('h2.left.button-row').click(function() {
       $('html, body').animate({
-          scrollTop: $('#contactme').offset().top
-      }, 1000);
+          scrollTop: $('#contact').offset().top
+      }, 1200);
     });
 
 // smooth scroll quote
@@ -180,20 +180,20 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 
 
 //to top
-//  $(window).scroll(function() {
-//      if ($(this).scrollTop()) {
-//          $('#toTop').fadeIn();
-//      } else {
-//          $('#toTop').fadeOut();
-//      }
-//  });
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('#toTop').fadeIn();
+      } else {
+          $('#toTop').fadeOut();
+      }
+  });
 
-// smooth scroll totop
-//  $('#toTop').click(function() {
-//    $('html, body').animate({
-//        scrollTop: $('#backtotop').offset().top
-//    }, 2000);
-//  });
+ // smooth scroll totop
+  $('#toTop').click(function() {
+    $('html, body').animate({
+        scrollTop: $('#backtotop').offset().top
+    }, 2000);
+  });
 
 
 
@@ -212,17 +212,16 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 
 
 myID = document.getElementById("customID");
-
-var myScrollFunc = function() {
+  var myScrollFunc = function() {
   var y = window.scrollY;
   if (y >= 800) {
     myID.className = "totop show"
   } else {
     myID.className = "totop hide"
   }
-};
+  };
 
-//window.addEventListener("scroll", myScrollFunc);
+window.addEventListener("scroll", myScrollFunc);
 
 
 // autoplay vid

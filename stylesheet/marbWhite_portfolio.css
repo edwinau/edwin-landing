@@ -18,7 +18,7 @@
   margin: auto;
   position: relative;
   width: 100%;
-  padding-bottom: 75px;
+  padding-bottom: 10%;
 }
 
 .img_intrograss{
@@ -86,17 +86,27 @@
 @keyframes cloud2{
   0% {
     left: -20vw;
+    opacity: 0.8;
+  }
+  65% {
+    opacity: 0.3;
   }
   100% {
+    opacity: 0.8;
     left: 100vw;
   }
 }
 
 @keyframes cloud3{
   0% {
-    right: 0%;
+    right: 0;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
   }
   100% {
+    opacity: 0;
     right: -100vw;
   }
 }
@@ -438,7 +448,7 @@ h2.right_right a::after {
     padding: 5px 3px;
     background: none;
     color: #000;
-    opacity: .5;
+    opacity: 0;
     font-family: 'Oswald', serif;
     letter-spacing: .2;
     font-weight: bold;
@@ -460,7 +470,7 @@ h2.right_right a::after {
 }
 .totop a:hover{
   text-decoration: none;
-  color: #red;
+  color: #009cc0;
   opacity: 1;
   z-index: 8000;
 }
