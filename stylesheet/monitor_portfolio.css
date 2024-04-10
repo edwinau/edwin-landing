@@ -4,7 +4,7 @@
 
 
   .container_one.intro {
-      zoom: .5;
+      zoom: .7;
   	  width: 75vw;
   	  height: 47vw;
       margin-top: 50px;
@@ -206,7 +206,7 @@
 
   div.trapezoiddiv {
     display: inherit;
-    margin-top: 25px;
+    margin-top: 45px;
   }
 
   .trapezoid {

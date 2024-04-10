@@ -148,6 +148,37 @@ $(document).ready(function(){
       }, 2000);
     });
 
+  myID = document.getElementById("customID");
+      var myScrollFunc = function() {
+      var y = window.scrollY;
+      if (y >= 800) {
+        myID.className = "totop show"
+      } else {
+        myID.className = "totop hide"
+      }
+      };
+
+    window.addEventListener("scroll", myScrollFunc);
+
+// smooth ToTop
+//      $('.totop').click(function() {
+//          $('html, body').animate({
+//              scrollTop: $('#backtotop').offset().top
+//          }, 2000);
+//        });
+
+
+//  to top
+//      $(window).scroll(function() {
+//          if ($(this).scrollTop()) {
+//              $('#toTop').fadeIn();
+//          } else {
+//            $('#toTop').fadeOut();
+//          }
+//      });
+
+
+
 // hint
   $('.titleHidden').removeAttr('title');
 
@@ -179,28 +210,13 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
 // setInterval(function() { flickeremail(); }, 300);
 
 
-//to top
-  $(window).scroll(function() {
-      if ($(this).scrollTop()) {
-          $('#toTop').fadeIn();
-      } else {
-          $('#toTop').fadeOut();
-      }
-  });
-
- // smooth scroll totop
-  $('#toTop').click(function() {
-    $('html, body').animate({
-        scrollTop: $('#backtotop').offset().top
-    }, 2000);
-  });
 
 
 
 //touch same as hover
-  $('body').bind('touchstart', function() {
+//  $('body').bind('touchstart', function() {
 
-  });
+//  });
 
 //carousel pause
   // $('.carousel').carousel({
@@ -208,20 +224,7 @@ setInterval(function() { flicker($('.linkedin')); }, 2750);
   // });
 
 
-});
-
-
-myID = document.getElementById("customID");
-  var myScrollFunc = function() {
-  var y = window.scrollY;
-  if (y >= 800) {
-    myID.className = "totop show"
-  } else {
-    myID.className = "totop hide"
-  }
-  };
-
-window.addEventListener("scroll", myScrollFunc);
+// });
 
 
 // autoplay vid
