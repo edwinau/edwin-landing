@@ -1,0 +1,123 @@
+.container_one.intro {
+    width: 75vw;
+    height: 47vw;
+    animation-name: intromonitorsizinganimation;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    transition: 5s all ease;
+  }
+@keyframes intromonitorsizinganimation {
+  0% {
+    opacity: 0;
+    width: 0vw;
+    -webkit-transform: skew(-11deg);
+       -moz-transform: skew(-11deg);
+         -o-transform: skew(-11deg);
+          -ms-transform: skew(-11deg);
+  }
+  30% {
+    opacity: 0;
+    width: 0vw;
+    -webkit-transform: skew(-11deg);
+       -moz-transform: skew(-11deg);
+         -o-transform: skew(-11deg);
+          -ms-transform: skew(-11deg);
+  }
+
+  80% {
+    opacity: 1;
+    width: 75vw;
+    -webkit-transform: skew(0deg);
+       -moz-transform: skew(0deg);
+         -o-transform: skew(0deg);
+          -ms-transform: skew(0deg);
+  }
+  100% {
+    opacity: 1;
+    width: 75vw;
+    -webkit-transform: skew(0deg);
+       -moz-transform: skew(0deg);
+         -o-transform: skew(0deg);
+          -ms-transform: skew(0deg);
+    }
+}
+
+div.trapezoiddiv {
+    transform: scale(1.9); width:200px;
+    animation-name: introtrapezoidsizinganimation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    transition: 5s all ease-in-out;
+  }
+@keyframes introtrapezoidsizinganimation {
+  0% {
+    opacity: 0;
+    transform: scale(0, 1.9);
+    width:200px;
+    -webkit-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+    mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+  }
+  30% {
+    opacity: 0;
+    transform: scale(0, 1.9);
+    width:200px;
+    -webkit-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+    -moz-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+    -oz-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+    mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1.9, 1.9);
+    width: 200px;
+    -webkit-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    -moz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    -oz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.9, 1.9);
+    width: 200px;
+    -webkit-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    -moz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    -oz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+    }
+}
+
+.introbiopictureanimation{
+    animation-name: introprofilepicanimate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    transition: 5s all ease-in-out;
+  }
+  @keyframes introprofilepicanimate {
+    0% {
+      opacity: 0;
+			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+      padding-top: 15%;
+    }
+    25% {
+      opacity: 1;
+			transform: scale(1.5,1.5) translateX(-25vw) translateY(0px);
+      padding-top: 15%;
+    }
+    55%{
+      opacity: .6;
+      transform: skewx(-5deg);
+    }
+    65% {
+      opacity: 1;
+			transform: scale(1,1) translateX(0vw) translateY(0px);
+      padding-top: 0%;
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1,1) translateX(0vw) translateY(0px);
+      padding-top: 0%;
+      }
+  }
