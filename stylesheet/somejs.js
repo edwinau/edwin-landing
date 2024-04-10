@@ -367,7 +367,14 @@ function myFunction20() {
 $(".container_one.contactpage").hide();
 setTimeout(function(){
 	$(".container_one.contactpage").show();
-},100);
+},5000);
+
+// loading portfolio delay
+$(".threecoloumntables").hide().delay(4800).fadeIn(1000);
+
+
+
+
 //$(".popup1").hide();
 //setTimeout(function(){
 //	$(".popup1").show();
