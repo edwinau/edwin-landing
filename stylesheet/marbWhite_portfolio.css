@@ -243,9 +243,9 @@ h2.button-row > a {
   -ms-transform: translateZ(-25px);
   -o-transform: translateZ(-25px);
   transform: translateZ(-25px);
-  -webkit-transition: -webkit-transform 0.4s;
-  -moz-transition: -moz-transform 0.4s;
-  transition: transform 0.4s;
+  -webkit-transition: -webkit-transform 0.9s;
+  -moz-transition: -moz-transform 0.9s;
+  transition: transform 0.9s;
   position: absolute;
   align-content: center;
 }
@@ -327,8 +327,6 @@ h2.left a::after {
     /*background: transparent;*/
     /*transition: all .1s ease-in-out;*/
 }
-
-
 
 
 /*flash*/
@@ -424,7 +422,7 @@ h2.center a::before {
 
 
 h2.right a::after {
-  border-color: yellow;
+  border: 5px solid yellow;
   color: yellow;
   background: black;
   opacity: 1;
@@ -437,7 +435,7 @@ h2.right a::after {
 }
 
 h2.right_right a::after {
-  border-color: yellow;
+  border: 5px solid yellow;
   color: yellow;
   background: black;
   opacity: 1;

@@ -3,7 +3,7 @@
 
 
 
-  .container_one.intro {
+/*  .container_one.intro {
       zoom: .7;
   	  width: 75vw;
   	  height: 47vw;
@@ -55,6 +55,25 @@
       transform: scale(.5);
     }
   }
+  */
+
+  .container_one.intro {
+        zoom: .7;
+    	  width: 75vw;
+    	  height: 47vw;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
+        border-top: 20px solid #222222;
+        border-left: 20px solid #333333;
+        border-right: 20px solid #111111;
+        border-bottom: 20px solid #555555;
+        background: -webkit-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+        background: -o-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+        background: -moz-linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+        background: linear-gradient(-170deg,#001f72, #3a75bb, #94c5ff);
+      }
 
   h1 a,
   h1 a:visited,
@@ -112,7 +131,7 @@
 
   h2.button-row > a::before, h2.button-row > a::after {
     width: 10vw;
-    height: 35px;
+    height: 50px;
     border: .5px solid inherit;
   }
 
@@ -132,6 +151,9 @@
     transform: rotateX(90deg) translateZ(17.5px);
   }
   h2.button-row > a:hover {
+    padding-top: 20px;
+    border: 3px solid inherit;
+    transition-duration: .1s;
     -webkit-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
     -moz-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
     -ms-transform: translateZ(-17.5px) translateY(17.5px) rotateX(-90deg);
@@ -149,22 +171,7 @@
     height: 8.66em;
     transform: rotate(60deg) skewX(30deg);
     margin-top: 100px;
-    animation: movingmonitortraptop 2s linear infinite;
-    animation-play-state: paused;
-    animation-delay: calc(var(--scroll) * -1s);
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
     filter: drop-shadow(0px 4px 2px #666666);
-    }
-
-  @keyframes movingmonitortraptop {
-    0% {
-    }
-    25% {
-    }
-    90% {
-    }
-    100% {
     }
 
   .trapezoid:before {
@@ -209,20 +216,6 @@
     margin-top: 45px;
   }
 
-  .trapezoid {
-    display: inherit;
-  }
-
-  .trapezoid:before {
-    display: block;
-    background: linear-gradient(#efefef, #666666, #aaaaaa, #dcdcdc);
-    content: '';
-   width: 103%;
-   height: 51%;
-    transform: skewX(-30deg) rotate(-60deg) translate(-1.25em);
-  }
-
-
 
   h1 a:hover,
   h1:hover{
@@ -245,7 +238,7 @@
 
   h2.button-row > a::before, h2.button-row > a::after {
     width: 11vw;
-    height: 35px;
+    height: 50px;
   }
 
   div.img_relative.labtop{
