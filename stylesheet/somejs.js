@@ -367,12 +367,29 @@ function myFunction20() {
 $(".container_one.contactpage").hide();
 setTimeout(function(){
 	$(".container_one.contactpage").show();
-},5000);
+},6000);
 
 // loading portfolio delay
-$(".threecoloumntables").hide().delay(4800).fadeIn(1000);
+$(".threecoloumntables").hide().delay(2800).fadeIn(1000);
 
+// loading resume-prompt delay
+$("p.resume-prompt").hide().delay(4800).slideDown(1000);
 
+// loading monitor slowly scale down delay
+setTimeout(function() {
+    // Select the element and scale it down by 0.9
+    $(".portfolio-top-headline-td-width").animate({
+        zoom: .99, // Scale down to 90% of its original width
+    }, 1500); // Duration of animation: 1000 milliseconds (1 second)
+}, 2800); // Start the animation after 1000 milliseconds (1 second)
+
+// loading trapezoid delay
+setTimeout(function() {
+    // Select the element and scale it down by 0.9
+    $("div.trapezoiddiv").animate({
+        zoom: .99, // Scale down to 90% of its original width
+    }, 1500); // Duration of animation: 1000 milliseconds (1 second)
+}, 2800); // Start the animation after 1000 milliseconds (1 second)
 
 
 //$(".popup1").hide();
@@ -457,3 +474,18 @@ $(".threecoloumntables").hide().delay(4800).fadeIn(1000);
 //  tags.forEach((tag) => {
 //    observer.observe(tag)
 //  })
+
+  // Get current date and time
+  // create a function to update the date and time
+  var span = document.getElementById('datetime');
+
+  function time() {
+    var d = new Date();
+    var s = d.getSeconds();
+    var m = d.getMinutes();
+    var h = d.getHours();
+    span.textContent =
+      ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2) + " PM";
+  }
+
+  setInterval(time, 1000);

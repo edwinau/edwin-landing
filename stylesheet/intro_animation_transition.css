@@ -3,9 +3,9 @@
     height: 47vw;
     animation-name: intromonitorsizinganimation;
     animation-timing-function: ease;
-    animation-duration: 5s;
+    animation-duration: 2800ms;
     animation-delay: 0s;
-    transition: 5s all ease;
+    transition: 2800ms all ease;
   }
 @keyframes intromonitorsizinganimation {
   0% {
@@ -47,9 +47,9 @@ div.trapezoiddiv {
     transform: scale(1.9); width:200px;
     animation-name: introtrapezoidsizinganimation;
     animation-timing-function: ease-in-out;
-    animation-duration: 5s;
+    animation-duration: 2800ms;
     animation-delay: 0s;
-    transition: 5s all ease-in-out;
+    transition: 2800ms all ease-in-out;
   }
 @keyframes introtrapezoidsizinganimation {
   0% {
@@ -91,26 +91,25 @@ div.trapezoiddiv {
 .introbiopictureanimation{
     animation-name: introprofilepicanimate;
     animation-timing-function: ease-in-out;
-    animation-duration: 5s;
+    animation-duration: 2800ms;
     animation-delay: 0s;
-    transition: 5s all ease-in-out;
+    transition: 2800ms all ease-in-out;
   }
   @keyframes introprofilepicanimate {
     0% {
-      opacity: 0;
+      opacity: 1;
 			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
       padding-top: 15%;
     }
-    25% {
+    20% {
       opacity: 1;
 			transform: scale(1.5,1.5) translateX(-25vw) translateY(0px);
       padding-top: 15%;
     }
     55%{
-      opacity: .6;
-      transform: skewx(-5deg);
+      opacity: .7;
     }
-    65% {
+    75% {
       opacity: 1;
 			transform: scale(1,1) translateX(0vw) translateY(0px);
       padding-top: 0%;
