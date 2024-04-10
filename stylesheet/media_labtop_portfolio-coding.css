@@ -395,7 +395,6 @@ img.portfolio_images.mickey100uniqlo {
 			letter-spacing: .1em;
 			line-height: 1.2;
 			opacity: 1;
-			padding-left: 5%;
 			margin-top: 5px;
 			margin-bottom:5px;
 			text-align: center;
@@ -406,7 +405,7 @@ img.portfolio_images.mickey100uniqlo {
 		}
 
    .about-me-thumbnails {
-		 width: 40%;
+		 width: 30%;
 		 padding: 10px;
 	 }
 
@@ -979,9 +978,7 @@ label.menu__btn {
     text-transform: lowercase;
   }
 
-  #carousel{
-    zoom: 100%;
-  }
+
 
   .totop{
     letter-spacing: .3;
@@ -1832,6 +1829,7 @@ label.menu__btn {
 			transform: scale(0.8) translate(-15px) translateY(-50px);
 		}
 	}
+
 
 
 	.ipad.displaynone{
