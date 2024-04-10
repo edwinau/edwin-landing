@@ -25,8 +25,8 @@
   z-index: 0;
   opacity: 1;
   bottom: 0%;
-  width: 100vw;
-  height: auto;
+  width: 100%;
+  height: 30%;
 }
 
 .img_introcloud1{
@@ -37,7 +37,7 @@
   left:0;
   width: 20vw;
   height: auto;
-  animation: cloud1 140s linear;
+  animation: cloud1 140s infinite;
   transition: ease;
 }
 
@@ -48,7 +48,7 @@
   top: 3%;
   width: 50vw;
   height: auto;
-  animation: cloud2 100s linear;
+  animation: cloud2 100s infinite;
 }
 
 .img_introcloud3{
@@ -59,7 +59,7 @@
   right:0;
   width: 40vw;
   height: auto;
-  animation: cloud3 140s linear;
+  animation: cloud3 140s infinite;
 }
 
 .img_introcloud4{
@@ -69,7 +69,7 @@
   top: 25%;
   width: 50vw;
   height: auto;
-  animation: cloud4 100s linear;
+  animation: cloud4 100s infinite;
 }
 
 
@@ -85,18 +85,29 @@
 @keyframes cloud2{
   0% {
     left: -20vw;
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.5;
   }
   100% {
-    left: 100vw;
+    left: 20vw;
+    opacity: 0.8;
   }
 }
 
 @keyframes cloud3{
   0% {
-    right: 0%;
+    left: 40vw;
+    opacity: 0.4;
+  }
+  5% {
+    opacity: 0.6;
   }
   100% {
-    right: -100vw;
+    left: 80vw;
+    opacity: 0.4;
+
   }
 }
 
@@ -205,7 +216,7 @@ h2.left.button-row{
 }
 
 h2.right_right.button-row{
-  margin-right: 11%;
+  margin-right: 15%;
 }
 
 h2.button-row {
@@ -456,9 +467,34 @@ h2.right_right a::after {
   text-decoration: none;
   color: #000;
   z-index: 8000;
+  animation: tototop 2s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  }
+  @keyframes tototop {
+  0% {
+      opacity: 0;
+    }
+  5% {
+      opacity: 0;
+    }
+  10% {
+    opacity: 0.5;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
+
+
 .totop a:hover{
   text-decoration: none;
-  color: #red;
+  color: #3095b4;
   z-index: 8000;
+  transition-duration: 1s;
 }
