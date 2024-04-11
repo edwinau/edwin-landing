@@ -518,7 +518,7 @@ setTimeout(function() {
 
   // Get current date and time
   // create a function to update the date and time
-  var span = $("#datetime");
+  var span = $("#datetime, #datetime2");
 
   function time() {
       var d = new Date();
