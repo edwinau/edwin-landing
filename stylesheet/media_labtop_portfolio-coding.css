@@ -363,6 +363,7 @@ img.portfolio_images.mickey100uniqlo {
 	100% {opacity: 0; float: left;}
 }
 
+
 	p.resume-prompt{
 		margin-left: 1px;
   color: gray;
@@ -378,6 +379,10 @@ img.portfolio_images.mickey100uniqlo {
 	padding-right: 120px;
 	}
 
+
+
+
+
   .portfolio-top-headline-td-width{
 	/**	width: 500px;**/
 	}
@@ -385,7 +390,7 @@ img.portfolio_images.mickey100uniqlo {
 	/** About Me Three Column **/
 		.threecoloumntables.wideaboutme	{
 			width:1450px;
-			height: 300px;
+			height: 250px;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -407,7 +412,7 @@ img.portfolio_images.mickey100uniqlo {
 		}
 
    .about-me-thumbnails {
-		 width: 30%;
+		 width: 45%;
 		 padding: 10px;
 	 }
 
@@ -1866,22 +1871,7 @@ label.menu__btn {
 			margin-right: auto;
 		}
 
-		.threebythreegridaboutme {
-			color: #666666;
-			display: block;
-			font-family: 'Oldenbury', serif;
-			font-size: 14pt;
-			letter-spacing: .1em;
-			line-height: 1.2;
-			opacity: 1;
-			padding-left: 5%;
-			margin-top: 5px;
-			margin-bottom:5px;
-			text-align: center;
-			vertical-align: middle;
-			font-weight: bold;
-			padding: 0px 50px 20px;
-		}
+
 
 	 .about-me-thumbnails {
 		 width: 35%;
