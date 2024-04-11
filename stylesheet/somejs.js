@@ -390,7 +390,7 @@ $(".threebythreegridaboutme").hide().delay(4250).slideDown(750);
 
 $(document).ready(function() {
     var text = "Edwin Au";
-    var delay = 20; // Initial delay in milliseconds
+    var delay = 10; // Initial delay in milliseconds
     var index = 0; // Keeps track of the letter to be typed next
 
     function typeLetter() {
@@ -518,7 +518,7 @@ setTimeout(function() {
 
   // Get current date and time
   // create a function to update the date and time
-  var span = $("#datetime");
+  var span = $("#datetime, #datetime2");
 
   function time() {
       var d = new Date();
