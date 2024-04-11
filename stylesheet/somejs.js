@@ -390,7 +390,7 @@ $(".threebythreegridaboutme").hide().delay(4250).slideDown(750);
 
 $(document).ready(function() {
     var text = "Edwin Au";
-    var delay = 20; // Initial delay in milliseconds
+    var delay = 10; // Initial delay in milliseconds
     var index = 0; // Keeps track of the letter to be typed next
 
     function typeLetter() {
