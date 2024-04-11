@@ -364,8 +364,8 @@ div.trapezoiddiv {
   }
 
   div.container_one.intro {
-    width: 95vw;
-    height: 95vh;
+    width: 80vw;
+    height: 80vh;
     animation-name: none;
     margin-top: 13%;
     }
@@ -379,7 +379,7 @@ div.trapezoiddiv {
         transform: scale(1,1) translateX(-45vw) translateY(45vh);
         padding-top: 0%;
         z-index: 10000;
-        position: relative;
+        position: absolute;
       }
       @keyframes introprofilepicanimate {
         0% {
