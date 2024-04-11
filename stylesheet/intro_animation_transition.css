@@ -364,8 +364,8 @@ div.trapezoiddiv {
   }
 
   div.container_one.intro {
-    width: 60vw;
-    height: 60vh;
+    width: 95vw;
+    height: 95vh;
     animation-name: none;
     margin-top: 13%;
     }
@@ -376,7 +376,7 @@ div.trapezoiddiv {
         animation-duration: 3200ms;
         animation-delay: 0s;
         transition: 3200ms all ease-in-out;
-        transform: scale(1,1) translateX(-45vw) translateY(50vh);
+        transform: scale(1,1) translateX(-45vw) translateY(45vh);
         padding-top: 0%;
         z-index: 10000;
         position: relative;
@@ -397,12 +397,12 @@ div.trapezoiddiv {
         }
         75% {
           opacity: 1;
-    			transform: scale(1,1) translateX(-45vw) translateY(50vh);
+    			transform: scale(1,1) translateX(-45vw) translateY(45vh);
           padding-top: 0%;
         }
         100% {
           opacity: 1;
-          transform: scale(1,1) translateX(-45vw) translateY(50vh);
+          transform: scale(1,1) translateX(-45vw) translateY(45vh);
           padding-top: 0%;
           }
       }

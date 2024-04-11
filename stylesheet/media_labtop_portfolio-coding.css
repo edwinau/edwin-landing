@@ -2192,7 +2192,8 @@ h4.email a{
 			justify-content: space-between;
 			align-items: center;
 			vertical-align: middle;
-			width: 90vw;
+			width: 85vw;
+			zoom:.95;
 			overflow: hidden;
 			background: 50vh;
 			margin-top: auto;
