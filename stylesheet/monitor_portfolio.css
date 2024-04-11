@@ -362,7 +362,7 @@
 
 /*iphoneplus vertical*/
 
-@media (max-width:500px){
+@media (max-width:600px){
 
   div.trapezoiddiv {
     display: none;
@@ -371,6 +371,33 @@
   .trapezoid {
     display: none;
   }
+
+td.portfolio-top-headline-td-width {
+  margin-left: 20vw;
+  width: 105vw;
+  animation-name: monitorphonephoneheadlinecss;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3200ms;
+  animation-delay: 0s;
+  transition: 3200ms all ease-in-out;
+}
+@keyframes monitorphonephoneheadlinecss {
+  0% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 0;
+  }
+  55%{
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .container_one.intro{
 	 position: relative;
@@ -533,12 +560,16 @@
   }
 
   h2.left.button-row{
-	font-size: 3vw;
+	font-size: 5vw;
     margin-left: -15vw;  }
 
   h2.right_right.button-row{
-	font-size: 3vw;
+	font-size: 5vw;
     margin-left: -22%;
+  }
+
+  h2.center.button-row{
+  font-size: 5vw;
   }
 
 h2.button-row{
@@ -547,7 +578,7 @@ h2.button-row{
     perspective: 1000px;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .15em;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     display: block;
 	width: 35vw;
@@ -567,19 +598,6 @@ div.img_relative.labtop{
     top: 15vh;
     }
 
-
-  .img_labtop{
-    overflow:hidden;
-	  transform: scaleY(-1);
-	 zoom: 20%;
-	  top: 2%;
-  }
-
-  .img_plant{
-    top: 2%;
-	  zoom: 17%;
-	  left: 15%;
-  }
 
 
   h4  a,
