@@ -3,9 +3,9 @@
     height: 47vw;
     animation-name: intromonitorsizinganimation;
     animation-timing-function: ease;
-    animation-duration: 2300ms;
+    animation-duration: 2600ms;
     animation-delay: 0s;
-    transition: 2300ms all ease;
+    transition: 2600ms all ease;
   }
 @keyframes intromonitorsizinganimation {
   0% {
@@ -47,9 +47,9 @@ div.trapezoiddiv {
     transform: scale(1.9); width:200px;
     animation-name: introtrapezoidsizinganimation;
     animation-timing-function: ease-in-out;
-    animation-duration: 2300ms;
+    animation-duration: 2600ms;
     animation-delay: 0s;
-    transition: 2300ms all ease-in-out;
+    transition: 2600ms all ease-in-out;
   }
 @keyframes introtrapezoidsizinganimation {
   0% {
@@ -91,9 +91,9 @@ div.trapezoiddiv {
 .introbiopictureanimation{
     animation-name: introprofilepicanimate;
     animation-timing-function: ease-in-out;
-    animation-duration: 3000ms;
+    animation-duration: 3200ms;
     animation-delay: 0s;
-    transition: 3000ms all ease-in-out;
+    transition: 3200ms all ease-in-out;
   }
   @keyframes introprofilepicanimate {
     0% {
@@ -101,7 +101,7 @@ div.trapezoiddiv {
 			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
       padding-top: 15%;
     }
-    30% {
+    35% {
       opacity: 1;
 			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
       padding-top: 15%;
@@ -290,11 +290,11 @@ div.trapezoiddiv {
     font-weight: bold;
     padding: 0px 50px 20px;
     animation-name: aboutmethreecss;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
     animation-duration: 5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    transition: 5s all ease-in-out;
+    transition: 5s all ease-in;
     }
 
     @keyframes aboutmethreecss {
@@ -304,48 +304,59 @@ div.trapezoiddiv {
         filter: grayscale(100%);
         transform: scale(1);
         transform: translate(0px, 0px);
-	}
-    	60% {
-        opacity: 1;
-        filter: saturate(100%);
-        filter: grayscale(100%);
-        transform: scale(1);
-        transform: translate(0px, 0px);
-    }
+    	}
+      60% {
+          opacity: 1;
+          filter: saturate(100%);
+          filter: grayscale(0%);
+          transform: scale(1);
+          transform: translate(0px, 0px);
+          }
       65% {
         opacity: 1;
         filter: saturate(100%);
-        filter: grayscale(0%);
-        transform: scale(1.1);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: translate(600px, 0px);
+        }
+      90% {
+        opacity: 1;
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: translate(600px, 0px);
+      	}
+	    100% {
+        opacity: 1;
         transform: translate(0px, 0px);
-    }
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        }
+  }
 
-      85% {
-        opacity: 1;
-        filter: saturate(100%);
-        filter: grayscale(0%);
-        transform: scale(1.1);
-        transform: translate(300px, 0px);
-      }
-      94%{
-        opacity: 1;
-        transform: translate(300px, 0px);
-        filter: saturate(100%);
-        filter: grayscale(100%);
-        transform: scale(1);
+/* @media cell phone about me 600px
+*/
+
+@media (max-width:600px) {
+
+  td.threebythreegridaboutme.aboutmeone {
+    opacity: 1;
+    width: 100%;
+    display: block;
     }
-    96%{
-      opacity: 1;
-      transform: translate(300px, 0px);
-      filter: saturate(100%);
-      filter: grayscale(100%);
-      transform: scale(1);
+  td.threebythreegridaboutme.aboutmetwo {
+    opacity: 1;
+    width: 100%;
+    display: block;
+    }
+  td.threebythreegridaboutme.aboutmethree {
+    opacity: 1;
+    width: 100%;
+    display: block;
   }
-    	100% {
-        transform: translate(0px, 0px);
-        opacity: 1;
-        filter: saturate(100%);
-        filter: grayscale(100%);
-        transform: scale(1);
-  	}
-  }
+
+
+
+
+}
