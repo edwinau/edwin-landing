@@ -379,7 +379,7 @@ $("p.resume-prompt").hide().delay(4800).slideDown(1000);
 setTimeout(function() {
     // Select the element and scale it down by 0.9
     $(".portfolio-top-headline-td-width").animate({
-        zoom: .99, // Scale down to 90% of its original width
+        zoom: .98, // Scale down to 90% of its original width
     }, 1500); // Duration of animation: 1000 milliseconds (1 second)
 }, 2800); // Start the animation after 1000 milliseconds (1 second)
 
@@ -387,7 +387,7 @@ setTimeout(function() {
 setTimeout(function() {
     // Select the element and scale it down by 0.9
     $("div.trapezoiddiv").animate({
-        zoom: .99, // Scale down to 90% of its original width
+        zoom: .98, // Scale down to 90% of its original width
     }, 1500); // Duration of animation: 1000 milliseconds (1 second)
 }, 2800); // Start the animation after 1000 milliseconds (1 second)
 
@@ -477,15 +477,36 @@ setTimeout(function() {
 
   // Get current date and time
   // create a function to update the date and time
-  var span = document.getElementById('datetime');
+  var span = $("#datetime");
 
   function time() {
-    var d = new Date();
-    var s = d.getSeconds();
-    var m = d.getMinutes();
-    var h = d.getHours();
-    span.textContent =
-      ("0" + h).substr(-2) + ":" + ("0" + m).substr(-2) + ":" + ("0" + s).substr(-2) + " PM";
+      var d = new Date();
+      var m = d.getMinutes();
+      var h = (d.getHours() % 12 || 12).toString(); // Convert hour to single digit and convert to string
+      var period = d.getHours() >= 12 ? "PM" : "AM";
+
+      // If hour is single digit, remove leading zero
+      if (h.length === 2 && h[0] === '0') {
+          h = h[1];
+      }
+
+      span.text(h + ":" + ("0" + m).slice(-2) + " " + period);
   }
 
   setInterval(time, 1000);
+
+  // create a phone function to update the date and time
+  // Code the show current time
+  let ct = $("#currentTime");
+
+  setInterval(() => {
+      let currentTime = new Date().getTime();
+      let timeString = new Date(currentTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+
+      // Remove leading zero if present for single-digit hours
+      if (timeString.startsWith("0")) {
+          timeString = timeString.slice(1);
+      }
+
+      ct.text(timeString);
+  }, 1000);
