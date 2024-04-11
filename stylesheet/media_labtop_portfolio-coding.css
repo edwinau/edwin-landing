@@ -523,46 +523,46 @@ label.menu__btn {
 	100% {opacity: 0.3; }
 }
 
-	.portfolio_images-mobile {
-		display: none;
+		.portfolio_images-mobile {
+			display: none;
+		}
+
+		.portfolio_images {
+			display: inherit;
+			width: 100%;
+			height: auto;
+		}
+
+	.hamburger-menu{
+		display: inherit;
+		z-index: 5000;
 	}
 
-	.portfolio_images {
-		display: inherit;
-		width: 100%;
+	.madnessvideobasketball{
+		width: 50%;
 		height: auto;
 	}
 
-.hamburger-menu{
-	display: inherit;
-	z-index: 5000;
-}
+	.madnessvideobasketball.postit {
+		width: 30%;
+		height: auto;
+		position: absolute;
+		right: -23%;
+		bottom: 8%;
+	}
 
-.madnessvideobasketball{
-	width: 50%;
-	height: auto;
-}
-
-.madnessvideobasketball.postit {
-	width: 30%;
-	height: auto;
-	position: absolute;
-	right: -23%;
-	bottom: 8%;
-}
-
-.container_carousel{
-	overflow: hidden;
-	height: 84vh;
-}
+	.container_carousel{
+		overflow: hidden;
+		height: 84vh;
+	}
 
 
 
-.alm{
-	position: relative;
-	scale: .7;
-	left: -10%;
-}
+	.alm{
+		position: relative;
+		scale: .7;
+		left: -10%;
+	}
 
 	.nav-title{
 		color: black;
@@ -588,9 +588,6 @@ label.menu__btn {
 		index:1000;
 		padding-top: 10px;
 	}
-
-
-
 
 	.port-heading {
 		font-size:16pt;
@@ -1131,7 +1128,30 @@ label.menu__btn {
 
 	.headermred {
 	display: inherit;
+	animation-name: profilepicintroanimation;
+	animation-timing-function: ease;
+	animation-duration: 2s;
+	animation-delay: 0s;
+	transition: 2s all ease;
+}
+
+@keyframes profilepicintroanimation {
+	0% {
+		opacity: 0;
 	}
+	50% {
+		opacity: 0;
+	}
+	90%{
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
 
 		.port-heading {
 		font-size:16pt;

@@ -3,9 +3,9 @@
     height: 47vw;
     animation-name: intromonitorsizinganimation;
     animation-timing-function: ease;
-    animation-duration: 2800ms;
+    animation-duration: 2300ms;
     animation-delay: 0s;
-    transition: 2800ms all ease;
+    transition: 2300ms all ease;
   }
 @keyframes intromonitorsizinganimation {
   0% {
@@ -16,7 +16,7 @@
          -o-transform: skew(-11deg);
           -ms-transform: skew(-11deg);
   }
-  30% {
+  49% {
     opacity: 0;
     width: 0vw;
     -webkit-transform: skew(-11deg);
@@ -25,7 +25,7 @@
           -ms-transform: skew(-11deg);
   }
 
-  80% {
+  99% {
     opacity: 1;
     width: 75vw;
     -webkit-transform: skew(0deg);
@@ -47,9 +47,9 @@ div.trapezoiddiv {
     transform: scale(1.9); width:200px;
     animation-name: introtrapezoidsizinganimation;
     animation-timing-function: ease-in-out;
-    animation-duration: 2800ms;
+    animation-duration: 2300ms;
     animation-delay: 0s;
-    transition: 2800ms all ease-in-out;
+    transition: 2300ms all ease-in-out;
   }
 @keyframes introtrapezoidsizinganimation {
   0% {
@@ -59,7 +59,7 @@ div.trapezoiddiv {
     -webkit-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
     mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
   }
-  30% {
+  49% {
     opacity: 0;
     transform: scale(0, 1.9);
     width:200px;
@@ -68,7 +68,7 @@ div.trapezoiddiv {
     -oz-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
     mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
   }
-  80% {
+  99% {
     opacity: 1;
     transform: scale(1.9, 1.9);
     width: 200px;
@@ -101,9 +101,9 @@ div.trapezoiddiv {
 			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
       padding-top: 15%;
     }
-    20% {
+    30% {
       opacity: 1;
-			transform: scale(1.5,1.5) translateX(-25vw) translateY(0px);
+			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
       padding-top: 15%;
     }
     55%{

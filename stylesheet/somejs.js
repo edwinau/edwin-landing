@@ -369,11 +369,50 @@ setTimeout(function(){
 	$(".container_one.contactpage").show();
 },6000);
 
+
+// making name animated inspect
+
+
 // loading portfolio delay
-$(".threecoloumntables").hide().delay(2800).fadeIn(1000);
+$(".threecoloumntables").hide().delay(1800).fadeIn(1000);
 
 // loading resume-prompt delay
-$("p.resume-prompt").hide().delay(4800).slideDown(1000);
+$("p.resume-prompt").hide().delay(4250).slideDown(750);
+
+$("hr").hide().delay(4250).slideDown(750);
+
+
+
+
+// Intro Text animation Digital Designer
+
+$(document).ready(function() {
+    var text = "Edwin Au";
+    var delay = 100; // Initial delay in milliseconds
+    var index = 0; // Keeps track of the letter to be typed next
+
+    function typeLetter() {
+        if (index < text.length) {
+            // Append next character to the div
+            $('.introtitleedwinau').append(text.charAt(index));
+            index++;
+            // Wait for a bit before typing the next letter
+            setTimeout(typeLetter, delay);
+
+            // Increase the delay slightly for the next letter to simulate typing
+            delay += 40;
+        }
+    }
+    // Start typing
+    typeLetter();
+});
+
+// Intro Text animation Digital Designer
+$(".introtitledigitaldesign").hide().delay(50).slideDown(750);
+
+
+
+
 
 // loading monitor slowly scale down delay
 setTimeout(function() {
