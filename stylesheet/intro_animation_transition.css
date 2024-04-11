@@ -91,9 +91,9 @@ div.trapezoiddiv {
 .introbiopictureanimation{
     animation-name: introprofilepicanimate;
     animation-timing-function: ease-in-out;
-    animation-duration: 2800ms;
+    animation-duration: 3000ms;
     animation-delay: 0s;
-    transition: 2800ms all ease-in-out;
+    transition: 3000ms all ease-in-out;
   }
   @keyframes introprofilepicanimate {
     0% {
@@ -119,4 +119,233 @@ div.trapezoiddiv {
       transform: scale(1,1) translateX(0vw) translateY(0px);
       padding-top: 0%;
       }
+  }
+
+  .threebythreegridaboutme {
+    color: #666666;
+    display: block;
+    font-family: 'Oldenbury', serif;
+    font-size: 14pt;
+    letter-spacing: .1em;
+    line-height: 1.2;
+    opacity: 1;
+    padding-left: 5%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0px 50px 20px;
+  }
+
+  td.threebythreegridaboutme.aboutmeone {
+    color: #666666;
+    opacity: 1;
+    display: inline-block;
+    width: 33%;
+    font-family: 'Oldenbury', serif;
+    font-size: 14pt;
+    letter-spacing: .1em;
+    line-height: 1.2;
+    opacity: 1;
+    padding-left: 5%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0px 50px 20px;
+    	animation-name: aboutmeonecss;
+    	animation-timing-function: ease-in-out;
+    	animation-duration: 5s;
+    	animation-delay: 0s;
+      animation-iteration-count: infinite;
+    	transition: 5s all ease-in-out;
+    }
+
+    @keyframes aboutmeonecss {
+    	0% {
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+  	}
+    	10% {
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+    }
+      15% {
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+      }
+    	35%{
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+      	}
+      70%{
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+      }
+      95%{
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+      }
+    	100% {
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+    	}
+    }
+
+  td.threebythreegridaboutme.aboutmetwo {
+    color: #666666;
+    display: inline-block;
+    width: 33%;
+    font-family: 'Oldenbury', serif;
+    font-size: 14pt;
+    letter-spacing: .1em;
+    line-height: 1.2;
+    opacity: 1;
+    padding-left: 5%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0px 50px 20px;
+    animation-name: aboutmetwocss;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition: 5s all ease-in-out;
+    }
+
+    @keyframes aboutmetwocss {
+      0% {
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: rotateY(0);
+  	}
+    	35% {
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: rotateY(0);
+      }
+      40% {
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+        transform: rotateY(0);
+    }
+      45%{
+        transform: rotateY(.5turn);
+      }
+    	60%{
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+        transform: rotateY(0);
+    	}
+      65%{
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: rotateY(0);
+      }
+      95%{
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: rotateY(0);
+      }
+    	100% {
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: rotateY(0);
+    	}
+  }
+
+  td.threebythreegridaboutme.aboutmethree {
+    color: #666666;
+    display: inline-block;
+    width: 33%;
+    font-family: 'Oldenbury', serif;
+    font-size: 14pt;
+    letter-spacing: .1em;
+    line-height: 1.2;
+    opacity: 1;
+    padding-left: 5%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 0px 50px 20px;
+    animation-name: aboutmethreecss;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transition: 5s all ease-in-out;
+    }
+
+    @keyframes aboutmethreecss {
+      0% {
+        opacity: 1;
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: translate(0px, 0px);
+	}
+    	60% {
+        opacity: 1;
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: translate(0px, 0px);
+    }
+      65% {
+        opacity: 1;
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+        transform: translate(0px, 0px);
+    }
+
+      85% {
+        opacity: 1;
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+        transform: translate(300px, 0px);
+      }
+      94%{
+        opacity: 1;
+        transform: translate(300px, 0px);
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+    }
+    96%{
+      opacity: 1;
+      transform: translate(300px, 0px);
+      filter: saturate(100%);
+      filter: grayscale(100%);
+      transform: scale(1);
+  }
+    	100% {
+        transform: translate(0px, 0px);
+        opacity: 1;
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+  	}
   }

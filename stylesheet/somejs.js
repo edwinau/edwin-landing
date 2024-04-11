@@ -377,18 +377,20 @@ setTimeout(function(){
 $(".threecoloumntables").hide().delay(1800).fadeIn(1000);
 
 // loading resume-prompt delay
-$("p.resume-prompt").hide().delay(4250).slideDown(750);
+$("p.resume-prompt").hide().delay(3850).slideDown(1750);
 
+// loading hr delay
 $("hr").hide().delay(4250).slideDown(750);
 
-
+// loading hr delay
+$(".threebythreegridaboutme").hide().delay(4250).slideDown(750);
 
 
 // Intro Text animation Digital Designer
 
 $(document).ready(function() {
     var text = "Edwin Au";
-    var delay = 100; // Initial delay in milliseconds
+    var delay = 20; // Initial delay in milliseconds
     var index = 0; // Keeps track of the letter to be typed next
 
     function typeLetter() {
@@ -400,7 +402,7 @@ $(document).ready(function() {
             setTimeout(typeLetter, delay);
 
             // Increase the delay slightly for the next letter to simulate typing
-            delay += 40;
+            delay += 20;
         }
     }
     // Start typing

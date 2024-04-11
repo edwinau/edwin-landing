@@ -149,7 +149,6 @@
   float: left;
   display: inline-block;
   width: 100%;
-
 }
 
 #datetime {
@@ -174,11 +173,11 @@
 
 .largephonemimicnav{
   background-color: none;
+  float: left;
   opacity: .8;
-  position: absolute;
+  position: relative;
   display: inline-block;
   width: 100%;
-  top: -47px;
   font-size: 10pt;
 }
 
