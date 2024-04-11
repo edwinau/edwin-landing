@@ -166,37 +166,37 @@ div.trapezoiddiv {
     @keyframes aboutmeonecss {
     	0% {
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
   	}
     	10% {
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
     }
       15% {
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(100%);
         transform: scale(1.1);
       }
     	35%{
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(100%);
         transform: scale(1.1);
       	}
       70%{
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
       }
       95%{
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
       }
     	100% {
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
     	}
     }
@@ -232,22 +232,22 @@ div.trapezoiddiv {
         transform: scale(1);
         transform: rotateY(0);
   	}
-    	35% {
+    	10% {
         filter: saturate(100%);
         filter: grayscale(100%);
         transform: scale(1);
         transform: rotateY(0);
       }
-      40% {
+      15% {
         filter: saturate(100%);
         filter: grayscale(0%);
         transform: scale(1.1);
         transform: rotateY(0);
     }
-      45%{
+      25%{
         transform: rotateY(.5turn);
       }
-    	60%{
+    	35%{
         filter: saturate(100%);
         filter: grayscale(0%);
         transform: scale(1.1);
@@ -290,44 +290,51 @@ div.trapezoiddiv {
     font-weight: bold;
     padding: 0px 50px 20px;
     animation-name: aboutmethreecss;
-    animation-timing-function: ease-in;
+    animation-timing-function: inherit;
     animation-duration: 5s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    transition: 5s all ease-in;
+    transition: 5s all inherit;
     }
 
     @keyframes aboutmethreecss {
       0% {
+        opacity: 0;
+        filter: saturate(100%);
+        filter: grayscale(100%);
+        transform: scale(1);
+        transform: translate(0px, 0px);
+    	  }
+      20% {
         opacity: 1;
         filter: saturate(100%);
         filter: grayscale(100%);
         transform: scale(1);
         transform: translate(0px, 0px);
-    	}
-      60% {
+        }
+      70% {
           opacity: 1;
           filter: saturate(100%);
           filter: grayscale(0%);
           transform: scale(1);
           transform: translate(0px, 0px);
-          }
-      65% {
+        }
+      89% {
         opacity: 1;
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
         transform: translate(600px, 0px);
         }
       90% {
-        opacity: 1;
+        opacity: 0;
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
         transform: translate(600px, 0px);
-      	}
+        }
 	    100% {
-        opacity: 1;
+        opacity: 0;
         transform: translate(0px, 0px);
         filter: saturate(100%);
         filter: grayscale(100%);
@@ -356,7 +363,49 @@ div.trapezoiddiv {
     display: block;
   }
 
+  div.container_one.intro {
+    width: 105vw;
+    height: 100vh;
+    animation-name: none;
+    margin-top: 13%;
+    margin-left: 15vw;
+    }
 
-
+  td.introbiopictureanimation{
+        animation-name: introprofilepicanimate;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3200ms;
+        animation-delay: 0s;
+        transition: 3200ms all ease-in-out;
+        transform: scale(1,1) translateX(-45vw) translateY(50vh);
+        padding-top: 0%;
+        z-index: 10000;
+        position: relative;
+      }
+      @keyframes introprofilepicanimate {
+        0% {
+          opacity: 1;
+    			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+          padding-top: 15%;
+        }
+        35% {
+          opacity: 1;
+    			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+          padding-top: 15%;
+        }
+        55%{
+          opacity: .7;
+        }
+        75% {
+          opacity: 1;
+    			transform: scale(1,1) translateX(-45vw) translateY(50vh);
+          padding-top: 0%;
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1,1) translateX(-45vw) translateY(50vh);
+          padding-top: 0%;
+          }
+      }
 
 }
