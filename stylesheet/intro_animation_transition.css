@@ -98,12 +98,12 @@ div.trapezoiddiv {
   @keyframes introprofilepicanimate {
     0% {
       opacity: 1;
-			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+			transform: scale(1.5,1.5) translateX(-27vw) translateY(50px);
       padding-top: 15%;
     }
     35% {
       opacity: 1;
-			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+			transform: scale(1.5,1.5) translateX(-27vw) translateY(50px);
       padding-top: 15%;
     }
     55%{
@@ -385,12 +385,12 @@ div.trapezoiddiv {
       @keyframes introprofilepicanimate {
         0% {
           opacity: 1;
-    			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+    			transform: scale(1.5,1.5) translateX(-45vw) translateY(50px);
           padding-top: 15%;
         }
         35% {
           opacity: 1;
-    			transform: scale(1.5,1.5) translateX(-25vw) translateY(50px);
+    			transform: scale(1.5,1.5) translateX(-45vw) translateY(50px);
           padding-top: 15%;
         }
         55%{
