@@ -199,12 +199,13 @@
 
 
 .largemonitormimicnav{
-  background-color: none;
-  top: -140%;
+  background: none;
   opacity: .8;
-  position: absolute;
+  position: relative;
+  float: left;
   display: inline-block;
   width: 100%;
+
 }
 
 #datetime {
