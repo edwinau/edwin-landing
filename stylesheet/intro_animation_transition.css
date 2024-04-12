@@ -44,7 +44,9 @@
 }
 
 div.trapezoiddiv {
-    transform: scale(1.9); width:200px;
+    transform: scale(2.5); width:200px;
+    top: -55px;
+    position: relative;
     animation-name: introtrapezoidsizinganimation;
     animation-timing-function: ease-in-out;
     animation-duration: 2600ms;
@@ -342,6 +344,18 @@ div.trapezoiddiv {
         }
   }
 
+
+  /* @media cell phone about me 2024px
+  */
+
+  @media (max-width:2024px) {
+
+  div.trapezoiddiv {
+      transform: scale(1.9);
+      width:200px;
+      top: 0px;
+    }
+
 /* @media cell phone about me 600px
 */
 
@@ -376,7 +390,7 @@ div.trapezoiddiv {
         animation-duration: 3200ms;
         animation-delay: 0s;
         transition: 3200ms all ease-in-out;
-        transform: scale(1,1) translateX(-45vw) translateY(45vh);
+        transform: scale(1,1) translateX(-50vw) translateY(55vh);
         padding-top: 0%;
         z-index: 10000;
         position: absolute;
@@ -397,12 +411,12 @@ div.trapezoiddiv {
         }
         75% {
           opacity: 1;
-    			transform: scale(1,1) translateX(-45vw) translateY(45vh);
+    			transform: scale(1,1) translateX(-50vw) translateY(55vh);
           padding-top: 0%;
         }
         100% {
           opacity: 1;
-          transform: scale(1,1) translateX(-45vw) translateY(45vh);
+          transform: scale(1,1) translateX(-50vw) translateY(55vh);
           padding-top: 0%;
           }
       }
