@@ -692,13 +692,13 @@ label.menu__btn {
 
   h2.button-row {
     letter-spacing: .15em;
-    font-size: 1vw;
+    font-size: 1.7vw;
     display: block;
   }
 
   h2.button-row > a::before, h2.button-row > a::after {
     width: 10vw;
-    height: 35px;
+    height: 65px;
     border: .5px solid inherit;
   }
 
@@ -733,27 +733,6 @@ label.menu__btn {
   .container_nut{
     width:100%;
   }
-
-
-.img_plant{
-	  zoom: 65%;
-  }
-
-.img_labtop{
-	  zoom: 65%;
-	bottom: -20%;
-  }
-
-  .i_believe{
-	  font-family: 'Lato', serif;
-	  color: #fff;
-	  font-size: 2vw;
-	  letter-spacing: .1em;
-	  line-height: 2;
-	  padding-left: 10%;
-	  padding-right:10%;
-	  opacity: 1;
-}
 
 .resume_pdf{
 	width: 65%;
@@ -811,7 +790,7 @@ label.menu__btn {
   }
 
   h4.email a{
-    font-size: 1.6vw;
+    font-size: 1vw;
     margin-left: 0%;
 	  margin-top:3%;
   }
@@ -2176,13 +2155,14 @@ h4.email a{
 
 
 	  .totop{
-   letter-spacing: .3;
    font-weight: bold;
 	  margin: inherit;
-   font-size: 5vw;
+   font-size: 10vw;
+	 background-color: rgba(255, 255, 255, 0.5);
 	  bottom: 1%;
 	  z-index: 8888;
 	  display: inherit;
+		border-radius: 100px;
 	}
 
 	div.container_one.contactpage{
