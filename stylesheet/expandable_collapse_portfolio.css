@@ -1,0 +1,20 @@
+.wrapper1, .wrapper2, .wrapper3, .wrapper4, .wrapper5 .wrapper {
+    background-color: none;
+    border: none;
+		text-align: center;
+}
+
+.content1, .content2, .content3, .content4, .content5, .content {
+/*  margin-top: 10px;
+    padding: 10px;*/
+    background-color: none;
+    border: none;
+}
+
+.toggle-button1, .toggle-button2, .toggle-button3, .toggle-button4, .toggle-button5, .toggle-button {
+/*    padding: 8px 16px;*/
+    cursor: pointer;
+		border: none;
+		background: none;
+		margin: auto;
+}

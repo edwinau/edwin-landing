@@ -19,8 +19,11 @@
   	<link href="stylesheet/hamburger.css" type="text/css" rel="stylesheet">
     <link href="stylesheet/threegridpopup.css" type="text/css" rel="stylesheet">
     <link href="stylesheet/intro_animation_transition.css" type="text/css" rel="stylesheet">
+    <link href="stylesheet/expandable_collapse_portfolio.css" type="text/css" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.x/gsap.min.js"></script>
 
     <link href="stylesheet/font-awesome.min.css" rel="stylesheet" >
     <title>Edwin's portfolio</title>
@@ -51,8 +54,8 @@
 
     <td style="vertical-align: top; padding-left: 0px; padding-top: 5px;" class="portfolio-top-headline-td-width">
 
-      <!--monitor-->
-
+<!--monitor-->
+      <div style="perspective: 1000px;">
           <div class="container_one intro">
 
             <img src="images/introcloud1.png" class="img_introcloud1" alt="cloud1">
@@ -77,22 +80,22 @@
 
           <div class="container_two_timenavbar" style="width:100%; position:absolute;">
             <p class="largemonitormimicnav ipad displaynone">
-              <i class="fa fa-apple" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: .5;"></i>
-              <i class="fa fa-windows" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: .5;"></i>
-              <a href="https://www.linkedin.com/in/eaudesign" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: 1;"></i></a>
-              <a href="tel:+14168803791" title="+14168803791" title="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: 1;"></i></a>
+              <i class="fa fa-apple" title="Mac background to come 🔜" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: .5;"></i>
+              <i class="fa fa-windows" title="Windows background to come 🔜" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: .5;"></i>
+              <a href="https://www.linkedin.com/in/eaudesign" target="_blank"><i class="fa fa-linkedin" title="View Edwin's LinkedIn 🔗" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: 1;"></i></a>
+              <a href="tel:+14168803791" title="Call Edwin +14168803791 ☎️" title="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: 1;"></i></a>
 <!--              <a href="https://www.instagram.com/edwin.fc.au" target="_blank" title="Instagram"><i class="fa fa-instagram" aria-hidden="true" style="color: #ffffff; padding: 5px 10px 5px 10px; font-size: 15pt; opacity: 1;"></i></a>
 -->
 
 
               <span class="navbarfontawesomefloatright">
-                <i class="fa fa-signal" aria-hidden="true" style="color: #ffffff; padding: 5px; font-size: 15pt;"></i>
-                <i class="fa fa-wifi" aria-hidden="true" style="color: #ffffff; padding: 5px; font-size: 15pt;"></i>
-                <i class="fa fa-battery-three-quarters" aria-hidden="true" style="color: #ffffff; padding: 5px; font-size: 15pt;"></i>
+                <i class="fa fa-signal" aria-hidden="true" title="Connection stronger than my coffee ☕" style="color: #ffffff; padding: 5px; font-size: 15pt;"></i>
+                <i class="fa fa-wifi" aria-hidden="true" title="Stay connected, stay inspired! 🌟" style="color: #ffffff; padding: 5px; font-size: 15pt;"></i>
+                <i class="fa fa-battery-three-quarters" title="Enough juice to keep the ideas flowing! 💡" aria-hidden="true" style="color: #ffffff; padding: 5px; font-size: 15pt;"></i>
               <a href="https://www.google.com/" target="_blank">
-                <i class="fa fa-search" aria-hidden="true" style="color: #ffffff; padding: 5px; font-size: 15pt; opacity: .5;"></i>
+                <i class="fa fa-search" title="Unleash your curiosity! 🧐" aria-hidden="true" style="color: #ffffff; padding: 5px; font-size: 15pt; opacity: .5;"></i>
               </a>
-                <span id="datetime">
+                <span id="datetime" title="Right on time in the East, tick-tock! ⏰">
                 </span>
               </span>
             </p>
@@ -116,9 +119,10 @@
                 height: 5vh; index:1000; bottom:0;  position: absolute; display: flex; height: 5vh; width: 100vw; z-index: 1000; bottom: 0;" >&nbsp;
             </div>
           </div>
+      </div> <!-- div for perspective-->
 
           <center>
-            <div class="trapezoiddiv" style="">
+            <div class="trapezoiddiv" style="z-index: -10; position: relative;">
               <div class="trapezoid">
               </div>
             </div>
@@ -128,9 +132,9 @@
 
     <td class="threebythreegrid introbiopictureanimation" style="width: 125px; height: 125px; overflow: visible;">
       <center>
-      <img alt="Edwin bio picture" src="images/Edwin-bio-pic-web.jpg" class="headermred" style="border-radius: 500px; width: 70px; height: auto; margin-top: 5px; margin-bottom: 10px;">
-        <p class="introtitleedwinau"style="overflow: hidden; color: #333333; font-family: 'oldenbury', serif; font-size: 13pt; font-weight: bold; line-height: 1.1"></p>
-        <span class="introtitledigitaldesign" style="overflow: hidden; font-weight: normal; font-size: 9.5pt; color: #666666; font-family: 'lato', san-serif">Digital Designer</span>
+      <img alt="Edwin bio picture" title="Quietly creating, loudly impacting."src="images/Edwin-bio-pic-web.jpg" class="headermred" style="border-radius: 500px; width: 70px; height: auto; margin-top: 5px; margin-bottom: 10px;">
+        <p class="introtitleedwinau" title="F.C. is my middle name." style="overflow: hidden; color: #333333; font-family: 'oldenbury', serif; font-size: 13pt; font-weight: bold; line-height: 1.1"></p>
+        <span class="introtitledigitaldesign" title="Making the digital world a better place, one pixel at a time." style="overflow: hidden; font-weight: normal; font-size: 9.5pt; color: #666666; font-family: 'lato', san-serif">Digital Designer</span>
     </center>
   </td>
 </tr>
@@ -155,254 +159,266 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;">
-  Design transcends mere&nbsp;appearances &mdash;<br>it's&nbsp;about how it functions.</span><br>
+  Design transcends mere&nbsp;appearances &mdash;<br>it's&nbsp;about how it functions.</span>
       </p>
-    </td>
-  </tr>
-
-
-  <tr>
-    <td colspan="3">
       <p class="resume-prompt" style="margin-top: 2px; margin-bottom: 5px;">
       <!--I use critical design thinking and thorough research to create impactful designs that enhance users' experiences &ndash; bringing user interface, user experience and digital design at the forefront.
       I'm in the process of updating my portfolio with past accomplishments and recent projects. If you're curious to explore further, please don't hesitate to get in touch. I'd be delighted to share my complete portfolio with you.<br>-->
-Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ critical design thinking and comprehensive research to craft impactful designs that enrich users' experiences &ndash; positioning user interface, user experience, and digital design to the forefront.
+Welcome to my portfolio and thanks for visiting. As a designer, I employ critical design thinking and comprehensive research to craft impactful designs that enrich users' experiences &ndash; positioning user interface, user experience, and digital design to the forefront.
     </p>
-      <p class="portfolio-tabs-blue" style="background: linear-gradient(45deg, #a7a6ba, #516395,  #516395, #516395, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato'; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px;">
-
-          2020 - 2024 | Digital Designer &ndash; Borden Ladner Gervais LLP
-      </p>
     </td>
   </tr>
+</table>
 
+<!--entire BLG -->
+<!--entire BLG -->
+<div class="wrapper1">
+  <button class="toggle-button1">
+    <table class="threecoloumntables" style="margin-top: 0px">
+      <tr>
+        <td colspan="3">
+          <p class="portfolio-tabs-blue1" style="background: linear-gradient(45deg, #a7a6ba, #516395,  #516395, #516395, #dcdcdc, #516395); color: white; font-size: 15pt; font-family: 'lato'; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px; text-align:left;">
+              2020 - 2024 | Digital Designer &ndash; Borden Ladner Gervais LLP
+              <i class="fa fa-plus-circle one" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+              <i class="fa fa-minus-circle one" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </button>
 
-  <tr>
-      <td class="threebythreegrid" style="border: 5px solid #ffffff;">
-        <div class="popup1" onclick="myFunction1()" style="position:relative;">
-          <span class="popuptext1" id="myPopup1">
-            <span class="portfolionexttwo popup15" onclick="myFunction15()">&#5176;</span>
-            <span class="portfolionexttwo popup2" onclick="myFunction2()">&#5171;</span>
+  <div class="content1">
+
+    <table class="threecoloumntables" style="margin-top: 0px">
+      <tr>
+          <td class="threebythreegrid" style="border: 5px solid #ffffff;">
+            <div class="popup1" onclick="myFunction1()" style="position:relative;">
+              <span class="popuptext1" id="myPopup1">
+                <span class="portfolionexttwo popup15" onclick="myFunction15()">&#5176;</span>
+                <span class="portfolionexttwo popup2" onclick="myFunction2()">&#5171;</span>
+                <span class="close-btn-xy">&#10540;</span>
+                <div class="click-zoom">
+                  <label>
+                    <input type="checkbox">
+                      <img alt="Edwin Au Portfolio Beyond UX UI" src="images/beyond.jpg" class="portfolio_images_pop blgbeyondone">
+                      <img alt="Edwin Au Portfolio Beyond UX UI" src="images/beyond-flat.jpg" class="portfolio_images_pop blgbeyondtwo">
+
+                    <!--  <img alt="Edwin Au Portfolio Beyond UX UI Flat Ani" src="images/beyond-flat-ani.jpg" style="position: absolute; left:150px;" class="portfolio_images_pop blgbeyondthree">
+                      <img alt="Edwin Au Portfolio Beyond UX UI Flat Ani" src="images/beyond-flat-ani-left.png" style="position: absolute; left:150px;" class="portfolio_images_pop blgbeyondleft">
+                      <img alt="Edwin Au Portfolio Beyond UX UI Flat Ani" src="images/beyond-flat-ani-right.png" style="position: absolute; left:150px;" class="portfolio_images_pop blgbeyondright"> -->
+                  </label>
+                </div>
+                <p class="titleforpopup">2020 - 2024 | Digital Designer &ndash; BLG BEYOND</p>
+                <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
+                <p class="textforpopup">Creation and delivery of concepts, visuals and webpages for the launch of BLG Beyond &mdash; an alternative suite of legal services by BLG; User research, UX/UI, wireframes and prototypes; designing of dynamic hero banners using HTML and CSS.&nbsp<br>
+                  <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>&nbsp;<a href="https://www.blg.com/en/services/blg-beyond" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG BEYOND</a> and one of it's subsidiaries <a href="https://www.blg.com/en/services/blg-beyond/ip-strategy" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">Beyond IP Strategy
+                  </a><br>
+                  <span class="skillsbubble">Figma</span><span class="skillsbubble">CSS</span><span class="skillsbubble">HTML</span><span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span>
+                </p>
+      		  </span>
+            <figure>
+              <img alt="BLG Beyond Visual screen" src="images/beyond.jpg" class="portfolio_images oneflowtwo" style="display: inline; margin-left: auto; margin-right: auto; opacity: 1;">
+            </figure>
+            <figure>
+              <img alt="BLG Beyond UI screen" src="images/beyond-flat.jpg" class="portfolio_images twoflowtwo" style="display: inline; margin-left: auto; margin-right: auto; opacity: 1;">
+            </figure>
+
+            </div>
+        </td>
+
+      <td class="threebythreegrid">
+        <div class="popup2" onclick="myFunction2()" style="position:relative;">
+          <span class="popuptext2" id="myPopup2">
+            <span class="portfolionexttwo popup1" onclick="myFunction1()">&#5176;</span>
+            <span class="portfolionexttwo popup3" onclick="myFunction3()">&#5171;</span>
             <span class="close-btn-xy">&#10540;</span>
             <div class="click-zoom">
               <label>
                 <input type="checkbox">
-                  <img alt="Edwin Au Portfolio Beyond UX UI" src="images/beyond.jpg" class="portfolio_images_pop blgbeyondone">
-                  <img alt="Edwin Au Portfolio Beyond UX UI" src="images/beyond-flat.jpg" class="portfolio_images_pop blgbeyondtwo">
-
-                <!--  <img alt="Edwin Au Portfolio Beyond UX UI Flat Ani" src="images/beyond-flat-ani.jpg" style="position: absolute; left:150px;" class="portfolio_images_pop blgbeyondthree">
-                  <img alt="Edwin Au Portfolio Beyond UX UI Flat Ani" src="images/beyond-flat-ani-left.png" style="position: absolute; left:150px;" class="portfolio_images_pop blgbeyondleft">
-                  <img alt="Edwin Au Portfolio Beyond UX UI Flat Ani" src="images/beyond-flat-ani-right.png" style="position: absolute; left:150px;" class="portfolio_images_pop blgbeyondright"> -->
+                  <img alt="BLG Store Visual portfolio" src="images/blgwebstore.jpg" class="portfolio_images_pop blgbeyondone">
+                  <img alt="BLG Store UI portfolio" src="images/blgwebstore-four.jpg" class="portfolio_images_pop blgbeyondtwo">
               </label>
             </div>
-            <p class="titleforpopup">2020 - 2024 | Digital Designer &ndash; BLG BEYOND</p>
+            <p class="titleforpopup">2022 | Digital Designer &ndash; BLG Merchandise Store</p>
             <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-            <p class="textforpopup">Creation and delivery of concepts, visuals and webpages for the launch of BLG Beyond &mdash; an alternative suite of legal services by BLG; User research, UX/UI, wireframes and prototypes; designing of dynamic hero banners using HTML and CSS.&nbsp<br>
-              <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>&nbsp;<a href="https://www.blg.com/en/services/blg-beyond" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG BEYOND</a> and one of it's subsidiaries <a href="https://www.blg.com/en/services/blg-beyond/ip-strategy" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">Beyond IP Strategy
-              </a><br>
-              <span class="skillsbubble">Figma</span><span class="skillsbubble">CSS</span><span class="skillsbubble">HTML</span><span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span>
-            </p>
-  		  </span>
-        <figure>
-          <img alt="BLG Beyond Visual screen" src="images/beyond.jpg" class="portfolio_images oneflowtwo" style="display: inline; margin-left: auto; margin-right: auto; opacity: 1;">
-        </figure>
-        <figure>
-          <img alt="BLG Beyond UI screen" src="images/beyond-flat.jpg" class="portfolio_images twoflowtwo" style="display: inline; margin-left: auto; margin-right: auto; opacity: 1;">
-        </figure>
-
-        </div>
-    </td>
-
-  <td class="threebythreegrid">
-    <div class="popup2" onclick="myFunction2()" style="position:relative;">
-      <span class="popuptext2" id="myPopup2">
-        <span class="portfolionexttwo popup1" onclick="myFunction1()">&#5176;</span>
-        <span class="portfolionexttwo popup3" onclick="myFunction3()">&#5171;</span>
-        <span class="close-btn-xy">&#10540;</span>
-        <div class="click-zoom">
-          <label>
-            <input type="checkbox">
-              <img alt="BLG Store Visual portfolio" src="images/blgwebstore.jpg" class="portfolio_images_pop blgbeyondone">
-              <img alt="BLG Store UI portfolio" src="images/blgwebstore-four.jpg" class="portfolio_images_pop blgbeyondtwo">
-          </label>
-        </div>
-        <p class="titleforpopup">2022 | Digital Designer &ndash; BLG Merchandise Store</p>
-        <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-        <p class="textforpopup">Creation and delivery of concepts, visuals and digital assets for BLG Merchandise Store - a client gifting online portal; User research, UX/UI, wireframes and prototypes.<br>
-          <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>&nbsp;<a href="https://www.blacksheepshop.net/blg/" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG Merchandise Store</a><br>
-          <span class="skillsbubble">Figma</span><span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span>
+            <p class="textforpopup">Creation and delivery of concepts, visuals and digital assets for BLG Merchandise Store - a client gifting online portal; User research, UX/UI, wireframes and prototypes.<br>
+              <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>&nbsp;<a href="https://www.blacksheepshop.net/blg/" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG Merchandise Store</a><br>
+              <span class="skillsbubble">Figma</span><span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span>
 
 
-        </p></span>
-          <figure>
-            <img alt="BLG Merchandise Store v4" src="images/blgwebstore-four.jpg" class="portfolio_images oneflowtwo" text-align="center" style="display: block; margin: auto; transform: scale(1);">
-            <img alt="BLG Merchandise Store v3" src="images/blgwebstore.jpg" class="portfolio_images twoflowtwo" text-align="center" style="display: block; margin: auto; transform: scale(1.2);">
-          </figure>
-    </div>
-  </td>
-</tr>
-</table>
-
-
-<!-- Text Element: I devled -->
-
-<table class="threecoloumntables">
-<tr>
-  <td colspan="3">
-  <!--<p class="resume-prompt" style="margin-top: 6%; margin-bottom: 3%;">
-      As a digital designer specializing in web, apps, and social media platforms, my aim is in crafting designs that captivate audiences endlessly. I believe </p>-->
-      <p class="resume-prompt" style="margin-top:20px; margin-bottom: 0;">
-      <!--  My expertise extends to tailoring designs and content for various devices, ranging from smartphones and tablets to larger monitors. What sets my work apart is the seamless fusion of passion and skill across layouts, graphics, product mapping, wireframing, typography, and colour.--> Like many, I delved into learning prompt engineering and AI tools leveraging their abilities to enhance and elevate designs.</p>
-
-    <center>
-      <hr style="margin: 0; background-color: #efefef; width:35vw; margin: 20px 0px;">
-    </center>
-
-      <p class="resume-prompt " style="margin-top:20px; margin-bottom: 5px;">
-      I hone skills in video creation and editing, integrating animation and sounds.  I collaborate with teams in brainstorming video ideas used for company campaigns, social media channels and webpages.</p><br>
-  <td>
-</tr>
-
-</table>
-
-<table class="threecoloumntables">
-  <tr>
-
-    <td class="threebythreegrid" style="border: 5px solid #ffffff;">
-<!--      <div class="popup8" onclick="myFunction8()"> -->
-<!--        <span class="popuptext8" id="myPopup8">
-          <span class="portfolionexttwo popup7" onclick="myFunction7()">&#5176;</span>
-          <span class="portfolionexttwo popup9" onclick="myFunction9()">&#5171;</span>
-          <span class="close-btn-xy">&#10540;</span>
-
-          <div class="click-zoom">
-            <label>
-              <input type="checkbox">
-              <img alt="Beyond Video" src="images/HTML_Porfolio-2023-3b.jpg" class="portfolio_images_pop blgbeyondone">
-              <video autoplay loop muted playsinline class="portfolio_images_pop blgbeyondtwo" width="96VW" height="auto" frameborder="0" >
-                <source src="images/blakes-madness.mp4" type="video/mp4">
-              </video>
-            </label>
-          </div>
-            <p class="titleforpopup">2018 | Blakes Event eVite Design &mdash;<span style="font-style: italic;">Blakes Madness XII</span></p>
-            <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-            <p class="textforpopup">Event eVite design &mdash; includes front page and registration form.</p>
-          </span>
-        -->
-        <iframe alt="Beyond Video" src="https://www.youtube.com/embed/VqxkCjByGg4?rel=0&showinfo=0" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1;"></iframe>
-        <p class="resume-prompt"><i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
-        &nbsp;<a href="https://www.linkedin.com/posts/blglaw_blgbeyond-blgproud-innovation-activity-6757306592124776448-StrZ" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG Beyond video</a>
-<!--      </div> -->
-    </td>
-
-
-  <td class="threebythreegrid" style="border: 5px solid #ffffff;">
-<!--    <div class="popup9" onclick="myFunction9()">-->
-<!--      <span class="popuptext9" id="myPopup9">
-        <span class="portfolionexttwo popup8" onclick="myFunction8()">&#5176;</span>
-        <span class="portfolionexttwo popup10" onclick="myFunction10()">&#5171;</span>
-        <span class="close-btn-xy">&#10540;</span>
-        <div class="click-zoom">
-          <label>
-            <input type="checkbox">
-          <img alt="Carousel Bootstrap Third" src="images/HTML_Porfolio-2023-2b.jpg" class="portfolio_images_pop">
-        </label>
-      </div>
-            <p class="titleforpopup">2018 | Blakes Event eVite Design &mdash;<span style="font-style: italic;">A Night with Shania Twain</span></p>
-            <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-            <p class="textforpopup">Event eVite design &mdash; includes front page and registration form.</p>
-          </span>
--->
-        <iframe alt="Private Wealth video" src="https://www.youtube.com/embed/6-den0iVIdU" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1;">
-        </iframe>
-        <p class="resume-prompt"><i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
-        &nbsp;<a href="https://www.blg.com/en/services/practice-areas/private-client" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG Private Wealth video</a>
-<!--      </div>-->
-    </td>
-  </tr>
-</table>
-
-
-<!--BLG Section 2 columns General Brand Awareness-->
-
-<table class="threecoloumntables">
-  <tr>
-
-    <td class="threebythreegrid" style="border: 5px solid #ffffff;">
-      <div class="popup3" onclick="myFunction3()">
-        <span class="popuptext3" id="myPopup3">
-          <span class="portfolionexttwo popup2" onclick="myFunction2()">&#5176;</span>
-          <span class="portfolionexttwo popup4" onclick="myFunction4()">&#5171;</span>
-          <span class="close-btn-xy">&#10540;</span>
-          <div class="click-zoom">
-            <label>
-              <input type="checkbox">
-              <img alt="BLG General Brand Awareness 1" src="images/uxui.jpg" class="portfolio_images_pop blgbeyondone">
-              <img alt="BLG General Brand Awareness 2" src="images/UXUI-Innovate-scroll.jpg" class="portfolio_images_pop innovatescroll">
-
-            </label>
-          </div>
-            <p class="titleforpopup">2021 | BLG general brand awareness and Google Ads</p>
-            <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-            <p class="textforpopup">Design and curation of BLG's Google Ads campaign and landing page featuring BLG's top six practice groups and attracting over 3% click-through rate.  The google campaign ran in 2021 and the landing page has since been deactivated.<br>
-              <span class="skillsbubble">Figma</span><span class="skillsbubble">Dreamweaver</span><span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span>
-</p>
-          </span>
-            <img alt="BLG General Brand Awareness 1" src="images/uxui.jpg" class="portfolio_images" text-align="center" style="margin-left: auto; margin-right: auto; opacity: 1;">
-          </div>
-        </td>
-
-    <td class="threebythreegrid" style="border: 5px solid #ffffff;">
-      <div class="popup4" onclick="myFunction4()">
-        <span class="popuptext4" id="myPopup4">
-          <span class="portfolionexttwo popup3" onclick="myFunction3()">&#5176;</span>
-          <span class="portfolionexttwo popup5" onclick="myFunction5()">&#5171;</span>
-          <span class="close-btn-xy">&#10540;</span>
-          <div class="click-zoom">
-            <label>
-              <input type="checkbox">
-          <img alt="BLG Technology Trends Gif" src="images/BLG-2024-Technology-Trends.gif" class="portfolio_images_pop">
-        </label>
-      </div>
-              <p class="titleforpopup">2020 - 2024 | Digital Designer &ndash; Borden Ladner Gervais LLP</p>
-              <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-              <p class="textforpopup">Creation of animated gif for <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
-              &nbsp;<a href="https://www.linkedin.com/posts/blglaw_mergersandacquistions-technology-activity-7155951469333041155-y7gS" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG LinkedIn Post - 2024 M&A Technology Trends</a><br>
-              <span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span><span class="skillsbubble">PowerPoint</span>
-              </p>
-          </span>
-          <img alt="BLG Technology Trends Gif" src="images/BLG-2024-Technology-Trends.gif" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1; background-size: cover;">
+            </p></span>
+              <figure>
+                <img alt="BLG Merchandise Store v4" src="images/blgwebstore-four.jpg" class="portfolio_images oneflowtwo" text-align="center" style="display: block; margin: auto; transform: scale(1);">
+                <img alt="BLG Merchandise Store v3" src="images/blgwebstore.jpg" class="portfolio_images twoflowtwo" text-align="center" style="display: block; margin: auto; transform: scale(1.2);">
+              </figure>
         </div>
       </td>
+    </tr>
+    </table>
 
+
+    <!-- Text Element: I devled -->
+
+    <table class="threecoloumntables">
+    <tr>
+      <td colspan="3">
+      <!--<p class="resume-prompt" style="margin-top: 6%; margin-bottom: 3%;">
+          As a digital designer specializing in web, apps, and social media platforms, my aim is in crafting designs that captivate audiences endlessly. I believe </p>-->
+          <p class="resume-prompt" style="margin-top:20px; margin-bottom: 0;">
+          <!--  My expertise extends to tailoring designs and content for various devices, ranging from smartphones and tablets to larger monitors. What sets my work apart is the seamless fusion of passion and skill across layouts, graphics, product mapping, wireframing, typography, and colour.--> Like many, I delved into learning prompt engineering and AI tools leveraging their abilities to enhance and elevate designs.</p>
+
+        <center>
+          <hr style="margin: 0; background-color: #efefef; width:35vw; margin: 20px 0px;">
+        </center>
+
+          <p class="resume-prompt " style="margin-top:20px; margin-bottom: 5px;">
+          I hone skills in video creation and editing, integrating animation and sounds.  I collaborate with teams in brainstorming video ideas used for company campaigns, social media channels and webpages.</p><br>
+      <td>
+    </tr>
+
+    </table>
+
+    <table class="threecoloumntables">
+      <tr>
 
         <td class="threebythreegrid" style="border: 5px solid #ffffff;">
-          <div class="popup5" onclick="myFunction5()">
-            <span class="popuptext5" id="myPopup5">
-              <span class="portfolionexttwo popup4" onclick="myFunction4()">&#5176;</span>
-              <span class="portfolionexttwo popup6" onclick="myFunction6()">&#5171;</span>
+    <!--      <div class="popup8" onclick="myFunction8()"> -->
+    <!--        <span class="popuptext8" id="myPopup8">
+              <span class="portfolionexttwo popup7" onclick="myFunction7()">&#5176;</span>
+              <span class="portfolionexttwo popup9" onclick="myFunction9()">&#5171;</span>
               <span class="close-btn-xy">&#10540;</span>
 
               <div class="click-zoom">
                 <label>
                   <input type="checkbox">
-                  <img alt="BLG ReNew Gif" src="images/BLG-ReNew.gif" class="portfolio_images_pop">
+                  <img alt="Beyond Video" src="images/HTML_Porfolio-2023-3b.jpg" class="portfolio_images_pop blgbeyondone">
+                  <video autoplay loop muted playsinline class="portfolio_images_pop blgbeyondtwo" width="96VW" height="auto" frameborder="0" >
+                    <source src="images/blakes-madness.mp4" type="video/mp4">
+                  </video>
                 </label>
               </div>
-              <p class="titleforpopup">2020 - 2024 | Digital Designer &ndash; Borden Ladner Gervais LLP</p>
-              <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
-              <p class="textforpopup">Animation for <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
-              &nbsp;<a href="https://www.linkedin.com/posts/blglaw_infrastructure-top100projects-blgproud-activity-7158918506447552512-A3fb" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG LinkedIn Post - ReNew Top 100 Ranking 2024</a>;<br>
-              <span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span><span class="skillsbubble">PowerPoint</span>
-              </p>
-          </span>
-            <img alt="BLG ReNew Gif" src="images/BLG-ReNew.gif" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1;">
-
-          </div>
+                <p class="titleforpopup">2018 | Blakes Event eVite Design &mdash;<span style="font-style: italic;">Blakes Madness XII</span></p>
+                <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
+                <p class="textforpopup">Event eVite design &mdash; includes front page and registration form.</p>
+              </span>
+            -->
+            <iframe alt="Beyond Video" src="https://www.youtube.com/embed/VqxkCjByGg4?rel=0&showinfo=0" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1;"></iframe>
+            <p class="resume-prompt" style="padding:0; text-align: center;"><i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
+            &nbsp;<a href="https://www.linkedin.com/posts/blglaw_blgbeyond-blgproud-innovation-activity-6757306592124776448-StrZ" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG Beyond video</a>
+    <!--      </div> -->
         </td>
 
-  </tr>
 
-</table>
+      <td class="threebythreegrid" style="border: 5px solid #ffffff;">
+    <!--    <div class="popup9" onclick="myFunction9()">-->
+    <!--      <span class="popuptext9" id="myPopup9">
+            <span class="portfolionexttwo popup8" onclick="myFunction8()">&#5176;</span>
+            <span class="portfolionexttwo popup10" onclick="myFunction10()">&#5171;</span>
+            <span class="close-btn-xy">&#10540;</span>
+            <div class="click-zoom">
+              <label>
+                <input type="checkbox">
+              <img alt="Carousel Bootstrap Third" src="images/HTML_Porfolio-2023-2b.jpg" class="portfolio_images_pop">
+            </label>
+          </div>
+                <p class="titleforpopup">2018 | Blakes Event eVite Design &mdash;<span style="font-style: italic;">A Night with Shania Twain</span></p>
+                <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
+                <p class="textforpopup">Event eVite design &mdash; includes front page and registration form.</p>
+              </span>
+    -->
+            <iframe alt="Private Wealth video" src="https://www.youtube.com/embed/6-den0iVIdU" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1;">
+            </iframe>
+            <p class="resume-prompt" style="padding:0; text-align: center;"><i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
+            &nbsp;<a href="https://www.blg.com/en/services/practice-areas/private-client" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG Private Wealth video</a>
+    <!--      </div>-->
+        </td>
+      </tr>
+    </table>
+
+
+    <!--BLG Section 2 columns General Brand Awareness-->
+
+    <table class="threecoloumntables">
+      <tr>
+
+        <td class="threebythreegrid" style="border: 5px solid #ffffff;">
+          <div class="popup3" onclick="myFunction3()">
+            <span class="popuptext3" id="myPopup3">
+              <span class="portfolionexttwo popup2" onclick="myFunction2()">&#5176;</span>
+              <span class="portfolionexttwo popup4" onclick="myFunction4()">&#5171;</span>
+              <span class="close-btn-xy">&#10540;</span>
+              <div class="click-zoom">
+                <label>
+                  <input type="checkbox">
+                  <img alt="BLG General Brand Awareness 1" src="images/uxui.jpg" class="portfolio_images_pop blgbeyondone">
+                  <img alt="BLG General Brand Awareness 2" src="images/UXUI-Innovate-scroll.jpg" class="portfolio_images_pop innovatescroll">
+
+                </label>
+              </div>
+                <p class="titleforpopup">2021 | BLG general brand awareness and Google Ads</p>
+                <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
+                <p class="textforpopup">Design and curation of BLG's Google Ads campaign and landing page featuring BLG's top six practice groups and attracting over 3% click-through rate.  The google campaign ran in 2021 and the landing page has since been deactivated.<br>
+                  <span class="skillsbubble">Figma</span><span class="skillsbubble">Dreamweaver</span><span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span>
+    </p>
+              </span>
+                <img alt="BLG General Brand Awareness 1" src="images/uxui.jpg" class="portfolio_images" text-align="center" style="margin-left: auto; margin-right: auto; opacity: 1;">
+              </div>
+            </td>
+
+        <td class="threebythreegrid" style="border: 5px solid #ffffff;">
+          <div class="popup4" onclick="myFunction4()">
+            <span class="popuptext4" id="myPopup4">
+              <span class="portfolionexttwo popup3" onclick="myFunction3()">&#5176;</span>
+              <span class="portfolionexttwo popup5" onclick="myFunction5()">&#5171;</span>
+              <span class="close-btn-xy">&#10540;</span>
+              <div class="click-zoom">
+                <label>
+                  <input type="checkbox">
+              <img alt="BLG Technology Trends Gif" src="images/BLG-2024-Technology-Trends.gif" class="portfolio_images_pop">
+            </label>
+          </div>
+                  <p class="titleforpopup">2020 - 2024 | Digital Designer &ndash; Borden Ladner Gervais LLP</p>
+                  <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
+                  <p class="textforpopup">Creation of animated gif for <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
+                  &nbsp;<a href="https://www.linkedin.com/posts/blglaw_mergersandacquistions-technology-activity-7155951469333041155-y7gS" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG LinkedIn Post - 2024 M&A Technology Trends</a><br>
+                  <span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span><span class="skillsbubble">PowerPoint</span>
+                  </p>
+              </span>
+              <img alt="BLG Technology Trends Gif" src="images/BLG-2024-Technology-Trends.gif" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1; background-size: cover;">
+            </div>
+          </td>
+
+
+            <td class="threebythreegrid" style="border: 5px solid #ffffff;">
+              <div class="popup5" onclick="myFunction5()">
+                <span class="popuptext5" id="myPopup5">
+                  <span class="portfolionexttwo popup4" onclick="myFunction4()">&#5176;</span>
+                  <span class="portfolionexttwo popup6" onclick="myFunction6()">&#5171;</span>
+                  <span class="close-btn-xy">&#10540;</span>
+
+                  <div class="click-zoom">
+                    <label>
+                      <input type="checkbox">
+                      <img alt="BLG ReNew Gif" src="images/BLG-ReNew.gif" class="portfolio_images_pop">
+                    </label>
+                  </div>
+                  <p class="titleforpopup">2020 - 2024 | Digital Designer &ndash; Borden Ladner Gervais LLP</p>
+                  <hr style="height:1px; color:#ffffff; margin: auto; width: 550px; opacity: 1;">
+                  <p class="textforpopup">Animation for <i class="fa fa-link" aria-hidden="true" style="margin-top: 2%;"></i>
+                  &nbsp;<a href="https://www.linkedin.com/posts/blglaw_infrastructure-top100projects-blgproud-activity-7158918506447552512-A3fb" target="_blank" style="text-decoration: underline; color: #58a6ff !important;">BLG LinkedIn Post - ReNew Top 100 Ranking 2024</a>;<br>
+                  <span class="skillsbubble">Photoshop</span><span class="skillsbubble">Illustrator</span><span class="skillsbubble">PowerPoint</span>
+                  </p>
+              </span>
+                <img alt="BLG ReNew Gif" src="images/BLG-ReNew.gif" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 1;">
+
+              </div>
+            </td>
+
+      </tr>
+
+    </table>
+  </div> <!-- Content Div -->
+</div> <!-- Wrapper Div -->
 
 
 
@@ -457,18 +473,25 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
 
 
 
-<!--BLG Section 2 one at 66% columns-->
+<!--BLAKES Section 2 one at 66% columns-->
 
+<div class="wrapper2">
+  <button class="toggle-button2">
+    <table class="threecoloumntables">
+      <tr>
+        <td colspan="3" class="threebythreegrid">
+          <p class="portfolio-tabs-blue2" style="background: linear-gradient(45deg, #516395, #a7a6ba, #516395, #516395, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato';margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px; text-align: left;">2017 - 2020 | Digital Designer &ndash; Blake, Cassels & Graydon LLP
+            <i class="fa fa-plus-circle two" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+            <i class="fa fa-minus-circle two" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+          </p>
+        </td>
+      </tr>
+    </table>
+  </button>
 
-<table class="threecoloumntables">
-  <tr>
-    <td colspan="3" class="threebythreegrid">
- <p class="resume-prompt" style="margin-top:20px; margin-bottom: 0;">
-  Each project I undertake is a commitment to delivering impactful visual designs that function intuitively and effectively.
-</p>
-<p style="background: linear-gradient(45deg, #516395, #a7a6ba, #516395, #516395, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato';margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px;">2017 - 2020 | Digital Designer &ndash; Blake, Cassels & Graydon LLP</p>
-    </td>
-  </tr>
+<div class="content2">
+
+<table class="threecoloumntables" style="margin-top: 0px">
   <tr>
     <td class="threebythreegrid " style="border: 5px solid #ffffff; width: calc(100% / 3 * 2);">
       <div class="popup6" onclick="myFunction6()">
@@ -642,7 +665,16 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
     </td>
 
   </tr>
+  <tr>
+    <td colspan="3">
+      <p class="resume-prompt" style="margin-top:20px; margin-bottom: 0px;">
+       Each project I undertake is a commitment to delivering impactful visual designs that function intuitively and effectively.
+     </p>
+    </td>
+  </tr>
 </table>
+</div> <!-- Content Div -->
+</div> <!-- Wrapper Div -->
 
 <!-- prior history blurb-->
 
@@ -651,7 +683,7 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
   <td class="threebythreegrid" colspan="3">
 
   <center>
-    <hr style="margin: 0; background-color: #efefef; width:98%; margin: 40px 0px;">
+    <hr style="margin: 0; background-color: #efefef; width: 35vw; margin: 40px 0px;">
   </center>
 
     <p class="resume-prompt" style="margin-top:20px; margin-bottom: 0;">
@@ -661,12 +693,24 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
 </table>
 
 <!-- new section for Thinkway -->
+
+<div class="wrapper3">
+  <button class="toggle-button3">
+
 <table class="threecoloumntables">
   <tr>
     <td colspan="3">
-      <p style="background: linear-gradient(45deg, #516395, #516395, #a7a6ba, #516395, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato'; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px;">2016 - 2017 | Design Manager &ndash; Thinkway Toys</p>
+      <p class="portfolio-tabs-blue3" style="background: linear-gradient(45deg, #516395, #516395, #a7a6ba, #516395, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato'; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px; text-align: left;">2016 - 2017 | Design Manager &ndash; Thinkway Toys
+        <i class="fa fa-plus-circle three" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+        <i class="fa fa-minus-circle three" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i></p>
     </td>
   </tr>
+</table>
+</button>
+
+<div class="content3">
+
+<table class="threecoloumntables" style="margin-top: 0px">
   <tr>
 
     <td class="threebythreegrid" style="border: 5px solid #ffffff;">
@@ -703,24 +747,30 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
 
   </tr>
 </table>
+</div> <!-- Content Div -->
+</div> <!-- Wrapper Div -->
 
 
+<!--Disney section columns-->
 
-<!--BLG Section Disney columns-->
-
+<div class="wrapper4">
+  <button class="toggle-button4">
 <table class="threecoloumntables">
   <tr>
     <td colspan="2">
-      <p style="background: linear-gradient(45deg, #516395, #516395, #516395, #a7a6ba, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato'; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px;">2013 - 2016 | Associate, Product Approval &ndash; Disney Canada</p>
+      <p class="portfolio-tabs-blue4" style="background: linear-gradient(45deg, #516395, #516395, #516395, #a7a6ba, #516395, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato'; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px; text-align:left;">2013 - 2016 | Associate, Product Approval &ndash; Disney Canada
+        <i class="fa fa-plus-circle four" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+        <i class="fa fa-minus-circle four" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i></p>
     </td>
 
   </tr>
-  <tr>
-    <td colspan="2">
-      <p class="resume-prompt" style="margin-top: 10px; margin-bottom: 20px;">
-        For two and a half years, I was a part of The Walt Disney Company Canada's Disney OPA team, facilitating collaboration between the Canadian team, the U.S. Glendale office, and our Canadian licensees. My role focused on managing the product approval online portal and process to ensure seamless creation of consumer products that are in line with brand standards.</p>
-    </td>
-  </tr>
+</table>
+</button>
+
+<div class="content4">
+
+<table class="threecoloumntables" style="margin-top: 0px">
+
   <tr>
 
         <td class="threebythreegrid" style="border: 5px solid #ffffff;">
@@ -788,44 +838,52 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
   </tr>
   <tr>
     <td colspan="2">
+      <p class="resume-prompt" style="margin-top: 10px; margin-bottom: 20px;">
+        For two and a half years, I was a part of The Walt Disney Company Canada's Disney OPA team, facilitating collaboration between the Canadian team, the U.S. Glendale office, and our Canadian licensees. My role focused on managing the product approval online portal and process to ensure seamless creation of consumer products that are in line with brand standards.</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
       <p class="resume-prompt" style="margin-top:20px; margin-bottom: 5px;">
          <span style="font-weight:bolder; color:#333333"><u>Achievement</u>:</span> One of my designs was chosen for a Mickey T-shirt collection featured by UNIQLO in commemorating the opening of their Shanghai flagship store in 2016.  My design was sold at UNIQLO stores in Shanghai and across the United States between 2016 and 2017.</p>
     </td>
   </tr>
 </table>
-
-<!--BLG Section 3 columns Star Wars -->
-
-<!--
-
-<table class="threecoloumntables">
-<tr>
-  <td class="threebythreegrid" colspan="3" style="border: 5px solid #ffffff;"><br>
-
-  </td>
-</tr>
-</table>-->
+</div> <!-- Content Div -->
+</div> <!-- Wrapper Div -->
 
 
 
+<!-- 2013 earlier dolce-->
+<!-- 2013 earlier dolce-->
 
-<table class="threecoloumntables">
+<div class="wrapper5" style="text-align: center;">
+  <button class="toggle-button5">
+    <table class="threecoloumntables">
+      <tr>
+        <td colspan="3">
+          <p class="portfolio-tabs-blue5" style="background: linear-gradient(45deg, #516395, #516395, #516395, #516395, #dcdcdc, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato', sans-serif; margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px; text-align: left;">
+            2013 and earlier
+            <i class="fa fa-plus-circle five" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+            <i class="fa fa-minus-circle five" aria-hidden="true" style="color: #ffffff; float:right; padding-right: 10px;"></i>
+          </p>
+          </td>
+        </tr>
+  </table>
+</button>
 
-  <tr>
-    <td colspan="3">
-      <p style="background: linear-gradient(45deg, #516395, #516395, #516395, #516395, #dcdcdc, #dcdcdc); color: white; font-size: 15pt; font-family: 'lato';margin-top: 25px; margin-bottom: 10px; padding: 5px 10px; border-top-right-radius: 25px;">2013 and earlier</p>
-    </td>
-  </tr>
+<div class="content5">
+
+<table class="threecoloumntables" style="margin-top: 0px">
   <tr>
     <td colspan="3">
         <p class="resume-prompt" style="margin-top: 10px; margin-bottom: 20px;">
-          Before my time with Disney, I gained over a decade of design experience working for various Canadian fashion companies and for National Bank Financial. In the autumn of 2012, I took a leap of faith and moved to Rome, Italy, eventually relocating to Milan to begin a new chapter working for Dolce & Gabbana.
+          Before my time with Disney, I gained over a decade of design experience working for various Canadian fashion companies and for National Bank Financial. In the autumn of 2012, I took a leap of faith and moved to Rome, Italy, eventually relocating to Milan to begin a new chapter working for Dolce&nbsp;&&nbsp;Gabbana.
         </p>
       </td>
   </tr>
 
   <tr>
-
     <td class="threebythreegrid" style="border: 5px solid #ffffff;">
       <div class="popup13" onclick="myFunction13()">
         <span class="popuptext13" id="myPopup13">
@@ -846,9 +904,8 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
           </span>
       <figure>
         <img alt="Dolce and Gabbana portfolio" src="images/DG2022-gradient.jpg" class="portfolio_images oneflowtwo" text-align="center" style="display: block; margin: auto; transform: scale(1.2); opacity: 0.7;">
-        <img alt="Dolce and Gabbana Logo" src="images/DG-logo-invert.jpg" class="portfolio_images twoflowtwo" style"filter: invert(100%); -webkit-filter: invert(100%);" text-align="center" style="display: block; margin: auto; transform: scale(1.2); opacity: 1;">
+        <img alt="Dolce and Gabbana Logo" src="images/DG-logo-invert.jpg" class="portfolio_images twoflowtwo" style="filter: invert(100%); -webkit-filter: invert(100%);" text-align="center" style="display: block; margin: auto; transform: scale(1.2); opacity: 1;">
       </figure>
-
       </div>
     </td>
 
@@ -871,7 +928,7 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
             </p>
           </span>
                 <img alt="National Bank portfolio" src="images/nationalbank.jpg" class="portfolio_images" text-align="center" style="display: block; margin-left: auto; margin-right: auto; opacity: 0.7;">
-              </div>
+          </div>
         </td>
 
 
@@ -899,19 +956,34 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
   </tr>
 
   <tr>
+    <td colspan="3">
+      <p class="resume-prompt" style="margin-top: 20px; margin-bottom: 25px;">
+        My designs are rooted in understanding and catering to users' needs, preferences and behaviours, making me a distinctive and unique designer.
+      </p>
+    </td>
+  </tr>
+</table>
+</div> <!-- Content Div -->
+</div > <!-- Wrapper Div -->
+
+
+<!-- Ending Paragraph-->
+<!-- Ending Paragraph-->
+
+<table class="threecoloumntables">
+
+  <tr>
     <td style="width: 700px; vertical-align: top;" colspan="3">
       <br>
-      <p class="resume-prompt" style="margin-top: 15px; margin-bottom: 25px;">
-        My designs are rooted in understanding and catering to users' needs, preferences and behaviours, making me a distinctive and unique designer.</p>
     <!--  <p class="resume-prompt">
         I've also worked for Dolce & Gabbana while living in Milan.</p>-->
         <center>
           <hr style="margin: 0 0 40px 0; background-color: #efefef; width:98%;">
        </center>
-      <p class="resume-prompt" style="margin-top: 15px; margin-bottom: 15px; color: #ababab;">
+      <p class="resume-prompt" style="margin-top: 15px; margin-bottom: 15px; color: #ababab; text-align: center;">
       <!--Some projects not shown are bound by non-disclosure agreements and cannot be shared openly. -->Don't hesitate to <a href="mailto:edwinfcau@gmail.com" style="text-decoration: underline; color: blue;">reach&nbsp;out</a> for my comprehensive portfolio.<br><br>
       <center>
-      <p style="font-family: 'oldenbury', serif; font-weight:bold; color: #333333; font-size: 13pt;">~ Please visit again. Have a good day. ~</p>
+      <p style="font-family: 'oldenbury', serif; font-weight:bold; color: #333333; font-size: 13pt; line-height: 1.5;">~ Thanks for stopping by, and have an inspiring day! ~</p>
     </center>
       </p><br><br><br>
     </td>
@@ -942,14 +1014,14 @@ Welcome to my portfolio and thanks for visiting.<br><br>As a designer, I employ 
 
       <div class="container_contacts">
 
-        <h4 class="email"><a href="mailto:edwinfcau@gmail.com" class="email ">edwinfcau@gmail.com</a></h4>
+        <h4 class="email"><a href="mailto:edwinfcau@gmail.com" class="email">edwinfcau@gmail.com</a></h4>
 		  <br class="imac displaynone"><br class="imac displaynone">
 		  <br class="imac displaynone"><br class="imac displaynone">
-        <h4 class="linkedin" title="Click to view LinkedIn"><a href="https://www.linkedin.com/in/eaudesign" target="_blank">
+        <h4 class="linkedin"><a href="https://www.linkedin.com/in/eaudesign" target="_blank" title="See Edwin's LinkedIn">
           <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></h4>
 		  <br class="imac displaynone"><br class="imac displaynone">
        <!-- <h4 class="facebook" title="Click to view facebook (Currently Inactive)"><a href="http://www.facebook.com/eauwind" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></h4> -->
-        <h4 class="instagram" title="+14168803791"><a href="tel:+14168803791" title="+14168803791"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></h4>
+        <h4 class="instagram"><a href="tel:+14168803791" title="Call Edwin +4168803791"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></h4>
 
 
 		  <br class="imac displaynone"><br class="imac displaynone">
