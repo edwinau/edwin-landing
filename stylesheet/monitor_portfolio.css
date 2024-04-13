@@ -475,7 +475,7 @@ td.portfolio-top-headline-td-width {
     background: linear-gradient(white, #33273d, #003c5f); /* Standard syntax */
   	}
 
-.container_two{
+    .container_two{
         position: relative;
         display: flex;
         flex-direction: column;
@@ -519,7 +519,7 @@ td.portfolio-top-headline-td-width {
     display: none;
   }
 
-.img_introcloud2{
+  .img_introcloud2{
     position: absolute;
     z-index: 0;
     opacity: 1;
@@ -652,10 +652,6 @@ div.img_relative.labtop{
 
  .row.rendez{
    margin-top: 23%;
- }
-
- .phoneblacknotch {
-   left:112px
  }
 
  .img_rendez{

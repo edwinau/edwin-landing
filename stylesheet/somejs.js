@@ -363,11 +363,12 @@ function myFunction20() {
   var popup20 = document.getElementById("myPopup20");
   popup20.classList.toggle("show20");
 }
+
 // loading different divs at different times
 $(".container_one.contactpage").hide();
 setTimeout(function(){
 	$(".container_one.contactpage").show();
-},6000);
+},5000);
 
 
 // making name animated inspect
@@ -551,3 +552,147 @@ setTimeout(function() {
 
       ct.text(timeString);
   }, 1000);
+
+
+
+//adding collapsable to portfolio1 in
+
+$(document).ready(function() {
+
+  $('.content1, .fa-minus-circle.one').show(500); // Explicitly shows the content when the page loads
+
+  // Initially shows the plus icon and hides the minus icon and content
+  $('.fa-plus-circle.one').hide(500); // Shows the plus icon
+
+  $('.toggle-button1').click(function() {
+      var $content1 = $('.content1');
+      if ($content1.is(':visible')) {
+          // If content is currently visible, slide it up and switch icons
+          $content1.slideUp();
+          $('.fa-plus-circle.one').show(500);  // Show plus icon
+          $('.fa-minus-circle.one').hide(500); // Hide minus icon
+          $('.portfolio-tabs-blue1').css('opacity', 0.5); // Change opacity of elements with class 'abc' to 0.5
+
+      } else {
+          // If content is currently hidden, slide it down and switch icons
+          $content1.slideDown();
+          $('.fa-minus-circle.one').show(500); // Show minus icon
+          $('.fa-plus-circle.one').hide(500);  // Hide plus icon
+          $('.portfolio-tabs-blue1').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
+      }
+  });
+});
+
+//adding collapsable to portfolio2 in
+
+$(document).ready(function() {
+
+  $('.content2, .fa-minus-circle.two').show(500); // Explicitly shows the content when the page loads
+
+  // Initially shows the plus icon and hides the minus icon and content
+  $('.fa-plus-circle.two').hide(500); // Shows the plus icon
+
+  $('.toggle-button2').click(function() {
+      var $content2 = $('.content2');
+      if ($content2.is(':visible')) {
+          // If content is currently visible, slide it up and switch icons
+          $content2.slideUp();
+          $('.fa-plus-circle.two').show(500);  // Show plus icon
+          $('.fa-minus-circle.two').hide(500); // Hide minus icon
+          $('.portfolio-tabs-blue2').css('opacity', 0.5); // Change opacity of elements with class 'abc' to 0.5
+
+      } else {
+          // If content is currently hidden, slide it down and switch icons
+          $content2.slideDown();
+          $('.fa-minus-circle.two').show(500); // Show minus icon
+          $('.fa-plus-circle.two').hide(500);  // Hide plus icon
+          $('.portfolio-tabs-blue2').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
+      }
+  });
+});
+
+//adding collapsable to portfolio3 in
+
+$(document).ready(function() {
+
+  $('.content3, .fa-minus-circle.three').hide(500); // Explicitly shows the content when the page loads
+  $('.portfolio-tabs-blue3').css('opacity', 0.5);
+
+  // Initially shows the plus icon and hides the minus icon and content
+  $('.fa-plus-circle.three').show(500); // Shows the plus icon
+
+  $('.toggle-button3').click(function() {
+      var $content3 = $('.content3');
+      if ($content3.is(':visible')) {
+          // If content is currently visible, slide it up and switch icons
+          $content3.slideUp();
+          $('.fa-plus-circle.three').show(500);  // Show plus icon
+          $('.fa-minus-circle.three').hide(500); // Hide minus icon
+          $('.portfolio-tabs-blue3').css('opacity', 0.5); // Change opacity of elements with class 'abc' to 0.5
+
+      } else {
+          // If content is currently hidden, slide it down and switch icons
+          $content3.slideDown();
+          $('.fa-minus-circle.three').show(500); // Show minus icon
+          $('.fa-plus-circle.three').hide(500);  // Hide plus icon
+          $('.portfolio-tabs-blue3').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
+      }
+  });
+});
+
+//adding collapsable to portfolio4 in
+
+$(document).ready(function() {
+
+  $('.content4, .fa-minus-circle.four').hide(500); // Explicitly shows the content when the page loads
+  $('.portfolio-tabs-blue4').css('opacity', 0.5);
+
+  // Initially shows the plus icon and hides the minus icon and content
+  $('.fa-plus-circle.four').show(500); // Shows the plus icon
+
+  $('.toggle-button4').click(function() {
+      var $content4 = $('.content4');
+      if ($content4.is(':visible')) {
+          // If content is currently visible, slide it up and switch icons
+          $content4.slideUp();
+          $('.fa-plus-circle.four').show(500);  // Show plus icon
+          $('.fa-minus-circle.four').hide(500); // Hide minus icon
+          $('.portfolio-tabs-blue4').css('opacity', 0.5); // Change opacity of elements with class 'abc' to 0.5
+
+      } else {
+          // If content is currently hidden, slide it down and switch icons
+          $content4.slideDown();
+          $('.fa-minus-circle.four').show(500); // Show minus icon
+          $('.fa-plus-circle.four').hide(500);  // Hide plus icon
+          $('.portfolio-tabs-blue4').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
+      }
+  });
+});
+
+//adding collapsable to portfolio5 in
+
+  $(document).ready(function() {
+
+    $('.content5, .fa-minus-circle.five').hide(500); // Explicitly shows the content when the page loads
+    $('.portfolio-tabs-blue5').css('opacity', 0.5);
+    // Initially shows the plus icon and hides the minus icon and content
+    $('.fa-plus-circle.five').show(500); // Shows the plus icon
+
+    $('.toggle-button5').click(function() {
+        var $content5 = $('.content5');
+        if ($content5.is(':visible')) {
+            // If content is currently visible, slide it up and switch icons
+            $content5.slideUp();
+            $('.fa-plus-circle.five').show(500);  // Show plus icon
+            $('.fa-minus-circle.five').hide(500); // Hide minus icon
+            $('.portfolio-tabs-blue5').css('opacity', 0.5); // Change opacity of elements with class 'abc' to 0.5
+
+        } else {
+            // If content is currently hidden, slide it down and switch icons
+            $content5.slideDown();
+            $('.fa-minus-circle.five').show(500); // Show minus icon
+            $('.fa-plus-circle.five').hide(500);  // Hide plus icon
+            $('.portfolio-tabs-blue5').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
+        }
+    });
+  });

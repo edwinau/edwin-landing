@@ -6,42 +6,49 @@
     animation-duration: 2600ms;
     animation-delay: 0s;
     transition: 2600ms all ease;
+    transform-style: preserve-3d;
   }
 @keyframes intromonitorsizinganimation {
   0% {
     opacity: 0;
-    width: 0vw;
+    transform: rotateY(90deg);
+/*    width: 0vw;
     -webkit-transform: skew(-11deg);
        -moz-transform: skew(-11deg);
          -o-transform: skew(-11deg);
-          -ms-transform: skew(-11deg);
+          -ms-transform: skew(-11deg);*/
   }
   49% {
     opacity: 0;
-    width: 0vw;
+    transform: rotateY(90deg);
+/*    width: 0vw;
     -webkit-transform: skew(-11deg);
        -moz-transform: skew(-11deg);
          -o-transform: skew(-11deg);
-          -ms-transform: skew(-11deg);
+          -ms-transform: skew(-11deg);*/
   }
 
   99% {
     opacity: 1;
-    width: 75vw;
+    transform: rotateY(0deg);
+/*    width: 75vw;
     -webkit-transform: skew(0deg);
        -moz-transform: skew(0deg);
          -o-transform: skew(0deg);
-          -ms-transform: skew(0deg);
+          -ms-transform: skew(0deg);*/
   }
   100% {
     opacity: 1;
-    width: 75vw;
+    transform: rotateY(0deg);
+/*    width: 75vw;
     -webkit-transform: skew(0deg);
        -moz-transform: skew(0deg);
          -o-transform: skew(0deg);
-          -ms-transform: skew(0deg);
+          -ms-transform: skew(0deg);*/
     }
 }
+
+
 
 div.trapezoiddiv {
     transform: scale(2.5); width:200px;
@@ -56,37 +63,41 @@ div.trapezoiddiv {
 @keyframes introtrapezoidsizinganimation {
   0% {
     opacity: 0;
+/*    -webkit-clip-path: polygon(50% 0, 0 55%, 100% 55%, 100% 40%, 24% 40%, 65% 0);*/
     transform: scale(0, 1.9);
-    width:200px;
-    -webkit-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
-    mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+/*    width:200px;
+    -webkit-mask-image: linear-gradient(to bottom left, transparent 25%, white 75%);
+    mask-image: linear-gradient(to bottom left, transparent 25%, white 75%);*/
   }
   49% {
     opacity: 0;
+/*    -webkit-clip-path: polygon(50% 0, 0 55%, 100% 55%, 100% 40%, 24% 40%, 65% 0);*/
     transform: scale(0, 1.9);
-    width:200px;
-    -webkit-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
-    -moz-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
-    -oz-mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
-    mask-image: linear-gradient(to bottom right, transparent 25%, white 75%);
+/*    width:200px;
+    -webkit-mask-image: linear-gradient(to bottom left, transparent 25%, white 75%);
+    -moz-mask-image: linear-gradient(to bottom left, transparent 25%, white 75%);
+    -oz-mask-image: linear-gradient(to bottom left, transparent 25%, white 75%);
+    mask-image: linear-gradient(to bottom left, transparent 25%, white 75%);*/
   }
   99% {
     opacity: 1;
+/*    -webkit-clip-path: polygon(0 0, 0 0, 0 63%, 100% 64%, 100% 0, 57% 0);*/
     transform: scale(1.9, 1.9);
-    width: 200px;
-    -webkit-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
-    -moz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
-    -oz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
-    mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+/*    width: 200px;
+    -webkit-mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);
+    -moz-mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);
+    -oz-mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);
+    mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);*/
   }
   100% {
     opacity: 1;
+/*    -webkit-clip-path: polygon(0 0, 0 0, 0 63%, 100% 64%, 100% 0, 57% 0);*/
     transform: scale(1.9, 1.9);
-    width: 200px;
-    -webkit-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
-    -moz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
-    -oz-mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
-    mask-image: linear-gradient(to bottom right, transparent 0%, white 0%);
+/*    width: 200px;
+    -webkit-mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);
+    -moz-mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);
+    -oz-mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);
+    mask-image: linear-gradient(to bottom left, transparent 0%, white 0%);*/
     }
 }
 
