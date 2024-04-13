@@ -144,6 +144,7 @@ img.portfolio_images.oneflowtwo {
 	transform: scale(1.03);
 	height: auto;
 	float: inherit;
+	left: 0;
 	padding-top: 1%;
 	margin-left: auto;
 	margin-right: auto;
@@ -408,7 +409,6 @@ img.portfolio_images.mickey100uniqlo {
 			vertical-align: middle;
 			font-weight: bold;
 			padding: 0px 30px 20px;
-
 		}
 
    .about-me-thumbnails {
@@ -2158,11 +2158,9 @@ h4.email a{
    font-weight: bold;
 	  margin: inherit;
    font-size: 10vw;
-	 background-color: rgba(255, 255, 255, 0.5);
 	  bottom: 1%;
 	  z-index: 8888;
 	  display: inherit;
-		border-radius: 100px;
 	}
 
 	div.container_one.contactpage{
