@@ -387,11 +387,19 @@ $("hr").hide().delay(4250).slideDown(750);
 $(".threebythreegridaboutme").hide().delay(4250).slideDown(750);
 
 
+
+//about-me-three rotate:
+
+$(document).ready(function() {
+    // Add the rotating class to the desired elements
+    $('.about-me-thumbnails.three').addClass('aboutmethree');
+});
+
 // Intro Text animation Digital Designer
 
 $(document).ready(function() {
     var text = "Edwin Au";
-    var delay = 10; // Initial delay in milliseconds
+    var delay = 80; // Initial delay in milliseconds
     var index = 0; // Keeps track of the letter to be typed next
 
     function typeLetter() {
@@ -403,7 +411,7 @@ $(document).ready(function() {
             setTimeout(typeLetter, delay);
 
             // Increase the delay slightly for the next letter to simulate typing
-            delay += 20;
+            delay += 15;
         }
     }
     // Start typing
@@ -560,7 +568,7 @@ setTimeout(function() {
 $(document).ready(function() {
 
   $('.content1, .fa-minus-circle.one').show(500); // Explicitly shows the content when the page loads
-
+  $('.portfolio-tabs-blue1').css('opacity', 0.5);
   // Initially shows the plus icon and hides the minus icon and content
   $('.fa-plus-circle.one').hide(500); // Shows the plus icon
 
@@ -581,16 +589,24 @@ $(document).ready(function() {
           $('.portfolio-tabs-blue1').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
       }
   });
+$('.portfolio-tabs-blue1').hover(
+  function() {
+      $(this).css('opacity', 0.5); // On mouse enter, change opacity to 0.5
+  },
+  function() {
+      $(this).css('opacity', 1); // On mouse leave, revert opacity back to 1
+  }
+);
 });
 
-//adding collapsable to portfolio2 in
+//adding collapsable to portfolio2 Blakesin
 
 $(document).ready(function() {
 
-  $('.content2, .fa-minus-circle.two').show(500); // Explicitly shows the content when the page loads
+  $('.content2, .fa-minus-circle.two').hide(500); // Explicitly shows the content when the page loads
 
   // Initially shows the plus icon and hides the minus icon and content
-  $('.fa-plus-circle.two').hide(500); // Shows the plus icon
+  $('.fa-plus-circle.two').show(500); // Shows the plus icon
 
   $('.toggle-button2').click(function() {
       var $content2 = $('.content2');
@@ -609,17 +625,25 @@ $(document).ready(function() {
           $('.portfolio-tabs-blue2').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
       }
   });
+  $('.portfolio-tabs-blue2').hover(
+      function() {
+          $(this).css('opacity', 0.5); // On mouse enter, change opacity to 0.5
+      },
+      function() {
+          $(this).css('opacity', 1); // On mouse leave, revert opacity back to 1
+      }
+  );
 });
 
-//adding collapsable to portfolio3 in
+//adding collapsable to portfolio3 ThinkWay in
 
 $(document).ready(function() {
 
-  $('.content3, .fa-minus-circle.three').hide(500); // Explicitly shows the content when the page loads
+  $('.content3, .fa-minus-circle.three').show(500); // Explicitly shows the content when the page loads
   $('.portfolio-tabs-blue3').css('opacity', 0.5);
 
   // Initially shows the plus icon and hides the minus icon and content
-  $('.fa-plus-circle.three').show(500); // Shows the plus icon
+  $('.fa-plus-circle.three').hide(500); // Shows the plus icon
 
   $('.toggle-button3').click(function() {
       var $content3 = $('.content3');
@@ -638,17 +662,25 @@ $(document).ready(function() {
           $('.portfolio-tabs-blue3').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
       }
   });
+  $('.portfolio-tabs-blue3').hover(
+      function() {
+          $(this).css('opacity', 0.5); // On mouse enter, change opacity to 0.5
+      },
+      function() {
+          $(this).css('opacity', 1); // On mouse leave, revert opacity back to 1
+      }
+  );
 });
 
-//adding collapsable to portfolio4 in
+//adding collapsable to portfolio4 Disney in
 
 $(document).ready(function() {
 
-  $('.content4, .fa-minus-circle.four').hide(500); // Explicitly shows the content when the page loads
+  $('.content4, .fa-minus-circle.four').show(500); // Explicitly shows the content when the page loads
   $('.portfolio-tabs-blue4').css('opacity', 0.5);
 
   // Initially shows the plus icon and hides the minus icon and content
-  $('.fa-plus-circle.four').show(500); // Shows the plus icon
+  $('.fa-plus-circle.four').hide(500); // Shows the plus icon
 
   $('.toggle-button4').click(function() {
       var $content4 = $('.content4');
@@ -667,16 +699,24 @@ $(document).ready(function() {
           $('.portfolio-tabs-blue4').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
       }
   });
+  $('.portfolio-tabs-blue4').hover(
+      function() {
+          $(this).css('opacity', 0.5); // On mouse enter, change opacity to 0.5
+      },
+      function() {
+          $(this).css('opacity', 1); // On mouse leave, revert opacity back to 1
+      }
+  );
 });
 
-//adding collapsable to portfolio5 in
+//adding collapsable to portfolio5 D&G Mredin
 
   $(document).ready(function() {
 
-    $('.content5, .fa-minus-circle.five').hide(500); // Explicitly shows the content when the page loads
+    $('.content5, .fa-minus-circle.five').show(500); // Explicitly shows the content when the page loads
     $('.portfolio-tabs-blue5').css('opacity', 0.5);
     // Initially shows the plus icon and hides the minus icon and content
-    $('.fa-plus-circle.five').show(500); // Shows the plus icon
+    $('.fa-plus-circle.five').hide(500); // Shows the plus icon
 
     $('.toggle-button5').click(function() {
         var $content5 = $('.content5');
@@ -695,4 +735,18 @@ $(document).ready(function() {
             $('.portfolio-tabs-blue5').css('opacity', 1); // Change opacity of elements with class 'abc' to 0.5
         }
     });
-  });
+
+  // Add hover effect to change opacity to 0.5
+$('.portfolio-tabs-blue5').hover(
+    function() {
+        $(this).css('opacity', 0.5); // On mouse enter, change opacity to 0.5
+    },
+    function() {
+        $(this).css('opacity', 1); // On mouse leave, revert opacity back to 1
+    }
+);
+});
+
+
+
+//Speech-bubble
