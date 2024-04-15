@@ -179,37 +179,47 @@ div.trapezoiddiv {
     @keyframes aboutmeonecss {
     	0% {
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(100%);
         transform: scale(1);
   	}
     	10% {
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(100%);
         transform: scale(1);
     }
       15% {
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
+        transform: scale(1.1);
+      }
+      20% {
+        filter: saturate(100%);
+        filter: grayscale(0%);
+        transform: scale(1);
+      }
+      25% {
+        filter: saturate(100%);
+        filter: grayscale(0%);
         transform: scale(1.1);
       }
     	35%{
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1.1);
       	}
       70%{
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(50%);
         transform: scale(1);
       }
       95%{
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(100%);
         transform: scale(1);
       }
     	100% {
         filter: saturate(100%);
-        filter: grayscale(0%);
+        filter: grayscale(100%);
         transform: scale(1);
     	}
     }
@@ -245,22 +255,22 @@ div.trapezoiddiv {
         transform: scale(1);
         transform: rotateY(0);
   	}
-    	10% {
+    	25% {
         filter: saturate(100%);
         filter: grayscale(100%);
         transform: scale(1);
         transform: rotateY(0);
       }
-      15% {
+      35% {
         filter: saturate(100%);
         filter: grayscale(0%);
         transform: scale(1.1);
         transform: rotateY(0);
     }
-      25%{
+      45%{
         transform: rotateY(.5turn);
       }
-    	35%{
+    	55%{
         filter: saturate(100%);
         filter: grayscale(0%);
         transform: scale(1.1);
@@ -268,7 +278,7 @@ div.trapezoiddiv {
     	}
       65%{
         filter: saturate(100%);
-        filter: grayscale(100%);
+        filter: grayscale(0%);
         transform: scale(1);
         transform: rotateY(0);
       }
@@ -312,48 +322,83 @@ div.trapezoiddiv {
 
     @keyframes aboutmethreecss {
       0% {
-        opacity: 0;
-        filter: saturate(100%);
-        filter: grayscale(100%);
+        opacity: 1;
+        filter: saturate(50%);
+        filter: grayscale(0%);
         transform: scale(1);
-        transform: translate(0px, 0px);
+/*        transform: rotate(.25turn);*/
+/*        transform: translate(0px, 0px);*/
     	  }
-      20% {
+        20% {
+          opacity: 1;
+          filter: saturate(100%);
+          filter: grayscale(100%);
+          transform: scale(1);
+  /*        transform: translate(0px, 0px);*/
+          }
+      55% {
         opacity: 1;
         filter: saturate(100%);
         filter: grayscale(100%);
         transform: scale(1);
-        transform: translate(0px, 0px);
+/*        transform: translate(0px, 0px);*/
         }
       70% {
           opacity: 1;
           filter: saturate(100%);
           filter: grayscale(0%);
           transform: scale(1);
-          transform: translate(0px, 0px);
+/*          transform: translate(0px, 0px);*/
         }
       89% {
         opacity: 1;
         filter: saturate(100%);
         filter: grayscale(0%);
         transform: scale(1);
-        transform: translate(600px, 0px);
+/*        transform: rotate(.25turn);*/
+/*        transform: translate(600px, 0px);*/
         }
       90% {
-        opacity: 0;
+        opacity: 1;
         filter: saturate(100%);
         filter: grayscale(0%);
         transform: scale(1);
-        transform: translate(600px, 0px);
+/*        transform: translate(600px, 0px);*/
         }
 	    100% {
-        opacity: 0;
+        opacity: 1;
         transform: translate(0px, 0px);
-        filter: saturate(100%);
-        filter: grayscale(100%);
-        transform: scale(1);
+        filter: saturate(50%);
+        filter: grayscale(0%);
+/*        transform: scale(1);*/
         }
   }
+
+
+  /*about-me-three quarter turn:  */
+
+  @keyframes rotateAnimation {
+      0%, 15% {
+          transform: rotate(0deg);
+      }
+      20%, 40% {
+          transform: rotate(90deg);
+      }
+      45%, 65% {
+          transform: rotate(180deg);
+      }
+      70%, 90% {
+          transform: rotate(270deg);
+      }
+      95%, 100% {
+          transform: rotate(360deg);
+      }
+  }
+
+  .aboutmethree {
+      animation: rotateAnimation 16s linear infinite;
+  }
+
 
 
   /* @media cell phone about me 2024px
