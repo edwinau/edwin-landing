@@ -567,10 +567,10 @@ setTimeout(function() {
 
 $(document).ready(function() {
 
-  $('.content1, .fa-minus-circle.one').show(500); // Explicitly shows the content when the page loads
+  $('.content1, .fa-minus-circle.one').hide(500); // Explicitly shows the content when the page loads
   $('.portfolio-tabs-blue1').css('opacity', 0.5);
   // Initially shows the plus icon and hides the minus icon and content
-  $('.fa-plus-circle.one').hide(500); // Shows the plus icon
+  $('.fa-plus-circle.one').show(500); // Shows the plus icon
 
   $('.toggle-button1').click(function() {
       var $content1 = $('.content1');
