@@ -391,7 +391,7 @@ img.portfolio_images.mickey100uniqlo {
 	/** About Me Three Column **/
 		.threecoloumntables.wideaboutme	{
 			width:1450px;
-			height: 250px;
+			height: 225px;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -1861,7 +1861,7 @@ label.menu__btn {
 	/**Regualar Three Columns **/
 
   .threecoloumntables {
-	width:100vw;
+	width:96vw;
 	margin-left: auto;
 	margin-right: auto;
 	}
@@ -2036,7 +2036,7 @@ div.img_relative.labtop{
 
 	.container_contacts{
 	position: relative;
-    display: flex;
+    display: content;
     flex-direction: column;
     justify-content: center;
 	align-items: center;
