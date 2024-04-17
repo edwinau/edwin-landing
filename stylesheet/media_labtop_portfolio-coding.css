@@ -1191,6 +1191,10 @@ label.menu__btn {
 		z-index: 5000;
 }
 
+
+
+
+
 .madnessvideobasketball{
 	width: 50%;
 	height: auto;
@@ -1386,6 +1390,11 @@ label.menu__btn {
 	.imac.displaynone{
 	  display: inherit;
 	}
+
+	td.threebythreegridhamburger.hamburger {
+				width: 0px;
+	/**	width: calc(100% / 3);  **/
+		}
 
 	span.close-btn-xy {
     font-size: 30px;
@@ -1812,7 +1821,8 @@ label.menu__btn {
 
 	label.menu__btn {
 		position: fixed;
-		top: 7vh;
+		top: 25px;
+		left: 10px;
 		animation: hamburgerfade 2s linear infinite;
 		animation-play-state: paused;
 		animation-delay: calc(var(--scroll) * -1s);
@@ -1881,6 +1891,7 @@ label.menu__btn {
 	.hamburger-menu{
 		display: block;
 		z-index: 9999;
+		width: 1px;
 	}
 
 	.madnessvideobasketball{
