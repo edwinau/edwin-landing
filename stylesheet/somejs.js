@@ -478,7 +478,7 @@ $(document).ready(function() {
             // Wait for 3 seconds before starting to fade out
             setTimeout(() => {
                 $(this).fadeOut(1500);
-            }, 9000);
+            }, 7000);
         });
     });
 });

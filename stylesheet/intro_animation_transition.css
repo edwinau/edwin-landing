@@ -57,8 +57,6 @@ h2.button-row > a.animate::before, h2.button-row > a.animate::after {
    width: 275px; /* Target width after animation */
 }
 
-
-
 div.trapezoiddiv {
     transform: scale(2.5); width:200px;
     top: -55px;
