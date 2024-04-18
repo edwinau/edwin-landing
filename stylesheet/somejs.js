@@ -429,8 +429,8 @@ $(".introtitledigitaldesign").hide().delay(50).slideDown(750);
 setTimeout(function() {
     // Select the element and scale it down by 0.9
     $(".portfolio-top-headline-td-width").animate({
-        zoom: .98, // Scale down to 90% of its original width
-    }, 1500); // Duration of animation: 1000 milliseconds (1 second)
+        zoom: .55, // Scale down to 90% of its original width
+    }, 3000); // Duration of animation: 1000 milliseconds (1 second)
 }, 2800); // Start the animation after 1000 milliseconds (1 second)
 
 // loading trapezoid delay
@@ -438,9 +438,50 @@ setTimeout(function() {
     // Select the element and scale it down by 0.9
     $("div.trapezoiddiv").animate({
         zoom: .98, // Scale down to 90% of its original width
-    }, 1500); // Duration of animation: 1000 milliseconds (1 second)
+        "margin-bottom": "30px"
+    },
+    1500); // Duration of animation: 1000 milliseconds (1 second)
 }, 2800); // Start the animation after 1000 milliseconds (1 second)
 
+setTimeout(function() {
+    // Select the element and scale it down by 0.9
+    $("h2.button-row").animate({
+      'font-size': '2.75vw'
+        },
+    1500); // Duration of animation: 1000 milliseconds (1 second)
+}, 3800); // Start the animation after 1000 milliseconds (1 second)
+
+
+//CSS animate button width
+setTimeout(function() {
+    $("h2.button-row > a").addClass('animate');
+}, 3300); // Start the animation after 3800 milliseconds (3.8 seconds)
+
+//Turn Click on Images CTA into ALL caps
+
+$(document).ready(function() {
+    $('p.click-on-image-cta').each(function() {
+        var text = $(this).text();
+        $(this).text(text.toUpperCase());
+    });
+});
+
+//Make Click on Image CTA fade in and fade out
+$(document).ready(function() {
+    // Select all current and future elements with the class .click-on-image-cta
+    $('.click-on-image-cta').each(function() {
+        // Start with the element hidden
+        $(this).hide();
+
+        // Fade in the element slowly
+        $(this).fadeIn(1500, function() {
+            // Wait for 3 seconds before starting to fade out
+            setTimeout(() => {
+                $(this).fadeOut(1500);
+            }, 9000);
+        });
+    });
+});
 
 //$(".popup1").hide();
 //setTimeout(function(){
@@ -567,10 +608,10 @@ setTimeout(function() {
 
 $(document).ready(function() {
 
-  $('.content1, .fa-minus-circle.one').hide(500); // Explicitly shows the content when the page loads
+  $('.content1, .fa-minus-circle.one').show(500); // Explicitly shows the content when the page loads
   $('.portfolio-tabs-blue1').css('opacity', 0.5);
   // Initially shows the plus icon and hides the minus icon and content
-  $('.fa-plus-circle.one').show(500); // Shows the plus icon
+  $('.fa-plus-circle.one').hide(500); // Shows the plus icon
 
   $('.toggle-button1').click(function() {
       var $content1 = $('.content1');
@@ -603,10 +644,10 @@ $('.portfolio-tabs-blue1').hover(
 
 $(document).ready(function() {
 
-  $('.content2, .fa-minus-circle.two').hide(500); // Explicitly shows the content when the page loads
+  $('.content2, .fa-minus-circle.two').show(500); // Explicitly shows the content when the page loads
 
   // Initially shows the plus icon and hides the minus icon and content
-  $('.fa-plus-circle.two').show(500); // Shows the plus icon
+  $('.fa-plus-circle.two').hide(500); // Shows the plus icon
 
   $('.toggle-button2').click(function() {
       var $content2 = $('.content2');
