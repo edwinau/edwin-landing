@@ -48,6 +48,15 @@
     }
 }
 
+h2.button-row > a::before, h2.button-row > a::after {
+   width: 200px; /* Initial width */
+   transition: width 1.5s; /* Transition effect for width over 1.5 seconds */
+}
+
+h2.button-row > a.animate::before, h2.button-row > a.animate::after {
+   width: 275px; /* Target width after animation */
+}
+
 
 
 div.trapezoiddiv {
